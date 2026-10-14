@@ -1,0 +1,22 @@
+.DS_Store
+
+# 编辑器与临时文件
+*.swp
+*.tmp
+~$*
+
+# 后续若使用 Unity，避免把生成目录提交进仓库
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# 大型媒体和缓存默认不纳入 Git；确定需要版本管理时再单独调整
+*.mp4
+*.mov
+*.avi
+*.mkv
+
