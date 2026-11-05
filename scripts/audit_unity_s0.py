@@ -56,7 +56,17 @@ def read_run(path):
         errors.append('Belief is bound to the wrong target')
     if any(int(r['target_id']) < 0 and abs(float(r['belief']) - .5) > 1e-6 for r in rows):
         errors.append('Released target retained a non-neutral belief')
-    if not config['responsePose']:
+    if config.get('expressionVersion', 0) >= 1:
+        from audit_unity_expression import audit as audit_expression
+        try:
+            audit_expression(path)
+        except (AssertionError, ValueError) as exc:
+            errors.append('Expression checks: ' + str(exc))
+        for key in ('expressionVersion', 'bodyResponse', 'expressionECenter', 'expressionEScale', 'expressionHCenter', 'expressionHScale'):
+            actual, requested = runtime.get(key), config.get(key)
+            if actual is None or requested is None or abs(float(actual)-float(requested)) > 1e-6:
+                errors.append('Expression runtime mismatch: ' + key)
+    elif not config['responsePose']:
         if any(abs(float(r['arm_deg']) - 12 * (1 - (config['fixedExpression'] if config.get('fixedExpression', -1) >= 0 else float(r['status'])))) > 1e-4
                for r in rows if int(r['pose_updates']) > 0):
             errors.append('Own expression did not remain fixed')

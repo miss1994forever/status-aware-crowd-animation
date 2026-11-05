@@ -13,6 +13,11 @@ if __name__ == '__main__':
     parser.add_argument('--spatial', choices=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], type=int, default=0)
     parser.add_argument('--status-pattern', choices=['cycle', 'low-high', 'high-low'], default='cycle')
     parser.add_argument('--fixed-expression', type=float, choices=[-1, 0, .5, 1], default=-1)
+    parser.add_argument('--expression-version', type=int, choices=[0,1,2], default=0)
+    parser.add_argument('--posture-expression', action='store_true', help='10-degree torso and 8-degree head pitch, stable legs only')
+    parser.add_argument('--body-response', action='store_true')
+    parser.add_argument('--expression-reference', type=Path, help='JSON with measured Unity E/H center and scale')
+    parser.add_argument('--head-filter-level', type=int, choices=[1,2], default=1)
     parser.add_argument('--head-stability', action='store_true', help='Damp head orientation relative to upper chest, without a gaze target')
     parser.add_argument('--route-recovery', action='store_true', help='Use consumed detour budget to discourage retreat and allow brief waiting')
     parser.add_argument('--status-yield', action='store_true', help='Extend passage yielding to crossing traffic and strengthen own route persistence')
@@ -33,11 +38,18 @@ if __name__ == '__main__':
     if (ROOT / args.run).exists() or (ROOT / 'run.request').exists():
         parser.error('Output already exists or another request is pending')
     config = dict(run=args.run, scenario=args.scenario, spatial=args.spatial,
-                  duration=args.duration, mode=1, seed=806, fps=60, count=10,singlePass=not args.repeat,lateralSteps=args.lateral_steps,statusYield=args.status_yield,routeRecovery=args.route_recovery,headStability=args.head_stability,
+                  duration=args.duration, mode=1, seed=806, fps=60, count=10,singlePass=not args.repeat,lateralSteps=args.lateral_steps,statusYield=args.status_yield,routeRecovery=args.route_recovery,headStability=args.head_stability,headFilterLevel=args.head_filter_level,
                   responsePose=False, ownedSearch=not args.legacy_search, video=args.video,
                   lowerBody=args.lower_body, kneeDiagnostics=args.knee_diagnostics,
                   clipStride=60//args.clip_fps,clipActor=args.clip_actor,statusPattern=args.status_pattern,
                   fixedExpression=args.fixed_expression,width=1280,height=720)
+    config.update(expressionVersion=args.expression_version, bodyResponse=args.body_response, postureExpression=args.posture_expression)
+    if args.body_response and (args.expression_version == 0 or not args.expression_reference):
+        parser.error('Body response requires expression version 1 and a measured Unity reference')
+    if args.expression_reference:
+        ref = json.loads(args.expression_reference.read_text())
+        for key in ('expressionECenter','expressionEScale','expressionHCenter','expressionHScale'):
+            config[key] = float(ref[key])
     pending = ROOT / 'run.pending'
     # Exclusive creation protects against two local writers using this helper.
     with pending.open('x') as handle:

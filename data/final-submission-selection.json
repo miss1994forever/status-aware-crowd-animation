@@ -1,0 +1,9 @@
+{
+  "selected_by_user": true,
+  "date": "2026-11-06",
+  "run": "interaction-pitch-posture",
+  "comparison": "interaction-pitch-neutral",
+  "config_source": "outputs/unity-submission/interaction-pitch-posture/config.json",
+  "scope": "Unity EMM + spatial v23 + stable legs + continuous arms/body response + torso/head expression + pitch filter",
+  "qualification": "User accepted visual candidate; no formal multi-participant status study."
+}

@@ -27,6 +27,8 @@ public static class SprintBuild {
   public string run="s0-new-run";public int mode=1;public string scenario="crowd";
   public int seed=806,fps=60,count=10;public float duration=35;
   public bool responsePose=false,ownedSearch=true,video=false;public int width=1280,height=720;public int spatial=0;
+  public int headFilterLevel=1;
+  public int expressionVersion=0;public bool bodyResponse=false,postureExpression=false;public float expressionECenter=.1f,expressionEScale=.1f,expressionHCenter=.94f,expressionHScale=.04f;
   public int lowerBody=2,clipStride=4,clipActor=9;public bool kneeDiagnostics=false;
   public string statusPattern="cycle";public float fixedExpression=-1;public bool singlePass=true,lateralSteps=false,statusYield=false,routeRecovery=false,headStability=false;
  }
@@ -135,22 +137,25 @@ public static class SprintBuild {
    // A background editor may not notice source changes before a request arrives.
    // Keep the request until refresh/compilation/domain reload have completed.
    if(!refreshedRequest){refreshedRequest=true;AssetDatabase.Refresh();return;}
+   if(EditorUtility.scriptCompilationFailed)return;
    string payload=File.ReadAllText(command);var config=JsonUtility.FromJson<RunCommand>(payload);File.Delete(command);
    refreshedRequest=false;
    if(config==null||!Regex.IsMatch(config.run??"","^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$")||config.mode<0||config.mode>2||config.fps<1||config.fps>120||config.duration<1||config.duration>120||config.count<2||config.count>30||config.width<320||config.width>1920||config.height<240||config.height>1080||(config.scenario!="crowd"&&config.scenario!="headon"&&config.scenario!="crossing"))throw new System.Exception("Invalid sprint run configuration");
    if(config.spatial<0||config.spatial>10||(config.spatial>=1&&(config.mode!=1||config.responsePose)))throw new System.Exception("Space tests require expression mode with response pose off");
    if((config.statusPattern!="cycle"&&config.statusPattern!="low-high"&&config.statusPattern!="high-low")||config.fixedExpression< -1||config.fixedExpression>1)throw new System.Exception("Invalid status/expression diagnostic configuration");
+   if(config.expressionVersion<0||config.expressionVersion>2||config.expressionEScale<=0||config.expressionHScale<=0)throw new System.Exception("Invalid expression settings");
    if(config.lowerBody<0||config.lowerBody>2)throw new System.Exception("Invalid lower-body diagnostic policy");
    if(config.clipStride<1||config.clipStride>120||config.clipActor<0||config.clipActor>29)throw new System.Exception("Invalid clip capture configuration");
    string captureRoot=Path.Combine(Root,config.run);if(Directory.Exists(captureRoot))throw new System.Exception("Refusing to overwrite existing run "+config.run);
    CheckObservation();EditorSceneManager.OpenScene(ScenePath);var d=Object.FindFirstObjectByType<SprintDirector>();
    d.Mode=config.mode;d.Scenario=config.scenario;d.Seed=config.seed;d.CaptureFps=config.fps;d.Count=config.count;d.Duration=config.duration;d.EnableResponsePose=config.responsePose;d.CaptureWidth=config.width;d.CaptureHeight=config.height;d.RunLabel=config.run;
+   d.ExpressionVersion=config.expressionVersion;d.BodyResponse=config.bodyResponse;d.PostureExpression=config.postureExpression;d.ExpressionECenter=config.expressionECenter;d.ExpressionEScale=config.expressionEScale;d.ExpressionHCenter=config.expressionHCenter;d.ExpressionHScale=config.expressionHScale;
    d.SpatialPolicy=config.spatial;
    d.UseOwnedSearch=config.ownedSearch;
    d.CaptureVideo=config.video;
    d.LowerBodyPolicy=config.lowerBody;d.KneeDiagnostics=config.kneeDiagnostics;
    d.ClipStride=config.clipStride;d.ClipActor=config.clipActor;
-   d.StatusPattern=config.statusPattern;d.FixedExpressionStatus=config.fixedExpression;d.SinglePass=config.singlePass;d.LateralSteps=config.lateralSteps;d.StatusYield=config.statusYield;d.RouteRecovery=config.routeRecovery;d.HeadStability=config.headStability;
+   d.StatusPattern=config.statusPattern;d.FixedExpressionStatus=config.fixedExpression;d.SinglePass=config.singlePass;d.LateralSteps=config.lateralSteps;d.StatusYield=config.statusYield;d.RouteRecovery=config.routeRecovery;d.HeadStability=config.headStability;d.HeadFilterLevel=config.headFilterLevel;
    d.CaptureRun=true;d.CaptureRoot=captureRoot;Directory.CreateDirectory(captureRoot);File.WriteAllText(Path.Combine(captureRoot,"config.json"),JsonUtility.ToJson(config,true));
    var sources=new System.Text.StringBuilder();foreach(string path in Directory.GetFiles("Assets/SubmissionSprint","*.cs",SearchOption.AllDirectories))sources.AppendLine(Hash(path)+"  "+path);
    File.WriteAllText(Path.Combine(captureRoot,"source-sha256.txt"),sources.ToString());File.WriteAllText(Path.Combine(captureRoot,"checks.txt"),"Observation filter: smoothing, target switch, release passed.\nPlanner: analytic pass-through, head-on adjustment, unrelated parallel neighbour passed.\nCapture delta time is controlled after frame 1; runtime determinism must be measured, not assumed.\n");
