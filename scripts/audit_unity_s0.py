@@ -24,6 +24,11 @@ def read_run(path):
             runtime = json.loads(runtime_path.read_text())
             if not runtime.get('ownedSearch') or runtime.get('spatial') != config['spatial']:
                 errors.append('Actual search/spatial settings differ from request')
+            for flag in ('waitFacing','softWait'):
+                if flag in config and runtime.get(flag, False) != config[flag]:
+                    errors.append('Actual '+flag+' differs from request')
+            if 'headStability' in config and runtime.get('headStability', False) != config['headStability']:
+                errors.append('Actual head stabilization differs from request')
             if 'routeRecovery' in config and runtime.get('routeRecovery', False) != config['routeRecovery']:
                 errors.append('Actual route recovery differs from request')
             if 'statusYield' in config and runtime.get('statusYield', False) != config['statusYield']:
@@ -34,7 +39,7 @@ def read_run(path):
                 errors.append('Actual journey lifecycle differs from request')
             if 'lowerBody' in config and runtime.get('lowerBody') != config['lowerBody']:
                 errors.append('Actual lower-body policy differs from request')
-            if runtime.get('build') not in ('s1b-owned-reserve-v1', 's1b-nearfield-v2', 'knee-ik-v3', 'social-space-v4', 'social-space-v5', 'social-space-v6','social-space-v7','social-space-v8','social-space-v9','social-space-v10','social-space-v11','social-space-v12', 'social-space-v13','social-space-v14','social-space-v15','social-space-v16','social-space-v17'):
+            if runtime.get('build') not in ('s1b-owned-reserve-v1', 's1b-nearfield-v2', 'knee-ik-v3', 'social-space-v4', 'social-space-v5', 'social-space-v6','social-space-v7','social-space-v8','social-space-v9','social-space-v10','social-space-v11','social-space-v12', 'social-space-v13','social-space-v14','social-space-v15','social-space-v16','social-space-v17','social-space-v18','social-space-v19','social-space-v20','social-space-v21','social-space-v22','social-space-v23'):
                 errors.append('Unexpected runtime build marker')
         if not (path / 'compiled-sha256.txt').exists():
             errors.append('Missing compiled assembly hashes')

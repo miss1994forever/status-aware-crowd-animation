@@ -14,7 +14,7 @@ public class SprintDirector : MonoBehaviour {
  public string RunLabel="manual";
  public bool CaptureVideo; public int ClipActor=9,ClipStride=4;RenderTexture clipTarget;Texture2D clipImage;
  public int LowerBodyPolicy=2;public bool KneeDiagnostics;
- public bool RouteRecovery;public bool StatusYield;public bool LateralSteps;SprintSideStep.State[] sideSteps;StreamWriter motionWriter;int lastMotionFrame=-1;
+ public bool HeadStability;public bool RouteRecovery;public bool StatusYield;public bool LateralSteps;SprintSideStep.State[] sideSteps;StreamWriter motionWriter;int lastMotionFrame=-1;
  public bool SinglePass=true;
  GameObject[] actorRoots;bool[] active;int[] journeyPhase;Vector3[] destinations;float[] arrivedAt,departedAt;
  public string StatusPattern="cycle";public float FixedExpressionStatus=-1;
@@ -34,7 +34,7 @@ public class SprintDirector : MonoBehaviour {
  Vector3[] inputs; int[] partners; float[] risks; double lastRealtime; float realFrameDelta;
  CrowdCharacterController[] controllers; SprintActor[] actors; Vector3[] goals,previous,positions,velocities;float[] observed,belief,response; int[] encounters,arrivals;
  float elapsed,lastLog;int shot;public bool Finished;
- [System.Serializable] class RuntimeSettings {public string build="social-space-v17";public bool ownedSearch;public int spatial,lowerBody,clipStride,clipActor;public string statusPattern,cueCalibration;public float fixedExpression;public bool singlePass,lateralSteps,statusYield,routeRecovery;public string preferenceModel;}
+ [System.Serializable] class RuntimeSettings {public string build="social-space-v23";public bool ownedSearch;public int spatial,lowerBody,clipStride,clipActor;public string statusPattern,cueCalibration;public float fixedExpression;public bool singlePass,lateralSteps,statusYield,routeRecovery,headStability;public string preferenceModel;}
  void Start(){
   Application.runInBackground=true;lastRealtime=Time.realtimeSinceStartupAsDouble;
   oldCaptureDeltaTime=Time.captureDeltaTime;oldFixedDeltaTime=Time.fixedDeltaTime;
@@ -61,7 +61,7 @@ public class SprintDirector : MonoBehaviour {
    if(Scenario=="crossing")start=i==0?new Vector3(-4,0,0):new Vector3(0,0,-4);
    GameObject go=Instantiate(Template,start,Quaternion.LookRotation(-start),transform);go.name="Character_"+i;if(runtimeSearch)go.GetComponentInChildren<MotionMatchingController>(true).Search=runtimeSearch;controllers[i]=go.GetComponentInChildren<CrowdCharacterController>(true);var mesh=go.GetComponentInChildren<MotionMatchingSkinnedMeshRenderer>(true);actors[i]=mesh.gameObject.AddComponent<SprintActor>();actors[i].OwnStatus=(i%3)*.5f;actors[i].Mode=Mode;go.SetActive(true);controllers[i].MaxSpeed=1;goals[i]=-start;previous[i]=start;
    actorRoots[i]=go;destinations[i]=goals[i];journeyDirect[i]=Vector3.Distance(start,goals[i]);
-   actors[i].LowerBodyPolicy=LowerBodyPolicy;
+   actors[i].LowerBodyPolicy=LowerBodyPolicy;actors[i].HeadStability=HeadStability;
    if(StatusPattern=="low-high")actors[i].OwnStatus=i%2;
    if(StatusPattern=="high-low")actors[i].OwnStatus=1-i%2;
    actors[i].ExpressionStatusOverride=FixedExpressionStatus;poseSnapshots[i].Status=actors[i].OwnStatus;
@@ -69,10 +69,10 @@ public class SprintDirector : MonoBehaviour {
   }
   if(SinglePass)CreateJourneyLabels();
   if(CaptureRun){Directory.CreateDirectory(CaptureRoot);File.WriteAllText(Path.Combine(CaptureRoot,"telemetry.csv"),"time,mode,id,x,z,status,observed,belief,response,lowering,arm_deg,foot_error,pose_updates,arrivals,frame,dt,real_dt,target_id,belief_target_id,belief_resets,risk,input_x,input_z,response_pose,spatial_policy,held_side,predicted_gap,safe_candidates,side_flips,rapid_side_flips,safety_overrides,min_frame_gap,guard_frames,guard_residual,social_estimate,social_weight,social_gap,social_cooperation,social_progress_weight,crowd_aversion,crowd_exposure,social_raw_estimate,journey_phase,arrival_time,departure_time,goal_x,goal_z,destination_x,destination_z,passage_exposure,passage_releases,focus_deference,detour_extra,discretion_weight,journey_path,first_trip_path\n");}
-  if(CaptureRun)File.WriteAllText(Path.Combine(CaptureRoot,"runtime-config.json"),JsonUtility.ToJson(new RuntimeSettings{ownedSearch=runtimeSearch!=null,spatial=SpatialPolicy,lowerBody=LowerBodyPolicy,clipStride=ClipStride,clipActor=Mathf.Clamp(ClipActor,0,Count-1),statusPattern=StatusPattern,fixedExpression=FixedExpressionStatus,cueCalibration=SprintSocialSpace.Calibration,singlePass=SinglePass,lateralSteps=LateralSteps,statusYield=StatusYield,routeRecovery=RouteRecovery,preferenceModel=SpatialPolicy>=8?(SpatialPolicy==10?"status-gap-budget-v1":SpatialPolicy==9?"status-gap-passage-v1":"status-gap-quadratic-v1"):"relative-linear-v1"},true));
+  if(CaptureRun)File.WriteAllText(Path.Combine(CaptureRoot,"runtime-config.json"),JsonUtility.ToJson(new RuntimeSettings{ownedSearch=runtimeSearch!=null,spatial=SpatialPolicy,lowerBody=LowerBodyPolicy,clipStride=ClipStride,clipActor=Mathf.Clamp(ClipActor,0,Count-1),statusPattern=StatusPattern,fixedExpression=FixedExpressionStatus,cueCalibration=SprintSocialSpace.Calibration,singlePass=SinglePass,lateralSteps=LateralSteps,statusYield=StatusYield,routeRecovery=RouteRecovery,headStability=HeadStability,preferenceModel=SpatialPolicy>=8?(SpatialPolicy==10?"status-gap-budget-v1":SpatialPolicy==9?"status-gap-passage-v1":"status-gap-quadratic-v1"):"relative-linear-v1"},true));
   if(CaptureRun&&CaptureVideo){Directory.CreateDirectory(Path.Combine(CaptureRoot,"clip-wide"));Directory.CreateDirectory(Path.Combine(CaptureRoot,"clip-close"));}
   if(CaptureRun&&KneeDiagnostics){kneeWriter=new StreamWriter(Path.Combine(CaptureRoot,"knees.csv"));kneeWriter.WriteLine("frame,time,dt,id,status,lower_policy,pose_updates,raw_lx,raw_ly,raw_lz,out_lx,out_ly,out_lz,raw_rx,raw_ry,raw_rz,out_rx,out_ry,out_rz,foot_error");}
-  if(CaptureRun&&KneeDiagnostics){motionWriter=new StreamWriter(Path.Combine(CaptureRoot,"motion.csv"));motionWriter.WriteLine("frame,time,dt,id,journey_phase,x,z,input_x,input_z,controller_yaw,sim_yaw,facing_hold,clip_index,clip_name,source_frame,arrivals,head_x,head_y,head_z,head_w,neck_x,neck_y,neck_z,neck_w,headchest_x,headchest_y,headchest_z,headchest_w,overlay_head_angle");}
+  if(CaptureRun&&KneeDiagnostics){motionWriter=new StreamWriter(Path.Combine(CaptureRoot,"motion.csv"));motionWriter.WriteLine("frame,time,dt,id,journey_phase,x,z,input_x,input_z,controller_yaw,sim_yaw,facing_hold,clip_index,clip_name,source_frame,arrivals,head_x,head_y,head_z,head_w,neck_x,neck_y,neck_z,neck_w,headchest_x,headchest_y,headchest_z,headchest_w,overlay_head_angle,headout_x,headout_y,headout_z,headout_w");}
   if(CaptureRun&&KneeDiagnostics)ExportSourceMotion();
   if(CaptureRun&&(CaptureVideo||KneeDiagnostics))gameObject.AddComponent<SprintCaptureLate>().Director=this;
  }
@@ -133,6 +133,7 @@ public class SprintDirector : MonoBehaviour {
    }
    if(!LateralSteps&&sideSteps[i].Locked&&sideSteps[i].Release())controllers[i].SwapFixOrientation();
    inputs[i]=velocity;controllers[i].SetMovementDirection(new float2(velocity.x,velocity.z));
+
   }
   if(CaptureRun&&(frame==1||elapsed-lastLog>=.25f||elapsed>=Duration)){lastLog=elapsed;var b=new StringBuilder();for(int i=0;i<Count;i++){
    var preference=focusPreferences[i];var pose=poseSnapshots[i];object[] values={elapsed,Mode,i,positions[i].x,positions[i].z,pose.Status,observed[i],belief[i],response[i],pose.Lowering,pose.Arm,pose.FootError,pose.Updates,arrivals[i],frame,Time.deltaTime,realFrameDelta,partners[i],observations[i].TargetId,observations[i].Resets,risks[i],inputs[i].x,inputs[i].z,EnableResponsePose?1:0,SpatialPolicy,heldSides[i],predictedGaps[i],safeCandidates[i],sideFlips[i],rapidSideFlips[i],safetyOverrides[i],minimumFrameGap,guardFrames[i],guardResidual[i],preference.Estimate,preference.ObservationWeight,preference.Distance,preference.Cooperation,socialProgress[i],crowdAversion[i],crowdExposure[i],preference.RawEstimate,journeyPhase[i],arrivedAt[i],departedAt[i],goals[i].x,goals[i].z,destinations[i].x,destinations[i].z,passageExposure[i],passageReleases[i],preference.Deference,detourExtra[i],discretionaryWeight[i],journeyPath[i],primaryPath[i]};
@@ -213,7 +214,7 @@ public class SprintDirector : MonoBehaviour {
    string name=clip>=0&&clip<mm.MMData.AnimationDatas.Count?mm.MMData.AnimationDatas[clip].name.Replace(",","_"):"unknown";
    Vector3 position=mm.transform.position;
    object[] values={frame,elapsed,Time.deltaTime,i,journeyPhase[i],position.x,position.z,inputs[i].x,inputs[i].z,
-    Vector3.SignedAngle(Vector3.forward,controllers[i].transform.forward,Vector3.up),Vector3.SignedAngle(Vector3.forward,mm.transform.forward,Vector3.up),sideSteps[i].Locked?1:0,clip,name,mm.CurrentFrame,arrivals[i],actors[i].RawHeadLocal.x,actors[i].RawHeadLocal.y,actors[i].RawHeadLocal.z,actors[i].RawHeadLocal.w,actors[i].RawNeckLocal.x,actors[i].RawNeckLocal.y,actors[i].RawNeckLocal.z,actors[i].RawNeckLocal.w,actors[i].RawHeadChest.x,actors[i].RawHeadChest.y,actors[i].RawHeadChest.z,actors[i].RawHeadChest.w,Quaternion.Angle(actors[i].RawHeadChest,actors[i].FinalHeadChest)};
+    Vector3.SignedAngle(Vector3.forward,controllers[i].transform.forward,Vector3.up),Vector3.SignedAngle(Vector3.forward,mm.transform.forward,Vector3.up),sideSteps[i].Locked?1:0,clip,name,mm.CurrentFrame,arrivals[i],actors[i].RawHeadLocal.x,actors[i].RawHeadLocal.y,actors[i].RawHeadLocal.z,actors[i].RawHeadLocal.w,actors[i].RawNeckLocal.x,actors[i].RawNeckLocal.y,actors[i].RawNeckLocal.z,actors[i].RawNeckLocal.w,actors[i].RawHeadChest.x,actors[i].RawHeadChest.y,actors[i].RawHeadChest.z,actors[i].RawHeadChest.w,Quaternion.Angle(actors[i].RawHeadChest,actors[i].FinalHeadChest),actors[i].FinalHeadChest.x,actors[i].FinalHeadChest.y,actors[i].FinalHeadChest.z,actors[i].FinalHeadChest.w};
    for(int k=0;k<values.Length;k++){if(k>0)motionWriter.Write(',');motionWriter.Write(System.Convert.ToString(values[k],CultureInfo.InvariantCulture));}motionWriter.WriteLine();
   }
   if(frame%60==0||Finished)motionWriter.Flush();

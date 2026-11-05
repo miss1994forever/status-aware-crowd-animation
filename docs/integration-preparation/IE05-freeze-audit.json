@@ -1,0 +1,11 @@
+{
+  "checkpoint": "IE05-2026-11-06",
+  "archive_integrity": true,
+  "missing_compile_inputs": [],
+  "missing_runtime_inputs": [],
+  "workspace_changes_since_freeze": [],
+  "limits": [
+    "Static dependency audit only; no fresh execution, Unity compilation or perceptual acceptance."
+  ],
+  "compile_project": "net9.0; dotnet SDK required"
+}

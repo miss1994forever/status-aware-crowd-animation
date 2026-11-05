@@ -28,7 +28,7 @@ public static class SprintBuild {
   public int seed=806,fps=60,count=10;public float duration=35;
   public bool responsePose=false,ownedSearch=true,video=false;public int width=1280,height=720;public int spatial=0;
   public int lowerBody=2,clipStride=4,clipActor=9;public bool kneeDiagnostics=false;
-  public string statusPattern="cycle";public float fixedExpression=-1;public bool singlePass=true,lateralSteps=false,statusYield=false,routeRecovery=false;
+  public string statusPattern="cycle";public float fixedExpression=-1;public bool singlePass=true,lateralSteps=false,statusYield=false,routeRecovery=false,headStability=false;
  }
  [System.Serializable] class SocialFixture {public string test;public float own,estimate,weight,separation,gap,inputX,inputZ;}
  [System.Serializable] class SocialFixtures {public SocialFixture[] fixtures;}
@@ -150,7 +150,7 @@ public static class SprintBuild {
    d.CaptureVideo=config.video;
    d.LowerBodyPolicy=config.lowerBody;d.KneeDiagnostics=config.kneeDiagnostics;
    d.ClipStride=config.clipStride;d.ClipActor=config.clipActor;
-   d.StatusPattern=config.statusPattern;d.FixedExpressionStatus=config.fixedExpression;d.SinglePass=config.singlePass;d.LateralSteps=config.lateralSteps;d.StatusYield=config.statusYield;d.RouteRecovery=config.routeRecovery;
+   d.StatusPattern=config.statusPattern;d.FixedExpressionStatus=config.fixedExpression;d.SinglePass=config.singlePass;d.LateralSteps=config.lateralSteps;d.StatusYield=config.statusYield;d.RouteRecovery=config.routeRecovery;d.HeadStability=config.headStability;
    d.CaptureRun=true;d.CaptureRoot=captureRoot;Directory.CreateDirectory(captureRoot);File.WriteAllText(Path.Combine(captureRoot,"config.json"),JsonUtility.ToJson(config,true));
    var sources=new System.Text.StringBuilder();foreach(string path in Directory.GetFiles("Assets/SubmissionSprint","*.cs",SearchOption.AllDirectories))sources.AppendLine(Hash(path)+"  "+path);
    File.WriteAllText(Path.Combine(captureRoot,"source-sha256.txt"),sources.ToString());File.WriteAllText(Path.Combine(captureRoot,"checks.txt"),"Observation filter: smoothing, target switch, release passed.\nPlanner: analytic pass-through, head-on adjustment, unrelated parallel neighbour passed.\nCapture delta time is controlled after frame 1; runtime determinism must be measured, not assumed.\n");

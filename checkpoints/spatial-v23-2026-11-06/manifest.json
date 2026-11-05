@@ -1,0 +1,23 @@
+{
+  "src/unity_submission/SprintSocialSpace.cs": "9b080bac92b55f359dc757ba3c7d0a5e30f466b29e00547ab1fe62e9da8f6830",
+  "src/unity_submission/SprintDirector.cs": "f84c580e9b92bce561e59ba233bf58f0a0157699a0b9c9ec9ca39b7dfabbd1c7",
+  "src/unity_submission/SprintActor.cs": "bb7c181e1749be39c711b4dcae76d2d5e304b0174e7c100b880366dcde847d4c",
+  "src/unity_submission/SprintSideStep.cs": "f08458ec8ad338cf699a98692ee624b92c2cdf08a3ebb25580eb57087a35ae36",
+  "src/unity_submission/SprintObservation.cs": "304f41a9805b05fe8087cbcdd56d774c9989001e7546fa3f3ffdd13a01ce85bc",
+  "src/unity_submission/SprintSpacePlanner.cs": "cd26279ca0ee159437b2ea7b4c3d20d6b50a6215fac3fc749ad37bec2bfd972e",
+  "src/unity_submission/SprintCaptureLate.cs": "765a193e1251d94721625b1075ddb90a4585f54da7c09eaf7b113c807b2d58f3",
+  "src/unity_submission/SprintLegIK.cs": "5a855ee503e126f120699864cfee89fd7916ef38340bf96f12740eaccecefee3",
+  "src/unity_submission/SprintOwnedEnvironmentSearch.cs": "b83382a161746c90bb1f577c285bf9970e0e612ad1bcf5bc4ba5b0446cb09462",
+  "src/unity_submission/Editor/SprintBuild.cs": "43a1c912908d8e88ec8bea1af9cc7146cdb480ef494753fa0f6d16e697c6752a",
+  "docs/等待朝向与头部过渡验收.md": "753c7d36d9a38625ea472e19a49a30b40f75a72f8681d23c1f8d69a9460faef9",
+  "outputs/unity-submission/head-stable-delivery/runtime-config.json": "0ccc1460c0647b63ee5eef98966eb0cd2268fe98aad56801af46fec2cd27766c",
+  "outputs/unity-submission/head-stable-delivery/config.json": "98e2aa48832157294769f9d5e9174b57fb8d2dfeb41b92ab725754511985d121",
+  "outputs/unity-submission/head-stable-delivery/social-fixtures.json": "621d2f84df44cf6ce31006d2e8cfa4b4cdb0ca3bdce60a61a2af06a7d9c232dc",
+  "outputs/unity-submission/head-stable-delivery/clip-metadata.json": "a669c3588aeca20dd37d9b5fbb3c105df2ff7d3585f5d22a16d66cf2f8d7bcdf",
+  "outputs/unity-submission/head-stable-delivery/gap-fixtures.json": "9783eea64eb60d6648b34b2e364a2d3e4e564ebac4d0118241195a8837ee0c0d",
+  "outputs/unity-submission/head-stable-delivery/source-sha256.txt": "2521c03c8173a311ad47348d3c06a45db4b76fe90244c46c19028d8b2988e3b1",
+  "outputs/unity-submission/head-stable-delivery/compiled-sha256.txt": "575b7dcc2b8efe01faef44d89c6038d5795095d903d951df23498637594ca74e",
+  "outputs/unity-submission/head-stable-delivery/checks.txt": "da6da338bcee39887cc6702b0423f019c778c5011b25716eff7694989b169b24",
+  "outputs/unity-submission/head-stable-delivery/finished.txt": "7cc029237aab502342ad8c1bb4f5fa6d86ddc3d939953a98d2b99d93f4eeff2b",
+  "outputs/unity-submission/head-stable-delivery/flow-checks.txt": "816e5624a057046daced8b58a7f29039df0120c521a0faf4127be1701b18b142"
+}

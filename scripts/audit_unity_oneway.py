@@ -11,7 +11,7 @@ def audit(path):
     config=json.loads((path/'config.json').read_text())
     runtime=json.loads((path/'runtime-config.json').read_text())
     assert config['singlePass'] and runtime['singlePass']
-    assert runtime['build'] in ('social-space-v8','social-space-v9','social-space-v10','social-space-v11','social-space-v12', 'social-space-v13','social-space-v14','social-space-v15','social-space-v16','social-space-v17') and runtime['spatial']==config['spatial']
+    assert runtime['build'] in ('social-space-v8','social-space-v9','social-space-v10','social-space-v11','social-space-v12', 'social-space-v13','social-space-v14','social-space-v15','social-space-v16','social-space-v17','social-space-v18','social-space-v19','social-space-v20','social-space-v21','social-space-v22','social-space-v23') and runtime['spatial']==config['spatial']
     rows=[{k:float(v) for k,v in r.items()} for r in csv.DictReader((path/'telemetry.csv').open())]
     actors=defaultdict(list);frames=defaultdict(list)
     for row in rows:actors[int(row['id'])].append(row);frames[int(row['frame'])].append(row)

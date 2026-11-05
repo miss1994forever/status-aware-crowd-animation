@@ -13,6 +13,7 @@ if __name__ == '__main__':
     parser.add_argument('--spatial', choices=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], type=int, default=0)
     parser.add_argument('--status-pattern', choices=['cycle', 'low-high', 'high-low'], default='cycle')
     parser.add_argument('--fixed-expression', type=float, choices=[-1, 0, .5, 1], default=-1)
+    parser.add_argument('--head-stability', action='store_true', help='Damp head orientation relative to upper chest, without a gaze target')
     parser.add_argument('--route-recovery', action='store_true', help='Use consumed detour budget to discourage retreat and allow brief waiting')
     parser.add_argument('--status-yield', action='store_true', help='Extend passage yielding to crossing traffic and strengthen own route persistence')
     parser.add_argument('--lateral-steps', action='store_true', help='Experimental bounded native facing hold for diagonal/side steps')
@@ -32,7 +33,7 @@ if __name__ == '__main__':
     if (ROOT / args.run).exists() or (ROOT / 'run.request').exists():
         parser.error('Output already exists or another request is pending')
     config = dict(run=args.run, scenario=args.scenario, spatial=args.spatial,
-                  duration=args.duration, mode=1, seed=806, fps=60, count=10,singlePass=not args.repeat,lateralSteps=args.lateral_steps,statusYield=args.status_yield,routeRecovery=args.route_recovery,
+                  duration=args.duration, mode=1, seed=806, fps=60, count=10,singlePass=not args.repeat,lateralSteps=args.lateral_steps,statusYield=args.status_yield,routeRecovery=args.route_recovery,headStability=args.head_stability,
                   responsePose=False, ownedSearch=not args.legacy_search, video=args.video,
                   lowerBody=args.lower_body, kneeDiagnostics=args.knee_diagnostics,
                   clipStride=60//args.clip_fps,clipActor=args.clip_actor,statusPattern=args.status_pattern,

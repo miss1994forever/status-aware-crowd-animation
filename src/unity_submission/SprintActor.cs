@@ -7,6 +7,7 @@ public class SprintActor : MonoBehaviour {
  public float ExpressionStatusOverride=-1; // Diagnostic control: freeze pose expression while changing own status.
  public int Mode; public float AppliedLowering,AppliedArmAngle,ObservedExpansion,FootError; public int PoseUpdates;
  public int LowerBodyPolicy=2; // 0: no lowering/added leg IK, 1: original, 2: continuous knee plane.
+ public bool HeadStability;Quaternion smoothHead;bool headReady;
  public Quaternion RawHeadLocal,RawNeckLocal,RawHeadChest,FinalHeadChest;
  public Vector3 RawLeftKnee,RawRightKnee,FinalLeftKnee,FinalRightKnee;
  SprintLegIK.Hint leftHint,rightHint;
@@ -50,7 +51,12 @@ public class SprintActor : MonoBehaviour {
   Vector3 axis=Vector3.Cross(inward,-down).normalized,v=leftForearm.position-leftArm.position;
   Quaternion qa=Quaternion.AngleAxis(AppliedArmAngle,axis),qb=Quaternion.AngleAxis(-AppliedArmAngle,axis);
   leftArm.rotation=(Vector3.Dot(qa*v,inward)>Vector3.Dot(qb*v,inward)?qa:qb)*leftArm.rotation;
-  // Neighbour gaze is out of scope: preserve the locomotion's head animation.
+  // No gaze target. Filter local head orientation only; position/neck/body stay native.
+  if(HeadStability){
+   if(!headReady||Time.deltaTime>.1f){smoothHead=RawHeadChest;headReady=true;}
+   smoothHead=Quaternion.Slerp(smoothHead,RawHeadChest,1-Mathf.Exp(-Mathf.Log(2)*Time.deltaTime/.08f));
+   head.rotation=(chest?chest.rotation:hips.rotation)*smoothHead;
+  }else headReady=false;
   FinalHeadChest=Quaternion.Inverse(chest?chest.rotation:hips.rotation)*head.rotation;
   FootError=Mathf.Max(Vector3.Distance(lf,leftFoot.position),Vector3.Distance(rf,rightFoot.position));
   FinalLeftKnee=inverse*(leftKnee.position-sourceOrigin);FinalRightKnee=inverse*(rightKnee.position-sourceOrigin);
