@@ -1,0 +1,9 @@
+Motion: Bandai Namco Research Inc., Bandai-Namco-Research-Motiondataset, dataset-1.
+Official source: https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset
+Revision: 74ead3ba1ae4696404e6086233779f60de8bf9ef
+Data license: CC BY-NC 4.0, https://creativecommons.org/licenses/by-nc/4.0/
+Unmodified source BVH files remain in data/raw/bandai-pilot/; their SHA256 and individual source URLs are embedded in experiment.json.
+Derived clips: walk normal 001, walk proud 001, walk-left normal 001, walk-left proud 001.
+Changes: inherited canonical coordinate transform, fixed common reference height, cycle extraction/C1 closure/fixed-bone reconstruction; this experiment adds phase warping, bounded dynamic pelvis trajectory with leg IK, recorded-swing-driven arm trajectory, and phase-aligned direction blends.
+No status labels or personality scores are inherited from source style filenames.
+Course/noncommercial research use only under the data license. Code license does not replace motion data license.

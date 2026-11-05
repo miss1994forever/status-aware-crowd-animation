@@ -1,0 +1,202 @@
+[
+  {
+    "mode": "F",
+    "spec": {
+      "name": "certified-too-thin-within-time-budget",
+      "kind": "door",
+      "seed": 13,
+      "width": 0.06,
+      "starts": [
+        [
+          0,
+          -1.4
+        ]
+      ],
+      "goals": [
+        [
+          0,
+          1.6
+        ]
+      ],
+      "walls": [
+        [
+          -100,
+          -0.12,
+          -0.03,
+          0.12
+        ],
+        [
+          0.03,
+          -0.12,
+          100,
+          0.12
+        ]
+      ],
+      "reference": "M02",
+      "duration": 12
+    },
+    "metrics": {
+      "minimum_proxy_axis_gap": 0.3319480294503111,
+      "max_proxy_penetration": 0.0,
+      "collision_time_fraction": 0.0,
+      "arrived_fraction": 0.0,
+      "remaining_goal_distance_mean": 2.256582030701953,
+      "stagnant_agents": 1,
+      "emergency_hold_agent_seconds": 10.150000000000064,
+      "root_acceleration_p95": 3.197442310920451e-12,
+      "root_acceleration_max": 51.91285754835251,
+      "joint_speed_p99": 1.0472067878738074,
+      "joint_acceleration_p99": 12.745902442949719,
+      "max_bone_relative_error": 1.6653345369377348e-15,
+      "source_pose_modification_max": 0.03342560092348196,
+      "source_pose_modification_p95": 0.025349948949169605,
+      "expression_drift_mean": 0.0,
+      "actual_reference_pose_rms": 0.0008929327154578156,
+      "travel_angle_warp_max_radians": 0.0,
+      "actual_speed_ratio_min": 0.11095517126243677,
+      "actual_speed_ratio_max": 1.15,
+      "switches": 0,
+      "aba_clip_reversals": 0,
+      "worst": {
+        "t": 2.2,
+        "agent": 0,
+        "wall": [
+          [
+            0.03,
+            -0.12
+          ],
+          [
+            100.0,
+            -0.12
+          ],
+          [
+            100.0,
+            0.12
+          ],
+          [
+            0.03,
+            0.12
+          ]
+        ],
+        "gap": 0.3319480294503111
+      },
+      "dense_samples": 1440,
+      "evaluation_hz": 120,
+      "proxy": "projected-joint convex hull + radius .04; signed SAT axis gap",
+      "planning_seconds": 0.49774975096806884,
+      "planning_step_ms_p50": 7.661312469281256,
+      "planning_step_ms_p95": 10.843274649232624,
+      "agent_count": 1,
+      "emergency_hold_agent_steps": 51,
+      "arrival_times": {},
+      "interaction_edges": []
+    },
+    "certificate": {
+      "proxy_min_diameter": 0.08,
+      "door_width": 0.06,
+      "maximum_root_travel_within_12s": 13.358080995728644,
+      "detour_wall_end_distance": 100,
+      "scope": "Impossible within finite time under this thickened skeleton proxy and bounded continuous root motion. Not a mesh statement."
+    }
+  },
+  {
+    "mode": "G",
+    "spec": {
+      "name": "certified-too-thin-within-time-budget",
+      "kind": "door",
+      "seed": 13,
+      "width": 0.06,
+      "starts": [
+        [
+          0,
+          -1.4
+        ]
+      ],
+      "goals": [
+        [
+          0,
+          1.6
+        ]
+      ],
+      "walls": [
+        [
+          -100,
+          -0.12,
+          -0.03,
+          0.12
+        ],
+        [
+          0.03,
+          -0.12,
+          100,
+          0.12
+        ]
+      ],
+      "reference": "M02",
+      "duration": 12
+    },
+    "metrics": {
+      "minimum_proxy_axis_gap": 0.21599594368416833,
+      "max_proxy_penetration": 0.0,
+      "collision_time_fraction": 0.0,
+      "arrived_fraction": 0.0,
+      "remaining_goal_distance_mean": 2.130316022927799,
+      "stagnant_agents": 1,
+      "emergency_hold_agent_seconds": 10.150000000000064,
+      "root_acceleration_p95": 3.197442310920451e-12,
+      "root_acceleration_max": 35.74591836976048,
+      "joint_speed_p99": 1.1431013660748155,
+      "joint_acceleration_p99": 19.43164518951662,
+      "max_bone_relative_error": 1.7763568394002505e-15,
+      "source_pose_modification_max": 0.31210664400699306,
+      "source_pose_modification_p95": 0.1275818232954401,
+      "expression_drift_mean": 1.8600247070097917,
+      "actual_reference_pose_rms": 0.08861577272703448,
+      "travel_angle_warp_max_radians": 0.349699208050148,
+      "actual_speed_ratio_min": 0.16113727839967032,
+      "actual_speed_ratio_max": 1.4307168717381913,
+      "switches": 5,
+      "aba_clip_reversals": 0,
+      "worst": {
+        "t": 2.0,
+        "agent": 0,
+        "wall": [
+          [
+            0.03,
+            -0.12
+          ],
+          [
+            100.0,
+            -0.12
+          ],
+          [
+            100.0,
+            0.12
+          ],
+          [
+            0.03,
+            0.12
+          ]
+        ],
+        "gap": 0.21599594368416833
+      },
+      "dense_samples": 1440,
+      "evaluation_hz": 120,
+      "proxy": "projected-joint convex hull + radius .04; signed SAT axis gap",
+      "planning_seconds": 1.3520890392828733,
+      "planning_step_ms_p50": 21.008208394050598,
+      "planning_step_ms_p95": 26.715802331455045,
+      "agent_count": 1,
+      "emergency_hold_agent_steps": 51,
+      "arrival_times": {},
+      "interaction_edges": []
+    },
+    "certificate": {
+      "proxy_min_diameter": 0.08,
+      "door_width": 0.06,
+      "maximum_root_travel_within_12s": 13.358080995728644,
+      "detour_wall_end_distance": 100,
+      "scope": "Impossible within finite time under this thickened skeleton proxy and bounded continuous root motion. Not a mesh statement."
+    }
+  }
+]

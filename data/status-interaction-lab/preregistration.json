@@ -1,0 +1,34 @@
+{
+  "stage": "before implementation and evaluation",
+  "development": [
+    {
+      "seed": 13,
+      "note": "previously seen, original shared ten"
+    },
+    {
+      "seed": 51001,
+      "note": "new local pair development"
+    }
+  ],
+  "evaluation_seeds": [
+    62003,
+    62011,
+    62017
+  ],
+  "space_condition": {
+    "seed": 62023,
+    "width": 1.6,
+    "note": "existing hard corridor geometry; failure retained"
+  },
+  "evaluation_rule": "Freeze implementation/config hash before evaluating. Any tuning after observing evaluation demotes all observed cases; reserve fresh seeds.",
+  "conditions": [
+    "C1",
+    "C2",
+    "C2-no-confidence",
+    "C2-yoked"
+  ],
+  "scope": "Technical delivery only. No validated status semantics or human perception results.",
+  "semantics": "Replaceable small torso posture cue and directed upper-body orientation; source clip labels are not status.",
+  "fairness": "All conditions same personal expression, navigation, library, DOFs, full 1s actual body check margin .015, fixed bone lengths, root limits. Social control only changes upper-body target.",
+  "paths_checked_empty": true
+}

@@ -1,0 +1,127 @@
+{
+  "archive_url": "https://www.dropbox.com/scl/fi/debqr38g2yzh92wvw75lz/bvh.zip?rlkey=lau6sc9yzab0ojdfx1elccizc&dl=1",
+  "files": [
+    {
+      "name": "bvh/Loco_Run_Scared_AverageJoe_001.bvh",
+      "compressed": 235669,
+      "bytes": 583759,
+      "offset": 6127211,
+      "crc32": 2821510086,
+      "method": 8,
+      "flags": 8,
+      "path": "/Volumes/Samsung-SSD/AnimationLab/mocha-data/candidates/Loco_Run_Scared_AverageJoe_001.bvh",
+      "sha256": "8734af4589a9500c1ac430cb7b9b1e01dbc8b1e4fe1302ae2d5546e241c09f59",
+      "crc_verified": true
+    },
+    {
+      "name": "bvh/Loco_Walk_Scared_AverageJoe_001.bvh",
+      "compressed": 333138,
+      "bytes": 830538,
+      "offset": 51445475,
+      "crc32": 1928812469,
+      "method": 8,
+      "flags": 8,
+      "path": "/Volumes/Samsung-SSD/AnimationLab/mocha-data/candidates/Loco_Walk_Scared_AverageJoe_001.bvh",
+      "sha256": "3d05b2507e1255d040ee9f084687bc31c34242708865dce3d51b6b4a55ee16f0",
+      "crc_verified": true
+    },
+    {
+      "name": "bvh/Loco_Run_Sad_AverageJoe_001.bvh",
+      "compressed": 283437,
+      "bytes": 703266,
+      "offset": 67593110,
+      "crc32": 2129568176,
+      "method": 8,
+      "flags": 8,
+      "path": "/Volumes/Samsung-SSD/AnimationLab/mocha-data/candidates/Loco_Run_Sad_AverageJoe_001.bvh",
+      "sha256": "d65ec103afc8a94be39426e65f404211ffff2df84ec23fef45eb01dfd2b97e3c",
+      "crc_verified": true
+    },
+    {
+      "name": "bvh/Loco_Walk_Happy_AverageJoe_001.bvh",
+      "compressed": 258201,
+      "bytes": 644439,
+      "offset": 82865818,
+      "crc32": 4010704369,
+      "method": 8,
+      "flags": 8,
+      "path": "/Volumes/Samsung-SSD/AnimationLab/mocha-data/candidates/Loco_Walk_Happy_AverageJoe_001.bvh",
+      "sha256": "30179279b3dc0cb7de45b3577433831444d3a330b9a471ff7b3fd362bc9dda15",
+      "crc_verified": true
+    },
+    {
+      "name": "bvh/Loco_Walk_Angry_AverageJoe_001.bvh",
+      "compressed": 211390,
+      "bytes": 529615,
+      "offset": 85785063,
+      "crc32": 3849794414,
+      "method": 8,
+      "flags": 8,
+      "path": "/Volumes/Samsung-SSD/AnimationLab/mocha-data/candidates/Loco_Walk_Angry_AverageJoe_001.bvh",
+      "sha256": "5b3f749075076874aa9275d09df4e0b5cd9dda993093006424b6623b0ada1fd6",
+      "crc_verified": true
+    },
+    {
+      "name": "bvh/Loco_Run_Happy_AverageJoe_001.bvh",
+      "compressed": 206780,
+      "bytes": 510239,
+      "offset": 148563509,
+      "crc32": 3085608519,
+      "method": 8,
+      "flags": 8,
+      "path": "/Volumes/Samsung-SSD/AnimationLab/mocha-data/candidates/Loco_Run_Happy_AverageJoe_001.bvh",
+      "sha256": "42c35357f70a8a58c9dc789e9973907f6085025e2c761d79cb8922799efcbdc3",
+      "crc_verified": true
+    },
+    {
+      "name": "bvh/Loco_Run_Angry_AverageJoe_001.bvh",
+      "compressed": 266720,
+      "bytes": 661544,
+      "offset": 156453499,
+      "crc32": 2097466198,
+      "method": 8,
+      "flags": 8,
+      "path": "/Volumes/Samsung-SSD/AnimationLab/mocha-data/candidates/Loco_Run_Angry_AverageJoe_001.bvh",
+      "sha256": "8b87110afb3302450cd4028ddfc0ad25ae1152d5b64926e5c8d211e7fb7ef6e2",
+      "crc_verified": true
+    },
+    {
+      "name": "bvh/Loco_Run_Neutral_AverageJoe_001.bvh",
+      "compressed": 198911,
+      "bytes": 491426,
+      "offset": 157959659,
+      "crc32": 770655125,
+      "method": 8,
+      "flags": 8,
+      "path": "/Volumes/Samsung-SSD/AnimationLab/mocha-data/candidates/Loco_Run_Neutral_AverageJoe_001.bvh",
+      "sha256": "02cdbefce5e0840983aa270a8b43fa80d7d3608d6275a27cdf696b1a8c6e3060",
+      "crc_verified": true
+    },
+    {
+      "name": "bvh/Loco_Walk_Neutral_AverageJoe_001.bvh",
+      "compressed": 292175,
+      "bytes": 733211,
+      "offset": 164659653,
+      "crc32": 3305232981,
+      "method": 8,
+      "flags": 8,
+      "path": "/Volumes/Samsung-SSD/AnimationLab/mocha-data/candidates/Loco_Walk_Neutral_AverageJoe_001.bvh",
+      "sha256": "dd40024c9101feeabcd7e84aa55e715ec3ec969359f01727e1750992da5cf974",
+      "crc_verified": true
+    },
+    {
+      "name": "bvh/Loco_Walk_Sad_AverageJoe_001.bvh",
+      "compressed": 300528,
+      "bytes": 755655,
+      "offset": 174959337,
+      "crc32": 2716326422,
+      "method": 8,
+      "flags": 8,
+      "path": "/Volumes/Samsung-SSD/AnimationLab/mocha-data/candidates/Loco_Walk_Sad_AverageJoe_001.bvh",
+      "sha256": "7767a29f6915fe5727a9c6d02023b9d476e05217d5f76619ee50298156e5eb16",
+      "crc_verified": true
+    }
+  ],
+  "paired": false,
+  "status_labels": false
+}

@@ -1,0 +1,1 @@
+{"spec":{"name":"asymmetric-yield-51002","kind":"pair","seed":51002,"starts":[[-2.6,-0.18],[2.0,0.18]],"goals":[[2.6,-0.18],[-2.0,0.18]],"walls":[],"duration":10,"reference":"M02"},"private_values":[1,-1],"purpose":"Development counterexample to status=right of way. Asymmetric path lengths; no perception inference."}

@@ -1,0 +1,91 @@
+{
+  "task": "group_sources",
+  "date": "2026-11-02",
+  "budget_bytes": 2000000000,
+  "datasets": [
+    {
+      "dataset": "Multi-TPC",
+      "source_url": "https://mcmartinlee.github.io/projects/MultiTPC",
+      "data_record": "https://zenodo.org/records/17935560",
+      "paper": "https://www.nature.com/articles/s41597-026-06819-x",
+      "code": "https://github.com/MCMartinLee/Multi-TPC",
+      "license": "CC BY 4.0 per official Zenodo metadata; code separately MIT",
+      "status": "downloading",
+      "status_file": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/group/Multi-TPC/download-status.json",
+      "download_job": {
+        "pid": 95937,
+        "script": "/Users/haojun/Documents/documents/大四上/动画/期末大作业/scripts/fetch_group_expansion.py",
+        "log": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/group/download.log",
+        "status_file": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/group/Multi-TPC/download-status.json"
+      },
+      "scope": "Complete Mocap, Gaze and AudioGazeGBack modalities from official Dataset.zip; all session/participant files retained. Not complete multimodal ZIP: audio, words and prosody deliberately excluded.",
+      "files_expected": 161,
+      "mocap_files": 69,
+      "gaze_files": 69,
+      "session_annotation_files": 23,
+      "selected_uncompressed_bytes": 1636616934,
+      "selected_transfer_bytes": 654056332,
+      "full_zip_bytes": 5527378907,
+      "format": "60Hz frame-level TXT joint Euler rotations and gaze pitch/yaw; session-level CSV speaking/gaze/nod/shake labels. Not a ready-to-use BVH rig.",
+      "capture": "ViconIQ optical mocap; synchronized physical clapboard; published processing includes gap interpolation and smoothing.",
+      "real_multi_person_interactions": true,
+      "participants_per_session": 3,
+      "has_status_labels": false,
+      "fit": "Auxiliary three-party body-response/attention and listener behavior, not evidence of walking intersections or crowds. Speech-related production may shape motion even when previewing silently.",
+      "limitations": [
+        "Rig hierarchy/offset mapping and detailed joint coverage require preprocessing documentation before retargeting.",
+        "Missingness and identity/time alignment not yet independently validated from the downloaded motion matrices.",
+        "No perceived-status labels; conversational state and relation are not status ground truth."
+      ],
+      "validation": "ZIP64 central directory parsed (357 entries). Selected entries fetched by byte range, decoded, checked against per-entry CRC32 and byte length, SHA256 and line counts recorded. Full-archive MD5 cannot be claimed when selecting entries.",
+      "resume_command": "/Users/haojun/anaconda3/envs/py311/bin/python scripts/fetch_group_expansion.py"
+    },
+    {
+      "dataset": "CMU Panoptic / haggling",
+      "source_url": "https://github.com/CMU-Perceptual-Computing-Lab/panoptic-toolbox",
+      "session_url": "https://domedb.perception.cs.cmu.edu/develop/haggling.html",
+      "target_session": "160422_haggling1",
+      "scope": "Complete 8-minute session body keypoints and calibration; no multicamera videos requested.",
+      "status": "network_blocked_not_downloaded",
+      "files_expected": [
+        "hdPose3d_stage1_coco19.tar",
+        "calibration_160422_haggling1.json"
+      ],
+      "format": "COCO19 synchronized 3D reconstructed body points with confidence and per-person IDs; no local joint rotations or articulated rig.",
+      "real_multi_person_interactions": true,
+      "has_status_labels": false,
+      "license": "Official database research-only/noncommercial; preserve terms before later use.",
+      "network_checks": [
+        "CMU HTTPS: connect timeout 20 seconds",
+        "SNU HTTPS: SSL_ERROR_SYSCALL",
+        "SNU HTTP: timeout 20 seconds",
+        "CMU HTTP: timeout 25 seconds"
+      ],
+      "fit": "Natural negotiation groups/formation and nonverbal responses; no guarantee of locomotion crossing coverage.",
+      "limitations": [
+        "Markerless multiview reconstructed points, not optical marker mocap fidelity.",
+        "Occlusion, missing joints/frames and person-ID continuity must be screened before animation.",
+        "Not acquired; no claims about file size or actual per-frame completeness."
+      ]
+    },
+    {
+      "dataset": "MI-Motion",
+      "source_url": "https://mi-motion.github.io/",
+      "readme": "https://github.com/mi-motion/mi-motion.github.io/blob/main/README.md",
+      "format": "20 body 3D keypoints; roughly167k frames, 3–6 people, five settings: park/street/indoor/special/complex crowd.",
+      "real_multi_person_interactions": true,
+      "has_status_labels": false,
+      "status": "not_downloaded_access_split",
+      "access": "Official page states pure IMU part publicly downloadable via Baidu; synthetic part requires signed data access agreement emailed to authors. No agreement signed or email sent.",
+      "imu_link": "https://pan.baidu.com/s/1No9Ks55IMlCy65-keqUvMQ",
+      "extraction_code": "2v41",
+      "download_issue": "Official Baidu link not accessible by current web fetch; no credentials/CAPTCHA/alternate mirror bypass attempted.",
+      "license": "Dataset-specific terms not fully verified; MIT code license is not a dataset license.",
+      "fit": "Closest of this group to mobile multiperson interaction but sparse 20-keypoint skeleton will not preserve subtle hands/shoulders; IMU/synthetic portions must not be conflated."
+    }
+  ],
+  "excluded_this_round": [
+    "LISI-HHI is dyadic and overlaps the dedicated dyadic search; not separately downloaded."
+  ],
+  "conclusion": "Group data acquired/downloading are not status ground truth; prioritize actual movement data from other tracks for cross-action expression tests, retain Multi-TPC for later response studies."
+}

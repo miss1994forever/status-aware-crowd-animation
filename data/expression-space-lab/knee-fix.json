@@ -1,0 +1,41 @@
+{
+  "user_feedback": "膝盖弯曲程度达到最小的部分动作有些不自然",
+  "measurement": "240 intervals per cycle, extension=0deg, independent minima at each variant timing",
+  "results": [
+    {
+      "base": "M01",
+      "minimum_bend_degrees": {
+        "original": [
+          4.265528003391722,
+          1.6494055367374187
+        ],
+        "before_knee_fix": [
+          13.175688564179694,
+          19.028671688374914
+        ],
+        "B_100": [
+          4.685251745915849,
+          1.668026934825292
+        ]
+      }
+    },
+    {
+      "base": "M07",
+      "minimum_bend_degrees": {
+        "original": [
+          0.7629002380422207,
+          1.7603680314715007
+        ],
+        "before_knee_fix": [
+          0.6605792039467815,
+          0.6605790508826885
+        ],
+        "B_100": [
+          0.7718572663927148,
+          1.7514655351201043
+        ]
+      }
+    }
+  ],
+  "human_acceptance": null
+}

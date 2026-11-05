@@ -1,0 +1,1282 @@
+{
+  "config": {
+    "duration": 12.0,
+    "fps": 60,
+    "replan_seconds": 0.4,
+    "first_replan_seconds": 0.4,
+    "candidate_stride_frames": 12,
+    "initial_source": "E01",
+    "initial_source_time": 1.0,
+    "phases": [
+      "0–3s forward",
+      "3–6s stop",
+      "6–9s right with fixed facing",
+      "9–12s forward"
+    ],
+    "target_speed_reference_heights_per_second": 0.6,
+    "weights": {
+      "trajectory": 5.0,
+      "posture": 2.0,
+      "feet": 3.0,
+      "speed": 0.12,
+      "facing": 0.08
+    },
+    "blend_seconds": 0.25,
+    "switch_penalty": 0.012,
+    "sources": [
+      {
+        "id": "E01",
+        "path": "data/raw/emm-pilot/selected/DataEMM/emm/basic_locomotion_2.bvh",
+        "sha256": "6f3e95a9f41cfaf7f0ec621b9441178f6cca589996bc926b9561e6c8c9200657"
+      },
+      {
+        "id": "E02",
+        "path": "data/raw/emm-pilot/selected/DataEMM/emm/strafe.bvh",
+        "sha256": "62db0cf52b091a8bb9d6d3b9f96a264f611d33a48a8bfdad190188e41be79b76"
+      },
+      {
+        "id": "E03",
+        "path": "data/raw/emm-pilot/selected/DataEMM/emm/turn_in_place.bvh",
+        "sha256": "28cbf53a1560dbe5058d59c5398caa1121e6bf8bc847548a9fd2a5451e72df0e"
+      },
+      {
+        "id": "E04",
+        "path": "data/raw/emm-pilot/selected/DataEMM/emm_extra/crowd_guy.bvh",
+        "sha256": "da41bcad38ff02062309803aeaff0b81f2f5277d6d7cefbe52d7854fc7ad7186"
+      }
+    ],
+    "status": "Development inputs, not held-out trials or tuned status parameters",
+    "code_sha256": {
+      "src/finite_matching.py": "789b44459401e6d4e9f03a7002da467b8fd3af463d051e8d79b38c84c8ca3cf3",
+      "src/finite_motion.py": "1787d828d00019edee48b01095ee93116f0c91d9a23aea3486f40c11611c0ea0",
+      "scripts/build_finite_matching.py": "0ed72493f5b21776a19e780b2e297ca2aa27daa8ae10cbeb275aa84f89bac449"
+    }
+  },
+  "candidates": 1747,
+  "height_reference": 1.6216794001117076,
+  "elapsed_seconds": 4.334491208894178,
+  "measurements": {
+    "C0": {
+      "switches": 0,
+      "max_frame_joint_displacement_reference_heights": 0.06047679053511762,
+      "p99_frame_joint_displacement_reference_heights": 0.047025578557332914,
+      "phase_velocity_rmse_reference_heights_per_second": [
+        0.354802987829716,
+        0.499928454909918,
+        0.7571755294552925,
+        0.5454342620836152
+      ],
+      "bone_length_error": 6.938893903907228e-16
+    },
+    "C1": {
+      "switches": 23,
+      "max_frame_joint_displacement_reference_heights": 0.058158819170283045,
+      "p99_frame_joint_displacement_reference_heights": 0.039210338143192,
+      "phase_velocity_rmse_reference_heights_per_second": [
+        0.2647237481721075,
+        0.02181258425815234,
+        0.18100033423455802,
+        0.2776809064964413
+      ],
+      "bone_length_error": 8.881784197001252e-16
+    },
+    "C2": {
+      "switches": 23,
+      "max_frame_joint_displacement_reference_heights": 0.2929268547970764,
+      "p99_frame_joint_displacement_reference_heights": 0.057263385577913155,
+      "phase_velocity_rmse_reference_heights_per_second": [
+        0.2408428711138358,
+        0.021206213006870818,
+        0.18013265742604623,
+        0.2576846315872416
+      ],
+      "bone_length_error": 8.326672684688674e-16
+    },
+    "C3": {
+      "switches": 29,
+      "max_frame_joint_displacement_reference_heights": 0.05815881917029043,
+      "p99_frame_joint_displacement_reference_heights": 0.042839780503040464,
+      "phase_velocity_rmse_reference_heights_per_second": [
+        0.2647237481721075,
+        0.27930707193821563,
+        0.28914173584599495,
+        0.2769437789458615
+      ],
+      "bone_length_error": 1.1102230246251565e-15
+    }
+  },
+  "identical_input_prefix_max_error": 0.0,
+  "changed_input_later_world_rms": 3.198504966703877,
+  "limits": [
+    "No status/obstacles/other agents",
+    "Offline development replay, not realtime benchmark",
+    "Root velocity error is not naturalness; bone preservation is not contact preservation",
+    "Hard-cut replay uses identical selected segments, not an independently replanned controller"
+  ],
+  "decisions": {
+    "C1": [
+      {
+        "time": 0.4,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.08091047440479704,
+        "continuation_score": 0.2839678657747187,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.009842618064719097,
+          "posture": 0.0011992722231083674,
+          "feet": 0.0019420294270399055,
+          "speed": 0.09168950481126065,
+          "facing": 0.0058751347064228375
+        },
+        "source_id": 0,
+        "source_time": 10.200204000000001
+      },
+      {
+        "time": 0.8,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.06479098742448282,
+        "continuation_score": 0.25528544438884593,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.0061029830689859005,
+          "posture": 0.001673442025382138,
+          "feet": 0.004255872568331056,
+          "speed": 0.047674350756199774,
+          "facing": 0.005508102913148657
+        },
+        "source_id": 0,
+        "source_time": 0.8000160000000001
+      },
+      {
+        "time": 1.2,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.05235907149445401,
+        "continuation_score": 0.2713328881815171,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.0048694802650668485,
+          "posture": 0.0012411938534089059,
+          "feet": 0.0017837866921025245,
+          "speed": 0.06716821396073469,
+          "facing": 0.0014717088838278282
+        },
+        "source_id": 0,
+        "source_time": 10.000200000000001
+      },
+      {
+        "time": 1.6,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.07634484633906652,
+        "continuation_score": 0.1434723143673884,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.007615684991578351,
+          "posture": 0.0010701161897814196,
+          "feet": 0.0027742970742036036,
+          "speed": 0.1196806212102153,
+          "facing": 0.018020290422190954
+        },
+        "source_id": 0,
+        "source_time": 17.200344
+      },
+      {
+        "time": 2.0,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.0674246940910475,
+        "continuation_score": 0.16680341090102394,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.0035419811000316228,
+          "posture": 0.0014363137908609924,
+          "feet": 0.0015266248399308496,
+          "speed": 0.23975733610274788,
+          "facing": 0.018642576963063828
+        },
+        "source_id": 0,
+        "source_time": 13.400268
+      },
+      {
+        "time": 2.4,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.08331594813888238,
+        "continuation_score": 0.19697926066737814,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.006477527410761752,
+          "posture": 0.00348124591305167,
+          "feet": 0.006231426877276752,
+          "speed": 0.11045079568815323,
+          "facing": 0.00021803930702036015
+        },
+        "source_id": 0,
+        "source_time": 0.8000159999999998
+      },
+      {
+        "time": 2.8,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.050478178557188516,
+        "continuation_score": 0.26816250861512275,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.0044488011881154595,
+          "posture": 0.0012411938534089048,
+          "feet": 0.0017837866921025305,
+          "speed": 0.06716821396074422,
+          "facing": 0.004252989477456511
+        },
+        "source_id": 0,
+        "source_time": 10.0002
+      },
+      {
+        "time": 3.2,
+        "target_velocity": [
+          0.0,
+          0.0
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.04328648276481904,
+        "continuation_score": 0.10352117887119945,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.0021473255656812708,
+          "posture": 0.0009129897829194447,
+          "feet": 0.00038677547422616486,
+          "speed": 0.14478862219591143,
+          "facing": 0.002361428554824244
+        },
+        "source_id": 3,
+        "source_time": 90.401808
+      },
+      {
+        "time": 3.6,
+        "target_velocity": [
+          0.0,
+          0.0
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.013641141764557567,
+        "continuation_score": 0.001803044060370994,
+        "switched": false,
+        "best_terms": {
+          "trajectory": 0.00020569830386667434,
+          "posture": 2.100841853450607e-05,
+          "feet": 3.322019990346505e-05,
+          "speed": 0.0014336997320610987,
+          "facing": 0.003736610507468203
+        },
+        "source_id": 3,
+        "source_time": 90.801808
+      },
+      {
+        "time": 4.0,
+        "target_velocity": [
+          0.0,
+          0.0
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.013715743532695545,
+        "continuation_score": 0.0022292085463000637,
+        "switched": false,
+        "best_terms": {
+          "trajectory": 0.00020569830386667434,
+          "posture": 1.253649029760544e-05,
+          "feet": 1.839298492958716e-05,
+          "speed": 0.00034927146416507645,
+          "facing": 0.007063593778479885
+        },
+        "source_id": 3,
+        "source_time": 91.201808
+      },
+      {
+        "time": 4.4,
+        "target_velocity": [
+          0.0,
+          0.0
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.014171065893021214,
+        "continuation_score": 0.0261658682090504,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.00020569830386667434,
+          "posture": 3.8011228912709296e-05,
+          "feet": 0.00012865586662192638,
+          "speed": 0.0005296941076056905,
+          "facing": 0.007712762788549527
+        },
+        "source_id": 3,
+        "source_time": 91.00182000000001
+      },
+      {
+        "time": 4.8,
+        "target_velocity": [
+          0.0,
+          0.0
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.01392265665947087,
+        "continuation_score": 0.0062139547291132045,
+        "switched": false,
+        "best_terms": {
+          "trajectory": 0.00020569830386667434,
+          "posture": 2.9696841728233617e-05,
+          "feet": 7.236294851923102e-05,
+          "speed": 0.0004269630397033316,
+          "facing": 0.007080588079486732
+        },
+        "source_id": 3,
+        "source_time": 91.40182
+      },
+      {
+        "time": 5.2,
+        "target_velocity": [
+          0.0,
+          0.0
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.014321880688729936,
+        "continuation_score": 0.07100533089078855,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 6.489126362030779e-05,
+          "posture": 0.00017998753959477373,
+          "feet": 0.0003741562208216276,
+          "speed": 0.0005699538625475083,
+          "facing": 0.005582327068353314
+        },
+        "source_id": 3,
+        "source_time": 70.801416
+      },
+      {
+        "time": 5.6,
+        "target_velocity": [
+          0.0,
+          0.0
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.012869778961668982,
+        "continuation_score": 0.010101553156069023,
+        "switched": false,
+        "best_terms": {
+          "trajectory": 6.489126362030779e-05,
+          "posture": 1.104443357983465e-05,
+          "feet": 5.582202484420304e-06,
+          "speed": 0.0007135272319918358,
+          "facing": 0.005260798763943669
+        },
+        "source_id": 3,
+        "source_time": 71.201416
+      },
+      {
+        "time": 6.0,
+        "target_velocity": [
+          0.9730076400670246,
+          0.0
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.051867887473369664,
+        "continuation_score": 0.5208305838687819,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.006504813670736263,
+          "posture": 0.0014176002812098863,
+          "feet": 0.0006448447707449112,
+          "speed": 0.020499655910671776,
+          "facing": 0.001426569196915386
+        },
+        "source_id": 1,
+        "source_time": 31.800635999999997
+      },
+      {
+        "time": 6.4,
+        "target_velocity": [
+          0.9730076400670246,
+          0.0
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.06106248352141015,
+        "continuation_score": 0.07450733610185965,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.009364020607441993,
+          "posture": 0.0001331605399069073,
+          "feet": 0.0002148671503672047,
+          "speed": 0.010770920304420995,
+          "facing": 0.00048684395942802096
+        },
+        "source_id": 1,
+        "source_time": 29.000580000000006
+      },
+      {
+        "time": 6.8,
+        "target_velocity": [
+          0.9730076400670246,
+          0.0
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.06691751700630631,
+        "continuation_score": 0.08469767603577939,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.0072657490924693474,
+          "posture": 0.0005299678505369757,
+          "feet": 0.0011921288568418533,
+          "speed": 0.11500995085364062,
+          "facing": 0.0018906896240397696
+        },
+        "source_id": 1,
+        "source_time": 31.800636
+      },
+      {
+        "time": 7.2,
+        "target_velocity": [
+          0.9730076400670246,
+          0.0
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.06362610331339567,
+        "continuation_score": 0.07609541137754813,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.009781899914403308,
+          "posture": 0.00013316053990690698,
+          "feet": 0.00021486715036720433,
+          "speed": 0.010770920304421255,
+          "facing": 0.006414634674164314
+        },
+        "source_id": 1,
+        "source_time": 29.000580000000003
+      },
+      {
+        "time": 7.6,
+        "target_velocity": [
+          0.9730076400670246,
+          0.0
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.07370517811996892,
+        "continuation_score": 0.09251532567807981,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.00865033815636654,
+          "posture": 0.0004985649794512833,
+          "feet": 0.0009159518645113656,
+          "speed": 0.11325984151684758,
+          "facing": 0.013966510045973046
+        },
+        "source_id": 1,
+        "source_time": 28.600572
+      },
+      {
+        "time": 8.0,
+        "target_velocity": [
+          0.9730076400670246,
+          0.0
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.06456478072351608,
+        "continuation_score": 0.052563279377641534,
+        "switched": false,
+        "best_terms": {
+          "trajectory": 0.01028945773627806,
+          "posture": 1.5241969428586135e-12,
+          "feet": 5.075924119826837e-12,
+          "speed": 3.310606501689391e-06,
+          "facing": 0.01396368438836778
+        },
+        "source_id": 1,
+        "source_time": 29.000572
+      },
+      {
+        "time": 8.4,
+        "target_velocity": [
+          0.9730076400670246,
+          0.0
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.07677163252901728,
+        "continuation_score": 0.09838773416085092,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.01185635600593169,
+          "posture": 0.0003285399865155536,
+          "feet": 0.0005310608632651935,
+          "speed": 0.02127955317803279,
+          "facing": 0.008575544439602676
+        },
+        "source_id": 1,
+        "source_time": 28.400568000000007
+      },
+      {
+        "time": 8.8,
+        "target_velocity": [
+          0.9730076400670246,
+          0.0
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.05019135140599906,
+        "continuation_score": 0.0381907219571882,
+        "switched": false,
+        "best_terms": {
+          "trajectory": 0.007466892983293439,
+          "posture": 3.731153222368186e-12,
+          "feet": 1.430010812674436e-11,
+          "speed": 5.235861728614233e-06,
+          "facing": 0.01070322669702263
+        },
+        "source_id": 1,
+        "source_time": 28.800568000000005
+      },
+      {
+        "time": 9.2,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.11937740388102666,
+        "continuation_score": 0.5173049559628394,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.007346808539250886,
+          "posture": 0.003874582194081646,
+          "feet": 0.01393626798842882,
+          "speed": 0.17421220999890205,
+          "facing": 0.002249095393177822
+        },
+        "source_id": 0,
+        "source_time": 0.8000159999999994
+      },
+      {
+        "time": 9.6,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.05249839874986165,
+        "continuation_score": 0.2710798787228561,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.004729472446180838,
+          "posture": 0.0012411938534089056,
+          "feet": 0.0017837866921025173,
+          "speed": 0.06716821396076049,
+          "facing": 0.011963788256760463
+        },
+        "source_id": 0,
+        "source_time": 10.000200000000001
+      },
+      {
+        "time": 10.0,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.1045477032001883,
+        "continuation_score": 0.14509913786399437,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.012608843407029028,
+          "posture": 0.0010701161897813819,
+          "feet": 0.0027742970742034947,
+          "speed": 0.11968062121019278,
+          "facing": 0.05848360022058482
+        },
+        "source_id": 0,
+        "source_time": 17.200344
+      },
+      {
+        "time": 10.4,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.08095178323748559,
+        "continuation_score": 0.1702476375771488,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.008328314606597149,
+          "posture": 0.001912285250655079,
+          "feet": 0.0030425213259097756,
+          "speed": 0.10980049338066854,
+          "facing": 0.01477520649725162
+        },
+        "source_id": 0,
+        "source_time": 5.600112000000001
+      },
+      {
+        "time": 10.8,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.06770336063248507,
+        "continuation_score": 0.129833180355605,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.009370080329782272,
+          "posture": 0.0005017717854324521,
+          "feet": 0.001417825736232547,
+          "speed": 0.01967094940946926,
+          "facing": 0.015442803435935534
+        },
+        "source_id": 0,
+        "source_time": 10.200204000000003
+      },
+      {
+        "time": 11.2,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.07842420901665724,
+        "continuation_score": 0.2508232977030254,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.008768305655564296,
+          "posture": 0.0016734420253821272,
+          "feet": 0.004255872568331023,
+          "speed": 0.04767435075620444,
+          "facing": 0.00934071115417399
+        },
+        "source_id": 0,
+        "source_time": 0.8000159999999994
+      },
+      {
+        "time": 11.6,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.0574842120933384,
+        "continuation_score": 0.278555212942641,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.005519267952686238,
+          "posture": 0.001241193853408902,
+          "feet": 0.0017837866921025245,
+          "speed": 0.06716821396075594,
+          "facing": 0.024924235893639065
+        },
+        "source_id": 0,
+        "source_time": 10.000200000000001
+      }
+    ],
+    "C3": [
+      {
+        "time": 0.4,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.08091047440479704,
+        "continuation_score": 0.2839678657747187,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.009842618064719097,
+          "posture": 0.0011992722231083674,
+          "feet": 0.0019420294270399055,
+          "speed": 0.09168950481126065,
+          "facing": 0.0058751347064228375
+        },
+        "source_id": 0,
+        "source_time": 10.200204000000001
+      },
+      {
+        "time": 0.8,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.06479098742448282,
+        "continuation_score": 0.25528544438884593,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.0061029830689859005,
+          "posture": 0.001673442025382138,
+          "feet": 0.004255872568331056,
+          "speed": 0.047674350756199774,
+          "facing": 0.005508102913148657
+        },
+        "source_id": 0,
+        "source_time": 0.8000160000000001
+      },
+      {
+        "time": 1.2,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.05235907149445401,
+        "continuation_score": 0.2713328881815171,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.0048694802650668485,
+          "posture": 0.0012411938534089059,
+          "feet": 0.0017837866921025245,
+          "speed": 0.06716821396073469,
+          "facing": 0.0014717088838278282
+        },
+        "source_id": 0,
+        "source_time": 10.000200000000001
+      },
+      {
+        "time": 1.6,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.07634484633906652,
+        "continuation_score": 0.1434723143673884,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.007615684991578351,
+          "posture": 0.0010701161897814196,
+          "feet": 0.0027742970742036036,
+          "speed": 0.1196806212102153,
+          "facing": 0.018020290422190954
+        },
+        "source_id": 0,
+        "source_time": 17.200344
+      },
+      {
+        "time": 2.0,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.0674246940910475,
+        "continuation_score": 0.16680341090102394,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.0035419811000316228,
+          "posture": 0.0014363137908609924,
+          "feet": 0.0015266248399308496,
+          "speed": 0.23975733610274788,
+          "facing": 0.018642576963063828
+        },
+        "source_id": 0,
+        "source_time": 13.400268
+      },
+      {
+        "time": 2.4,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.08331594813888238,
+        "continuation_score": 0.19697926066737814,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.006477527410761752,
+          "posture": 0.00348124591305167,
+          "feet": 0.006231426877276752,
+          "speed": 0.11045079568815323,
+          "facing": 0.00021803930702036015
+        },
+        "source_id": 0,
+        "source_time": 0.8000159999999998
+      },
+      {
+        "time": 2.8,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.050478178557188516,
+        "continuation_score": 0.26816250861512275,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.0044488011881154595,
+          "posture": 0.0012411938534089048,
+          "feet": 0.0017837866921025305,
+          "speed": 0.06716821396074422,
+          "facing": 0.004252989477456511
+        },
+        "source_id": 0,
+        "source_time": 10.0002
+      },
+      {
+        "time": 3.2,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.09094456279987716,
+        "continuation_score": 0.14344211514047095,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.01020965696216845,
+          "posture": 0.0010701161897814179,
+          "feet": 0.0027742970742036075,
+          "speed": 0.11968062121021801,
+          "facing": 0.03839349802043856
+        },
+        "source_id": 0,
+        "source_time": 17.200344
+      },
+      {
+        "time": 3.6,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.07354699255757915,
+        "continuation_score": 0.1678976369240434,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.006972367226318019,
+          "posture": 0.001912285250655148,
+          "feet": 0.0030425213259097986,
+          "speed": 0.10980049338064891,
+          "facing": 0.006962034265893793
+        },
+        "source_id": 0,
+        "source_time": 5.600112000000001
+      },
+      {
+        "time": 4.0,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.06574947748640919,
+        "continuation_score": 0.12357944608925048,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.009116943402926025,
+          "posture": 0.0005017717854324522,
+          "feet": 0.00141782573623255,
+          "speed": 0.019670949409474576,
+          "facing": 0.006840322038494484
+        },
+        "source_id": 0,
+        "source_time": 10.200204000000001
+      },
+      {
+        "time": 4.4,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.07094895936270876,
+        "continuation_score": 0.25092469288243646,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.007384331673603046,
+          "posture": 0.0016734420253821367,
+          "feet": 0.004255872568331068,
+          "speed": 0.047674350756196165,
+          "facing": 0.002398464352406307
+        },
+        "source_id": 0,
+        "source_time": 0.8000160000000003
+      },
+      {
+        "time": 4.8,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.05261314706545714,
+        "continuation_score": 0.27125010716920966,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.004747006779029355,
+          "posture": 0.0012411938534089065,
+          "feet": 0.0017837866921025184,
+          "speed": 0.067168213960725,
+          "facing": 0.012302246398725007
+        },
+        "source_id": 0,
+        "source_time": 10.0002
+      },
+      {
+        "time": 5.2,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.10504750998504728,
+        "continuation_score": 0.1451781241246608,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.01269679535369876,
+          "posture": 0.0010701161897814144,
+          "feet": 0.0027742970742036066,
+          "speed": 0.11968062121022563,
+          "facing": 0.05923418836440952
+        },
+        "source_id": 0,
+        "source_time": 17.200344
+      },
+      {
+        "time": 5.6,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.08124875271647308,
+        "continuation_score": 0.1703483302524044,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.00838223864088545,
+          "posture": 0.0019122852506551307,
+          "feet": 0.0030425213259097986,
+          "speed": 0.10980049338067525,
+          "facing": 0.015117072841564341
+        },
+        "source_id": 0,
+        "source_time": 5.600112000000001
+      },
+      {
+        "time": 6.0,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.0678022609113546,
+        "continuation_score": 0.1300671770917982,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.00938397008295822,
+          "posture": 0.000501771785432453,
+          "feet": 0.0014178257362325501,
+          "speed": 0.0196709494094739,
+          "facing": 0.01581094734830103
+        },
+        "source_id": 0,
+        "source_time": 10.200204
+      },
+      {
+        "time": 6.4,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.07872227315018815,
+        "continuation_score": 0.2508366599888825,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.008822912536362235,
+          "posture": 0.0016734420253821474,
+          "feet": 0.004255872568331064,
+          "speed": 0.0476743507562001,
+          "facing": 0.009653582773443425
+        },
+        "source_id": 0,
+        "source_time": 0.8000160000000003
+      },
+      {
+        "time": 6.8,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.05769374126429677,
+        "continuation_score": 0.2788712874854561,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.005553142414046425,
+          "posture": 0.0012411938534088983,
+          "feet": 0.0017837866921025086,
+          "speed": 0.06716821396073115,
+          "facing": 0.025426196695644804
+        },
+        "source_id": 0,
+        "source_time": 10.0002
+      },
+      {
+        "time": 7.2,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.10687981169660343,
+        "continuation_score": 0.14839134187878078,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.009560985733098496,
+          "posture": 0.0011325017061487985,
+          "feet": 0.00213597735965257,
+          "speed": 0.28830813277374123,
+          "facing": 0.04756214508758378
+        },
+        "source_id": 0,
+        "source_time": 19.00038
+      },
+      {
+        "time": 7.6,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.0626781869840221,
+        "continuation_score": 0.22277593256400105,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.004447984934465421,
+          "posture": 0.0007564975290178765,
+          "feet": 0.0009942117164657104,
+          "speed": 0.19720378705047772,
+          "facing": 0.003477220727559821
+        },
+        "source_id": 0,
+        "source_time": 10.000200000000001
+      },
+      {
+        "time": 8.0,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.08906579831573962,
+        "continuation_score": 0.1433083506917503,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.009877277591568276,
+          "posture": 0.001070116189781365,
+          "feet": 0.0027742970742034474,
+          "speed": 0.11968062121024173,
+          "facing": 0.03568265263120211
+        },
+        "source_id": 0,
+        "source_time": 17.200344
+      },
+      {
+        "time": 8.4,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.07265516212788932,
+        "continuation_score": 0.16764829766576098,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.006806669481247228,
+          "posture": 0.0019122852506550873,
+          "feet": 0.0030425213259097634,
+          "speed": 0.10980049338066959,
+          "facing": 0.0061702629616671
+        },
+        "source_id": 0,
+        "source_time": 5.600112000000001
+      },
+      {
+        "time": 8.8,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.06562202787585855,
+        "continuation_score": 0.12273795733133928,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.009106095921423099,
+          "posture": 0.0005017717854324525,
+          "feet": 0.0014178257362325516,
+          "speed": 0.019670949409463918,
+          "facing": 0.005925169500560227
+        },
+        "source_id": 0,
+        "source_time": 10.200204000000003
+      },
+      {
+        "time": 9.2,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.07003955377294725,
+        "continuation_score": 0.2510284209426647,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.007212940670624816,
+          "posture": 0.001673442025382135,
+          "feet": 0.004255872568331043,
+          "speed": 0.047674350756200065,
+          "facing": 0.001742832166522066
+        },
+        "source_id": 0,
+        "source_time": 0.8000159999999994
+      },
+      {
+        "time": 9.6,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.052100904356774155,
+        "continuation_score": 0.27049167483792097,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.004669253658693416,
+          "posture": 0.0012411938534088892,
+          "feet": 0.001783786692102509,
+          "speed": 0.0671682139607513,
+          "facing": 0.010758782561145222
+        },
+        "source_id": 0,
+        "source_time": 10.000200000000001
+      },
+      {
+        "time": 10.0,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.10272691687486282,
+        "continuation_score": 0.14482056697743825,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.012288333379292886,
+          "posture": 0.001070116189781373,
+          "feet": 0.0027742970742034704,
+          "speed": 0.1196806212102172,
+          "facing": 0.05575564788748973
+        },
+        "source_id": 0,
+        "source_time": 17.200344
+      },
+      {
+        "time": 10.4,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.07988254367637118,
+        "continuation_score": 0.16988809900938628,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.008133948295136603,
+          "posture": 0.0019122852506550994,
+          "feet": 0.0030425213259097847,
+          "speed": 0.10980049338063547,
+          "facing": 0.013557606449654473
+        },
+        "source_id": 0,
+        "source_time": 5.600112000000001
+      },
+      {
+        "time": 10.8,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.06735680689698542,
+        "continuation_score": 0.12898287031679426,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.009321804842094548,
+          "posture": 0.0005017717854324525,
+          "feet": 0.00141782573623255,
+          "speed": 0.019670949409461975,
+          "facing": 0.014128099722683538
+        },
+        "source_id": 0,
+        "source_time": 10.200204000000003
+      },
+      {
+        "time": 11.2,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.07735022417761941,
+        "continuation_score": 0.2507832811583707,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.008571275978225339,
+          "posture": 0.001673442025382157,
+          "feet": 0.004255872568331087,
+          "speed": 0.047674350756209044,
+          "facing": 0.008230255499875888
+        },
+        "source_id": 0,
+        "source_time": 0.8000159999999994
+      },
+      {
+        "time": 11.6,
+        "target_velocity": [
+          0.0,
+          0.9730076400670246
+        ],
+        "target_facing": 0.0,
+        "best_score": 0.05673638483972336,
+        "continuation_score": 0.2774279079277321,
+        "switched": true,
+        "best_terms": {
+          "trajectory": 0.005398649671935061,
+          "posture": 0.0012411938534089147,
+          "feet": 0.0017837866921025455,
+          "speed": 0.06716821396076725,
+          "facing": 0.023115037770381527
+        },
+        "source_id": 0,
+        "source_time": 10.000200000000001
+      }
+    ]
+  }
+}

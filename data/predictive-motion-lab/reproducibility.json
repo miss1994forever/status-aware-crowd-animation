@@ -1,0 +1,7 @@
+{
+  "run": "outputs/predictive-motion-lab/runs/train_door-1-0.46-13_G_0.json",
+  "all_replay_frames_exactly_equal": true,
+  "frame_count": 241,
+  "old_sha256": "5e75d719674fe014fbab049b26ae3cf36ec776a4d6e814c5d3e61f611be2163a",
+  "compared": "Root, pose, phase, clip, hold and arrival frames; timing excluded."
+}

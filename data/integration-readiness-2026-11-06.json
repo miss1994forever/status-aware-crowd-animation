@@ -1,0 +1,14 @@
+{
+  "state": "read-only assessment; waiting for user readiness, no integration authorized yet",
+  "sha256": {
+    "src/unity_submission/SprintActor.cs": "db7f2f3945601fd55bbf4fc6175d5bccdfda631bacb3661cf8dca4ef31b05d8d",
+    "src/unity_submission/SprintDirector.cs": "9415a3191e527df129bdaa69f303d5fbcc3ba059d6504d6bfac603a39486625f",
+    "src/unity_submission/SprintSocialSpace.cs": "9b080bac92b55f359dc757ba3c7d0a5e30f466b29e00547ab1fe62e9da8f6830",
+    "src/unity_submission/SprintLegIK.cs": "5a855ee503e126f120699864cfee89fd7916ef38340bf96f12740eaccecefee3",
+    "src/individual_expression_candidate/ExpressionPolicy.cs": "dbcacebe207bae415acdccafb31b4cf3f5a52306384b04d6354d0e3b615a5e04",
+    "src/individual_expression_candidate/ExpressionOverlay.cs": "0bec050bf5edd715a464378a9132a50fe7d62c029c0c3aa525edd2a51e72f963",
+    "src/individual_expression_candidate/InteractiveExpression.cs": "8725e693bae936656a95a35bdf7d720e753771ce694227ef71cfe32380e9d262",
+    "src/individual_expression_candidate/PostureChannels.cs": "2c6870a3052829cd89a06a5e44c4d6f2b39176c933511ab023c72af51fa994a3",
+    "tests/test_individual_expression_candidate_round5/Round5.cs": "ec76d31e9e37686fd6400b9bb8f8c8642dd69a810a2d3197d04b78f6c62674a8"
+  }
+}

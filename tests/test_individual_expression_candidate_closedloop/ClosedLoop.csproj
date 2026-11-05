@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net9.0</TargetFramework><StartupObject>ClosedLoop</StartupObject><EnableDefaultCompileItems>false</EnableDefaultCompileItems><UseSharedCompilation>false</UseSharedCompilation></PropertyGroup>
+<ItemGroup>
+<Compile Include="ClosedLoop.cs"/>
+<Compile Include="../test_individual_expression_candidate_combination/Program.cs" Link="ExistingBodyReplay.cs"/>
+<Compile Include="../test_individual_expression_candidate_combination/UnityMathShim.cs" Link="UnityMathShim.cs"/>
+<Compile Include="../../src/individual_expression_candidate/ExpressionMath.cs"/>
+<Compile Include="../../src/individual_expression_candidate/ExpressionPolicy.cs"/>
+<Compile Include="../../src/individual_expression_candidate/InteractiveExpression.cs"/>
+<Compile Include="../../src/individual_expression_candidate/BodyCombinationSearch.cs"/>
+<Compile Include="../../src/individual_expression_candidate/reference/SprintLegIK.cs" Link="ReadonlySprintLegIK.cs"/>
+</ItemGroup></Project>

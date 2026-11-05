@@ -1,0 +1,16 @@
+{
+  "artifact_gate": "passed",
+  "source_hashes_verified": 12,
+  "primary_candidates": [
+    "M01",
+    "M02",
+    "M03"
+  ],
+  "matrix_conditions": 48,
+  "python_regression_tests": 48,
+  "new_runtime_assertions": 6065,
+  "human_naturalness_validation": false,
+  "status_validation": false,
+  "dense_crowd_validation": false,
+  "full_body_collision_validation": false
+}

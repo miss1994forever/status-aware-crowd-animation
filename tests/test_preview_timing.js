@@ -1,0 +1,12 @@
+const assert = require('node:assert/strict');
+const { sampleFrame } = require('../preview/player.js');
+assert.equal(sampleFrame(0, .1, 3), 0);
+assert.equal(sampleFrame(.099, .1, 3), 0);
+assert.equal(sampleFrame(.1, .1, 3), 1);
+assert.equal(sampleFrame(.2, .1, 3), 2);
+assert.equal(sampleFrame(.1 * 3, .1, 3), 0);
+assert.equal(sampleFrame(.29, .1, 3), 2);
+assert.equal(sampleFrame(-.01, .1, 3), 2);
+assert.equal(sampleFrame(9, .1, 3, false), 2);
+assert.equal(sampleFrame(-9, .1, 3, false), 0);
+console.log('9 browser timing assertions passed');

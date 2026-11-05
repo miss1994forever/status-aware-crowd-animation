@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-04",
+  "ta_permission": "User reports approval for Unity custom algorithms and open-source EMM locomotion/transition reuse.",
+  "source": "src/unity_submission",
+  "unity_scene": "Assets/SubmissionSprint/SubmissionDemo.unity",
+  "original_work": [
+    "Post-EMM humanoid expression overlay: hip lowering with two-bone leg IK preserving current animated foot targets; unilateral arm contraction",
+    "Snapshot-based geometry observation and filtered response to predicted encounters",
+    "Three switchable diagnostic modes and telemetry",
+    "Current-target-bound observation filter; atomic bounded run requests and source/config capture",
+    "Finite-candidate predictive geometry planner with separated safety/comfort distance and short encounter-side state"
+  ],
+  "reused": [
+    "EMM official motion database/search/environment-aware locomotion",
+    "MotionMatching humanoid retargeting and inertialization",
+    "Existing character assets from EMM examples",
+    "EMM EnvironmentMotionMatchingSearch copied under MIT to SprintOwnedEnvironmentSearch; only class identity and adaptive-index memory ownership changed. Full license and upstream source hash retained."
+  ],
+  "hypotheses": [
+    "OwnStatus to contraction mapping is an engineering hypothesis, not a validated perceptual formula.",
+    "Visible arm expansion estimate is an uncalibrated proxy.",
+    "No direct reading of another actor hidden status."
+  ],
+  "limits": [
+    "Continuous mode toggles are diagnostic, not same-initial-condition experiments.",
+    "Expression overlay changes final rendered body after EMM collision search; final-body clearance must be checked separately.",
+    "No multi-encounter memory.",
+    "Single left-arm rule may fail on some gait or contacts."
+  ],
+  "state": "S1b side commitment reduces internal rapid switches (21 to 9); all 10 actors complete two arrivals, but centre-clearance and perception gates remain unpassed. Reserve and near-field projection trials rejected. 35-second synchronized diagnostic videos available. Native-list leak localized and locally fixed; no recurrence across subsequent tested runs; paired/crowd sampled trajectories unchanged.",
+  "runtime_evidence": "outputs/unity-submission/s1b-space-audit.json",
+  "diagnostic_video": "outputs/unity-submission/s1b-space-review-close.mp4"
+}

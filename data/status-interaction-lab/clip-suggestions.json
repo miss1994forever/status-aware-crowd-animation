@@ -1,0 +1,53 @@
+{
+  "selection": "largest requested social signal, diagnostic only; no perceptual preference used",
+  "clips": [
+    {
+      "key": "dev-v3-ten-C2",
+      "t": 4.6,
+      "id": 9,
+      "social": 0.037487973650287075,
+      "applied": -0.033095979156237895,
+      "neighbors": 2,
+      "window": [
+        3.5999999999999996,
+        6.6
+      ]
+    },
+    {
+      "key": "eval_shared-10-62003_C2",
+      "t": 10.2,
+      "id": 1,
+      "social": -0.03234886996225144,
+      "applied": -0.06333675074101733,
+      "neighbors": 1,
+      "window": [
+        9.2,
+        12.2
+      ]
+    },
+    {
+      "key": "eval_shared-10-62011_C2",
+      "t": 7.2,
+      "id": 4,
+      "social": 0.036760559504288734,
+      "applied": 0.11897096584857239,
+      "neighbors": 3,
+      "window": [
+        6.2,
+        9.2
+      ]
+    },
+    {
+      "key": "eval_shared-10-62017_C2",
+      "t": 5.6,
+      "id": 0,
+      "social": -0.03289654838067602,
+      "applied": 0.06638609693029526,
+      "neighbors": 2,
+      "window": [
+        4.6,
+        7.6
+      ]
+    }
+  ]
+}

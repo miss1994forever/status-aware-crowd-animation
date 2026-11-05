@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-02",
+  "authorization": "User requested 5–10 subagents, broad scenario search, and reasonably complete downloads per motion set.",
+  "storage_root": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion",
+  "initial_free_gib": 130,
+  "acquisition_policy": "Complete relevant dataset/session/action family when practical; retain official manifest, provenance, license facts and raw data. Avoid duplicate existing files. No paid compute or accepting new agreements.",
+  "planned_tracks": [
+    "locomotion_sources",
+    "dyadic_sources",
+    "expression_sources",
+    "mocha_complete",
+    "group_sources",
+    "transition_sources"
+  ],
+  "research_question": "Do expression edits convey perceived status beyond greeting, distinguished from shyness/confidence/fatigue, and support movement interaction?",
+  "acceptance": [
+    "Download success is not motion quality approval.",
+    "Emotion/personality/action captions are not status ground truth.",
+    "Paired synchronized motion must be distinguished from separate actor performances.",
+    "Preserve complete raw takes; do not claim frames or crops are independent samples.",
+    "Research-only and redistribution restrictions must remain visible; application aspiration is not commercial-use permission."
+  ],
+  "coverage_priorities": [
+    "walk/start/stop/turn/side-step",
+    "approach/avoid/pass/wait",
+    "dyadic response/contact",
+    "small-group interactions",
+    "same action with multiple expression styles"
+  ],
+  "stage": "six research tracks completed; background downloads and integrity checks ongoing"
+}

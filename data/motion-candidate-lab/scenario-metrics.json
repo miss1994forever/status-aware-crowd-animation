@@ -1,0 +1,2015 @@
+{
+  "schema": 1,
+  "units": "M01 fixed reference height; seconds",
+  "foot_proxy_definition": "Toes Y < sampled cycle minimum +0.025; includes low swinging toes; not ground truth contact",
+  "acceleration_step_definition": "difference of adjacent finite-difference accelerations at dt=1/120; not jerk per second",
+  "matrix": [
+    {
+      "id": "M01",
+      "method": "baseline",
+      "condition": "native",
+      "scene": "straight",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.9679768837484525,
+        "p95": 0.9679768837484525,
+        "max": 0.9679768837484525
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 5.1159076974727213e-11,
+        "max": 7.673861546209082e-11
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 5.87850369092977,
+        "p95": 18.909980682044033,
+        "max": 30.044383848839615
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2736,
+        "median": 0.035975632455621825,
+        "p95": 3.147161582357429,
+        "max": 3.231918501628323
+      },
+      "speed_scale_range": [
+        1,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.000029775213544948172,
+      "offline_milliseconds": 85.94420799999999
+    },
+    {
+      "id": "M01",
+      "method": "baseline",
+      "condition": "native",
+      "scene": "turn",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.9679768837484525,
+        "p95": 0.9679768837484525,
+        "max": 0.9679768837484525
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 0.004345215829034211,
+        "p95": 0.026030190994856716,
+        "max": 0.032427028721330485
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 5.8861605570739775,
+        "p95": 18.909562927920554,
+        "max": 30.05391945382848
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2736,
+        "median": 0.043341320590912745,
+        "p95": 3.1471058062638675,
+        "max": 3.2319185016282677
+      },
+      "speed_scale_range": [
+        1,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.000029775213544948172,
+      "offline_milliseconds": 76.661584
+    },
+    {
+      "id": "M01",
+      "method": "baseline",
+      "condition": "native",
+      "scene": "slow",
+      "transition": "step",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.9679768837484525,
+        "p95": 0.9679768837484525,
+        "max": 0.9679768837484525
+      },
+      "max_speed_step": 0.6291849744364941,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 5.1159076974727213e-11,
+        "max": 75.50219693239342
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 3.7095654179971196,
+        "p95": 18.04723454063329,
+        "max": 220.12805267312055
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2730,
+        "median": 0.0274191360326862,
+        "p95": 3.0561838842550353,
+        "max": 3.231917183976759
+      },
+      "speed_scale_range": [
+        0.35,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.000029775213544948172,
+      "offline_milliseconds": 62.28995800000001
+    },
+    {
+      "id": "M01",
+      "method": "baseline",
+      "condition": "native",
+      "scene": "slow",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.9679768837484525,
+        "p95": 0.9679768837484525,
+        "max": 0.9679768837484525
+      },
+      "max_speed_step": 0.00982919481890876,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 0.028467161044432032,
+        "max": 0.030261503370354603
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 3.267810047213451,
+        "p95": 16.98407205403561,
+        "max": 30.044383848839615
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2732,
+        "median": 0.027418318946624217,
+        "p95": 3.0202000138049008,
+        "max": 3.231917183976759
+      },
+      "speed_scale_range": [
+        0.35,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.000029775213544948172,
+      "offline_milliseconds": 64.25470899999999
+    },
+    {
+      "id": "M01",
+      "method": "baseline",
+      "condition": "matched",
+      "scene": "straight",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 3.836930773104541e-11,
+        "max": 5.1159076974727213e-11
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 4.11386565851007,
+        "p95": 13.353527793331708,
+        "max": 16.975602145464844
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2710,
+        "median": 0.028427545632223574,
+        "p95": 2.5923286657699633,
+        "max": 2.67180789527748
+      },
+      "speed_scale_range": [
+        0.826466017351604,
+        0.826466017351604
+      ],
+      "final_cycle_seam_velocity_rms": 0.000029775213544948172,
+      "offline_milliseconds": 65.931375
+    },
+    {
+      "id": "M01",
+      "method": "baseline",
+      "condition": "matched",
+      "scene": "turn",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 0.004497149999872587,
+        "p95": 0.02798841102322213,
+        "max": 0.02828098295715204
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 4.115287879777714,
+        "p95": 13.356750177806788,
+        "max": 16.980993391575456
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2710,
+        "median": 0.03589849296656964,
+        "p95": 2.5926966844578554,
+        "max": 2.671184958657116
+      },
+      "speed_scale_range": [
+        0.826466017351604,
+        0.826466017351604
+      ],
+      "final_cycle_seam_velocity_rms": 0.000029775213544948172,
+      "offline_milliseconds": 62.00533300000001
+    },
+    {
+      "id": "M01",
+      "method": "baseline",
+      "condition": "matched",
+      "scene": "slow",
+      "transition": "step",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0.52,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 3.836930773104541e-11,
+        "max": 62.40000000001231
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 2.6185360324227247,
+        "p95": 11.569235320519496,
+        "max": 143.584093043882
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2692,
+        "median": 0.019913827862067794,
+        "p95": 2.5080121658365577,
+        "max": 2.67180789527748
+      },
+      "speed_scale_range": [
+        0.2892631060730613,
+        0.826466017351604
+      ],
+      "final_cycle_seam_velocity_rms": 0.000029775213544948172,
+      "offline_milliseconds": 61.922041999999976
+    },
+    {
+      "id": "M01",
+      "method": "baseline",
+      "condition": "matched",
+      "scene": "slow",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0.008123495495756528,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 0.02352714120803512,
+        "max": 0.025010104163669666
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 2.3698949133635763,
+        "p95": 10.228915959158078,
+        "max": 16.975602145464844
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2702,
+        "median": 0.020962954544828112,
+        "p95": 2.5032859854161553,
+        "max": 2.67180789527748
+      },
+      "speed_scale_range": [
+        0.2892631060730613,
+        0.826466017351604
+      ],
+      "final_cycle_seam_velocity_rms": 0.000029775213544948172,
+      "offline_milliseconds": 61.90504199999998
+    },
+    {
+      "id": "M01",
+      "method": "improved",
+      "condition": "native",
+      "scene": "straight",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.9679768837484525,
+        "p95": 0.9679768837484525,
+        "max": 0.9679768837484525
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 5.1159076974727213e-11,
+        "max": 7.673861546209082e-11
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 5.87850369092977,
+        "p95": 18.909980682044033,
+        "max": 30.044383848839615
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2736,
+        "median": 0.035975632455621825,
+        "p95": 3.147161582357429,
+        "max": 3.231918501628323
+      },
+      "speed_scale_range": [
+        1,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.000029775213544948172,
+      "offline_milliseconds": 61.715417
+    },
+    {
+      "id": "M01",
+      "method": "improved",
+      "condition": "native",
+      "scene": "turn",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.9679768837484525,
+        "p95": 0.9679768837484525,
+        "max": 0.9679768837484525
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 0.004345215829034211,
+        "p95": 0.026030190994856716,
+        "max": 0.032427028721330485
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 5.8861605570739775,
+        "p95": 18.909562927920554,
+        "max": 30.05391945382848
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2736,
+        "median": 0.043341320590912745,
+        "p95": 3.1471058062638675,
+        "max": 3.2319185016282677
+      },
+      "speed_scale_range": [
+        1,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.000029775213544948172,
+      "offline_milliseconds": 62.97004100000004
+    },
+    {
+      "id": "M01",
+      "method": "improved",
+      "condition": "native",
+      "scene": "slow",
+      "transition": "step",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.9679768837484525,
+        "p95": 0.9679768837484525,
+        "max": 0.9679768837484525
+      },
+      "max_speed_step": 0.6291849744364941,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 5.1159076974727213e-11,
+        "max": 75.50219693239342
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 3.7095654179971196,
+        "p95": 18.04723454063329,
+        "max": 220.12805267312055
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2730,
+        "median": 0.0274191360326862,
+        "p95": 3.0561838842550353,
+        "max": 3.231917183976759
+      },
+      "speed_scale_range": [
+        0.35,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.000029775213544948172,
+      "offline_milliseconds": 70.11212499999999
+    },
+    {
+      "id": "M01",
+      "method": "improved",
+      "condition": "native",
+      "scene": "slow",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.9679768837484525,
+        "p95": 0.9679768837484525,
+        "max": 0.9679768837484525
+      },
+      "max_speed_step": 0.00982919481890876,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 0.028467161044432032,
+        "max": 0.030261503370354603
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 3.267810047213451,
+        "p95": 16.98407205403561,
+        "max": 30.044383848839615
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2732,
+        "median": 0.027418318946624217,
+        "p95": 3.0202000138049008,
+        "max": 3.231917183976759
+      },
+      "speed_scale_range": [
+        0.35,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.000029775213544948172,
+      "offline_milliseconds": 81.88083299999994
+    },
+    {
+      "id": "M01",
+      "method": "improved",
+      "condition": "matched",
+      "scene": "straight",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 3.836930773104541e-11,
+        "max": 5.1159076974727213e-11
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 4.11386565851007,
+        "p95": 13.353527793331708,
+        "max": 16.975602145464844
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2710,
+        "median": 0.028427545632223574,
+        "p95": 2.5923286657699633,
+        "max": 2.67180789527748
+      },
+      "speed_scale_range": [
+        0.826466017351604,
+        0.826466017351604
+      ],
+      "final_cycle_seam_velocity_rms": 0.000029775213544948172,
+      "offline_milliseconds": 73.460958
+    },
+    {
+      "id": "M01",
+      "method": "improved",
+      "condition": "matched",
+      "scene": "turn",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 0.004497149999872587,
+        "p95": 0.02798841102322213,
+        "max": 0.02828098295715204
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 4.115287879777714,
+        "p95": 13.356750177806788,
+        "max": 16.980993391575456
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2710,
+        "median": 0.03589849296656964,
+        "p95": 2.5926966844578554,
+        "max": 2.671184958657116
+      },
+      "speed_scale_range": [
+        0.826466017351604,
+        0.826466017351604
+      ],
+      "final_cycle_seam_velocity_rms": 0.000029775213544948172,
+      "offline_milliseconds": 61.25841600000001
+    },
+    {
+      "id": "M01",
+      "method": "improved",
+      "condition": "matched",
+      "scene": "slow",
+      "transition": "step",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0.52,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 3.836930773104541e-11,
+        "max": 62.40000000001231
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 2.6185360324227247,
+        "p95": 11.569235320519496,
+        "max": 143.584093043882
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2692,
+        "median": 0.019913827862067794,
+        "p95": 2.5080121658365577,
+        "max": 2.67180789527748
+      },
+      "speed_scale_range": [
+        0.2892631060730613,
+        0.826466017351604
+      ],
+      "final_cycle_seam_velocity_rms": 0.000029775213544948172,
+      "offline_milliseconds": 61.45945900000004
+    },
+    {
+      "id": "M01",
+      "method": "improved",
+      "condition": "matched",
+      "scene": "slow",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0.008123495495756528,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 0.02352714120803512,
+        "max": 0.025010104163669666
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 2.3698949133635763,
+        "p95": 10.228915959158078,
+        "max": 16.975602145464844
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2702,
+        "median": 0.020962954544828112,
+        "p95": 2.5032859854161553,
+        "max": 2.67180789527748
+      },
+      "speed_scale_range": [
+        0.2892631060730613,
+        0.826466017351604
+      ],
+      "final_cycle_seam_velocity_rms": 0.000029775213544948172,
+      "offline_milliseconds": 61.83716699999991
+    },
+    {
+      "id": "M02",
+      "method": "baseline",
+      "condition": "native",
+      "scene": "straight",
+      "transition": "smooth",
+      "accepted": false,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.5461422748555378,
+        "p95": 0.5461422748555378,
+        "max": 0.5461422748555378
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 6.394884621840902e-12,
+        "p95": 2.5579538487363607e-11,
+        "max": 5.1159076974727213e-11
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 3.264503919986029,
+        "p95": 10.850264306585352,
+        "max": 16.99861890429158
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3020,
+        "median": 0.06459837443085964,
+        "p95": 1.7073408112667894,
+        "max": 2.05113919165031
+      },
+      "speed_scale_range": [
+        1,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.00005516107691292436,
+      "offline_milliseconds": 62.09158400000001
+    },
+    {
+      "id": "M02",
+      "method": "baseline",
+      "condition": "native",
+      "scene": "turn",
+      "transition": "smooth",
+      "accepted": false,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.5461422748555378,
+        "p95": 0.5461422748555378,
+        "max": 0.5461422748555378
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 0.0001271150906706821,
+        "p95": 0.0048525371954003,
+        "max": 0.007563909450330217
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 3.2662207344098326,
+        "p95": 10.852936787930066,
+        "max": 16.998643216234058
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3020,
+        "median": 0.06699209612184469,
+        "p95": 1.710540081596785,
+        "max": 2.056294153665161
+      },
+      "speed_scale_range": [
+        1,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.00005516107691292436,
+      "offline_milliseconds": 68.89016599999991
+    },
+    {
+      "id": "M02",
+      "method": "baseline",
+      "condition": "native",
+      "scene": "slow",
+      "transition": "step",
+      "accepted": false,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.5461422748555378,
+        "p95": 0.5461422748555378,
+        "max": 0.5461422748555378
+      },
+      "max_speed_step": 0.35499247865609956,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 3.197442310920451e-12,
+        "p95": 2.5579538487363607e-11,
+        "max": 42.59909743873038
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 2.0466787997203655,
+        "p95": 9.257914722888781,
+        "max": 165.48356189906968
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3010,
+        "median": 0.0560367047677227,
+        "p95": 1.366593487537324,
+        "max": 2.051138995031362
+      },
+      "speed_scale_range": [
+        0.35,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.00005516107691292436,
+      "offline_milliseconds": 74.50416700000005
+    },
+    {
+      "id": "M02",
+      "method": "baseline",
+      "condition": "native",
+      "scene": "slow",
+      "transition": "smooth",
+      "accepted": false,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.5461422748555378,
+        "p95": 0.5461422748555378,
+        "max": 0.5461422748555378
+      },
+      "max_speed_step": 0.005545730387289005,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 6.394884621840902e-12,
+        "p95": 0.016061458025973252,
+        "max": 0.01707384398024203
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 1.958581838146503,
+        "p95": 8.824651721665564,
+        "max": 16.99861890429158
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3008,
+        "median": 0.054709100461337055,
+        "p95": 1.366593487537324,
+        "max": 2.051138995031362
+      },
+      "speed_scale_range": [
+        0.35,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.00005516107691292436,
+      "offline_milliseconds": 74.27770899999996
+    },
+    {
+      "id": "M02",
+      "method": "baseline",
+      "condition": "matched",
+      "scene": "straight",
+      "transition": "smooth",
+      "accepted": false,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 3.836930773104541e-11,
+        "max": 5.1159076974727213e-11
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 7.768388112464005,
+        "p95": 30.91830929107956,
+        "max": 46.27797576372547
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3022,
+        "median": 0.09341713644578394,
+        "p95": 2.458449557479215,
+        "max": 3.0174991044483352
+      },
+      "speed_scale_range": [
+        1.4648197673611902,
+        1.4648197673611902
+      ],
+      "final_cycle_seam_velocity_rms": 0.00005516107691292436,
+      "offline_milliseconds": 61.12508300000013
+    },
+    {
+      "id": "M02",
+      "method": "baseline",
+      "condition": "matched",
+      "scene": "turn",
+      "transition": "smooth",
+      "accepted": false,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 0.004497149999872587,
+        "p95": 0.02798841102322213,
+        "max": 0.02828098295715204
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 7.761549360056175,
+        "p95": 30.916278558723665,
+        "max": 46.27797576371721
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3022,
+        "median": 0.09804859144371374,
+        "p95": 2.4584495574792973,
+        "max": 3.022317043471504
+      },
+      "speed_scale_range": [
+        1.4648197673611902,
+        1.4648197673611902
+      ],
+      "final_cycle_seam_velocity_rms": 0.00005516107691292436,
+      "offline_milliseconds": 65.79945799999996
+    },
+    {
+      "id": "M02",
+      "method": "baseline",
+      "condition": "matched",
+      "scene": "slow",
+      "transition": "step",
+      "accepted": false,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0.52,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 3.836930773104541e-11,
+        "max": 62.40000000001231
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 4.800382474454542,
+        "p95": 24.516728735450958,
+        "max": 181.95356162667275
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3004,
+        "median": 0.08128984056504865,
+        "p95": 1.9419428101828118,
+        "max": 3.0174991044483352
+      },
+      "speed_scale_range": [
+        0.5126869185764165,
+        1.4648197673611902
+      ],
+      "final_cycle_seam_velocity_rms": 0.00005516107691292436,
+      "offline_milliseconds": 63.40158399999996
+    },
+    {
+      "id": "M02",
+      "method": "baseline",
+      "condition": "matched",
+      "scene": "slow",
+      "transition": "smooth",
+      "accepted": false,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0.008123495495756528,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 0.02352714120803512,
+        "max": 0.025010104163669666
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 4.594211532864579,
+        "p95": 23.508207568168448,
+        "max": 45.81388781205663
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3012,
+        "median": 0.08111776528832912,
+        "p95": 1.9058425715464498,
+        "max": 3.0174991044483352
+      },
+      "speed_scale_range": [
+        0.5126869185764165,
+        1.4648197673611902
+      ],
+      "final_cycle_seam_velocity_rms": 0.00005516107691292436,
+      "offline_milliseconds": 62.0317500000001
+    },
+    {
+      "id": "M02",
+      "method": "improved",
+      "condition": "native",
+      "scene": "straight",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.5407589327953446,
+        "p95": 0.5407589327953446,
+        "max": 0.5407589327953446
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 3.197442310920451e-12,
+        "p95": 3.836930773104541e-11,
+        "max": 5.1159076974727213e-11
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 3.110654329193359,
+        "p95": 12.728272560705868,
+        "max": 17.321995725430813
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2942,
+        "median": 0.0196523713033248,
+        "p95": 2.1387640616900647,
+        "max": 2.2225000203653864
+      },
+      "speed_scale_range": [
+        1,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.000023852406004534603,
+      "offline_milliseconds": 61.67033399999991
+    },
+    {
+      "id": "M02",
+      "method": "improved",
+      "condition": "native",
+      "scene": "turn",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.5407589327953446,
+        "p95": 0.5407589327953446,
+        "max": 0.5407589327953446
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 0.00012406299001984202,
+        "p95": 0.00536398818927297,
+        "max": 0.00808059720273232
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 3.1137161486303264,
+        "p95": 12.722817238652354,
+        "max": 17.3243665130314
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2942,
+        "median": 0.02952075280775603,
+        "p95": 2.1366157558663708,
+        "max": 2.2295307049619852
+      },
+      "speed_scale_range": [
+        1,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.000023852406004534603,
+      "offline_milliseconds": 68.48866599999997
+    },
+    {
+      "id": "M02",
+      "method": "improved",
+      "condition": "native",
+      "scene": "slow",
+      "transition": "step",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.5407589327953446,
+        "p95": 0.5407589327953446,
+        "max": 0.5407589327953446
+      },
+      "max_speed_step": 0.351493306316974,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 6.394884621840902e-12,
+        "p95": 2.5579538487363607e-11,
+        "max": 42.1791967580436
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 2.0350194974318754,
+        "p95": 11.1215080884458,
+        "max": 146.03762864764585
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2930,
+        "median": 0.014821332397498402,
+        "p95": 2.003000117005752,
+        "max": 2.22249686624433
+      },
+      "speed_scale_range": [
+        0.35,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.000023852406004534603,
+      "offline_milliseconds": 74.03183400000012
+    },
+    {
+      "id": "M02",
+      "method": "improved",
+      "condition": "native",
+      "scene": "slow",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.5407589327953446,
+        "p95": 0.5407589327953446,
+        "max": 0.5407589327953446
+      },
+      "max_speed_step": 0.005491065943566409,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 0.015903139713913106,
+        "max": 0.016905546553047657
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 1.932153071504185,
+        "p95": 9.981554511173321,
+        "max": 17.321995725430813
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2936,
+        "median": 0.015176094929141286,
+        "p95": 1.917716457838514,
+        "max": 2.22249686624433
+      },
+      "speed_scale_range": [
+        0.35,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.000023852406004534603,
+      "offline_milliseconds": 62.29837500000008
+    },
+    {
+      "id": "M02",
+      "method": "improved",
+      "condition": "matched",
+      "scene": "straight",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 3.836930773104541e-11,
+        "max": 5.1159076974727213e-11
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 7.982030924968997,
+        "p95": 34.57389851311437,
+        "max": 54.357915476489126
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2972,
+        "median": 0.03546875276575295,
+        "p95": 3.166534528489466,
+        "max": 3.288029293112419
+      },
+      "speed_scale_range": [
+        1.4794022834991571,
+        1.4794022834991571
+      ],
+      "final_cycle_seam_velocity_rms": 0.000023852406004534603,
+      "offline_milliseconds": 73.64341599999989
+    },
+    {
+      "id": "M02",
+      "method": "improved",
+      "condition": "matched",
+      "scene": "turn",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 0.004497149999872587,
+        "p95": 0.02798841102322213,
+        "max": 0.02828098295715204
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 7.977437481880601,
+        "p95": 34.57389851312552,
+        "max": 54.359342358823774
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2972,
+        "median": 0.044014291123021146,
+        "p95": 3.1687606315991252,
+        "max": 3.298274431313493
+      },
+      "speed_scale_range": [
+        1.4794022834991571,
+        1.4794022834991571
+      ],
+      "final_cycle_seam_velocity_rms": 0.000023852406004534603,
+      "offline_milliseconds": 74.38000000000011
+    },
+    {
+      "id": "M02",
+      "method": "improved",
+      "condition": "matched",
+      "scene": "slow",
+      "transition": "step",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0.52,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 3.836930773104541e-11,
+        "max": 62.40000000001231
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 4.8554853211833535,
+        "p95": 31.218834026325723,
+        "max": 165.554772008237
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2942,
+        "median": 0.022214403670754546,
+        "p95": 2.988613482073245,
+        "max": 3.288029293112419
+      },
+      "speed_scale_range": [
+        0.517790799224705,
+        1.4794022834991571
+      ],
+      "final_cycle_seam_velocity_rms": 0.000023852406004534603,
+      "offline_milliseconds": 67.28404199999977
+    },
+    {
+      "id": "M02",
+      "method": "improved",
+      "condition": "matched",
+      "scene": "slow",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0.008123495495756528,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 0.02352714120803512,
+        "max": 0.025010104163669666
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 4.5061245024527725,
+        "p95": 29.83442480332267,
+        "max": 53.88978793249152
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 2950,
+        "median": 0.022156256994125958,
+        "p95": 2.969523621111944,
+        "max": 3.288029293112419
+      },
+      "speed_scale_range": [
+        0.517790799224705,
+        1.4794022834991571
+      ],
+      "final_cycle_seam_velocity_rms": 0.000023852406004534603,
+      "offline_milliseconds": 63.03220799999963
+    },
+    {
+      "id": "M03",
+      "method": "baseline",
+      "condition": "native",
+      "scene": "straight",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.3723533163516727,
+        "p95": 0.3723533163516727,
+        "max": 0.3723533163516727
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 3.197442310920451e-12,
+        "p95": 1.9184653865522705e-11,
+        "max": 2.5579538487363607e-11
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 2.3574652010539667,
+        "p95": 8.390102532529268,
+        "max": 16.21998741642226
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3684,
+        "median": 0.021461873842442445,
+        "p95": 1.6558490704011215,
+        "max": 1.7915600930214883
+      },
+      "speed_scale_range": [
+        1,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.00002836011961841889,
+      "offline_milliseconds": 61.14662500000031
+    },
+    {
+      "id": "M03",
+      "method": "baseline",
+      "condition": "native",
+      "scene": "turn",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.3723533163516727,
+        "p95": 0.3723533163516727,
+        "max": 0.3723533163516727
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 0.0104702903071804,
+        "p95": 0.027535891833608345,
+        "max": 0.03200433639995508
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 2.352365399367774,
+        "p95": 8.39847160578415,
+        "max": 16.224475925069708
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3684,
+        "median": 0.024085287180611595,
+        "p95": 1.656170900102325,
+        "max": 1.793472601017662
+      },
+      "speed_scale_range": [
+        1,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.00002836011961841889,
+      "offline_milliseconds": 62.78333299999986
+    },
+    {
+      "id": "M03",
+      "method": "baseline",
+      "condition": "native",
+      "scene": "slow",
+      "transition": "step",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.3723533163516727,
+        "p95": 0.3723533163516727,
+        "max": 0.3723533163516727
+      },
+      "max_speed_step": 0.24202965562858725,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 3.197442310920451e-12,
+        "p95": 1.9184653865522705e-11,
+        "max": 29.043558675423142
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 1.3245901617439515,
+        "p95": 8.179824685586828,
+        "max": 82.37707381893748
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3754,
+        "median": 0.012863228205876506,
+        "p95": 1.6119873490336347,
+        "max": 1.7915600930214883
+      },
+      "speed_scale_range": [
+        0.35,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.00002836011961841889,
+      "offline_milliseconds": 61.291083999999955
+    },
+    {
+      "id": "M03",
+      "method": "baseline",
+      "condition": "native",
+      "scene": "slow",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.3723533163516727,
+        "p95": 0.3723533163516727,
+        "max": 0.3723533163516727
+      },
+      "max_speed_step": 0.0037810131102660183,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 6.394884621840902e-12,
+        "p95": 0.01095051132011804,
+        "max": 0.011640744035901207
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 1.3207666312802866,
+        "p95": 8.01598575114121,
+        "max": 16.219945189091558
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3744,
+        "median": 0.012863228205876506,
+        "p95": 1.5753336272944958,
+        "max": 1.7915600930214883
+      },
+      "speed_scale_range": [
+        0.35,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.00002836011961841889,
+      "offline_milliseconds": 61.62424999999985
+    },
+    {
+      "id": "M03",
+      "method": "baseline",
+      "condition": "matched",
+      "scene": "straight",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 3.836930773104541e-11,
+        "max": 5.1159076974727213e-11
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 13.660516685234526,
+        "p95": 58.75070509060605,
+        "max": 124.16013170177
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3702,
+        "median": 0.04272175228020307,
+        "p95": 3.566734192608437,
+        "max": 3.8434871247320364
+      },
+      "speed_scale_range": [
+        2.148497045328938,
+        2.148497045328938
+      ],
+      "final_cycle_seam_velocity_rms": 0.00002836011961841889,
+      "offline_milliseconds": 61.28358299999991
+    },
+    {
+      "id": "M03",
+      "method": "baseline",
+      "condition": "matched",
+      "scene": "turn",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 0.004497149999872587,
+        "p95": 0.02798841102322213,
+        "max": 0.02828098295715204
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 13.664798021202417,
+        "p95": 58.82024645610029,
+        "max": 124.16575365109901
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3702,
+        "median": 0.04981251258331986,
+        "p95": 3.561645110735614,
+        "max": 3.8472332887923506
+      },
+      "speed_scale_range": [
+        2.148497045328938,
+        2.148497045328938
+      ],
+      "final_cycle_seam_velocity_rms": 0.00002836011961841889,
+      "offline_milliseconds": 62.06579200000033
+    },
+    {
+      "id": "M03",
+      "method": "baseline",
+      "condition": "matched",
+      "scene": "slow",
+      "transition": "step",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0.52,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 3.836930773104541e-11,
+        "max": 62.40000000001231
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 6.25680514299608,
+        "p95": 53.155433117523,
+        "max": 298.1771099562397
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3712,
+        "median": 0.026980355589312582,
+        "p95": 3.4167476988342877,
+        "max": 3.8434871247325684
+      },
+      "speed_scale_range": [
+        0.7519739658651281,
+        2.148497045328938
+      ],
+      "final_cycle_seam_velocity_rms": 0.00002836011961841889,
+      "offline_milliseconds": 61.924958999999944
+    },
+    {
+      "id": "M03",
+      "method": "baseline",
+      "condition": "matched",
+      "scene": "slow",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0.008123495495756528,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 0.02352714120803512,
+        "max": 0.025010104163669666
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 6.290093574269483,
+        "p95": 49.79790687740089,
+        "max": 124.16013170177
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3704,
+        "median": 0.02704473112373191,
+        "p95": 3.40885717298564,
+        "max": 3.8434871247325684
+      },
+      "speed_scale_range": [
+        0.7519739658651281,
+        2.148497045328938
+      ],
+      "final_cycle_seam_velocity_rms": 0.00002836011961841889,
+      "offline_milliseconds": 65.279
+    },
+    {
+      "id": "M03",
+      "method": "improved",
+      "condition": "native",
+      "scene": "straight",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.3723533163516727,
+        "p95": 0.3723533163516727,
+        "max": 0.3723533163516727
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 3.197442310920451e-12,
+        "p95": 1.9184653865522705e-11,
+        "max": 2.5579538487363607e-11
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 2.3574652010539667,
+        "p95": 8.390102532529268,
+        "max": 16.21998741642226
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3684,
+        "median": 0.021461873842442445,
+        "p95": 1.6558490704011215,
+        "max": 1.7915600930214883
+      },
+      "speed_scale_range": [
+        1,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.00002836011961841889,
+      "offline_milliseconds": 69.98404200000004
+    },
+    {
+      "id": "M03",
+      "method": "improved",
+      "condition": "native",
+      "scene": "turn",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.3723533163516727,
+        "p95": 0.3723533163516727,
+        "max": 0.3723533163516727
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 0.0104702903071804,
+        "p95": 0.027535891833608345,
+        "max": 0.03200433639995508
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 2.352365399367774,
+        "p95": 8.39847160578415,
+        "max": 16.224475925069708
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3684,
+        "median": 0.024085287180611595,
+        "p95": 1.656170900102325,
+        "max": 1.793472601017662
+      },
+      "speed_scale_range": [
+        1,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.00002836011961841889,
+      "offline_milliseconds": 62.50079199999982
+    },
+    {
+      "id": "M03",
+      "method": "improved",
+      "condition": "native",
+      "scene": "slow",
+      "transition": "step",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.3723533163516727,
+        "p95": 0.3723533163516727,
+        "max": 0.3723533163516727
+      },
+      "max_speed_step": 0.24202965562858725,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 3.197442310920451e-12,
+        "p95": 1.9184653865522705e-11,
+        "max": 29.043558675423142
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 1.3245901617439515,
+        "p95": 8.179824685586828,
+        "max": 82.37707381893748
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3754,
+        "median": 0.012863228205876506,
+        "p95": 1.6119873490336347,
+        "max": 1.7915600930214883
+      },
+      "speed_scale_range": [
+        0.35,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.00002836011961841889,
+      "offline_milliseconds": 60.854707999999846
+    },
+    {
+      "id": "M03",
+      "method": "improved",
+      "condition": "native",
+      "scene": "slow",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.3723533163516727,
+        "p95": 0.3723533163516727,
+        "max": 0.3723533163516727
+      },
+      "max_speed_step": 0.0037810131102660183,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 6.394884621840902e-12,
+        "p95": 0.01095051132011804,
+        "max": 0.011640744035901207
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 1.3207666312802866,
+        "p95": 8.01598575114121,
+        "max": 16.219945189091558
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3744,
+        "median": 0.012863228205876506,
+        "p95": 1.5753336272944958,
+        "max": 1.7915600930214883
+      },
+      "speed_scale_range": [
+        0.35,
+        1
+      ],
+      "final_cycle_seam_velocity_rms": 0.00002836011961841889,
+      "offline_milliseconds": 61.16924999999992
+    },
+    {
+      "id": "M03",
+      "method": "improved",
+      "condition": "matched",
+      "scene": "straight",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 3.836930773104541e-11,
+        "max": 5.1159076974727213e-11
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 13.660516685234526,
+        "p95": 58.75070509060605,
+        "max": 124.16013170177
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3702,
+        "median": 0.04272175228020307,
+        "p95": 3.566734192608437,
+        "max": 3.8434871247320364
+      },
+      "speed_scale_range": [
+        2.148497045328938,
+        2.148497045328938
+      ],
+      "final_cycle_seam_velocity_rms": 0.00002836011961841889,
+      "offline_milliseconds": 60.602750000000015
+    },
+    {
+      "id": "M03",
+      "method": "improved",
+      "condition": "matched",
+      "scene": "turn",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 0.004497149999872587,
+        "p95": 0.02798841102322213,
+        "max": 0.02828098295715204
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 13.664798021202417,
+        "p95": 58.82024645610029,
+        "max": 124.16575365109901
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3702,
+        "median": 0.04981251258331986,
+        "p95": 3.561645110735614,
+        "max": 3.8472332887923506
+      },
+      "speed_scale_range": [
+        2.148497045328938,
+        2.148497045328938
+      ],
+      "final_cycle_seam_velocity_rms": 0.00002836011961841889,
+      "offline_milliseconds": 62.173541000000114
+    },
+    {
+      "id": "M03",
+      "method": "improved",
+      "condition": "matched",
+      "scene": "slow",
+      "transition": "step",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0.52,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 3.836930773104541e-11,
+        "max": 62.40000000001231
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 6.25680514299608,
+        "p95": 53.155433117523,
+        "max": 298.1771099562397
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3712,
+        "median": 0.026980355589312582,
+        "p95": 3.4167476988342877,
+        "max": 3.8434871247325684
+      },
+      "speed_scale_range": [
+        0.7519739658651281,
+        2.148497045328938
+      ],
+      "final_cycle_seam_velocity_rms": 0.00002836011961841889,
+      "offline_milliseconds": 61.62895899999967
+    },
+    {
+      "id": "M03",
+      "method": "improved",
+      "condition": "matched",
+      "scene": "slow",
+      "transition": "smooth",
+      "accepted": true,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "speed": {
+        "samples": 1081,
+        "median": 0.8,
+        "p95": 0.8,
+        "max": 0.8
+      },
+      "max_speed_step": 0.008123495495756528,
+      "path_acceleration_step": {
+        "samples": 1078,
+        "median": 1.2789769243681803e-11,
+        "p95": 0.02352714120803512,
+        "max": 0.025010104163669666
+      },
+      "joint_acceleration_step": {
+        "samples": 1078,
+        "median": 6.290093574269483,
+        "p95": 49.79790687740089,
+        "max": 124.16013170177
+      },
+      "low_toe_height_horizontal_speed_proxy": {
+        "samples": 3704,
+        "median": 0.02704473112373191,
+        "p95": 3.40885717298564,
+        "max": 3.8434871247325684
+      },
+      "speed_scale_range": [
+        0.7519739658651281,
+        2.148497045328938
+      ],
+      "final_cycle_seam_velocity_rms": 0.00002836011961841889,
+      "offline_milliseconds": 61.854125000000295
+    }
+  ],
+  "encounters": [
+    {
+      "count": 2,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "finite": true,
+      "min_speed": 0.5569627342845787,
+      "min_center_separation": 1.609360838373595,
+      "center_circle_overlap_samples": 0,
+      "actor_samples": 2162,
+      "offline_milliseconds": 129.43775000000005,
+      "layout": "count/2 sparse pairs; not dense crowd"
+    },
+    {
+      "count": 10,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "finite": true,
+      "min_speed": 0.5569627342845787,
+      "min_center_separation": 1.6093608383735831,
+      "center_circle_overlap_samples": 0,
+      "actor_samples": 10810,
+      "offline_milliseconds": 739.2685839999999,
+      "layout": "count/2 sparse pairs; not dense crowd"
+    },
+    {
+      "count": 30,
+      "seconds": 9,
+      "dt": 0.008333333333333333,
+      "finite": true,
+      "min_speed": 0.5569627342845783,
+      "min_center_separation": 1.6093608383735656,
+      "center_circle_overlap_samples": 0,
+      "actor_samples": 32430,
+      "offline_milliseconds": 3327.7728750000006,
+      "layout": "count/2 sparse pairs; not dense crowd"
+    }
+  ],
+  "total_offline_seconds": 7.351043417
+}

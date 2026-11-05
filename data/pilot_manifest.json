@@ -1,0 +1,417 @@
+{
+  "repository": "https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset",
+  "revision": "74ead3ba1ae4696404e6086233779f60de8bf9ef",
+  "license": "CC BY-NC 4.0",
+  "creator": "Bandai Namco Research Inc.",
+  "purpose": "Unmodified source subset for exploratory motion inspection; not status ground truth",
+  "entries": [
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk_normal_001.bvh",
+      "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk_normal_001.bvh",
+      "source_content": "walk",
+      "source_style": "normal",
+      "status_label": null,
+      "sha256": "5764cebc2fedabf287880a7f25cb06753e1679675a02a6f033998de041ba8032",
+      "bytes": 243939,
+      "validation": {
+        "joints_including_end_sites": 27,
+        "animated_joints": 22,
+        "channels": 132,
+        "frames": 195,
+        "fps": 30.000030000029998,
+        "playback_duration_seconds": 6.4999935,
+        "first_to_last_sample_seconds": 6.466660200000001,
+        "root_position_bounds_source_units": {
+          "Xposition": [
+            0.0,
+            0.0
+          ],
+          "Yposition": [
+            0.0,
+            0.0
+          ],
+          "Zposition": [
+            0.0,
+            0.0
+          ]
+        },
+        "units": "unspecified by BVH; verify before retargeting",
+        "status_label": null
+      }
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk_proud_001.bvh",
+      "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk_proud_001.bvh",
+      "source_content": "walk",
+      "source_style": "proud",
+      "status_label": null,
+      "sha256": "9044301b145cf7c53d37d5f65f0377af78c4bf68c80f91c7afcf1ce9c87ffa0f",
+      "bytes": 409623,
+      "validation": {
+        "joints_including_end_sites": 27,
+        "animated_joints": 22,
+        "channels": 132,
+        "frames": 331,
+        "fps": 30.000030000029998,
+        "playback_duration_seconds": 11.033322300000002,
+        "first_to_last_sample_seconds": 10.999989000000001,
+        "root_position_bounds_source_units": {
+          "Xposition": [
+            0.0,
+            0.0
+          ],
+          "Yposition": [
+            0.0,
+            0.0
+          ],
+          "Zposition": [
+            0.0,
+            0.0
+          ]
+        },
+        "units": "unspecified by BVH; verify before retargeting",
+        "status_label": null
+      }
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk_not-confident_001.bvh",
+      "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk_not-confident_001.bvh",
+      "source_content": "walk",
+      "source_style": "not-confident",
+      "status_label": null,
+      "sha256": "b769cbae08f9df6460f61974c9e0a84845b924fed875aa5da998d9ac1ea6527e",
+      "bytes": 595390,
+      "validation": {
+        "joints_including_end_sites": 27,
+        "animated_joints": 22,
+        "channels": 132,
+        "frames": 481,
+        "fps": 30.000030000029998,
+        "playback_duration_seconds": 16.0333173,
+        "first_to_last_sample_seconds": 15.999984000000001,
+        "root_position_bounds_source_units": {
+          "Xposition": [
+            0.0,
+            0.0
+          ],
+          "Yposition": [
+            0.0,
+            0.0
+          ],
+          "Zposition": [
+            0.0,
+            0.0
+          ]
+        },
+        "units": "unspecified by BVH; verify before retargeting",
+        "status_label": null
+      }
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-back_normal_001.bvh",
+      "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-back_normal_001.bvh",
+      "source_content": "walk-back",
+      "source_style": "normal",
+      "status_label": null,
+      "sha256": "4c182559dbd28e4ba485f664dea49817a30fc0acde29b482f1baaeff4fa80397",
+      "bytes": 42704,
+      "validation": {
+        "joints_including_end_sites": 27,
+        "animated_joints": 22,
+        "channels": 132,
+        "frames": 31,
+        "fps": 30.000030000029998,
+        "playback_duration_seconds": 1.0333323,
+        "first_to_last_sample_seconds": 0.9999990000000001,
+        "root_position_bounds_source_units": {
+          "Xposition": [
+            0.0,
+            0.0
+          ],
+          "Yposition": [
+            0.0,
+            0.0
+          ],
+          "Zposition": [
+            -120.0,
+            0.0
+          ]
+        },
+        "units": "unspecified by BVH; verify before retargeting",
+        "status_label": null
+      }
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-back_proud_001.bvh",
+      "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-back_proud_001.bvh",
+      "source_content": "walk-back",
+      "source_style": "proud",
+      "status_label": null,
+      "sha256": "869fc9fc8e3da6a58da8b5ceeae6c79e4249739a70ee0f79eebfdbd7a5e4871b",
+      "bytes": 482801,
+      "validation": {
+        "joints_including_end_sites": 27,
+        "animated_joints": 22,
+        "channels": 132,
+        "frames": 391,
+        "fps": 30.000030000029998,
+        "playback_duration_seconds": 13.033320300000002,
+        "first_to_last_sample_seconds": 12.999987,
+        "root_position_bounds_source_units": {
+          "Xposition": [
+            0.0,
+            0.0
+          ],
+          "Yposition": [
+            0.0,
+            0.0
+          ],
+          "Zposition": [
+            0.0,
+            0.0
+          ]
+        },
+        "units": "unspecified by BVH; verify before retargeting",
+        "status_label": null
+      }
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-back_not-confident_001.bvh",
+      "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-back_not-confident_001.bvh",
+      "source_content": "walk-back",
+      "source_style": "not-confident",
+      "status_label": null,
+      "sha256": "decbb5b489fbe5214a6fccbc888c852cdb1116336943ba05f87c78cefb0a86fc",
+      "bytes": 451626,
+      "validation": {
+        "joints_including_end_sites": 27,
+        "animated_joints": 22,
+        "channels": 132,
+        "frames": 364,
+        "fps": 30.000030000029998,
+        "playback_duration_seconds": 12.133321200000001,
+        "first_to_last_sample_seconds": 12.0999879,
+        "root_position_bounds_source_units": {
+          "Xposition": [
+            0.0,
+            0.0
+          ],
+          "Yposition": [
+            0.0,
+            0.0
+          ],
+          "Zposition": [
+            0.0,
+            0.0
+          ]
+        },
+        "units": "unspecified by BVH; verify before retargeting",
+        "status_label": null
+      }
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-left_normal_001.bvh",
+      "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-left_normal_001.bvh",
+      "source_content": "walk-left",
+      "source_style": "normal",
+      "status_label": null,
+      "sha256": "26ee7e8cf65a7c839b7790c90328fcb730e53ab18b4cbef5f8fba397de3ae675",
+      "bytes": 170082,
+      "validation": {
+        "joints_including_end_sites": 27,
+        "animated_joints": 22,
+        "channels": 132,
+        "frames": 135,
+        "fps": 30.000030000029998,
+        "playback_duration_seconds": 4.499995500000001,
+        "first_to_last_sample_seconds": 4.4666622,
+        "root_position_bounds_source_units": {
+          "Xposition": [
+            0.0,
+            0.0
+          ],
+          "Yposition": [
+            0.0,
+            0.0
+          ],
+          "Zposition": [
+            0.0,
+            0.0
+          ]
+        },
+        "units": "unspecified by BVH; verify before retargeting",
+        "status_label": null
+      }
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-left_proud_001.bvh",
+      "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-left_proud_001.bvh",
+      "source_content": "walk-left",
+      "source_style": "proud",
+      "status_label": null,
+      "sha256": "97a64a279a32256a73b3e0257b0fbdd9dde3b9d5f34857e0f5253e9ceacbafcb",
+      "bytes": 252705,
+      "validation": {
+        "joints_including_end_sites": 27,
+        "animated_joints": 22,
+        "channels": 132,
+        "frames": 203,
+        "fps": 30.000030000029998,
+        "playback_duration_seconds": 6.7666599000000005,
+        "first_to_last_sample_seconds": 6.733326600000001,
+        "root_position_bounds_source_units": {
+          "Xposition": [
+            0.0,
+            0.0
+          ],
+          "Yposition": [
+            0.0,
+            0.0
+          ],
+          "Zposition": [
+            0.0,
+            0.0
+          ]
+        },
+        "units": "unspecified by BVH; verify before retargeting",
+        "status_label": null
+      }
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-left_not-confident_001.bvh",
+      "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-left_not-confident_001.bvh",
+      "source_content": "walk-left",
+      "source_style": "not-confident",
+      "status_label": null,
+      "sha256": "53eeebdfc46064223171d09e769c530924b278fb267d57a7b011c4bdc700b281",
+      "bytes": 301757,
+      "validation": {
+        "joints_including_end_sites": 27,
+        "animated_joints": 22,
+        "channels": 132,
+        "frames": 242,
+        "fps": 30.000030000029998,
+        "playback_duration_seconds": 8.0666586,
+        "first_to_last_sample_seconds": 8.033325300000001,
+        "root_position_bounds_source_units": {
+          "Xposition": [
+            0.0,
+            0.0
+          ],
+          "Yposition": [
+            0.0,
+            0.0
+          ],
+          "Zposition": [
+            0.0,
+            0.0
+          ]
+        },
+        "units": "unspecified by BVH; verify before retargeting",
+        "status_label": null
+      }
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-right_normal_001.bvh",
+      "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-right_normal_001.bvh",
+      "source_content": "walk-right",
+      "source_style": "normal",
+      "status_label": null,
+      "sha256": "2b77b84d4caf2e037441d48073f4c3f5e5b43bf98a96f4f4ca96be931a0c3657",
+      "bytes": 169522,
+      "validation": {
+        "joints_including_end_sites": 27,
+        "animated_joints": 22,
+        "channels": 132,
+        "frames": 135,
+        "fps": 30.000030000029998,
+        "playback_duration_seconds": 4.499995500000001,
+        "first_to_last_sample_seconds": 4.4666622,
+        "root_position_bounds_source_units": {
+          "Xposition": [
+            0.0,
+            0.0
+          ],
+          "Yposition": [
+            0.0,
+            0.0
+          ],
+          "Zposition": [
+            0.0,
+            0.0
+          ]
+        },
+        "units": "unspecified by BVH; verify before retargeting",
+        "status_label": null
+      }
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-right_proud_001.bvh",
+      "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-right_proud_001.bvh",
+      "source_content": "walk-right",
+      "source_style": "proud",
+      "status_label": null,
+      "sha256": "3225a2aa0b2d9cc8e5f19c3edfdcacbe33361641cdd7e67726a83390a71bad81",
+      "bytes": 326989,
+      "validation": {
+        "joints_including_end_sites": 27,
+        "animated_joints": 22,
+        "channels": 132,
+        "frames": 264,
+        "fps": 30.000030000029998,
+        "playback_duration_seconds": 8.799991200000001,
+        "first_to_last_sample_seconds": 8.7666579,
+        "root_position_bounds_source_units": {
+          "Xposition": [
+            0.0,
+            0.0
+          ],
+          "Yposition": [
+            0.0,
+            0.0
+          ],
+          "Zposition": [
+            0.0,
+            0.0
+          ]
+        },
+        "units": "unspecified by BVH; verify before retargeting",
+        "status_label": null
+      }
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-right_not-confident_001.bvh",
+      "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-right_not-confident_001.bvh",
+      "source_content": "walk-right",
+      "source_style": "not-confident",
+      "status_label": null,
+      "sha256": "ce8dc89921f38d99d008fa2906a7b8520a654d0780f47a4cbdae35f52d3f4364",
+      "bytes": 301869,
+      "validation": {
+        "joints_including_end_sites": 27,
+        "animated_joints": 22,
+        "channels": 132,
+        "frames": 242,
+        "fps": 30.000030000029998,
+        "playback_duration_seconds": 8.0666586,
+        "first_to_last_sample_seconds": 8.033325300000001,
+        "root_position_bounds_source_units": {
+          "Xposition": [
+            0.0,
+            0.0
+          ],
+          "Yposition": [
+            0.0,
+            0.0
+          ],
+          "Zposition": [
+            0.0,
+            0.0
+          ]
+        },
+        "units": "unspecified by BVH; verify before retargeting",
+        "status_label": null
+      }
+    }
+  ]
+}

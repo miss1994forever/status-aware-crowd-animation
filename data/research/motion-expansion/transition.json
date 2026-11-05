@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-02",
+  "task": "transition_sources",
+  "datasets": [
+    {
+      "name": "CMU Graphics Lab complete ASF/AMC",
+      "official_source": "https://mocap.cs.cmu.edu/",
+      "download_source": "https://mocap.cs.cmu.edu/faqs.php",
+      "archive_url": "https://mocap.cs.cmu.edu/allasfamc.zip",
+      "expected_archive_bytes": 1083549385,
+      "format": "ASF skeletons + AMC motion channels; requires coordinate/rotation conversion before project viewer",
+      "scope": "Complete official allasfamc ZIP; not crawling per-motion pages, no C3D/video alternates",
+      "license": "Official site: research use free, inclusion in commercially sold products allowed, direct resale of data even converted prohibited; requested acknowledgement retained.",
+      "has_status_labels": false,
+      "paired_synchronized": "Some CMU sessions contain two actors, but global pairing/task metadata is not verified by downloading archive; must check each selected session.",
+      "coverage": "Broad locomotion, daily activities, sports, dance and some interaction; concrete action mapping pending archive inspection.",
+      "state": "downloading",
+      "local_dir": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/transition/CMU",
+      "status_file": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/transition/CMU/download-status.json"
+    },
+    {
+      "name": "LAFAN1 complete original BVH",
+      "official_source": "https://github.com/ubisoft/ubisoft-laforge-animation-dataset",
+      "commit": "94084601bacdf9cc3764b5c73daaeccae6035fac",
+      "archive_url": "https://media.githubusercontent.com/media/ubisoft/ubisoft-laforge-animation-dataset/94084601bacdf9cc3764b5c73daaeccae6035fac/lafan1/lafan1.zip",
+      "expected_archive_bytes": 144051503,
+      "expected_sha256": "ea918082b500a5d158e9d3aa39039df04cd42e25f5c02fe8f7e88e8e9365a977",
+      "license": "CC BY-NC-ND 4.0. Keep as reference/benchmark; not a freely distributable edited-animation asset.",
+      "format": "BVH, 30fps",
+      "scope": "Complete original BVH archive: official README states 77 sequences, 5 subjects, 496672 frames; not C3D/FBX duplicates.",
+      "coverage": [
+        "walk with styles",
+        "obstacle locomotion",
+        "crouch/crawl",
+        "run/sprint",
+        "fall/get up",
+        "push/stumble/recovery",
+        "push/fall",
+        "dance",
+        "fight/sports",
+        "miscellaneous transitions"
+      ],
+      "has_status_labels": false,
+      "paired_synchronized": "Official README: sequences with same theme and take_number recorded simultaneously; pair membership must be verified per take, not assumed for all clips.",
+      "state": "downloading",
+      "local_dir": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/transition/LAFAN1",
+      "status_file": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/transition/LAFAN1/download-status.json",
+      "download_note": "Media host TLS negotiation failed. Resolved official anonymous Git LFS batch download to signed object URL, preserving TLS verification and official SHA256."
+    }
+  ],
+  "background_jobs": [
+    {
+      "dataset": "cmu",
+      "pid": 96068,
+      "args": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-u",
+        "/Users/haojun/Documents/documents/大四上/动画/期末大作业/scripts/fetch_transition_expansion.py",
+        "cmu"
+      ],
+      "log": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/transition/CMU/download.log",
+      "status_file": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/transition/CMU/download-status.json"
+    },
+    {
+      "dataset": "lafan1",
+      "pid": 96505,
+      "args": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-u",
+        "/Users/haojun/Documents/documents/大四上/动画/期末大作业/scripts/fetch_transition_expansion.py",
+        "lafan1"
+      ],
+      "log": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/transition/LAFAN1/download.log",
+      "status_file": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/transition/LAFAN1/download-status.json"
+    }
+  ],
+  "validation": "Automatic size, archive hash (official hash for LAFAN1), ZIP CRC and skeleton structure checks, then extraction with space reserve. Not perceptual naturalness approval.",
+  "resume": "python3 scripts/fetch_transition_expansion.py cmu ; python3 scripts/fetch_transition_expansion.py lafan1 (run separately; supports partial resume)",
+  "bytes_planned": 1227600888
+}

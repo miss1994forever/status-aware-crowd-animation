@@ -1,0 +1,63 @@
+[
+  {
+    "stage": "preparation",
+    "time": 1792857415.756442,
+    "state": "coverage and configurations saved before simulation"
+  },
+  {
+    "stage": "controller-v4-frozen",
+    "before_heldout": true,
+    "evidence": "frozen-v4.json",
+    "status": "implemented"
+  },
+  {
+    "stage": "train-v4",
+    "status": "complete",
+    "runs": 48,
+    "result": "Mixed/negative; G dense deadlock, non-monotone P; preserve all failures"
+  },
+  {
+    "stage": "regression",
+    "status": "passed",
+    "python_tests": 60,
+    "old_js_suites": 4
+  },
+  {
+    "stage": "heldout-v4",
+    "status": "running",
+    "saved_unix": 1792858984.387753
+  },
+  {
+    "stage": "heldout-v4",
+    "status": "complete",
+    "formal_runs_total": 104,
+    "all_core_hashes_match": true
+  },
+  {
+    "stage": "independent-recheck",
+    "status": "passed",
+    "cases": 4,
+    "all_metric_values_exact_match": true
+  },
+  {
+    "stage": "isolated-performance",
+    "status": "complete",
+    "counts": [
+      10,
+      30
+    ],
+    "repeats": 3
+  },
+  {
+    "stage": "browser-final",
+    "status": "passed",
+    "ablation_switch_same_time": "7.000 s",
+    "console_errors": 0
+  },
+  {
+    "stage": "delivery",
+    "status": "ready",
+    "saved_unix": 1792861184.3375459,
+    "limitations": "Dense deadlock/collision, large transition distortion, no natural stop, no status validation."
+  }
+]

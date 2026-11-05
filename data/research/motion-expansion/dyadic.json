@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-02",
+  "category": "真实双人互动骨架",
+  "budget_bytes": 3000000000,
+  "datasets": [
+    {
+      "name": "InterAct (Ho et al., SCA 2025; NOT the same-name HOI dataset)",
+      "sources": [
+        "https://hku-cg.github.io/interact/",
+        "https://huggingface.co/datasets/leohocs/interact",
+        "https://huggingface.co/datasets/leohocs/interact/raw/main/README.md"
+      ],
+      "license": "CC BY-NC-SA 4.0 stated on official project and HF card; no registration/gating encountered",
+      "status": "downloading_complete_body_modality",
+      "local_dir": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/dyadic/InterAct",
+      "format": "BVH at 30fps, 482 files = 241 paired scenarios; SQLite actors/scenarios databases",
+      "planned_bytes": 1965178928,
+      "completeness": "All original BVH files, full small root metadata; intentionally omit retarget duplicate (3,308,864,058 bytes), audio, faces and rendered video",
+      "paired_synchronized": true,
+      "scenario_metadata": [
+        "relationship (including boss/subordinate examples)",
+        "actor character setup",
+        "scenario description",
+        "primary emotion"
+      ],
+      "status_ground_truth": false,
+      "relevance": "Longer objective-driven dynamic interaction; can inspect silent full-body response and task context rather than greeting only. Role labels are scenario labels, not validated body-only perceived status.",
+      "limitations": [
+        "Do not use speech/face in our perceptual comparison.",
+        "Source performed scenarios not a response-policy ground truth.",
+        "README/project mention sit/walk/stand annotations; exact released location not yet verified.",
+        "Foot contact, pair synchronization lengths and motion fidelity need local validation after download."
+      ],
+      "download_manifest": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/dyadic/InterAct/download-manifest.json",
+      "download_progress": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/dyadic/InterAct/download-progress.json",
+      "revision": "152ba832f379c465f5b1e10c67166d646014d675",
+      "download_status": "background_resumable_running_not_complete",
+      "download_pid": 94755,
+      "resume_script": "/Users/haojun/Documents/documents/大四上/动画/期末大作业/scripts/fetch_interact_expansion.py",
+      "verified_sample": {
+        "file": "bvhs/20231119_001_052.bvh",
+        "frames": 1731,
+        "frame_time": 0.033333,
+        "joints": 60,
+        "channels": 183,
+        "frame_rows_match": true
+      },
+      "recording_mapping": {
+        "method": "Parse <date>_<actor>_<scenario>.bvh; group by date/scenario; join scenario_id to scenarios.db, NOT all scenario DB rows",
+        "database_scenarios": 970,
+        "recorded_pair_groups": 241,
+        "all_groups_have_two_actors": true,
+        "recorded_relationship_types": 25,
+        "recorded_boss_subordinate_groups": 2,
+        "mapping_file": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/dyadic/InterAct/recorded-scenarios.json"
+      }
+    },
+    {
+      "name": "ShakeFive2",
+      "sources": [
+        "https://www2.projects.science.uu.nl/shakefive/"
+      ],
+      "license": "Research purposes only; official page asks users to contact authors if using it in work. No author has been contacted. Do not treat downloaded availability as clearance for publication/redistribution.",
+      "status": "background_metadata_download_not_complete",
+      "local_dir": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/dyadic/ShakeFive2",
+      "format": "Kinect2 frame-based XML skeleton metadata, 153 associated video clips",
+      "completeness": "Full metadata, renderer source and background archives queued; videos deferred (partial archive retained, not usable).",
+      "paired_synchronized": true,
+      "action_categories": [
+        "fist bump",
+        "handshake",
+        "high five",
+        "hug",
+        "pass object",
+        "thumbs up",
+        "rock paper scissors",
+        "explaining"
+      ],
+      "status_ground_truth": false,
+      "relevance": "Object passing/explaining provide non-greeting alternatives and real paired observation.",
+      "limitations": [
+        "Kinect estimates, not high-fidelity optical animation",
+        "No evidence of locomotion/avoidance coverage",
+        "Author-contact condition remains before project use"
+      ],
+      "download_manifest": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/dyadic/ShakeFive2/download-manifest.json",
+      "download_pid": 94756,
+      "resume_script": "/Users/haojun/Documents/documents/大四上/动画/期末大作业/scripts/fetch_shakefive_metadata.py"
+    },
+    {
+      "name": "Inter-X",
+      "sources": [
+        "https://github.com/liangxuy/Inter-X",
+        "https://github.com/liangxuy/Inter-X/blob/main/LICENSE",
+        "https://raw.githubusercontent.com/liangxuy/Inter-X/main/datasets/action_setting.txt"
+      ],
+      "status": "authorization_required_not_downloaded",
+      "authorization_url": "https://forms.gle/Fp3wF6FNavwyrV8n9",
+      "license": "Custom noncommercial scientific/education/artistic use, no distribution; download/use clause states agreement. No terms accepted and no form submitted.",
+      "format": "120fps SMPL-X NPZ and (T,64,3) skeleton NPY per P1/P2",
+      "paired_synchronized": true,
+      "action_categories_relevant": [
+        "walk towards",
+        "chase",
+        "block",
+        "look back",
+        "support with hand",
+        "help up",
+        "push",
+        "pull",
+        "point finger at",
+        "chat"
+      ],
+      "annotations": [
+        "40 action categories",
+        "actor-reactor order",
+        "Big Five",
+        "familiarity",
+        "texts"
+      ],
+      "status_ground_truth": false,
+      "size_bytes": null,
+      "relevance": "Strong candidate for action/reaction structure; actor order and familiarity are not status labels."
+    },
+    {
+      "name": "InterHuman / InterGen",
+      "sources": [
+        "https://github.com/tr3e/InterGen",
+        "https://tr3e.github.io/intergen-page/"
+      ],
+      "status": "authorization_required_not_downloaded",
+      "authorization_url": "https://forms.gle/CjMrUxwdz6iPcTxf7",
+      "license": "Official README states CC BY-NC-SA4.0 plus requests for noncommercial access and prohibits redistribution; do not assume unrestricted sharing.",
+      "format": "Paired 3D interactive motion with natural language descriptions; exact released archive uninspected",
+      "paired_synchronized": true,
+      "status_ground_truth": false,
+      "size_bytes": null,
+      "relevance": "Broad interaction generation base, but no movement-only status labels confirmed."
+    },
+    {
+      "name": "CHI3D",
+      "sources": [
+        "https://ci3d.imar.ro/",
+        "https://ci3d.imar.ro/download",
+        "https://ci3d.imar.ro/legal"
+      ],
+      "status": "account_required_not_downloaded",
+      "format": "Both-person 3D joints, GHUM and SMPL-X parameters; 631 sequences with contact labels",
+      "paired_synchronized": true,
+      "published_archive_sizes": "Train 3.5GB; test 647MB. Download page explicitly requires valid account.",
+      "status_ground_truth": false,
+      "relevance": "Contact/close-interaction quality reference, not a status/style dataset."
+    },
+    {
+      "name": "SBU Kinect Interaction",
+      "sources": [
+        "https://www3.cs.stonybrook.edu/~kyun/research/kinect_interaction/index.html"
+      ],
+      "status": "official_site_http_403_not_downloaded",
+      "paired_synchronized": true,
+      "status_ground_truth": false,
+      "relevance": "Approach/depart/push and other interactions; older low-resolution Kinect skeletons; need direct primary license confirmation before reuse."
+    }
+  ],
+  "background_jobs_file": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/dyadic/background-jobs.json"
+}

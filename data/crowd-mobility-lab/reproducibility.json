@@ -1,0 +1,8 @@
+{
+  "source": "outputs/crowd-mobility-lab/runs/train_shared-10-None-13_R0.json",
+  "source_sha256": "3a1f751ee4afb49e6220ea7fb87190af030c9e2d1d552da36b4d9bd05c0566b4",
+  "all_replay_frames_exactly_equal": true,
+  "frame_count": 521,
+  "decisions_exactly_equal": true,
+  "scope": "Repeat full 26 seconds; excludes runtime timing only."
+}

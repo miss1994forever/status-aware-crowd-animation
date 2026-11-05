@@ -1,0 +1,20 @@
+{
+  "expected_runs": 104,
+  "actual_runs": 104,
+  "all_frozen_hashes_match": true,
+  "hash_checks": {
+    "src/predictive_motion_lab/controller.py": true,
+    "src/predictive_motion_lab/__init__.py": true,
+    "src/predictive_motion_lab/motion.py": true,
+    "src/predictive_motion_lab/geometry.py": true,
+    "src/predictive_motion_lab/evaluate.py": true,
+    "scripts/build_predictive_motion_lab.py": true,
+    "data/predictive-motion-lab/configs.json": true,
+    "data/predictive-motion-lab/library.json": true
+  },
+  "all_keys_unique": true,
+  "heldout_seeds_disjoint": true,
+  "train_test_door_widths_disjoint": true,
+  "max_replay_bone_relative_error": 2.6645352591003757e-15,
+  "note": "Completeness/integrity checks are not evidence of naturalness or human-perceived status."
+}

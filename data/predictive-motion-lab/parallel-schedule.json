@@ -1,0 +1,14 @@
+{
+  "saved_unix": 1792859534.38117,
+  "workers": 3,
+  "remaining_keys": [
+    "heldout_shared-30-None-89_G+P_0.12",
+    "heldout_shared-30-None-89_G+P_0.6",
+    "heldout_shared-30-None-89_G+P_2.0",
+    "heldout_shared-30-None-89_no_prediction_0",
+    "heldout_shared-30-None-89_circle_0",
+    "heldout_shared-30-None-89_no_continuity_0"
+  ],
+  "runner_sha256": "3e0fc64b053ec688f7a0d49f79aab4e8da1fcf05f3a9c05a4663bbb2355be10f",
+  "note": "Timing under concurrency; use performance-isolated.json for CPU comparison."
+}

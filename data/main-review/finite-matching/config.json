@@ -1,0 +1,53 @@
+{
+  "duration": 12.0,
+  "fps": 60,
+  "replan_seconds": 0.4,
+  "first_replan_seconds": 0.4,
+  "candidate_stride_frames": 12,
+  "initial_source": "E01",
+  "initial_source_time": 1.0,
+  "phases": [
+    "0–3s forward",
+    "3–6s stop",
+    "6–9s right with fixed facing",
+    "9–12s forward"
+  ],
+  "target_speed_reference_heights_per_second": 0.6,
+  "weights": {
+    "trajectory": 5.0,
+    "posture": 2.0,
+    "feet": 3.0,
+    "speed": 0.12,
+    "facing": 0.08
+  },
+  "blend_seconds": 0.25,
+  "switch_penalty": 0.012,
+  "sources": [
+    {
+      "id": "E01",
+      "path": "data/raw/emm-pilot/selected/DataEMM/emm/basic_locomotion_2.bvh",
+      "sha256": "6f3e95a9f41cfaf7f0ec621b9441178f6cca589996bc926b9561e6c8c9200657"
+    },
+    {
+      "id": "E02",
+      "path": "data/raw/emm-pilot/selected/DataEMM/emm/strafe.bvh",
+      "sha256": "62db0cf52b091a8bb9d6d3b9f96a264f611d33a48a8bfdad190188e41be79b76"
+    },
+    {
+      "id": "E03",
+      "path": "data/raw/emm-pilot/selected/DataEMM/emm/turn_in_place.bvh",
+      "sha256": "28cbf53a1560dbe5058d59c5398caa1121e6bf8bc847548a9fd2a5451e72df0e"
+    },
+    {
+      "id": "E04",
+      "path": "data/raw/emm-pilot/selected/DataEMM/emm_extra/crowd_guy.bvh",
+      "sha256": "da41bcad38ff02062309803aeaff0b81f2f5277d6d7cefbe52d7854fc7ad7186"
+    }
+  ],
+  "status": "Development inputs, not held-out trials or tuned status parameters",
+  "code_sha256": {
+    "src/finite_matching.py": "789b44459401e6d4e9f03a7002da467b8fd3af463d051e8d79b38c84c8ca3cf3",
+    "src/finite_motion.py": "1787d828d00019edee48b01095ee93116f0c91d9a23aea3486f40c11611c0ea0",
+    "scripts/build_finite_matching.py": "0ed72493f5b21776a19e780b2e297ca2aa27daa8ae10cbeb275aa84f89bac449"
+  }
+}

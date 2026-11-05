@@ -1,0 +1,24 @@
+{
+  "expected_runs": 23,
+  "actual_runs": 23,
+  "unique_keys": true,
+  "frozen_hashes_match": {
+    "src/crowd_mobility_lab/controller.py": true,
+    "src/crowd_mobility_lab/__init__.py": true,
+    "src/crowd_mobility_lab/evaluate.py": true,
+    "src/crowd_mobility_lab/reciprocal.py": true,
+    "scripts/build_crowd_mobility_lab.py": true,
+    "src/expression_layer.py": true,
+    "data/predictive-motion-lab/library.json": true,
+    "data/crowd-mobility-lab/plan.json": true,
+    "src/predictive_motion_lab/controller.py": true,
+    "src/predictive_motion_lab/__init__.py": true,
+    "src/predictive_motion_lab/motion.py": true,
+    "src/predictive_motion_lab/geometry.py": true,
+    "src/predictive_motion_lab/evaluate.py": true,
+    "scripts/build_predictive_motion_lab.py": true,
+    "data/predictive-motion-lab/configs.json": true
+  },
+  "all_frozen_hashes_match": true,
+  "all_replays_present": true
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "scene": "shared-10-new-14293",
+    "initial_frames_identical": true,
+    "tasks_identical": true,
+    "all_trajectories_have_full_duration": true
+  },
+  {
+    "scene": "shared-10-new-23981",
+    "initial_frames_identical": true,
+    "tasks_identical": true,
+    "all_trajectories_have_full_duration": true
+  },
+  {
+    "scene": "corridor-10-new-41017",
+    "initial_frames_identical": true,
+    "tasks_identical": true,
+    "all_trajectories_have_full_duration": true
+  },
+  {
+    "scene": "shared-10-None-13",
+    "initial_frames_identical": true,
+    "tasks_identical": true,
+    "all_trajectories_have_full_duration": true
+  },
+  {
+    "scene": "shared-10-new-8317",
+    "initial_frames_identical": true,
+    "tasks_identical": true,
+    "all_trajectories_have_full_duration": true
+  }
+]

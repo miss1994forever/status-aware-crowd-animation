@@ -1,0 +1,16 @@
+{
+  "url": "https://zenodo.org/api/records/17220516",
+  "accessed_date": "2026-10-24",
+  "http_status": 200,
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "access_right": "open",
+  "files": [
+    {
+      "key": "DataEMM.zip",
+      "size": 53306592,
+      "checksum": "md5:b8f52d67f968cc2baf04d5bb5309fe83"
+    }
+  ]
+}

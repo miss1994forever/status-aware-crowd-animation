@@ -1,0 +1,71 @@
+{
+  "scope": "Engineering checks, all four full source files. Not a controller, transition or status result.",
+  "interpolation": "Local quaternion shortest-arc SLERP then FK; linear root translation",
+  "units": "Original source units, not asserted metres",
+  "code_sha256": {
+    "src/finite_motion.py": "1787d828d00019edee48b01095ee93116f0c91d9a23aea3486f40c11611c0ea0",
+    "scripts/audit_finite_motion.py": "d32d47797a43f6fe5c00dd190eeec1c199db6322cc7647d9f4077bf800c1a3db"
+  },
+  "reports": [
+    {
+      "id": "E01",
+      "source": "data/raw/emm-pilot/selected/DataEMM/emm/basic_locomotion_2.bvh",
+      "sha256": "6f3e95a9f41cfaf7f0ec621b9441178f6cca589996bc926b9561e6c8c9200657",
+      "frames": 1780,
+      "duration_last_sample": 29.650593,
+      "sample_fk_max_error": 1.0658141036401503e-14,
+      "half_frame_bone_length_max_error": 7.771561172376096e-16,
+      "eligible_one_second_windows": 144,
+      "root_delta_accumulation_error": 0.0,
+      "cursor_tail_steps": 55,
+      "tail_unconsumed_seconds": 0.034999999999947816,
+      "post_end_rejected": true,
+      "elapsed_seconds": 0.3580955408979207
+    },
+    {
+      "id": "E02",
+      "source": "data/raw/emm-pilot/selected/DataEMM/emm/strafe.bvh",
+      "sha256": "62db0cf52b091a8bb9d6d3b9f96a264f611d33a48a8bfdad190188e41be79b76",
+      "frames": 4721,
+      "duration_last_sample": 78.66824000000001,
+      "sample_fk_max_error": 2.2648549702353193e-14,
+      "half_frame_bone_length_max_error": 6.106226635438361e-16,
+      "eligible_one_second_windows": 389,
+      "root_delta_accumulation_error": 0.0,
+      "cursor_tail_steps": 55,
+      "tail_unconsumed_seconds": 0.03500000000033151,
+      "post_end_rejected": true,
+      "elapsed_seconds": 0.5116332080215216
+    },
+    {
+      "id": "E03",
+      "source": "data/raw/emm-pilot/selected/DataEMM/emm/turn_in_place.bvh",
+      "sha256": "28cbf53a1560dbe5058d59c5398caa1121e6bf8bc847548a9fd2a5451e72df0e",
+      "frames": 1985,
+      "duration_last_sample": 33.067328,
+      "sample_fk_max_error": 3.552713678800501e-15,
+      "half_frame_bone_length_max_error": 5.273559366969494e-16,
+      "eligible_one_second_windows": 161,
+      "root_delta_accumulation_error": 0.0,
+      "cursor_tail_steps": 55,
+      "tail_unconsumed_seconds": 0.034999999999947816,
+      "post_end_rejected": true,
+      "elapsed_seconds": 0.35789099987596273
+    },
+    {
+      "id": "E04",
+      "source": "data/raw/emm-pilot/selected/DataEMM/emm_extra/crowd_guy.bvh",
+      "sha256": "da41bcad38ff02062309803aeaff0b81f2f5277d6d7cefbe52d7854fc7ad7186",
+      "frames": 12685,
+      "duration_last_sample": 211.40422800000002,
+      "sample_fk_max_error": 4.107825191113079e-14,
+      "half_frame_bone_length_max_error": 7.216449660063518e-16,
+      "eligible_one_second_windows": 1053,
+      "root_delta_accumulation_error": 0.0,
+      "cursor_tail_steps": 55,
+      "tail_unconsumed_seconds": 0.03500000000033151,
+      "post_end_rejected": true,
+      "elapsed_seconds": 0.9216397081036121
+    }
+  ]
+}

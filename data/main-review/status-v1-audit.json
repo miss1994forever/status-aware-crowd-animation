@@ -1,0 +1,77 @@
+{
+  "pairs": [
+    {
+      "pair": "dev-v3-ten",
+      "root_max": 0.0,
+      "joint_max": 0.007421094326310647,
+      "active_pose_rms_p50": 0.00031876446309584815,
+      "active_pose_rms_p95": 0.0014431800495186514,
+      "social_request_degrees_p95": 1.0996610317444153,
+      "social_request_degrees_max": 2.147902672659088,
+      "note": "Height-normalized local pose; route/clip divergence confounds large differences."
+    },
+    {
+      "pair": "eval_shared-10-62011",
+      "root_max": 0.0,
+      "joint_max": 0.00864480063390705,
+      "active_pose_rms_p50": 0.0002689510018272345,
+      "active_pose_rms_p95": 0.0015212361748734632,
+      "social_request_degrees_p95": 1.1511252400222833,
+      "social_request_degrees_max": 2.10622491213527,
+      "note": "Height-normalized local pose; route/clip divergence confounds large differences."
+    },
+    {
+      "pair": "eval_shared-10-62017",
+      "root_max": 0.0,
+      "joint_max": 0.0074738264630643,
+      "active_pose_rms_p50": 0.00020608082794964106,
+      "active_pose_rms_p95": 0.0013102826382441898,
+      "social_request_degrees_p95": 1.0183396301145293,
+      "social_request_degrees_max": 1.8848333827606587,
+      "note": "Height-normalized local pose; route/clip divergence confounds large differences."
+    },
+    {
+      "pair": "eval_shared-10-62003",
+      "root_max": 1.481300849979513,
+      "joint_max": 0.5899417768881943,
+      "active_pose_rms_p50": 0.06480631111097913,
+      "active_pose_rms_p95": 0.22104267025404786,
+      "social_request_degrees_p95": 0.9128878608854387,
+      "social_request_degrees_max": 1.8534537208545303,
+      "note": "Height-normalized local pose; route/clip divergence confounds large differences."
+    },
+    {
+      "pair": "dev-role",
+      "root_max": 0.0,
+      "joint_max": 0.002107536239308832,
+      "active_pose_rms_p50": 3.778097940665995e-05,
+      "active_pose_rms_p95": 0.0007489891655300393,
+      "social_request_degrees_p95": 0.5631338629408925,
+      "social_request_degrees_max": 0.8046249444980325,
+      "note": "Height-normalized local pose; route/clip divergence confounds large differences."
+    }
+  ],
+  "controlled": {
+    "head_on_social": 0.0,
+    "head_on_confidence": 0.5,
+    "off_axis_social": 0.0012669943892505483,
+    "own_pose_change_response_equal": true,
+    "symmetric_identical_neighbor_social": 0.0002490757863715787,
+    "note": "Controlled counterexamples show structure, not population prevalence or perception."
+  },
+  "source_sha256": {
+    "src/status_interaction_lab/social.py": "ad6809599cfc3b7a4720978c3393ff6ad14757e4579dbfeca364245693c601f2",
+    "src/status_interaction_lab/simulation.py": "01dad3fe6c96ced44c76a66c4352752276d01f09ff6ff32de6a3c17e255c868e",
+    "outputs/status-interaction-lab/runs/dev-v3-ten-C1.json": "05c158bfbe3c1d1f4d972779ac9b684ce1e6c1c8f46522567060784ad0257d7b",
+    "outputs/status-interaction-lab/runs/dev-v3-ten-C2.json": "22fab7756e2ded4570019e4529f51881b3ab80cfe242992f156a5528df13e767",
+    "outputs/status-interaction-lab/runs/eval_shared-10-62011_C1.json": "7c2fd6141073d0561274b4b944d0608a74f7c8f82803302734b75d3c3de393da",
+    "outputs/status-interaction-lab/runs/eval_shared-10-62011_C2.json": "1272747a53c6dbf82ddd08aad07393fb588ca357a0e0b1ab6a4a52d7bb3352da",
+    "outputs/status-interaction-lab/runs/eval_shared-10-62017_C1.json": "237513bac517194c0fffbeefe293c22597d170c7af769b4f82331ff81a1a0775",
+    "outputs/status-interaction-lab/runs/eval_shared-10-62017_C2.json": "a03f49fafe615a329a0afe3376d401ad47631d501f0178bd742343f6fee3e403",
+    "outputs/status-interaction-lab/runs/eval_shared-10-62003_C1.json": "3d6bed0d594aee9c645a6cb7e4b204d165c25cfef9fe78c7fd01578c8089ec30",
+    "outputs/status-interaction-lab/runs/eval_shared-10-62003_C2.json": "60142fe22c7569abee18e30501ec01ddaa4e70068e70857c8df8dec7ff3d3e03",
+    "outputs/status-interaction-lab/runs/dev-role-C1.json": "033c8e0c0055f8f3febbee2c7ac4efc5f55d8b6221fddd8d3b401368f90e3034",
+    "outputs/status-interaction-lab/runs/dev-role-C2.json": "5c8b44ad5b8827ff9233c732427e892833c9f4f2631e529b53d2861a621a7437"
+  },
+  "limitation": "No human evaluation; no algorithm changes or fresh held-out experiment."
+}

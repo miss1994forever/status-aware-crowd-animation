@@ -1,0 +1,68 @@
+[
+  {
+    "clip": "M01",
+    "centered_straight_rectangle_full_cycle_sufficient_width": 0.5502948037083767,
+    "includes_two_sides_margin": 0.01,
+    "note": "Sufficient conservative width for centered full-cycle straight travel, not minimum achievable door width."
+  },
+  {
+    "clip": "M02",
+    "centered_straight_rectangle_full_cycle_sufficient_width": 0.5629546519281973,
+    "includes_two_sides_margin": 0.01,
+    "note": "Sufficient conservative width for centered full-cycle straight travel, not minimum achievable door width."
+  },
+  {
+    "clip": "M03",
+    "centered_straight_rectangle_full_cycle_sufficient_width": 0.4304090347266325,
+    "includes_two_sides_margin": 0.01,
+    "note": "Sufficient conservative width for centered full-cycle straight travel, not minimum achievable door width."
+  },
+  {
+    "clip": "M05",
+    "centered_straight_rectangle_full_cycle_sufficient_width": 0.5317323703021046,
+    "includes_two_sides_margin": 0.01,
+    "note": "Sufficient conservative width for centered full-cycle straight travel, not minimum achievable door width."
+  },
+  {
+    "clip": "M06",
+    "centered_straight_rectangle_full_cycle_sufficient_width": 0.5348142370011777,
+    "includes_two_sides_margin": 0.01,
+    "note": "Sufficient conservative width for centered full-cycle straight travel, not minimum achievable door width."
+  },
+  {
+    "clip": "M07",
+    "centered_straight_rectangle_full_cycle_sufficient_width": 0.7168733987587094,
+    "includes_two_sides_margin": 0.01,
+    "note": "Sufficient conservative width for centered full-cycle straight travel, not minimum achievable door width."
+  },
+  {
+    "clip": "M08",
+    "centered_straight_rectangle_full_cycle_sufficient_width": 0.722434490402273,
+    "includes_two_sides_margin": 0.01,
+    "note": "Sufficient conservative width for centered full-cycle straight travel, not minimum achievable door width."
+  },
+  {
+    "clip": "M09",
+    "centered_straight_rectangle_full_cycle_sufficient_width": 0.6094849715239856,
+    "includes_two_sides_margin": 0.01,
+    "note": "Sufficient conservative width for centered full-cycle straight travel, not minimum achievable door width."
+  },
+  {
+    "clip": "M10",
+    "centered_straight_rectangle_full_cycle_sufficient_width": 0.6339286000307924,
+    "includes_two_sides_margin": 0.01,
+    "note": "Sufficient conservative width for centered full-cycle straight travel, not minimum achievable door width."
+  },
+  {
+    "clip": "M11",
+    "centered_straight_rectangle_full_cycle_sufficient_width": 0.7613280932814172,
+    "includes_two_sides_margin": 0.01,
+    "note": "Sufficient conservative width for centered full-cycle straight travel, not minimum achievable door width."
+  },
+  {
+    "clip": "M12",
+    "centered_straight_rectangle_full_cycle_sufficient_width": 0.6769433728625619,
+    "includes_two_sides_margin": 0.01,
+    "note": "Sufficient conservative width for centered full-cycle straight travel, not minimum achievable door width."
+  }
+]

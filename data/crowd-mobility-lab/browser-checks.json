@@ -1,0 +1,22 @@
+{
+  "play_before": "4.000 s",
+  "play_after": "4.333 s",
+  "seek": "5.200 s",
+  "front_side_same_time": "5.200 s",
+  "ablation_same_time": "5.200 s",
+  "agent_selected": 2,
+  "views": [
+    "oblique",
+    "front",
+    "side"
+  ],
+  "footprints_and_candidates_visible": true,
+  "corridor_failure_inspected_at": "26.000 s",
+  "corridor_counts": [
+    1,
+    4,
+    3
+  ],
+  "console_errors": [],
+  "scope": "Engineering replay/visual check, no naturalness or status acceptance."
+}

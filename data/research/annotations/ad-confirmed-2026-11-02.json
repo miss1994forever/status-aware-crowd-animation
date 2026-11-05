@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-02",
+  "provenance": "A from rendered browser UI; D times explicitly supplied by user in chat on 2026-11-02. Original browser read retained in separate file.",
+  "events": {
+    "A": {
+      "onset": 0.694,
+      "gesture": 2.186,
+      "offset": 4.203,
+      "note": "招呼动作结束了，但是招呼结束后还有捏手指之类的小动作"
+    },
+    "D": {
+      "onset": 1.016,
+      "gesture": 1.974,
+      "offset": 3.367,
+      "note": "招呼结束后，还是有手臂的摆动"
+    }
+  },
+  "revision_history": [
+    {
+      "D_previous": {
+        "onset": 1.016,
+        "gesture": 3.443,
+        "offset": null,
+        "note": "招呼结束后，还是有手臂的摆动",
+        "pending_clarification": "Whether 3.443 is gesture or intended offset; do not reinterpret until user answers."
+      },
+      "reason": "User said previous marking was mistaken; supplied corrected times in chat."
+    }
+  ]
+}

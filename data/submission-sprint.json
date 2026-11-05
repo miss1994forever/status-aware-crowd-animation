@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-04",
+  "deadline": {
+    "date": "2026-11-06",
+    "time": "User confirmed no specific time announced; do not assume Nov 6 23:59.",
+    "internal_package_target": "2026-11-05 evening Asia/Shanghai"
+  },
+  "priority": "Submission integration, reproducibility, report, video; freeze open-ended research expansion.",
+  "facts": {
+    "emm": "Official base ran; not our status implementation.",
+    "python": "Existing multi-agent navigation/social response and expression prototypes; integrated final acceptance outstanding.",
+    "perception": "Single-user formative feedback; status generalization not demonstrated.",
+    "software_policy": "User reports TA approved both custom Unity algorithms and reuse of EMM base locomotion/transitions."
+  },
+  "scope": {
+    "required": [
+      "One launchable main demo with 10 full-body characters as target; retain explicit failure results if integration cannot meet it",
+      "One controlled diagnostic view for original/expression/response comparisons",
+      "Explain autonomous code versus third-party motion/runtime",
+      "Source, required data/configuration, run instructions, report, demonstration video"
+    ],
+    "freeze": [
+      "New dataset search/download as a critical path",
+      "New network training/model reproduction",
+      "More one-off review pages or fine parameter sweeps",
+      "New engines or dependency upgrades",
+      "30-person expansion and complete social relationship system"
+    ]
+  },
+  "schedule": [
+    {
+      "date": "2026-11-04",
+      "deliverable": "Audit and choose existing runnable base; integrate one bounded demo; start report and submission structure immediately",
+      "gate": "End-of-day first integrated playback, measured limitations, explicit fallback; do not spend whole day only browsing motion."
+    },
+    {
+      "date": "2026-11-05",
+      "deliverable": "Fix blocking issues; freeze mechanism; run limited reproducible comparisons; record video; finalize report and package",
+      "gate": "Evening: runnable package and all course materials, no last-minute feature expansion."
+    },
+    {
+      "date": "2026-11-06",
+      "deliverable": "Check fresh launch, file completeness and final hand-in",
+      "gate": "No new experiments unless required to fix submission-blocking defects."
+    }
+  ],
+  "fallback": "Use existing autonomous implementation and honest failures as course evidence; do not substitute official EMM demo as original algorithm or claim unvalidated status success.",
+  "ssd": "Downloads remain paused per user request; mounting alone is not authorization to resume.",
+  "primary_route": "Unity + existing EMM; original expression and interaction in Assets/SubmissionSprint, authoritative local source src/unity_submission. Python analysis/baselines retained."
+}

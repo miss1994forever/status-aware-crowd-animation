@@ -1,0 +1,395 @@
+{
+  "selection_basis": "Recorded adult workplace/peer/comparable role contexts; text-based candidates only, not visual validation or status labels.",
+  "must_check": [
+    "Silent body naturalness",
+    "Actual locomotion and response events",
+    "Whether roles are readable without text/audio",
+    "Actor identity/emotion/task confounds"
+  ],
+  "recorded_candidates": [
+    {
+      "date": "20231126",
+      "scenario_id": 204,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "joy",
+      "character_setup": "Two software engineers on the same development team.",
+      "scenario": "Achieving their working together results in a coding challenge victory."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 205,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "adoration",
+      "character_setup": "Two co-workers who have been collaborating closely on a work project. One is a meticulous and hardworking individual, and the other is an inspired visionary.",
+      "scenario": "The visionary co-worker reveals how she came up with the brilliant idea that made their project successful, leaving the meticulous co-worker impressed and full of adoration."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 206,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "excitement",
+      "character_setup": "An enthusiastic newbie in his early twenties eager to impress and a long-time employee in her mid-thirties, comfortable in her role.",
+      "scenario": "Discovering they have successfully secured a high profile project the team has been pitching for."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 207,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "admiration",
+      "character_setup": "A newly hired junior employee who is quite naive and an experienced senior who is very wise.",
+      "scenario": "The junior employee successfully gives a presentation at a team meeting, impressing the senior who then takes the junior under their wing for further mentorship."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 208,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "aesthetic appreciation",
+      "character_setup": "Two co-workers, one with a passion for nature photography, and the other, with a keen interest in plants and wildlife.",
+      "scenario": "They're in the office, chatting over a cup of coffee as the nature-lover excitedly shares his recent weekend getaway photos of beautifully taken shots of wildlife and picturesque sceneries."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 209,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "amusement",
+      "character_setup": "Two co-workers, one a meticulous introvert (character A), the other a spontaneous extrovert (character B).",
+      "scenario": "Character B attempts to teach character A an impromptu dance routine in the break room during their lunch break."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 210,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "satisfaction",
+      "character_setup": "Two colleagues, one an experienced senior executive and the other a young and ambitious trainee.",
+      "scenario": "They are discussing about a project they've been working on for months which they just found out has been a huge success."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 211,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "romance",
+      "character_setup": "Two co-workers, a project manager in her 30s and a software engineer in his 40s who have known each other for several years.",
+      "scenario": "During a late-night working session at the empty office, they confess their feelings for each other."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 212,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "interest",
+      "character_setup": "Two coworkers, one a veteran in the company, jaded but full of knowledge, and the other a fresh newcomer interested in learning as much as possible.",
+      "scenario": "The newcomer approaches the veteran to ask about their experiences and advice after discovering the importance of a project they had worked on in the company's past."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 213,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "awe",
+      "character_setup": "One long-tenured employee at an advertising firm and one new recruit right out of college.",
+      "scenario": "Long-tenured employee shows the new recruit an awe-inspiring presentation that clinches a huge deal for their firm."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 214,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "calmness",
+      "character_setup": "Two co-workers, a software engineer and a project manager, working in a tech start-up.",
+      "scenario": "They are calmly discussing and planning for the next project deadline over some coffee, in an empty office, late in the evening."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 215,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "entrancement",
+      "character_setup": "Two co-workers, one older and experienced, another young and new to the job.",
+      "scenario": "The older worker is showing the young one their job's intricacies, the young one is completely enthralled by the complexity and knowledge of their older colleague."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 216,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "relief",
+      "character_setup": "Two office workers, one newly-promoted, the other a veteran at the company.",
+      "scenario": "They have been working overnight to complete a vital project, and they just received news that their management has accepted their work."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 217,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "surprise",
+      "character_setup": "Two co-workers in a small office, one is a diligent office worker and the other is his laid-back friend.",
+      "scenario": "The laid-back co-worker, thought to be disinterested in promotions, announces that he has been offered the position of manager."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 218,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "nostalgia",
+      "character_setup": "Two co-workers, around the same age, who have been working in the same small company for over 10 years.",
+      "scenario": "they are in their old office building on their last day before moving to a new location, reminiscing about their journey together and their shared experiences."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 219,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "craving",
+      "character_setup": "A junior employee who is on a strict diet and a senior colleague who is known for his delicious homemade pastries.",
+      "scenario": "They are together in the breakroom, the colleague has just opened a box of his freshly made pastries."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 220,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "awkwardness",
+      "character_setup": "Two co-workers, one new and moderately reserved, the other more experienced and somewhat oblivious.",
+      "scenario": "During lunch break in the office pantry, they realize they've accidentally brought each other's lunch."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 221,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "boredom",
+      "character_setup": "Two co-workers, who are both data entry clerks at a small accounting firm.",
+      "scenario": "They are sitting in their cubicles on a slow Friday afternoon, passing time by sharing workplace stories and watching the clock tick slowly."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 222,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "confusion",
+      "character_setup": "Two colleagues, a data analyst and an IT specialist, who have been working together for a year in the same IT firm.",
+      "scenario": "They receive a cryptic email from their boss about an upcoming project, and they try to figure out what the project might be about."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 223,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "anxiety",
+      "character_setup": "A new intern in a high-pressure tech firm and an experienced, but sympathetic colleague.",
+      "scenario": "During a stressful period of tight project deadlines, the intern confesses to the colleague that they're afraid they aren't good enough to handle the job."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 224,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "pain",
+      "character_setup": "Two co-workers, both mid-30s, who've been working together closely for some time.",
+      "scenario": "While staying late in the office one night, they share a deeply painful past memory, finding support in each other in the process."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 225,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "anger",
+      "character_setup": "Two co-workers: One who has been with the company for years and another who is a new hire.",
+      "scenario": "The veteran employee discovers that the new hire has unintentionally made a critical error that could cost the company, leading to a heated confrontation."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 226,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "fear",
+      "character_setup": "Two co-workers, working late at a spooky, desolate office.",
+      "scenario": "After the lights suddenly go off, they start hearing strange noises and decide to investigate."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 227,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "sadness",
+      "character_setup": "Two long-time co-workers of the same age who work in the same office: an upbeat office manager and a quiet bookkeeper.",
+      "scenario": "The office manager has found out that their company is going to be shut down and must convey this sad news to the bookkeeper."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 228,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "disgust",
+      "character_setup": "Two coworkers, one a fresh hire straight out of college, the other a tenured employee at the company.",
+      "scenario": "The older coworker is eating a disgustingly smelly lunch at his desk, and the unfazed reactions of those around him shocks and disgusts the new hire."
+    },
+    {
+      "date": "20231126",
+      "scenario_id": 229,
+      "actors": [
+        "003",
+        "007"
+      ],
+      "relationship": "co-workers",
+      "emotion": "horror",
+      "character_setup": "Two night-shift security guards at a large, quiet, and spooky museum.",
+      "scenario": "They are working in the middle of the night, when strange, unnerving, and fear-inducing phenomena begin to occur, such as lights flickering, strange noises, and objects moving on their own."
+    },
+    {
+      "date": "20231208",
+      "scenario_id": 185,
+      "actors": [
+        "005",
+        "006"
+      ],
+      "relationship": "commuting buddies",
+      "emotion": "romance",
+      "character_setup": "Two work colleagues who commute together on the train every day, one is a shy accountant and the other is a bright graphic designer.",
+      "scenario": "On the morning train, they find themselves alone in the compartment and the shy one musters up the courage to express their feelings."
+    },
+    {
+      "date": "20231208",
+      "scenario_id": 198,
+      "actors": [
+        "005",
+        "006"
+      ],
+      "relationship": "commuting buddies",
+      "emotion": "pain",
+      "character_setup": "Two middle-aged office workers, who share a daily commute on the train to work.",
+      "scenario": "Both experiencing a painful break-up, they share their stories, reflecting on the pain and starting to find some comfort in mutual understanding and companionship."
+    },
+    {
+      "date": "20231208",
+      "scenario_id": 238,
+      "actors": [
+        "005",
+        "006"
+      ],
+      "relationship": "business partners",
+      "emotion": "awe",
+      "character_setup": "Two trustworthy business partners, who have been working together for several across different ventures.",
+      "scenario": "One morning during their regular virtual meeting, they suddenly discover that their little-known start-up has become an overnight sensation, attracting millions of users and generating significant media buzz."
+    },
+    {
+      "date": "20231208",
+      "scenario_id": 251,
+      "actors": [
+        "005",
+        "006"
+      ],
+      "relationship": "business partners",
+      "emotion": "fear",
+      "character_setup": "Two business partners, one being risk-averse and the other one being risk-taking.",
+      "scenario": "They are staying late in their office, discussing the consequences of a big deal that could either make their company prosper or bankrupt."
+    },
+    {
+      "date": "20231208",
+      "scenario_id": 265,
+      "actors": [
+        "005",
+        "006"
+      ],
+      "relationship": "boss / subordinate",
+      "emotion": "calmness",
+      "character_setup": "A veteran company manager and a newly recruited employee whose first job this is.",
+      "scenario": "At the coffee station, discussing the ethos and calm pace of the office."
+    },
+    {
+      "date": "20231208",
+      "scenario_id": 278,
+      "actors": [
+        "005",
+        "006"
+      ],
+      "relationship": "boss / subordinate",
+      "emotion": "sadness",
+      "character_setup": "A compassionate boss who values the well-being of their employees, and a subordinate who's going through a difficult time.",
+      "scenario": "Late in the evening at the office, the subordinate receives a sad personal phone call, and the boss provides a listening ear and comforting words."
+    }
+  ]
+}

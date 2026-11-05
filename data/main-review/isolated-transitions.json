@@ -1,0 +1,925 @@
+{
+  "switch_time": 1.2,
+  "duration": 4.0,
+  "dt": 0.05,
+  "parents": [
+    null,
+    0,
+    1,
+    2,
+    3,
+    4,
+    2,
+    6,
+    7,
+    8,
+    9,
+    2,
+    11,
+    12,
+    13,
+    14,
+    0,
+    16,
+    17,
+    18,
+    19,
+    0,
+    21,
+    22,
+    23,
+    24
+  ],
+  "names": [
+    "Hips",
+    "Spine",
+    "Chest",
+    "Neck",
+    "Head",
+    "Head:EndSite",
+    "Shoulder_L",
+    "UpperArm_L",
+    "LowerArm_L",
+    "Hand_L",
+    "Hand_L:EndSite",
+    "Shoulder_R",
+    "UpperArm_R",
+    "LowerArm_R",
+    "Hand_R",
+    "Hand_R:EndSite",
+    "UpperLeg_L",
+    "LowerLeg_L",
+    "Foot_L",
+    "Toes_L",
+    "Toes_L:EndSite",
+    "UpperLeg_R",
+    "LowerLeg_R",
+    "Foot_R",
+    "Toes_R",
+    "Toes_R:EndSite"
+  ],
+  "cases": [
+    {
+      "id": "M02-M11-phase0",
+      "target": "M11",
+      "initial_phase": 0.0,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04585411753871332,
+            "local_joint_speed_p95": 1.0496760683182218,
+            "local_joint_acceleration_p95": 6.547361841370566
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.1576429372009806,
+            "local_joint_speed_p95": 1.1398056497534712,
+            "local_joint_acceleration_p95": 6.703168802887182
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": -0.03125,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.14427876089860864,
+            "local_joint_speed_p95": 1.1085384715020048,
+            "local_joint_acceleration_p95": 6.518814505145773
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M11-phase0.125",
+      "target": "M11",
+      "initial_phase": 0.125,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04254743041856405,
+            "local_joint_speed_p95": 0.9810241267165657,
+            "local_joint_acceleration_p95": 6.84950472738935
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.10272810193095501,
+            "local_joint_speed_p95": 1.1331859439684524,
+            "local_joint_acceleration_p95": 6.776646326599238
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": -0.03125,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.08270938139466971,
+            "local_joint_speed_p95": 1.1103305174586526,
+            "local_joint_acceleration_p95": 6.645487864709385
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M11-phase0.25",
+      "target": "M11",
+      "initial_phase": 0.25,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.05178793291025668,
+            "local_joint_speed_p95": 0.9454478289149539,
+            "local_joint_acceleration_p95": 6.926218338703331
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.14565407796865523,
+            "local_joint_speed_p95": 1.0726044666238608,
+            "local_joint_acceleration_p95": 6.6477876781042795
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": -0.03125,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.13819031167513132,
+            "local_joint_speed_p95": 1.0674941313187623,
+            "local_joint_acceleration_p95": 6.886615074173135
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M11-phase0.375",
+      "target": "M11",
+      "initial_phase": 0.375,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04685098728754922,
+            "local_joint_speed_p95": 0.9837975177443647,
+            "local_joint_acceleration_p95": 6.730128547780044
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.11637590389805182,
+            "local_joint_speed_p95": 1.047021346296244,
+            "local_joint_acceleration_p95": 6.5592302816144805
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": 0.03125,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.13289424128278332,
+            "local_joint_speed_p95": 1.0512822923069938,
+            "local_joint_acceleration_p95": 6.701231041495044
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M11-phase0.5",
+      "target": "M11",
+      "initial_phase": 0.5,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04257011882774143,
+            "local_joint_speed_p95": 1.032102835184257,
+            "local_joint_acceleration_p95": 6.849720737956469
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.11768698105196711,
+            "local_joint_speed_p95": 1.108910828876696,
+            "local_joint_acceleration_p95": 6.584469314986592
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": 0.03125,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.1066508217227995,
+            "local_joint_speed_p95": 1.1298019324220747,
+            "local_joint_acceleration_p95": 6.6024525624952535
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M11-phase0.625",
+      "target": "M11",
+      "initial_phase": 0.625,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04847557857955937,
+            "local_joint_speed_p95": 0.9934973808399048,
+            "local_joint_acceleration_p95": 6.984836044054547
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.12898451022936974,
+            "local_joint_speed_p95": 1.122366257583084,
+            "local_joint_acceleration_p95": 6.718324010743813
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.12898451022936974,
+            "local_joint_speed_p95": 1.122366257583084,
+            "local_joint_acceleration_p95": 6.718324010743813
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M11-phase0.75",
+      "target": "M11",
+      "initial_phase": 0.75,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04021389287765767,
+            "local_joint_speed_p95": 0.9824620804896239,
+            "local_joint_acceleration_p95": 6.6209799892832875
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.19680387292531112,
+            "local_joint_speed_p95": 1.1213248587273896,
+            "local_joint_acceleration_p95": 6.744422542687966
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.19680387292531112,
+            "local_joint_speed_p95": 1.1213248587273896,
+            "local_joint_acceleration_p95": 6.744422542687966
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M11-phase0.875",
+      "target": "M11",
+      "initial_phase": 0.875,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.044670030089929605,
+            "local_joint_speed_p95": 0.998112691109657,
+            "local_joint_acceleration_p95": 6.680583489965187
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.2066332773308176,
+            "local_joint_speed_p95": 1.1574969439445741,
+            "local_joint_acceleration_p95": 6.696418218719613
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.2066332773308176,
+            "local_joint_speed_p95": 1.1574969439445741,
+            "local_joint_acceleration_p95": 6.696418218719613
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M01-phase0",
+      "target": "M01",
+      "initial_phase": 0.0,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04585411753871332,
+            "local_joint_speed_p95": 1.0496760683182218,
+            "local_joint_acceleration_p95": 6.547361841370566
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.1421967350778727,
+            "local_joint_speed_p95": 1.317825281354067,
+            "local_joint_acceleration_p95": 12.709281269108754
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": -0.03125,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.17381395572889946,
+            "local_joint_speed_p95": 1.3037622083593114,
+            "local_joint_acceleration_p95": 12.335359796642681
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M01-phase0.125",
+      "target": "M01",
+      "initial_phase": 0.125,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04254743041856405,
+            "local_joint_speed_p95": 0.9810241267165657,
+            "local_joint_acceleration_p95": 6.84950472738935
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.15029606136539972,
+            "local_joint_speed_p95": 1.3169489016994707,
+            "local_joint_acceleration_p95": 12.494956134376784
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.15029606136539972,
+            "local_joint_speed_p95": 1.3169489016994707,
+            "local_joint_acceleration_p95": 12.494956134376784
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M01-phase0.25",
+      "target": "M01",
+      "initial_phase": 0.25,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.05178793291025668,
+            "local_joint_speed_p95": 0.9454478289149539,
+            "local_joint_acceleration_p95": 6.926218338703331
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.1099747095468128,
+            "local_joint_speed_p95": 1.3310124207988476,
+            "local_joint_acceleration_p95": 12.68576200489826
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.1099747095468128,
+            "local_joint_speed_p95": 1.3310124207988476,
+            "local_joint_acceleration_p95": 12.68576200489826
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M01-phase0.375",
+      "target": "M01",
+      "initial_phase": 0.375,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04685098728754922,
+            "local_joint_speed_p95": 0.9837975177443647,
+            "local_joint_acceleration_p95": 6.730128547780044
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.09697892746142471,
+            "local_joint_speed_p95": 1.3098069527224772,
+            "local_joint_acceleration_p95": 12.708011809878055
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": -0.03125,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.11764295641492035,
+            "local_joint_speed_p95": 1.2863849465848083,
+            "local_joint_acceleration_p95": 12.27188100985337
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M01-phase0.5",
+      "target": "M01",
+      "initial_phase": 0.5,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04257011882774143,
+            "local_joint_speed_p95": 1.032102835184257,
+            "local_joint_acceleration_p95": 6.849720737956469
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.1545978347132347,
+            "local_joint_speed_p95": 1.2610477106682194,
+            "local_joint_acceleration_p95": 12.672440013587485
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.1545978347132347,
+            "local_joint_speed_p95": 1.2610477106682194,
+            "local_joint_acceleration_p95": 12.672440013587485
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M01-phase0.625",
+      "target": "M01",
+      "initial_phase": 0.625,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04847557857955937,
+            "local_joint_speed_p95": 0.9934973808399048,
+            "local_joint_acceleration_p95": 6.984836044054547
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.13399577087544137,
+            "local_joint_speed_p95": 1.3296647061571578,
+            "local_joint_acceleration_p95": 12.551967865081618
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.13399577087544137,
+            "local_joint_speed_p95": 1.3296647061571578,
+            "local_joint_acceleration_p95": 12.551967865081618
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M01-phase0.75",
+      "target": "M01",
+      "initial_phase": 0.75,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04021389287765767,
+            "local_joint_speed_p95": 0.9824620804896239,
+            "local_joint_acceleration_p95": 6.6209799892832875
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.09161265639652948,
+            "local_joint_speed_p95": 1.321759060192137,
+            "local_joint_acceleration_p95": 12.536528821009423
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.09161265639652948,
+            "local_joint_speed_p95": 1.321759060192137,
+            "local_joint_acceleration_p95": 12.536528821009423
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M01-phase0.875",
+      "target": "M01",
+      "initial_phase": 0.875,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.044670030089929605,
+            "local_joint_speed_p95": 0.998112691109657,
+            "local_joint_acceleration_p95": 6.680583489965187
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.07768503473832772,
+            "local_joint_speed_p95": 1.335446240849103,
+            "local_joint_acceleration_p95": 12.943341560299473
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": -0.03125,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.09197236457477424,
+            "local_joint_speed_p95": 1.3228925100419577,
+            "local_joint_acceleration_p95": 12.357485116317156
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M03-phase0",
+      "target": "M03",
+      "initial_phase": 0.0,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04585411753871332,
+            "local_joint_speed_p95": 1.0496760683182218,
+            "local_joint_acceleration_p95": 6.547361841370566
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.22931222440981855,
+            "local_joint_speed_p95": 0.7926756738306067,
+            "local_joint_acceleration_p95": 6.464782333074572
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.22931222440981855,
+            "local_joint_speed_p95": 0.7926756738306067,
+            "local_joint_acceleration_p95": 6.464782333074572
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M03-phase0.125",
+      "target": "M03",
+      "initial_phase": 0.125,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04254743041856405,
+            "local_joint_speed_p95": 0.9810241267165657,
+            "local_joint_acceleration_p95": 6.84950472738935
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.3154869728695363,
+            "local_joint_speed_p95": 0.684016891716593,
+            "local_joint_acceleration_p95": 6.680389737996029
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.3154869728695363,
+            "local_joint_speed_p95": 0.684016891716593,
+            "local_joint_acceleration_p95": 6.680389737996029
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M03-phase0.25",
+      "target": "M03",
+      "initial_phase": 0.25,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.05178793291025668,
+            "local_joint_speed_p95": 0.9454478289149539,
+            "local_joint_acceleration_p95": 6.926218338703331
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.3649474285849867,
+            "local_joint_speed_p95": 0.7209987256576814,
+            "local_joint_acceleration_p95": 6.547213772358202
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.3649474285849867,
+            "local_joint_speed_p95": 0.7209987256576814,
+            "local_joint_acceleration_p95": 6.547213772358202
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M03-phase0.375",
+      "target": "M03",
+      "initial_phase": 0.375,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04685098728754922,
+            "local_joint_speed_p95": 0.9837975177443647,
+            "local_joint_acceleration_p95": 6.730128547780044
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": -0.08,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.3137277324614603,
+            "local_joint_speed_p95": 0.7578150177720321,
+            "local_joint_acceleration_p95": 6.2030640545310565
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": -0.0625,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.3155949706726733,
+            "local_joint_speed_p95": 0.7468313860547531,
+            "local_joint_acceleration_p95": 6.217952745561795
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M03-phase0.5",
+      "target": "M03",
+      "initial_phase": 0.5,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04257011882774143,
+            "local_joint_speed_p95": 1.032102835184257,
+            "local_joint_acceleration_p95": 6.849720737956469
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.2625301521015264,
+            "local_joint_speed_p95": 0.805316431969447,
+            "local_joint_acceleration_p95": 5.758716427593742
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.2625301521015264,
+            "local_joint_speed_p95": 0.805316431969447,
+            "local_joint_acceleration_p95": 5.758716427593742
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M03-phase0.625",
+      "target": "M03",
+      "initial_phase": 0.625,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04847557857955937,
+            "local_joint_speed_p95": 0.9934973808399048,
+            "local_joint_acceleration_p95": 6.984836044054547
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.30779870328695,
+            "local_joint_speed_p95": 0.7356148841385843,
+            "local_joint_acceleration_p95": 6.218417495677296
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": 0.03125,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.3017256686533784,
+            "local_joint_speed_p95": 0.7085923807098128,
+            "local_joint_acceleration_p95": 6.423807300025299
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M03-phase0.75",
+      "target": "M03",
+      "initial_phase": 0.75,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.04021389287765767,
+            "local_joint_speed_p95": 0.9824620804896239,
+            "local_joint_acceleration_p95": 6.6209799892832875
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.3391222191106859,
+            "local_joint_speed_p95": 0.744658535733803,
+            "local_joint_acceleration_p95": 6.3101821209850995
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.3391222191106859,
+            "local_joint_speed_p95": 0.744658535733803,
+            "local_joint_acceleration_p95": 6.3101821209850995
+          }
+        }
+      ]
+    },
+    {
+      "id": "M02-M03-phase0.875",
+      "target": "M03",
+      "initial_phase": 0.875,
+      "root_pair_identical": true,
+      "variants": [
+        {
+          "method": "continue",
+          "entry_offset": null,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.044670030089929605,
+            "local_joint_speed_p95": 0.998112691109657,
+            "local_joint_acceleration_p95": 6.680583489965187
+          }
+        },
+        {
+          "method": "local",
+          "entry_offset": 0.0,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.2914473616027511,
+            "local_joint_speed_p95": 0.87101649605504,
+            "local_joint_acceleration_p95": 6.632821806407006
+          }
+        },
+        {
+          "method": "matched",
+          "entry_offset": -0.03125,
+          "metrics": {
+            "post_switch_source_discrepancy_max": 0.2892071221982143,
+            "local_joint_speed_p95": 0.8272659927595362,
+            "local_joint_acceleration_p95": 6.747834842384664
+          }
+        }
+      ]
+    }
+  ],
+  "classification": "isolated_post_hoc_transition_diagnostic",
+  "frozen_hash_checks": {
+    "src/predictive_motion_lab/controller.py": true,
+    "src/predictive_motion_lab/__init__.py": true,
+    "src/predictive_motion_lab/motion.py": true,
+    "src/predictive_motion_lab/geometry.py": true,
+    "src/predictive_motion_lab/evaluate.py": true,
+    "scripts/build_predictive_motion_lab.py": true,
+    "data/predictive-motion-lab/configs.json": true,
+    "data/predictive-motion-lab/library.json": true
+  },
+  "source_hashes": {
+    "scripts/build_transition_review.py": "5e37eafe06ac7e85fa2fe56e40181840a2431163b189a9985e430d64dfa953d0",
+    "src/transition_diagnostic.py": "a6e85f5d4df9e91970dc6cecddf6b12f40d36e09aebf86688e590ba1511009cd"
+  },
+  "limitations": [
+    "Not obstacle success, contact validity, naturalness or status evaluation.",
+    "A/B share root controls; the continuation reference does not.",
+    "Different target native speeds confound comparisons across destinations.",
+    "Same .4s fade restarted each .2s replanning step as frozen controller.",
+    "All eight phases retained; initial default is phase zero, not best case."
+  ]
+}

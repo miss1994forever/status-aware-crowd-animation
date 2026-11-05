@@ -1,0 +1,60 @@
+[
+  {
+    "file": "train_door-1-0.28-13_G_0.json",
+    "t": 0.4,
+    "selected": {
+      "clip": "M07",
+      "scale": 0.8,
+      "steer": 0.0,
+      "phase_offset": -0.08,
+      "clearance": 0.06311951091258305,
+      "feasible": true,
+      "progress": -0.70526310153741,
+      "continuity": 0.15580070061665718,
+      "expression": 0.5075920980626428,
+      "navigation": 0.0,
+      "deformation": 0.15352449165233964,
+      "score": -0.5494533369336627,
+      "reason": "safe",
+      "selected": true
+    },
+    "identical_root_control_other_phase_rejected": [
+      {
+        "clip": "M07",
+        "scale": 0.8,
+        "steer": 0.0,
+        "phase_offset": 0.0,
+        "clearance": -0.0050769748718725305,
+        "feasible": false,
+        "progress": -0.70526310153741,
+        "continuity": 0.10538134767705393,
+        "expression": 0.5075920980626428,
+        "navigation": 0.0,
+        "deformation": 0.0905762849798972,
+        "score": -0.5998548827299296,
+        "reason": "predicted_body_overlap",
+        "selected": false
+      },
+      {
+        "clip": "M07",
+        "scale": 0.8,
+        "steer": 0.0,
+        "phase_offset": 0.08,
+        "clearance": -0.0025692799285634838,
+        "feasible": false,
+        "progress": -0.70526310153741,
+        "continuity": 0.1499846911820713,
+        "expression": 0.5075920980626428,
+        "navigation": 0.0,
+        "deformation": 0.24929062421388612,
+        "score": -0.555242940129466,
+        "reason": "predicted_body_overlap",
+        "selected": false
+      }
+    ],
+    "verified_future_root_max_difference": 0.0,
+    "future_pose_max_difference": 0.1776795940196259,
+    "replayed_task_arrived": false,
+    "meaning": "Same clip, scale, steer and source direction produce identical root trajectory; phase changes projected skeleton and feasibility."
+  }
+]

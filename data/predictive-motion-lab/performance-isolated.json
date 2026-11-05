@@ -1,0 +1,42 @@
+[
+  {
+    "count": 10,
+    "snapshot_t": 5.0,
+    "samples": [
+      {
+        "cpu_ms": 304.7489999999999,
+        "elapsed_ms": 305.0107501912862
+      },
+      {
+        "cpu_ms": 302.747,
+        "elapsed_ms": 302.9526669997722
+      },
+      {
+        "cpu_ms": 305.89800000000014,
+        "elapsed_ms": 306.27854098565876
+      }
+    ],
+    "includes_rendering": false,
+    "one_complete_synchronous_decision": true
+  },
+  {
+    "count": 30,
+    "snapshot_t": 5.0,
+    "samples": [
+      {
+        "cpu_ms": 1975.0280000000002,
+        "elapsed_ms": 1975.9234581142664
+      },
+      {
+        "cpu_ms": 1986.056,
+        "elapsed_ms": 1987.5171659514308
+      },
+      {
+        "cpu_ms": 2040.85,
+        "elapsed_ms": 2068.782958900556
+      }
+    ],
+    "includes_rendering": false,
+    "one_complete_synchronous_decision": true
+  }
+]

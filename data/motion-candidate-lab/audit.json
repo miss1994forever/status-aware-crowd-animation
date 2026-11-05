@@ -1,0 +1,4137 @@
+{
+  "schema": 1,
+  "creator": "Bandai Namco Research Inc.",
+  "repository": "https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset",
+  "revision": "74ead3ba1ae4696404e6086233779f60de8bf9ef",
+  "license": "CC BY-NC 4.0",
+  "translation_mode": "channels_replace_offset",
+  "units": "one fixed M01 source reference height for ALL clips, not metres",
+  "status_inference": false,
+  "ik": false,
+  "entries": [
+    {
+      "id": "M01",
+      "source": {
+        "file": "data/raw/bandai-pilot/dataset-1_walk_normal_001.bvh",
+        "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk_normal_001.bvh",
+        "source_content": "walk",
+        "source_style": "normal",
+        "status_label": null,
+        "sha256": "5764cebc2fedabf287880a7f25cb06753e1679675a02a6f033998de041ba8032",
+        "bytes": 243939,
+        "validation": {
+          "joints_including_end_sites": 27,
+          "animated_joints": 22,
+          "channels": 132,
+          "frames": 195,
+          "fps": 30.000030000029998,
+          "playback_duration_seconds": 6.4999935,
+          "first_to_last_sample_seconds": 6.466660200000001,
+          "root_position_bounds_source_units": {
+            "Xposition": [
+              0.0,
+              0.0
+            ],
+            "Yposition": [
+              0.0,
+              0.0
+            ],
+            "Zposition": [
+              0.0,
+              0.0
+            ]
+          },
+          "units": "unspecified by BVH; verify before retargeting",
+          "status_label": null
+        }
+      },
+      "hash_verified": true,
+      "measurements": {
+        "frame_count": 195,
+        "sample_interval_seconds": 0.0333333,
+        "sample_span_seconds": 6.466660200000001,
+        "held_playback_seconds": 6.4999935,
+        "reference_height_source_units": 132.9599165425674,
+        "measured_head_to_toe_height_source_units": 132.9599165425674,
+        "anatomical_heading_radians": 0.07210059176337749,
+        "shoulder_heading_p95_minus_p05_degrees": 6.521690111375432,
+        "travel_body_heights_xz": [
+          -0.4672268306171565,
+          6.055695220216924
+        ],
+        "travel_relative_facing_degrees": -4.4119120256407145,
+        "hip_speed_body_heights_per_second": {
+          "p05": 0.6956504685714175,
+          "median": 0.8990935247790512,
+          "p95": 1.2601580415679068
+        },
+        "source_low_toe_height_speed_proxy": {
+          "samples": 249,
+          "median": 0.02568775689748651,
+          "p95": 3.028697936231101,
+          "max": 3.187229617571068
+        },
+        "recurrence_peaks": [
+          {
+            "frames": 65,
+            "seconds": 2.1666645,
+            "correlation": 0.988501969304656
+          },
+          {
+            "frames": 33,
+            "seconds": 1.0999989000000001,
+            "correlation": 0.9860058222686664
+          }
+        ],
+        "selected_recurrence_peak": {
+          "frames": 33,
+          "seconds": 1.0999989000000001,
+          "correlation": 0.9860058222686664
+        }
+      },
+      "methods": {
+        "baseline": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 82,
+            "end": 114,
+            "period_frames": 32,
+            "score": 0.014703590987968918,
+            "raw_seam_position_rms": 0.009289639786309634,
+            "raw_seam_velocity_rms": 0.06767439002074105,
+            "context_rms": 0.005463531250719593,
+            "stride": 1.0325076434896734,
+            "period_seconds": 1.0666656,
+            "native_speed": 0.9679768837484525,
+            "travel_heading_relative_body": -0.08074574304871497,
+            "max_cartesian_correction": 0.02427061667963035,
+            "max_output_change": 0.024630917182744794,
+            "rms_output_change": 0.007675241245173215,
+            "max_output_bone_relative_error": 2.220446049250313e-15,
+            "source_bone_relative_variation": 5.551115123125783e-15,
+            "seam_position_epsilon_rms": 1.0400393747370912e-05,
+            "seam_velocity_epsilon_rms": 2.9775211311823676e-05,
+            "phase_offset": 0.71875,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 82,
+              "end": 114,
+              "period_frames": 32,
+              "score": 0.014703590987968918,
+              "raw_seam_position_rms": 0.009289639786309634,
+              "raw_seam_velocity_rms": 0.06767439002074105,
+              "context_rms": 0.005463531250719593,
+              "stride": 1.0325076434896734
+            },
+            {
+              "start": 81,
+              "end": 113,
+              "period_frames": 32,
+              "score": 0.014843518289919337,
+              "raw_seam_position_rms": 0.00862706827715163,
+              "raw_seam_velocity_rms": 0.07770562515959634,
+              "context_rms": 0.005225579737256746,
+              "stride": 1.0320798998033731
+            },
+            {
+              "start": 111,
+              "end": 143,
+              "period_frames": 32,
+              "score": 0.015000855802550584,
+              "raw_seam_position_rms": 0.010328329154597322,
+              "raw_seam_velocity_rms": 0.05840658309941577,
+              "context_rms": 0.006072084583497844,
+              "stride": 1.0192341931104665
+            },
+            {
+              "start": 112,
+              "end": 144,
+              "period_frames": 32,
+              "score": 0.015183618180282146,
+              "raw_seam_position_rms": 0.010489740906363784,
+              "raw_seam_velocity_rms": 0.058673465923979526,
+              "context_rms": 0.0061782055695734864,
+              "stride": 1.0179301283151987
+            },
+            {
+              "start": 110,
+              "end": 142,
+              "period_frames": 32,
+              "score": 0.0153107564107362,
+              "raw_seam_position_rms": 0.0105870269025185,
+              "raw_seam_velocity_rms": 0.059046618852721264,
+              "context_rms": 0.006007875533944513,
+              "stride": 1.0196202068382154
+            },
+            {
+              "start": 113,
+              "end": 145,
+              "period_frames": 32,
+              "score": 0.0153741435841958,
+              "raw_seam_position_rms": 0.010747951279159647,
+              "raw_seam_velocity_rms": 0.05782740381295189,
+              "context_rms": 0.006336044277766404,
+              "stride": 1.016662461402825
+            },
+            {
+              "start": 89,
+              "end": 121,
+              "period_frames": 32,
+              "score": 0.015427945121589992,
+              "raw_seam_position_rms": 0.010724238467894835,
+              "raw_seam_velocity_rms": 0.058796333171189465,
+              "context_rms": 0.006677522579534845,
+              "stride": 1.032501768436147
+            },
+            {
+              "start": 123,
+              "end": 156,
+              "period_frames": 33,
+              "score": 0.015527384772364532,
+              "raw_seam_position_rms": 0.006807048992371846,
+              "raw_seam_velocity_rms": 0.10900419724990858,
+              "context_rms": 0.006101120746965203,
+              "stride": 1.0450463181925138
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 82,
+                "end": 114,
+                "period_frames": 32,
+                "score": 0.014703590987968918,
+                "raw_seam_position_rms": 0.009289639786309634,
+                "raw_seam_velocity_rms": 0.06767439002074105,
+                "context_rms": 0.005463531250719593,
+                "stride": 1.0325076434896734,
+                "period_seconds": 1.0666656,
+                "native_speed": 0.9679768837484525,
+                "travel_heading_relative_body": -0.08074574304871497,
+                "max_cartesian_correction": 0.02427061667963035,
+                "max_output_change": 0.024630917182744794,
+                "rms_output_change": 0.007675241245173215,
+                "max_output_bone_relative_error": 2.220446049250313e-15,
+                "source_bone_relative_variation": 5.551115123125783e-15,
+                "seam_position_epsilon_rms": 1.0400393747370912e-05,
+                "seam_velocity_epsilon_rms": 2.9775211311823676e-05,
+                "phase_offset": 0.71875
+              },
+              "reasons": []
+            }
+          ]
+        },
+        "improved": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 82,
+            "end": 114,
+            "period_frames": 32,
+            "score": 0.017435356613328713,
+            "raw_seam_position_rms": 0.009289639786309634,
+            "raw_seam_velocity_rms": 0.06767439002074105,
+            "context_rms": 0.005463531250719593,
+            "stride": 1.0325076434896734,
+            "period_seconds": 1.0666656,
+            "native_speed": 0.9679768837484525,
+            "travel_heading_relative_body": -0.08074574304871497,
+            "max_cartesian_correction": 0.02427061667963035,
+            "max_output_change": 0.024630917182744794,
+            "rms_output_change": 0.007675241245173215,
+            "max_output_bone_relative_error": 2.220446049250313e-15,
+            "source_bone_relative_variation": 5.551115123125783e-15,
+            "seam_position_epsilon_rms": 1.0400393747370912e-05,
+            "seam_velocity_epsilon_rms": 2.9775211311823676e-05,
+            "phase_offset": 0.71875,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 82,
+              "end": 114,
+              "period_frames": 32,
+              "score": 0.017435356613328713,
+              "raw_seam_position_rms": 0.009289639786309634,
+              "raw_seam_velocity_rms": 0.06767439002074105,
+              "context_rms": 0.005463531250719593,
+              "stride": 1.0325076434896734
+            },
+            {
+              "start": 81,
+              "end": 113,
+              "period_frames": 32,
+              "score": 0.01745630815854771,
+              "raw_seam_position_rms": 0.00862706827715163,
+              "raw_seam_velocity_rms": 0.07770562515959634,
+              "context_rms": 0.005225579737256746,
+              "stride": 1.0320798998033731
+            },
+            {
+              "start": 111,
+              "end": 143,
+              "period_frames": 32,
+              "score": 0.018036898094299505,
+              "raw_seam_position_rms": 0.010328329154597322,
+              "raw_seam_velocity_rms": 0.05840658309941577,
+              "context_rms": 0.006072084583497844,
+              "stride": 1.0192341931104665
+            },
+            {
+              "start": 112,
+              "end": 144,
+              "period_frames": 32,
+              "score": 0.01827272096506889,
+              "raw_seam_position_rms": 0.010489740906363784,
+              "raw_seam_velocity_rms": 0.058673465923979526,
+              "context_rms": 0.0061782055695734864,
+              "stride": 1.0179301283151987
+            },
+            {
+              "start": 110,
+              "end": 142,
+              "period_frames": 32,
+              "score": 0.01831469417770846,
+              "raw_seam_position_rms": 0.0105870269025185,
+              "raw_seam_velocity_rms": 0.059046618852721264,
+              "context_rms": 0.006007875533944513,
+              "stride": 1.0196202068382154
+            },
+            {
+              "start": 113,
+              "end": 145,
+              "period_frames": 32,
+              "score": 0.018542165723079002,
+              "raw_seam_position_rms": 0.010747951279159647,
+              "raw_seam_velocity_rms": 0.05782740381295189,
+              "context_rms": 0.006336044277766404,
+              "stride": 1.016662461402825
+            },
+            {
+              "start": 123,
+              "end": 156,
+              "period_frames": 33,
+              "score": 0.01857794514584713,
+              "raw_seam_position_rms": 0.006807048992371846,
+              "raw_seam_velocity_rms": 0.10900419724990858,
+              "context_rms": 0.006101120746965203,
+              "stride": 1.0450463181925138
+            },
+            {
+              "start": 83,
+              "end": 115,
+              "period_frames": 32,
+              "score": 0.018683349122452793,
+              "raw_seam_position_rms": 0.010168542527984816,
+              "raw_seam_velocity_rms": 0.06985767428459305,
+              "context_rms": 0.0058523853034010654,
+              "stride": 1.0333968105926783
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 82,
+                "end": 114,
+                "period_frames": 32,
+                "score": 0.017435356613328713,
+                "raw_seam_position_rms": 0.009289639786309634,
+                "raw_seam_velocity_rms": 0.06767439002074105,
+                "context_rms": 0.005463531250719593,
+                "stride": 1.0325076434896734,
+                "period_seconds": 1.0666656,
+                "native_speed": 0.9679768837484525,
+                "travel_heading_relative_body": -0.08074574304871497,
+                "max_cartesian_correction": 0.02427061667963035,
+                "max_output_change": 0.024630917182744794,
+                "rms_output_change": 0.007675241245173215,
+                "max_output_bone_relative_error": 2.220446049250313e-15,
+                "source_bone_relative_variation": 5.551115123125783e-15,
+                "seam_position_epsilon_rms": 1.0400393747370912e-05,
+                "seam_velocity_epsilon_rms": 2.9775211311823676e-05,
+                "phase_offset": 0.71875
+              },
+              "reasons": []
+            }
+          ]
+        }
+      },
+      "content_from_source_label": "walk",
+      "gaps_inferred": [
+        "未包含经验证的起步/收脚停止/转弯/方向切换过渡",
+        "侧移和倒走不能据此当作朝向行走或连续转弯素材"
+      ],
+      "decision": "可供循环工程试用"
+    },
+    {
+      "id": "M02",
+      "source": {
+        "file": "data/raw/bandai-pilot/dataset-1_walk_proud_001.bvh",
+        "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk_proud_001.bvh",
+        "source_content": "walk",
+        "source_style": "proud",
+        "status_label": null,
+        "sha256": "9044301b145cf7c53d37d5f65f0377af78c4bf68c80f91c7afcf1ce9c87ffa0f",
+        "bytes": 409623,
+        "validation": {
+          "joints_including_end_sites": 27,
+          "animated_joints": 22,
+          "channels": 132,
+          "frames": 331,
+          "fps": 30.000030000029998,
+          "playback_duration_seconds": 11.033322300000002,
+          "first_to_last_sample_seconds": 10.999989000000001,
+          "root_position_bounds_source_units": {
+            "Xposition": [
+              0.0,
+              0.0
+            ],
+            "Yposition": [
+              0.0,
+              0.0
+            ],
+            "Zposition": [
+              0.0,
+              0.0
+            ]
+          },
+          "units": "unspecified by BVH; verify before retargeting",
+          "status_label": null
+        }
+      },
+      "hash_verified": true,
+      "measurements": {
+        "frame_count": 331,
+        "sample_interval_seconds": 0.0333333,
+        "sample_span_seconds": 10.999989000000001,
+        "held_playback_seconds": 11.033322300000002,
+        "reference_height_source_units": 132.9599165425674,
+        "measured_head_to_toe_height_source_units": 132.5709178696031,
+        "anatomical_heading_radians": 0.05394083144251436,
+        "shoulder_heading_p95_minus_p05_degrees": 15.320417174668384,
+        "travel_body_heights_xz": [
+          -0.3454097583187015,
+          6.076568531648437
+        ],
+        "travel_relative_facing_degrees": -3.2533571092940052,
+        "hip_speed_body_heights_per_second": {
+          "p05": 0.2999866158014009,
+          "median": 0.5127427419307559,
+          "p95": 0.8664049541045792
+        },
+        "source_low_toe_height_speed_proxy": {
+          "samples": 457,
+          "median": 0.013844520380206879,
+          "p95": 2.076067801314421,
+          "max": 2.321737786745707
+        },
+        "recurrence_peaks": [
+          {
+            "frames": 47,
+            "seconds": 1.5666651000000003,
+            "correlation": 0.9748865714073978
+          }
+        ],
+        "selected_recurrence_peak": {
+          "frames": 47,
+          "seconds": 1.5666651000000003,
+          "correlation": 0.9748865714073978
+        }
+      },
+      "methods": {
+        "baseline": {
+          "accepted": false,
+          "reasons": [
+            "最大节点改动超过参考身高5%",
+            "原始接缝位置RMS超过身高2.5%"
+          ],
+          "evidence": {
+            "start": 275,
+            "end": 317,
+            "period_frames": 42,
+            "score": 0.06329103774606865,
+            "raw_seam_position_rms": 0.04091305585196672,
+            "raw_seam_velocity_rms": 0.27972477367627413,
+            "context_rms": 0.024057262055451917,
+            "stride": 0.7645984201985682,
+            "period_seconds": 1.3999986000000002,
+            "native_speed": 0.5461422748555378,
+            "travel_heading_relative_body": -0.08590889554891137,
+            "max_cartesian_correction": 0.12343651533335324,
+            "max_output_change": 0.1234211694899646,
+            "rms_output_change": 0.039935571863932665,
+            "max_output_bone_relative_error": 1.5543122344752192e-15,
+            "source_bone_relative_variation": 1.4210854715202004e-14,
+            "seam_position_epsilon_rms": 5.6166106469896085e-06,
+            "seam_velocity_epsilon_rms": 5.516107596663556e-05,
+            "phase_offset": 0.9761904761904762,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 275,
+              "end": 317,
+              "period_frames": 42,
+              "score": 0.06329103774606865,
+              "raw_seam_position_rms": 0.04091305585196672,
+              "raw_seam_velocity_rms": 0.27972477367627413,
+              "context_rms": 0.024057262055451917,
+              "stride": 0.7645984201985682
+            },
+            {
+              "start": 276,
+              "end": 318,
+              "period_frames": 42,
+              "score": 0.065153242376975,
+              "raw_seam_position_rms": 0.04551474639923029,
+              "raw_seam_velocity_rms": 0.24548119972180893,
+              "context_rms": 0.025551439105377657,
+              "stride": 0.7582950202102829
+            },
+            {
+              "start": 274,
+              "end": 316,
+              "period_frames": 42,
+              "score": 0.06620713076713117,
+              "raw_seam_position_rms": 0.03532850826384099,
+              "raw_seam_velocity_rms": 0.3859827812911272,
+              "context_rms": 0.023676230590458112,
+              "stride": 0.7725704040066551
+            },
+            {
+              "start": 277,
+              "end": 319,
+              "period_frames": 42,
+              "score": 0.06759194458012008,
+              "raw_seam_position_rms": 0.04840664642436956,
+              "raw_seam_velocity_rms": 0.2398162269468816,
+              "context_rms": 0.02733779345128985,
+              "stride": 0.7565908406476285
+            },
+            {
+              "start": 278,
+              "end": 320,
+              "period_frames": 42,
+              "score": 0.07036109047834238,
+              "raw_seam_position_rms": 0.050458176887527705,
+              "raw_seam_velocity_rms": 0.2487864198851834,
+              "context_rms": 0.02887428241936552,
+              "stride": 0.7577457748292293
+            },
+            {
+              "start": 273,
+              "end": 315,
+              "period_frames": 42,
+              "score": 0.0732867207384872,
+              "raw_seam_position_rms": 0.029956649455525074,
+              "raw_seam_velocity_rms": 0.5416258910370265,
+              "context_rms": 0.02496328757584972,
+              "stride": 0.7805689893068178
+            },
+            {
+              "start": 279,
+              "end": 321,
+              "period_frames": 42,
+              "score": 0.07574049477735852,
+              "raw_seam_position_rms": 0.05216520527344106,
+              "raw_seam_velocity_rms": 0.2946911187989682,
+              "context_rms": 0.03021114115548511,
+              "stride": 0.7595266806397107
+            },
+            {
+              "start": 275,
+              "end": 316,
+              "period_frames": 41,
+              "score": 0.08043760628373198,
+              "raw_seam_position_rms": 0.04713148636482056,
+              "raw_seam_velocity_rms": 0.4163264989863926,
+              "context_rms": 0.02936907334246717,
+              "stride": 0.7435600242177796
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 275,
+                "end": 317,
+                "period_frames": 42,
+                "score": 0.06329103774606865,
+                "raw_seam_position_rms": 0.04091305585196672,
+                "raw_seam_velocity_rms": 0.27972477367627413,
+                "context_rms": 0.024057262055451917,
+                "stride": 0.7645984201985682,
+                "period_seconds": 1.3999986000000002,
+                "native_speed": 0.5461422748555378,
+                "travel_heading_relative_body": -0.08590889554891137,
+                "max_cartesian_correction": 0.12343651533335324,
+                "max_output_change": 0.1234211694899646,
+                "rms_output_change": 0.039935571863932665,
+                "max_output_bone_relative_error": 1.5543122344752192e-15,
+                "source_bone_relative_variation": 1.4210854715202004e-14,
+                "seam_position_epsilon_rms": 5.6166106469896085e-06,
+                "seam_velocity_epsilon_rms": 5.516107596663556e-05,
+                "phase_offset": 0.9761904761904762
+              },
+              "reasons": [
+                "最大节点改动超过参考身高5%",
+                "原始接缝位置RMS超过身高2.5%"
+              ]
+            }
+          ]
+        },
+        "improved": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 177,
+            "end": 226,
+            "period_frames": 49,
+            "score": 0.014595399802313315,
+            "raw_seam_position_rms": 0.007877965116834165,
+            "raw_seam_velocity_rms": 0.053501991945739916,
+            "context_rms": 0.004874550659639915,
+            "stride": 0.883238706992806,
+            "period_seconds": 1.6333317,
+            "native_speed": 0.5407589327953446,
+            "travel_heading_relative_body": -0.07362256546650445,
+            "max_cartesian_correction": 0.03488753314579438,
+            "max_output_change": 0.03564262237289445,
+            "rms_output_change": 0.010276541494529126,
+            "max_output_bone_relative_error": 2.220446049250313e-15,
+            "source_bone_relative_variation": 9.769962616701378e-15,
+            "seam_position_epsilon_rms": 6.248027169313693e-06,
+            "seam_velocity_epsilon_rms": 2.3852405773576745e-05,
+            "phase_offset": 0.9183673469387755,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 177,
+              "end": 226,
+              "period_frames": 49,
+              "score": 0.014595399802313315,
+              "raw_seam_position_rms": 0.007877965116834165,
+              "raw_seam_velocity_rms": 0.053501991945739916,
+              "context_rms": 0.004874550659639915,
+              "stride": 0.883238706992806
+            },
+            {
+              "start": 176,
+              "end": 225,
+              "period_frames": 49,
+              "score": 0.01552193663140186,
+              "raw_seam_position_rms": 0.007606758830186699,
+              "raw_seam_velocity_rms": 0.06912500572761723,
+              "context_rms": 0.004770354686011564,
+              "stride": 0.8817100776643988
+            },
+            {
+              "start": 148,
+              "end": 196,
+              "period_frames": 48,
+              "score": 0.01595144623460968,
+              "raw_seam_position_rms": 0.009030477904704936,
+              "raw_seam_velocity_rms": 0.05017907693896853,
+              "context_rms": 0.005813284349574522,
+              "stride": 0.8785929535130702
+            },
+            {
+              "start": 178,
+              "end": 227,
+              "period_frames": 49,
+              "score": 0.016213269473543877,
+              "raw_seam_position_rms": 0.00823684160469745,
+              "raw_seam_velocity_rms": 0.06545105793920179,
+              "context_rms": 0.005480686467420564,
+              "stride": 0.8844719229658266
+            },
+            {
+              "start": 147,
+              "end": 195,
+              "period_frames": 48,
+              "score": 0.016310324520103364,
+              "raw_seam_position_rms": 0.00961715506893152,
+              "raw_seam_velocity_rms": 0.04668143275746431,
+              "context_rms": 0.005917309661149401,
+              "stride": 0.879719471907775
+            },
+            {
+              "start": 149,
+              "end": 197,
+              "period_frames": 48,
+              "score": 0.016359946325147798,
+              "raw_seam_position_rms": 0.009017746981929262,
+              "raw_seam_velocity_rms": 0.054497327806460896,
+              "context_rms": 0.005964826237403325,
+              "stride": 0.8777664254884495
+            },
+            {
+              "start": 175,
+              "end": 224,
+              "period_frames": 49,
+              "score": 0.01674795144094439,
+              "raw_seam_position_rms": 0.00798042717266019,
+              "raw_seam_velocity_rms": 0.07672250791033167,
+              "context_rms": 0.005259447270915332,
+              "stride": 0.8803834736774775
+            },
+            {
+              "start": 146,
+              "end": 194,
+              "period_frames": 48,
+              "score": 0.016848523521036995,
+              "raw_seam_position_rms": 0.010492491973275524,
+              "raw_seam_velocity_rms": 0.04031887907190646,
+              "context_rms": 0.006261042444017909,
+              "stride": 0.881044465927086
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 177,
+                "end": 226,
+                "period_frames": 49,
+                "score": 0.014595399802313315,
+                "raw_seam_position_rms": 0.007877965116834165,
+                "raw_seam_velocity_rms": 0.053501991945739916,
+                "context_rms": 0.004874550659639915,
+                "stride": 0.883238706992806,
+                "period_seconds": 1.6333317,
+                "native_speed": 0.5407589327953446,
+                "travel_heading_relative_body": -0.07362256546650445,
+                "max_cartesian_correction": 0.03488753314579438,
+                "max_output_change": 0.03564262237289445,
+                "rms_output_change": 0.010276541494529126,
+                "max_output_bone_relative_error": 2.220446049250313e-15,
+                "source_bone_relative_variation": 9.769962616701378e-15,
+                "seam_position_epsilon_rms": 6.248027169313693e-06,
+                "seam_velocity_epsilon_rms": 2.3852405773576745e-05,
+                "phase_offset": 0.9183673469387755
+              },
+              "reasons": []
+            }
+          ]
+        }
+      },
+      "content_from_source_label": "walk",
+      "gaps_inferred": [
+        "未包含经验证的起步/收脚停止/转弯/方向切换过渡",
+        "侧移和倒走不能据此当作朝向行走或连续转弯素材"
+      ],
+      "decision": "可供循环工程试用"
+    },
+    {
+      "id": "M03",
+      "source": {
+        "file": "data/raw/bandai-pilot/dataset-1_walk_not-confident_001.bvh",
+        "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk_not-confident_001.bvh",
+        "source_content": "walk",
+        "source_style": "not-confident",
+        "status_label": null,
+        "sha256": "b769cbae08f9df6460f61974c9e0a84845b924fed875aa5da998d9ac1ea6527e",
+        "bytes": 595390,
+        "validation": {
+          "joints_including_end_sites": 27,
+          "animated_joints": 22,
+          "channels": 132,
+          "frames": 481,
+          "fps": 30.000030000029998,
+          "playback_duration_seconds": 16.0333173,
+          "first_to_last_sample_seconds": 15.999984000000001,
+          "root_position_bounds_source_units": {
+            "Xposition": [
+              0.0,
+              0.0
+            ],
+            "Yposition": [
+              0.0,
+              0.0
+            ],
+            "Zposition": [
+              0.0,
+              0.0
+            ]
+          },
+          "units": "unspecified by BVH; verify before retargeting",
+          "status_label": null
+        }
+      },
+      "hash_verified": true,
+      "measurements": {
+        "frame_count": 481,
+        "sample_interval_seconds": 0.0333333,
+        "sample_span_seconds": 15.999984000000001,
+        "held_playback_seconds": 16.0333173,
+        "reference_height_source_units": 132.9599165425674,
+        "measured_head_to_toe_height_source_units": 131.30412275415824,
+        "anatomical_heading_radians": 0.04868467562087242,
+        "shoulder_heading_p95_minus_p05_degrees": 9.296858765701828,
+        "travel_body_heights_xz": [
+          -0.30303920401114615,
+          5.567838356203531
+        ],
+        "travel_relative_facing_degrees": -3.1153478646440065,
+        "hip_speed_body_heights_per_second": {
+          "p05": 0.2086472999425054,
+          "median": 0.3546469300449941,
+          "p95": 0.525296525908212
+        },
+        "source_low_toe_height_speed_proxy": {
+          "samples": 819,
+          "median": 0.01908059587559007,
+          "p95": 1.53540654806025,
+          "max": 1.8336510875252943
+        },
+        "recurrence_peaks": [
+          {
+            "frames": 44,
+            "seconds": 1.4666652000000002,
+            "correlation": 0.8048957940309851
+          }
+        ],
+        "selected_recurrence_peak": {
+          "frames": 44,
+          "seconds": 1.4666652000000002,
+          "correlation": 0.8048957940309851
+        }
+      },
+      "methods": {
+        "baseline": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 342,
+            "end": 384,
+            "period_frames": 42,
+            "score": 0.00893422872551275,
+            "raw_seam_position_rms": 0.00594782395310012,
+            "raw_seam_velocity_rms": 0.03733005965515788,
+            "context_rms": 0.003902518804633507,
+            "stride": 0.521294121597699,
+            "period_seconds": 1.3999986000000002,
+            "native_speed": 0.3723533163516727,
+            "travel_heading_relative_body": -0.06208492679854519,
+            "max_cartesian_correction": 0.01891769739328506,
+            "max_output_change": 0.018355568924735673,
+            "rms_output_change": 0.007197455517214254,
+            "max_output_bone_relative_error": 1.1102230246251565e-15,
+            "source_bone_relative_variation": 1.454392162258955e-14,
+            "seam_position_epsilon_rms": 2.6742500138953195e-06,
+            "seam_velocity_epsilon_rms": 2.836011954253467e-05,
+            "phase_offset": 0.9761904761904762,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 342,
+              "end": 384,
+              "period_frames": 42,
+              "score": 0.00893422872551275,
+              "raw_seam_position_rms": 0.00594782395310012,
+              "raw_seam_velocity_rms": 0.03733005965515788,
+              "context_rms": 0.003902518804633507,
+              "stride": 0.521294121597699
+            },
+            {
+              "start": 343,
+              "end": 385,
+              "period_frames": 42,
+              "score": 0.008998977086596326,
+              "raw_seam_position_rms": 0.005872235708794083,
+              "raw_seam_velocity_rms": 0.03908426722252804,
+              "context_rms": 0.0038687918080304827,
+              "stride": 0.522224820574606
+            },
+            {
+              "start": 344,
+              "end": 386,
+              "period_frames": 42,
+              "score": 0.009600357306505717,
+              "raw_seam_position_rms": 0.00618008178349665,
+              "raw_seam_velocity_rms": 0.04275344403761334,
+              "context_rms": 0.00397994353550567,
+              "stride": 0.5235365879428405
+            },
+            {
+              "start": 341,
+              "end": 383,
+              "period_frames": 42,
+              "score": 0.009845678675310764,
+              "raw_seam_position_rms": 0.006382048023852233,
+              "raw_seam_velocity_rms": 0.04329538314323164,
+              "context_rms": 0.00409423368323586,
+              "stride": 0.5206496751645311
+            },
+            {
+              "start": 345,
+              "end": 387,
+              "period_frames": 42,
+              "score": 0.010296866668338563,
+              "raw_seam_position_rms": 0.00677424676018607,
+              "raw_seam_velocity_rms": 0.044032748851906174,
+              "context_rms": 0.004259667864463956,
+              "stride": 0.5253761194765368
+            },
+            {
+              "start": 346,
+              "end": 388,
+              "period_frames": 42,
+              "score": 0.011173494252948508,
+              "raw_seam_position_rms": 0.007509646938327958,
+              "raw_seam_velocity_rms": 0.045798091432756885,
+              "context_rms": 0.0047062033672231095,
+              "stride": 0.5271267423696451
+            },
+            {
+              "start": 340,
+              "end": 382,
+              "period_frames": 42,
+              "score": 0.011417165476494587,
+              "raw_seam_position_rms": 0.006970365686450209,
+              "raw_seam_velocity_rms": 0.055584997375554716,
+              "context_rms": 0.004329718247091238,
+              "stride": 0.5200312461693587
+            },
+            {
+              "start": 351,
+              "end": 392,
+              "period_frames": 41,
+              "score": 0.011515083985951647,
+              "raw_seam_position_rms": 0.008590868690726953,
+              "raw_seam_velocity_rms": 0.036552691190308684,
+              "context_rms": 0.004848983858773176,
+              "stride": 0.5160806529422028
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 342,
+                "end": 384,
+                "period_frames": 42,
+                "score": 0.00893422872551275,
+                "raw_seam_position_rms": 0.00594782395310012,
+                "raw_seam_velocity_rms": 0.03733005965515788,
+                "context_rms": 0.003902518804633507,
+                "stride": 0.521294121597699,
+                "period_seconds": 1.3999986000000002,
+                "native_speed": 0.3723533163516727,
+                "travel_heading_relative_body": -0.06208492679854519,
+                "max_cartesian_correction": 0.01891769739328506,
+                "max_output_change": 0.018355568924735673,
+                "rms_output_change": 0.007197455517214254,
+                "max_output_bone_relative_error": 1.1102230246251565e-15,
+                "source_bone_relative_variation": 1.454392162258955e-14,
+                "seam_position_epsilon_rms": 2.6742500138953195e-06,
+                "seam_velocity_epsilon_rms": 2.836011954253467e-05,
+                "phase_offset": 0.9761904761904762
+              },
+              "reasons": []
+            }
+          ]
+        },
+        "improved": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 342,
+            "end": 384,
+            "period_frames": 42,
+            "score": 0.010885488127829503,
+            "raw_seam_position_rms": 0.00594782395310012,
+            "raw_seam_velocity_rms": 0.03733005965515788,
+            "context_rms": 0.003902518804633507,
+            "stride": 0.521294121597699,
+            "period_seconds": 1.3999986000000002,
+            "native_speed": 0.3723533163516727,
+            "travel_heading_relative_body": -0.06208492679854519,
+            "max_cartesian_correction": 0.01891769739328506,
+            "max_output_change": 0.018355568924735673,
+            "rms_output_change": 0.007197455517214254,
+            "max_output_bone_relative_error": 1.1102230246251565e-15,
+            "source_bone_relative_variation": 1.454392162258955e-14,
+            "seam_position_epsilon_rms": 2.6742500138953195e-06,
+            "seam_velocity_epsilon_rms": 2.836011954253467e-05,
+            "phase_offset": 0.9761904761904762,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 342,
+              "end": 384,
+              "period_frames": 42,
+              "score": 0.010885488127829503,
+              "raw_seam_position_rms": 0.00594782395310012,
+              "raw_seam_velocity_rms": 0.03733005965515788,
+              "context_rms": 0.003902518804633507,
+              "stride": 0.521294121597699
+            },
+            {
+              "start": 343,
+              "end": 385,
+              "period_frames": 42,
+              "score": 0.010933372990611567,
+              "raw_seam_position_rms": 0.005872235708794083,
+              "raw_seam_velocity_rms": 0.03908426722252804,
+              "context_rms": 0.0038687918080304827,
+              "stride": 0.522224820574606
+            },
+            {
+              "start": 344,
+              "end": 386,
+              "period_frames": 42,
+              "score": 0.011590329074258552,
+              "raw_seam_position_rms": 0.00618008178349665,
+              "raw_seam_velocity_rms": 0.04275344403761334,
+              "context_rms": 0.00397994353550567,
+              "stride": 0.5235365879428405
+            },
+            {
+              "start": 341,
+              "end": 383,
+              "period_frames": 42,
+              "score": 0.011892795516928694,
+              "raw_seam_position_rms": 0.006382048023852233,
+              "raw_seam_velocity_rms": 0.04329538314323164,
+              "context_rms": 0.00409423368323586,
+              "stride": 0.5206496751645311
+            },
+            {
+              "start": 345,
+              "end": 387,
+              "period_frames": 42,
+              "score": 0.012426700600570542,
+              "raw_seam_position_rms": 0.00677424676018607,
+              "raw_seam_velocity_rms": 0.044032748851906174,
+              "context_rms": 0.004259667864463956,
+              "stride": 0.5253761194765368
+            },
+            {
+              "start": 346,
+              "end": 388,
+              "period_frames": 42,
+              "score": 0.013526595936560063,
+              "raw_seam_position_rms": 0.007509646938327958,
+              "raw_seam_velocity_rms": 0.045798091432756885,
+              "context_rms": 0.0047062033672231095,
+              "stride": 0.5271267423696451
+            },
+            {
+              "start": 340,
+              "end": 382,
+              "period_frames": 42,
+              "score": 0.013582024600040207,
+              "raw_seam_position_rms": 0.006970365686450209,
+              "raw_seam_velocity_rms": 0.055584997375554716,
+              "context_rms": 0.004329718247091238,
+              "stride": 0.5200312461693587
+            },
+            {
+              "start": 347,
+              "end": 388,
+              "period_frames": 41,
+              "score": 0.013880307495879023,
+              "raw_seam_position_rms": 0.007985902223973494,
+              "raw_seam_velocity_rms": 0.044130679645835065,
+              "context_rms": 0.004727901800477447,
+              "stride": 0.512425794772412
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 342,
+                "end": 384,
+                "period_frames": 42,
+                "score": 0.010885488127829503,
+                "raw_seam_position_rms": 0.00594782395310012,
+                "raw_seam_velocity_rms": 0.03733005965515788,
+                "context_rms": 0.003902518804633507,
+                "stride": 0.521294121597699,
+                "period_seconds": 1.3999986000000002,
+                "native_speed": 0.3723533163516727,
+                "travel_heading_relative_body": -0.06208492679854519,
+                "max_cartesian_correction": 0.01891769739328506,
+                "max_output_change": 0.018355568924735673,
+                "rms_output_change": 0.007197455517214254,
+                "max_output_bone_relative_error": 1.1102230246251565e-15,
+                "source_bone_relative_variation": 1.454392162258955e-14,
+                "seam_position_epsilon_rms": 2.6742500138953195e-06,
+                "seam_velocity_epsilon_rms": 2.836011954253467e-05,
+                "phase_offset": 0.9761904761904762
+              },
+              "reasons": []
+            }
+          ]
+        }
+      },
+      "content_from_source_label": "walk",
+      "gaps_inferred": [
+        "未包含经验证的起步/收脚停止/转弯/方向切换过渡",
+        "侧移和倒走不能据此当作朝向行走或连续转弯素材"
+      ],
+      "decision": "可供循环工程试用"
+    },
+    {
+      "id": "M04",
+      "source": {
+        "file": "data/raw/bandai-pilot/dataset-1_walk-back_normal_001.bvh",
+        "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-back_normal_001.bvh",
+        "source_content": "walk-back",
+        "source_style": "normal",
+        "status_label": null,
+        "sha256": "4c182559dbd28e4ba485f664dea49817a30fc0acde29b482f1baaeff4fa80397",
+        "bytes": 42704,
+        "validation": {
+          "joints_including_end_sites": 27,
+          "animated_joints": 22,
+          "channels": 132,
+          "frames": 31,
+          "fps": 30.000030000029998,
+          "playback_duration_seconds": 1.0333323,
+          "first_to_last_sample_seconds": 0.9999990000000001,
+          "root_position_bounds_source_units": {
+            "Xposition": [
+              0.0,
+              0.0
+            ],
+            "Yposition": [
+              0.0,
+              0.0
+            ],
+            "Zposition": [
+              -120.0,
+              0.0
+            ]
+          },
+          "units": "unspecified by BVH; verify before retargeting",
+          "status_label": null
+        }
+      },
+      "hash_verified": true,
+      "measurements": {
+        "frame_count": 31,
+        "sample_interval_seconds": 0.0333333,
+        "sample_span_seconds": 0.9999990000000001,
+        "held_playback_seconds": 1.0333323,
+        "reference_height_source_units": 132.9599165425674,
+        "measured_head_to_toe_height_source_units": 134.5637711374898,
+        "anatomical_heading_radians": -0.039915756731709044,
+        "shoulder_heading_p95_minus_p05_degrees": 7.640109406276667,
+        "travel_body_heights_xz": [
+          -0.036015508312442865,
+          -0.9018087537330783
+        ],
+        "travel_relative_facing_degrees": -177.71299560320216,
+        "hip_speed_body_heights_per_second": {
+          "p05": 0.6529412373545709,
+          "median": 0.8154899661000035,
+          "p95": 1.2572234787382082
+        },
+        "source_low_toe_height_speed_proxy": {
+          "samples": 35,
+          "median": 0.02559920973104617,
+          "p95": 0.6259137001965885,
+          "max": 1.4592612467178843
+        },
+        "recurrence_peaks": [],
+        "selected_recurrence_peak": null
+      },
+      "methods": {
+        "baseline": {
+          "accepted": false,
+          "reasons": [
+            "不足两个可测周期或未发现内部相关峰"
+          ],
+          "candidates": []
+        },
+        "improved": {
+          "accepted": false,
+          "reasons": [
+            "不足两个可测周期或未发现内部相关峰"
+          ],
+          "candidates": []
+        }
+      },
+      "content_from_source_label": "walk-back",
+      "gaps_inferred": [
+        "未包含经验证的起步/收脚停止/转弯/方向切换过渡",
+        "侧移和倒走不能据此当作朝向行走或连续转弯素材"
+      ],
+      "decision": "保留原始片段；改进循环拒绝"
+    },
+    {
+      "id": "M05",
+      "source": {
+        "file": "data/raw/bandai-pilot/dataset-1_walk-back_proud_001.bvh",
+        "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-back_proud_001.bvh",
+        "source_content": "walk-back",
+        "source_style": "proud",
+        "status_label": null,
+        "sha256": "869fc9fc8e3da6a58da8b5ceeae6c79e4249739a70ee0f79eebfdbd7a5e4871b",
+        "bytes": 482801,
+        "validation": {
+          "joints_including_end_sites": 27,
+          "animated_joints": 22,
+          "channels": 132,
+          "frames": 391,
+          "fps": 30.000030000029998,
+          "playback_duration_seconds": 13.033320300000002,
+          "first_to_last_sample_seconds": 12.999987,
+          "root_position_bounds_source_units": {
+            "Xposition": [
+              0.0,
+              0.0
+            ],
+            "Yposition": [
+              0.0,
+              0.0
+            ],
+            "Zposition": [
+              0.0,
+              0.0
+            ]
+          },
+          "units": "unspecified by BVH; verify before retargeting",
+          "status_label": null
+        }
+      },
+      "hash_verified": true,
+      "measurements": {
+        "frame_count": 391,
+        "sample_interval_seconds": 0.0333333,
+        "sample_span_seconds": 12.999987,
+        "held_playback_seconds": 13.033320300000002,
+        "reference_height_source_units": 132.9599165425674,
+        "measured_head_to_toe_height_source_units": 133.10548962883504,
+        "anatomical_heading_radians": 0.045348022785338886,
+        "shoulder_heading_p95_minus_p05_degrees": 15.98391446685723,
+        "travel_body_heights_xz": [
+          0.20033844451725286,
+          -4.90965692286711
+        ],
+        "travel_relative_facing_degrees": 177.66334326175306,
+        "hip_speed_body_heights_per_second": {
+          "p05": 0.16319150135399776,
+          "median": 0.3653752967660256,
+          "p95": 0.6467459329826548
+        },
+        "source_low_toe_height_speed_proxy": {
+          "samples": 665,
+          "median": 0.01215230142157641,
+          "p95": 1.4797841657789532,
+          "max": 1.708086172188669
+        },
+        "recurrence_peaks": [
+          {
+            "frames": 49,
+            "seconds": 1.6333317,
+            "correlation": 0.9268337876346853
+          }
+        ],
+        "selected_recurrence_peak": {
+          "frames": 49,
+          "seconds": 1.6333317,
+          "correlation": 0.9268337876346853
+        }
+      },
+      "methods": {
+        "baseline": {
+          "accepted": false,
+          "reasons": [
+            "最大节点改动超过参考身高5%",
+            "原始接缝位置RMS超过身高2.5%"
+          ],
+          "evidence": {
+            "start": 235,
+            "end": 277,
+            "period_frames": 42,
+            "score": 0.08650487878615923,
+            "raw_seam_position_rms": 0.05194329345747144,
+            "raw_seam_velocity_rms": 0.43201981660859734,
+            "context_rms": 0.03291634378505675,
+            "stride": 0.5409479731803997,
+            "period_seconds": 1.3999986000000002,
+            "native_speed": 0.38639179580636696,
+            "travel_heading_relative_body": -3.1267156595110457,
+            "max_cartesian_correction": 0.19274770679933403,
+            "max_output_change": 0.18267088817161573,
+            "rms_output_change": 0.05541959836454158,
+            "max_output_bone_relative_error": 2.3314683517128287e-15,
+            "source_bone_relative_variation": 6.661338147750939e-15,
+            "seam_position_epsilon_rms": 6.376641832149801e-06,
+            "seam_velocity_epsilon_rms": 2.439161455824397e-05,
+            "phase_offset": 0.6904761904761905,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 235,
+              "end": 277,
+              "period_frames": 42,
+              "score": 0.08650487878615923,
+              "raw_seam_position_rms": 0.05194329345747144,
+              "raw_seam_velocity_rms": 0.43201981660859734,
+              "context_rms": 0.03291634378505675,
+              "stride": 0.5409479731803997
+            },
+            {
+              "start": 234,
+              "end": 276,
+              "period_frames": 42,
+              "score": 0.0876956960302521,
+              "raw_seam_position_rms": 0.047712468255530764,
+              "raw_seam_velocity_rms": 0.49979034718401655,
+              "context_rms": 0.03268708984686923,
+              "stride": 0.5448734609415555
+            },
+            {
+              "start": 255,
+              "end": 297,
+              "period_frames": 42,
+              "score": 0.0881015318365912,
+              "raw_seam_position_rms": 0.04540196899947308,
+              "raw_seam_velocity_rms": 0.5337445354639765,
+              "context_rms": 0.03193212108027546,
+              "stride": 0.551269332936087
+            },
+            {
+              "start": 256,
+              "end": 298,
+              "period_frames": 42,
+              "score": 0.08818108284527257,
+              "raw_seam_position_rms": 0.04865844174931765,
+              "raw_seam_velocity_rms": 0.49403301369943653,
+              "context_rms": 0.032591109168534235,
+              "stride": 0.5408614377911943
+            },
+            {
+              "start": 236,
+              "end": 278,
+              "period_frames": 42,
+              "score": 0.08819350661427236,
+              "raw_seam_position_rms": 0.05759998200022932,
+              "raw_seam_velocity_rms": 0.38241905767553797,
+              "context_rms": 0.034520385552949576,
+              "stride": 0.5375087582752603
+            },
+            {
+              "start": 330,
+              "end": 372,
+              "period_frames": 42,
+              "score": 0.0904270912933304,
+              "raw_seam_position_rms": 0.05042465135770801,
+              "raw_seam_velocity_rms": 0.50003049919528,
+              "context_rms": 0.03257914574652418,
+              "stride": 0.5607506727421191
+            },
+            {
+              "start": 329,
+              "end": 371,
+              "period_frames": 42,
+              "score": 0.09124065312401441,
+              "raw_seam_position_rms": 0.049171675325728796,
+              "raw_seam_velocity_rms": 0.5258622224785703,
+              "context_rms": 0.03296451890929768,
+              "stride": 0.568347484406041
+            },
+            {
+              "start": 237,
+              "end": 279,
+              "period_frames": 42,
+              "score": 0.09162951986312988,
+              "raw_seam_position_rms": 0.0627773789109593,
+              "raw_seam_velocity_rms": 0.3606517619021322,
+              "context_rms": 0.036913914103043344,
+              "stride": 0.5359917661589725
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 235,
+                "end": 277,
+                "period_frames": 42,
+                "score": 0.08650487878615923,
+                "raw_seam_position_rms": 0.05194329345747144,
+                "raw_seam_velocity_rms": 0.43201981660859734,
+                "context_rms": 0.03291634378505675,
+                "stride": 0.5409479731803997,
+                "period_seconds": 1.3999986000000002,
+                "native_speed": 0.38639179580636696,
+                "travel_heading_relative_body": -3.1267156595110457,
+                "max_cartesian_correction": 0.19274770679933403,
+                "max_output_change": 0.18267088817161573,
+                "rms_output_change": 0.05541959836454158,
+                "max_output_bone_relative_error": 2.3314683517128287e-15,
+                "source_bone_relative_variation": 6.661338147750939e-15,
+                "seam_position_epsilon_rms": 6.376641832149801e-06,
+                "seam_velocity_epsilon_rms": 2.439161455824397e-05,
+                "phase_offset": 0.6904761904761905
+              },
+              "reasons": [
+                "最大节点改动超过参考身高5%",
+                "原始接缝位置RMS超过身高2.5%"
+              ]
+            }
+          ]
+        },
+        "improved": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 281,
+            "end": 330,
+            "period_frames": 49,
+            "score": 0.02563463441591126,
+            "raw_seam_position_rms": 0.016103175273510573,
+            "raw_seam_velocity_rms": 0.06086676705029767,
+            "context_rms": 0.00932423555675375,
+            "stride": 0.6420132343633027,
+            "period_seconds": 1.6333317,
+            "native_speed": 0.39306972023092596,
+            "travel_heading_relative_body": 3.082703418413571,
+            "max_cartesian_correction": 0.041009416312339966,
+            "max_output_change": 0.042492952995432286,
+            "rms_output_change": 0.013361352289739474,
+            "max_output_bone_relative_error": 2.3314683517128287e-15,
+            "source_bone_relative_variation": 9.43689570931383e-15,
+            "seam_position_epsilon_rms": 6.016191023349745e-06,
+            "seam_velocity_epsilon_rms": 3.084664474213301e-05,
+            "phase_offset": 0.6530612244897959,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 281,
+              "end": 330,
+              "period_frames": 49,
+              "score": 0.02563463441591126,
+              "raw_seam_position_rms": 0.016103175273510573,
+              "raw_seam_velocity_rms": 0.06086676705029767,
+              "context_rms": 0.00932423555675375,
+              "stride": 0.6420132343633027
+            },
+            {
+              "start": 282,
+              "end": 331,
+              "period_frames": 49,
+              "score": 0.02621851410011746,
+              "raw_seam_position_rms": 0.016166977515723168,
+              "raw_seam_velocity_rms": 0.06730188476622868,
+              "context_rms": 0.009334771606191995,
+              "stride": 0.6415586926060461
+            },
+            {
+              "start": 280,
+              "end": 329,
+              "period_frames": 49,
+              "score": 0.02629211111113611,
+              "raw_seam_position_rms": 0.015826072095740634,
+              "raw_seam_velocity_rms": 0.07223861501370545,
+              "context_rms": 0.009373899628598083,
+              "stride": 0.6424333494519316
+            },
+            {
+              "start": 210,
+              "end": 258,
+              "period_frames": 48,
+              "score": 0.026542075977145217,
+              "raw_seam_position_rms": 0.015348936191714718,
+              "raw_seam_velocity_rms": 0.08486686843213409,
+              "context_rms": 0.008807580621719546,
+              "stride": 0.5860987601170918
+            },
+            {
+              "start": 257,
+              "end": 305,
+              "period_frames": 48,
+              "score": 0.027058125222523856,
+              "raw_seam_position_rms": 0.015568309341037794,
+              "raw_seam_velocity_rms": 0.08484726456987961,
+              "context_rms": 0.009404069431791388,
+              "stride": 0.6302271466131576
+            },
+            {
+              "start": 283,
+              "end": 332,
+              "period_frames": 49,
+              "score": 0.027241400730506227,
+              "raw_seam_position_rms": 0.01624503896140449,
+              "raw_seam_velocity_rms": 0.07819300975844368,
+              "context_rms": 0.009481841976852487,
+              "stride": 0.641758803924498
+            },
+            {
+              "start": 322,
+              "end": 369,
+              "period_frames": 47,
+              "score": 0.027575646077876423,
+              "raw_seam_position_rms": 0.015349085274141876,
+              "raw_seam_velocity_rms": 0.09317341997974678,
+              "context_rms": 0.00954537441070961,
+              "stride": 0.6326950584743126
+            },
+            {
+              "start": 256,
+              "end": 304,
+              "period_frames": 48,
+              "score": 0.027651613733523303,
+              "raw_seam_position_rms": 0.015522963374544502,
+              "raw_seam_velocity_rms": 0.09069560164927626,
+              "context_rms": 0.009746004454073396,
+              "stride": 0.6291162039951639
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 281,
+                "end": 330,
+                "period_frames": 49,
+                "score": 0.02563463441591126,
+                "raw_seam_position_rms": 0.016103175273510573,
+                "raw_seam_velocity_rms": 0.06086676705029767,
+                "context_rms": 0.00932423555675375,
+                "stride": 0.6420132343633027,
+                "period_seconds": 1.6333317,
+                "native_speed": 0.39306972023092596,
+                "travel_heading_relative_body": 3.082703418413571,
+                "max_cartesian_correction": 0.041009416312339966,
+                "max_output_change": 0.042492952995432286,
+                "rms_output_change": 0.013361352289739474,
+                "max_output_bone_relative_error": 2.3314683517128287e-15,
+                "source_bone_relative_variation": 9.43689570931383e-15,
+                "seam_position_epsilon_rms": 6.016191023349745e-06,
+                "seam_velocity_epsilon_rms": 3.084664474213301e-05,
+                "phase_offset": 0.6530612244897959
+              },
+              "reasons": []
+            }
+          ]
+        }
+      },
+      "content_from_source_label": "walk-back",
+      "gaps_inferred": [
+        "未包含经验证的起步/收脚停止/转弯/方向切换过渡",
+        "侧移和倒走不能据此当作朝向行走或连续转弯素材"
+      ],
+      "decision": "可供循环工程试用"
+    },
+    {
+      "id": "M06",
+      "source": {
+        "file": "data/raw/bandai-pilot/dataset-1_walk-back_not-confident_001.bvh",
+        "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-back_not-confident_001.bvh",
+        "source_content": "walk-back",
+        "source_style": "not-confident",
+        "status_label": null,
+        "sha256": "decbb5b489fbe5214a6fccbc888c852cdb1116336943ba05f87c78cefb0a86fc",
+        "bytes": 451626,
+        "validation": {
+          "joints_including_end_sites": 27,
+          "animated_joints": 22,
+          "channels": 132,
+          "frames": 364,
+          "fps": 30.000030000029998,
+          "playback_duration_seconds": 12.133321200000001,
+          "first_to_last_sample_seconds": 12.0999879,
+          "root_position_bounds_source_units": {
+            "Xposition": [
+              0.0,
+              0.0
+            ],
+            "Yposition": [
+              0.0,
+              0.0
+            ],
+            "Zposition": [
+              0.0,
+              0.0
+            ]
+          },
+          "units": "unspecified by BVH; verify before retargeting",
+          "status_label": null
+        }
+      },
+      "hash_verified": true,
+      "measurements": {
+        "frame_count": 364,
+        "sample_interval_seconds": 0.0333333,
+        "sample_span_seconds": 12.0999879,
+        "held_playback_seconds": 12.133321200000001,
+        "reference_height_source_units": 132.9599165425674,
+        "measured_head_to_toe_height_source_units": 127.48822879115144,
+        "anatomical_heading_radians": 0.02574248858332068,
+        "shoulder_heading_p95_minus_p05_degrees": 12.40499380146744,
+        "travel_body_heights_xz": [
+          0.15803046143667376,
+          -5.22885788993425
+        ],
+        "travel_relative_facing_degrees": 178.26889096158777,
+        "hip_speed_body_heights_per_second": {
+          "p05": 0.29998583714843413,
+          "median": 0.4272446406438103,
+          "p95": 0.6187613372226404
+        },
+        "source_low_toe_height_speed_proxy": {
+          "samples": 703,
+          "median": 0.030235968460762947,
+          "p95": 1.599611396605559,
+          "max": 2.0382441500814754
+        },
+        "recurrence_peaks": [
+          {
+            "frames": 37,
+            "seconds": 1.2333321000000002,
+            "correlation": 0.8382035732196127
+          },
+          {
+            "frames": 73,
+            "seconds": 2.4333309,
+            "correlation": 0.7483359173838708
+          }
+        ],
+        "selected_recurrence_peak": {
+          "frames": 37,
+          "seconds": 1.2333321000000002,
+          "correlation": 0.8382035732196127
+        }
+      },
+      "methods": {
+        "baseline": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 207,
+            "end": 245,
+            "period_frames": 38,
+            "score": 0.02139964356000727,
+            "raw_seam_position_rms": 0.016387087744915683,
+            "raw_seam_velocity_rms": 0.06265694768864481,
+            "context_rms": 0.009366478306023544,
+            "stride": 0.5781256095530134,
+            "period_seconds": 1.2666654000000002,
+            "native_speed": 0.456415411325685,
+            "travel_heading_relative_body": 3.099453431179476,
+            "max_cartesian_correction": 0.04162227655125589,
+            "max_output_change": 0.04162227655125593,
+            "rms_output_change": 0.011929134130027514,
+            "max_output_bone_relative_error": 1.1102230246251565e-15,
+            "source_bone_relative_variation": 8.659739592076221e-15,
+            "seam_position_epsilon_rms": 6.995884099096716e-06,
+            "seam_velocity_epsilon_rms": 1.6836292297748705e-05,
+            "phase_offset": 0.8157894736842105,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 207,
+              "end": 245,
+              "period_frames": 38,
+              "score": 0.02139964356000727,
+              "raw_seam_position_rms": 0.016387087744915683,
+              "raw_seam_velocity_rms": 0.06265694768864481,
+              "context_rms": 0.009366478306023544,
+              "stride": 0.5781256095530134
+            },
+            {
+              "start": 206,
+              "end": 244,
+              "period_frames": 38,
+              "score": 0.021807899829049505,
+              "raw_seam_position_rms": 0.01623762875516091,
+              "raw_seam_velocity_rms": 0.06962838842360743,
+              "context_rms": 0.00942283260399508,
+              "stride": 0.5778578581911947
+            },
+            {
+              "start": 271,
+              "end": 306,
+              "period_frames": 35,
+              "score": 0.02185836017539486,
+              "raw_seam_position_rms": 0.011200146653197776,
+              "raw_seam_velocity_rms": 0.13322766902746352,
+              "context_rms": 0.007429870615911107,
+              "stride": 0.514497215495223
+            },
+            {
+              "start": 272,
+              "end": 307,
+              "period_frames": 35,
+              "score": 0.02193090694129546,
+              "raw_seam_position_rms": 0.011405187091061923,
+              "raw_seam_velocity_rms": 0.13157149812791924,
+              "context_rms": 0.007426605188214532,
+              "stride": 0.5181628440850781
+            },
+            {
+              "start": 172,
+              "end": 209,
+              "period_frames": 37,
+              "score": 0.022129757852942612,
+              "raw_seam_position_rms": 0.01617789818374394,
+              "raw_seam_velocity_rms": 0.07439824586498338,
+              "context_rms": 0.009024620601916186,
+              "stride": 0.5622689243104169
+            },
+            {
+              "start": 270,
+              "end": 305,
+              "period_frames": 35,
+              "score": 0.022175231289423718,
+              "raw_seam_position_rms": 0.011896643960692255,
+              "raw_seam_velocity_rms": 0.12848234160914326,
+              "context_rms": 0.007703752717554314,
+              "stride": 0.5118668487426269
+            },
+            {
+              "start": 173,
+              "end": 210,
+              "period_frames": 37,
+              "score": 0.022236040497249508,
+              "raw_seam_position_rms": 0.015645822694639953,
+              "raw_seam_velocity_rms": 0.08237772253261942,
+              "context_rms": 0.008729316722424562,
+              "stride": 0.5623980511685993
+            },
+            {
+              "start": 208,
+              "end": 246,
+              "period_frames": 38,
+              "score": 0.022287379113224058,
+              "raw_seam_position_rms": 0.01621769038059961,
+              "raw_seam_velocity_rms": 0.07587110915780561,
+              "context_rms": 0.00941974910598304,
+              "stride": 0.5781869946044694
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 207,
+                "end": 245,
+                "period_frames": 38,
+                "score": 0.02139964356000727,
+                "raw_seam_position_rms": 0.016387087744915683,
+                "raw_seam_velocity_rms": 0.06265694768864481,
+                "context_rms": 0.009366478306023544,
+                "stride": 0.5781256095530134,
+                "period_seconds": 1.2666654000000002,
+                "native_speed": 0.456415411325685,
+                "travel_heading_relative_body": 3.099453431179476,
+                "max_cartesian_correction": 0.04162227655125589,
+                "max_output_change": 0.04162227655125593,
+                "rms_output_change": 0.011929134130027514,
+                "max_output_bone_relative_error": 1.1102230246251565e-15,
+                "source_bone_relative_variation": 8.659739592076221e-15,
+                "seam_position_epsilon_rms": 6.995884099096716e-06,
+                "seam_velocity_epsilon_rms": 1.6836292297748705e-05,
+                "phase_offset": 0.8157894736842105
+              },
+              "reasons": []
+            }
+          ]
+        },
+        "improved": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 271,
+            "end": 306,
+            "period_frames": 35,
+            "score": 0.02557329548335041,
+            "raw_seam_position_rms": 0.011200146653197776,
+            "raw_seam_velocity_rms": 0.13322766902746352,
+            "context_rms": 0.007429870615911107,
+            "stride": 0.514497215495223,
+            "period_seconds": 1.1666655000000001,
+            "native_speed": 0.4409980542796739,
+            "travel_heading_relative_body": 3.058489773392719,
+            "max_cartesian_correction": 0.040545822299122125,
+            "max_output_change": 0.04271755450959912,
+            "rms_output_change": 0.016798666770729,
+            "max_output_bone_relative_error": 1.1102230246251565e-15,
+            "source_bone_relative_variation": 1.354472090042691e-14,
+            "seam_position_epsilon_rms": 3.3400008754761796e-06,
+            "seam_velocity_epsilon_rms": 2.2140505901581252e-05,
+            "phase_offset": 0.08571428571428572,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 271,
+              "end": 306,
+              "period_frames": 35,
+              "score": 0.02557329548335041,
+              "raw_seam_position_rms": 0.011200146653197776,
+              "raw_seam_velocity_rms": 0.13322766902746352,
+              "context_rms": 0.007429870615911107,
+              "stride": 0.514497215495223
+            },
+            {
+              "start": 272,
+              "end": 307,
+              "period_frames": 35,
+              "score": 0.025644209535402727,
+              "raw_seam_position_rms": 0.011405187091061923,
+              "raw_seam_velocity_rms": 0.13157149812791924,
+              "context_rms": 0.007426605188214532,
+              "stride": 0.5181628440850781
+            },
+            {
+              "start": 270,
+              "end": 305,
+              "period_frames": 35,
+              "score": 0.026027107648200876,
+              "raw_seam_position_rms": 0.011896643960692255,
+              "raw_seam_velocity_rms": 0.12848234160914326,
+              "context_rms": 0.007703752717554314,
+              "stride": 0.5118668487426269
+            },
+            {
+              "start": 207,
+              "end": 245,
+              "period_frames": 38,
+              "score": 0.02608288271301904,
+              "raw_seam_position_rms": 0.016387087744915683,
+              "raw_seam_velocity_rms": 0.06265694768864481,
+              "context_rms": 0.009366478306023544,
+              "stride": 0.5781256095530134
+            },
+            {
+              "start": 206,
+              "end": 244,
+              "period_frames": 38,
+              "score": 0.026519316131047046,
+              "raw_seam_position_rms": 0.01623762875516091,
+              "raw_seam_velocity_rms": 0.06962838842360743,
+              "context_rms": 0.00942283260399508,
+              "stride": 0.5778578581911947
+            },
+            {
+              "start": 173,
+              "end": 210,
+              "period_frames": 37,
+              "score": 0.026600698858461787,
+              "raw_seam_position_rms": 0.015645822694639953,
+              "raw_seam_velocity_rms": 0.08237772253261942,
+              "context_rms": 0.008729316722424562,
+              "stride": 0.5623980511685993
+            },
+            {
+              "start": 172,
+              "end": 209,
+              "period_frames": 37,
+              "score": 0.026642068153900706,
+              "raw_seam_position_rms": 0.01617789818374394,
+              "raw_seam_velocity_rms": 0.07439824586498338,
+              "context_rms": 0.009024620601916186,
+              "stride": 0.5622689243104169
+            },
+            {
+              "start": 176,
+              "end": 213,
+              "period_frames": 37,
+              "score": 0.026735991273732492,
+              "raw_seam_position_rms": 0.013966199469737107,
+              "raw_seam_velocity_rms": 0.10913198708352254,
+              "context_rms": 0.008078465674627158,
+              "stride": 0.5636549665438103
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 271,
+                "end": 306,
+                "period_frames": 35,
+                "score": 0.02557329548335041,
+                "raw_seam_position_rms": 0.011200146653197776,
+                "raw_seam_velocity_rms": 0.13322766902746352,
+                "context_rms": 0.007429870615911107,
+                "stride": 0.514497215495223,
+                "period_seconds": 1.1666655000000001,
+                "native_speed": 0.4409980542796739,
+                "travel_heading_relative_body": 3.058489773392719,
+                "max_cartesian_correction": 0.040545822299122125,
+                "max_output_change": 0.04271755450959912,
+                "rms_output_change": 0.016798666770729,
+                "max_output_bone_relative_error": 1.1102230246251565e-15,
+                "source_bone_relative_variation": 1.354472090042691e-14,
+                "seam_position_epsilon_rms": 3.3400008754761796e-06,
+                "seam_velocity_epsilon_rms": 2.2140505901581252e-05,
+                "phase_offset": 0.08571428571428572
+              },
+              "reasons": []
+            }
+          ]
+        }
+      },
+      "content_from_source_label": "walk-back",
+      "gaps_inferred": [
+        "未包含经验证的起步/收脚停止/转弯/方向切换过渡",
+        "侧移和倒走不能据此当作朝向行走或连续转弯素材"
+      ],
+      "decision": "可供循环工程试用"
+    },
+    {
+      "id": "M07",
+      "source": {
+        "file": "data/raw/bandai-pilot/dataset-1_walk-left_normal_001.bvh",
+        "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-left_normal_001.bvh",
+        "source_content": "walk-left",
+        "source_style": "normal",
+        "status_label": null,
+        "sha256": "26ee7e8cf65a7c839b7790c90328fcb730e53ab18b4cbef5f8fba397de3ae675",
+        "bytes": 170082,
+        "validation": {
+          "joints_including_end_sites": 27,
+          "animated_joints": 22,
+          "channels": 132,
+          "frames": 135,
+          "fps": 30.000030000029998,
+          "playback_duration_seconds": 4.499995500000001,
+          "first_to_last_sample_seconds": 4.4666622,
+          "root_position_bounds_source_units": {
+            "Xposition": [
+              0.0,
+              0.0
+            ],
+            "Yposition": [
+              0.0,
+              0.0
+            ],
+            "Zposition": [
+              0.0,
+              0.0
+            ]
+          },
+          "units": "unspecified by BVH; verify before retargeting",
+          "status_label": null
+        }
+      },
+      "hash_verified": true,
+      "measurements": {
+        "frame_count": 135,
+        "sample_interval_seconds": 0.0333333,
+        "sample_span_seconds": 4.4666622,
+        "held_playback_seconds": 4.499995500000001,
+        "reference_height_source_units": 132.9599165425674,
+        "measured_head_to_toe_height_source_units": 133.8738438735449,
+        "anatomical_heading_radians": 1.1457734489215783,
+        "shoulder_heading_p95_minus_p05_degrees": 12.317510438864637,
+        "travel_body_heights_xz": [
+          1.371026666809014,
+          3.4084726752460197
+        ],
+        "travel_relative_facing_degrees": 21.912001959231564,
+        "hip_speed_body_heights_per_second": {
+          "p05": 0.5540440338995813,
+          "median": 0.7916837272059565,
+          "p95": 1.1589889896371235
+        },
+        "source_low_toe_height_speed_proxy": {
+          "samples": 180,
+          "median": 0.01809350770967981,
+          "p95": 2.788121826000637,
+          "max": 3.053483940767023
+        },
+        "recurrence_peaks": [
+          {
+            "frames": 33,
+            "seconds": 1.0999989000000001,
+            "correlation": 0.9762486351315588
+          }
+        ],
+        "selected_recurrence_peak": {
+          "frames": 33,
+          "seconds": 1.0999989000000001,
+          "correlation": 0.9762486351315588
+        }
+      },
+      "methods": {
+        "baseline": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 43,
+            "end": 76,
+            "period_frames": 33,
+            "score": 0.015823589129965093,
+            "raw_seam_position_rms": 0.009960415002624968,
+            "raw_seam_velocity_rms": 0.07328967659175156,
+            "context_rms": 0.00659700612024178,
+            "stride": 0.96964022587508,
+            "period_seconds": 1.0999989000000001,
+            "native_speed": 0.8814919959238867,
+            "travel_heading_relative_body": 0.3589534650014326,
+            "max_cartesian_correction": 0.04181723807928405,
+            "max_output_change": 0.03941046979454051,
+            "rms_output_change": 0.009444580495028259,
+            "max_output_bone_relative_error": 2.220446049250313e-15,
+            "source_bone_relative_variation": 7.216449660063518e-15,
+            "seam_position_epsilon_rms": 5.176002374226315e-06,
+            "seam_velocity_epsilon_rms": 6.179932025632643e-05,
+            "phase_offset": 0.9090909090909091,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 43,
+              "end": 76,
+              "period_frames": 33,
+              "score": 0.015823589129965093,
+              "raw_seam_position_rms": 0.009960415002624968,
+              "raw_seam_velocity_rms": 0.07328967659175156,
+              "context_rms": 0.00659700612024178,
+              "stride": 0.96964022587508
+            },
+            {
+              "start": 44,
+              "end": 77,
+              "period_frames": 33,
+              "score": 0.01598826891974444,
+              "raw_seam_position_rms": 0.00999293167838365,
+              "raw_seam_velocity_rms": 0.07494171551700987,
+              "context_rms": 0.0063799370037785266,
+              "stride": 0.9675336792305121
+            },
+            {
+              "start": 42,
+              "end": 75,
+              "period_frames": 33,
+              "score": 0.016540457750433023,
+              "raw_seam_position_rms": 0.010673892155734199,
+              "raw_seam_velocity_rms": 0.07333206993373528,
+              "context_rms": 0.007091660191372049,
+              "stride": 0.9709568870647605
+            },
+            {
+              "start": 45,
+              "end": 78,
+              "period_frames": 33,
+              "score": 0.016796185221287417,
+              "raw_seam_position_rms": 0.010076037545372939,
+              "raw_seam_velocity_rms": 0.08400184594893095,
+              "context_rms": 0.006445858979818831,
+              "stride": 0.9656930685173278
+            },
+            {
+              "start": 31,
+              "end": 64,
+              "period_frames": 33,
+              "score": 0.017895916175907342,
+              "raw_seam_position_rms": 0.007947172841557715,
+              "raw_seam_velocity_rms": 0.12435929167937036,
+              "context_rms": 0.0063696990489424095,
+              "stride": 0.9770454383259075
+            },
+            {
+              "start": 32,
+              "end": 65,
+              "period_frames": 33,
+              "score": 0.018526132204386245,
+              "raw_seam_position_rms": 0.009768005484027724,
+              "raw_seam_velocity_rms": 0.1094765840044815,
+              "context_rms": 0.0068746555030194684,
+              "stride": 0.9760142421814968
+            },
+            {
+              "start": 30,
+              "end": 63,
+              "period_frames": 33,
+              "score": 0.01857776131078215,
+              "raw_seam_position_rms": 0.007658385029326536,
+              "raw_seam_velocity_rms": 0.1364922035181952,
+              "context_rms": 0.006201823228448772,
+              "stride": 0.9781288647806935
+            },
+            {
+              "start": 46,
+              "end": 79,
+              "period_frames": 33,
+              "score": 0.018786266309842727,
+              "raw_seam_position_rms": 0.01135719682086767,
+              "raw_seam_velocity_rms": 0.09286336861218822,
+              "context_rms": 0.006765836989307764,
+              "stride": 0.9637389291418648
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 43,
+                "end": 76,
+                "period_frames": 33,
+                "score": 0.015823589129965093,
+                "raw_seam_position_rms": 0.009960415002624968,
+                "raw_seam_velocity_rms": 0.07328967659175156,
+                "context_rms": 0.00659700612024178,
+                "stride": 0.96964022587508,
+                "period_seconds": 1.0999989000000001,
+                "native_speed": 0.8814919959238867,
+                "travel_heading_relative_body": 0.3589534650014326,
+                "max_cartesian_correction": 0.04181723807928405,
+                "max_output_change": 0.03941046979454051,
+                "rms_output_change": 0.009444580495028259,
+                "max_output_bone_relative_error": 2.220446049250313e-15,
+                "source_bone_relative_variation": 7.216449660063518e-15,
+                "seam_position_epsilon_rms": 5.176002374226315e-06,
+                "seam_velocity_epsilon_rms": 6.179932025632643e-05,
+                "phase_offset": 0.9090909090909091
+              },
+              "reasons": []
+            }
+          ]
+        },
+        "improved": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 43,
+            "end": 76,
+            "period_frames": 33,
+            "score": 0.019122092190085982,
+            "raw_seam_position_rms": 0.009960415002624968,
+            "raw_seam_velocity_rms": 0.07328967659175156,
+            "context_rms": 0.00659700612024178,
+            "stride": 0.96964022587508,
+            "period_seconds": 1.0999989000000001,
+            "native_speed": 0.8814919959238867,
+            "travel_heading_relative_body": 0.3589534650014326,
+            "max_cartesian_correction": 0.04181723807928405,
+            "max_output_change": 0.03941046979454051,
+            "rms_output_change": 0.009444580495028259,
+            "max_output_bone_relative_error": 2.220446049250313e-15,
+            "source_bone_relative_variation": 7.216449660063518e-15,
+            "seam_position_epsilon_rms": 5.176002374226315e-06,
+            "seam_velocity_epsilon_rms": 6.179932025632643e-05,
+            "phase_offset": 0.9090909090909091,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 43,
+              "end": 76,
+              "period_frames": 33,
+              "score": 0.019122092190085982,
+              "raw_seam_position_rms": 0.009960415002624968,
+              "raw_seam_velocity_rms": 0.07328967659175156,
+              "context_rms": 0.00659700612024178,
+              "stride": 0.96964022587508
+            },
+            {
+              "start": 44,
+              "end": 77,
+              "period_frames": 33,
+              "score": 0.019178237421633704,
+              "raw_seam_position_rms": 0.00999293167838365,
+              "raw_seam_velocity_rms": 0.07494171551700987,
+              "context_rms": 0.0063799370037785266,
+              "stride": 0.9675336792305121
+            },
+            {
+              "start": 45,
+              "end": 78,
+              "period_frames": 33,
+              "score": 0.02001911471119683,
+              "raw_seam_position_rms": 0.010076037545372939,
+              "raw_seam_velocity_rms": 0.08400184594893095,
+              "context_rms": 0.006445858979818831,
+              "stride": 0.9656930685173278
+            },
+            {
+              "start": 42,
+              "end": 75,
+              "period_frames": 33,
+              "score": 0.020086287846119048,
+              "raw_seam_position_rms": 0.010673892155734199,
+              "raw_seam_velocity_rms": 0.07333206993373528,
+              "context_rms": 0.007091660191372049,
+              "stride": 0.9709568870647605
+            },
+            {
+              "start": 31,
+              "end": 64,
+              "period_frames": 33,
+              "score": 0.021080765700378548,
+              "raw_seam_position_rms": 0.007947172841557715,
+              "raw_seam_velocity_rms": 0.12435929167937036,
+              "context_rms": 0.0063696990489424095,
+              "stride": 0.9770454383259075
+            },
+            {
+              "start": 30,
+              "end": 63,
+              "period_frames": 33,
+              "score": 0.021678672925006536,
+              "raw_seam_position_rms": 0.007658385029326536,
+              "raw_seam_velocity_rms": 0.1364922035181952,
+              "context_rms": 0.006201823228448772,
+              "stride": 0.9781288647806935
+            },
+            {
+              "start": 32,
+              "end": 65,
+              "period_frames": 33,
+              "score": 0.021963459955895978,
+              "raw_seam_position_rms": 0.009768005484027724,
+              "raw_seam_velocity_rms": 0.1094765840044815,
+              "context_rms": 0.0068746555030194684,
+              "stride": 0.9760142421814968
+            },
+            {
+              "start": 46,
+              "end": 79,
+              "period_frames": 33,
+              "score": 0.02216918480449661,
+              "raw_seam_position_rms": 0.01135719682086767,
+              "raw_seam_velocity_rms": 0.09286336861218822,
+              "context_rms": 0.006765836989307764,
+              "stride": 0.9637389291418648
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 43,
+                "end": 76,
+                "period_frames": 33,
+                "score": 0.019122092190085982,
+                "raw_seam_position_rms": 0.009960415002624968,
+                "raw_seam_velocity_rms": 0.07328967659175156,
+                "context_rms": 0.00659700612024178,
+                "stride": 0.96964022587508,
+                "period_seconds": 1.0999989000000001,
+                "native_speed": 0.8814919959238867,
+                "travel_heading_relative_body": 0.3589534650014326,
+                "max_cartesian_correction": 0.04181723807928405,
+                "max_output_change": 0.03941046979454051,
+                "rms_output_change": 0.009444580495028259,
+                "max_output_bone_relative_error": 2.220446049250313e-15,
+                "source_bone_relative_variation": 7.216449660063518e-15,
+                "seam_position_epsilon_rms": 5.176002374226315e-06,
+                "seam_velocity_epsilon_rms": 6.179932025632643e-05,
+                "phase_offset": 0.9090909090909091
+              },
+              "reasons": []
+            }
+          ]
+        }
+      },
+      "content_from_source_label": "walk-left",
+      "gaps_inferred": [
+        "未包含经验证的起步/收脚停止/转弯/方向切换过渡",
+        "侧移和倒走不能据此当作朝向行走或连续转弯素材"
+      ],
+      "decision": "可供循环工程试用"
+    },
+    {
+      "id": "M08",
+      "source": {
+        "file": "data/raw/bandai-pilot/dataset-1_walk-left_proud_001.bvh",
+        "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-left_proud_001.bvh",
+        "source_content": "walk-left",
+        "source_style": "proud",
+        "status_label": null,
+        "sha256": "97a64a279a32256a73b3e0257b0fbdd9dde3b9d5f34857e0f5253e9ceacbafcb",
+        "bytes": 252705,
+        "validation": {
+          "joints_including_end_sites": 27,
+          "animated_joints": 22,
+          "channels": 132,
+          "frames": 203,
+          "fps": 30.000030000029998,
+          "playback_duration_seconds": 6.7666599000000005,
+          "first_to_last_sample_seconds": 6.733326600000001,
+          "root_position_bounds_source_units": {
+            "Xposition": [
+              0.0,
+              0.0
+            ],
+            "Yposition": [
+              0.0,
+              0.0
+            ],
+            "Zposition": [
+              0.0,
+              0.0
+            ]
+          },
+          "units": "unspecified by BVH; verify before retargeting",
+          "status_label": null
+        }
+      },
+      "hash_verified": true,
+      "measurements": {
+        "frame_count": 203,
+        "sample_interval_seconds": 0.0333333,
+        "sample_span_seconds": 6.733326600000001,
+        "held_playback_seconds": 6.7666599000000005,
+        "reference_height_source_units": 132.9599165425674,
+        "measured_head_to_toe_height_source_units": 133.05787095090554,
+        "anatomical_heading_radians": 1.1670512236181685,
+        "shoulder_heading_p95_minus_p05_degrees": 27.36904276879485,
+        "travel_body_heights_xz": [
+          1.117658345796199,
+          2.8410027714982897
+        ],
+        "travel_relative_facing_degrees": 21.47481338448358,
+        "hip_speed_body_heights_per_second": {
+          "p05": 0.19839235855264725,
+          "median": 0.4578335788552605,
+          "p95": 0.7551851089171512
+        },
+        "source_low_toe_height_speed_proxy": {
+          "samples": 302,
+          "median": 0.00972765996623022,
+          "p95": 2.0571170250087,
+          "max": 2.2296091503972786
+        },
+        "recurrence_peaks": [
+          {
+            "frames": 52,
+            "seconds": 1.7333316,
+            "correlation": 0.8942520111117503
+          }
+        ],
+        "selected_recurrence_peak": {
+          "frames": 52,
+          "seconds": 1.7333316,
+          "correlation": 0.8942520111117503
+        }
+      },
+      "methods": {
+        "baseline": {
+          "accepted": false,
+          "reasons": [
+            "最大节点改动超过参考身高5%",
+            "原始接缝位置RMS超过身高2.5%"
+          ],
+          "evidence": {
+            "start": 142,
+            "end": 184,
+            "period_frames": 42,
+            "score": 0.11903991075910005,
+            "raw_seam_position_rms": 0.065273253845799,
+            "raw_seam_velocity_rms": 0.672083211416263,
+            "context_rms": 0.045141449355179955,
+            "stride": 0.6543473974843704,
+            "period_seconds": 1.3999986000000002,
+            "native_speed": 0.4673914655945873,
+            "travel_heading_relative_body": 0.2976738882967861,
+            "max_cartesian_correction": 0.29695168524576027,
+            "max_output_change": 0.3770897056852652,
+            "rms_output_change": 0.09557914425052029,
+            "max_output_bone_relative_error": 1.9984014443252818e-15,
+            "source_bone_relative_variation": 1.8207657603852567e-14,
+            "seam_position_epsilon_rms": 5.448630798772611e-06,
+            "seam_velocity_epsilon_rms": 4.136336759492422e-05,
+            "phase_offset": 0.9761904761904762,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 142,
+              "end": 184,
+              "period_frames": 42,
+              "score": 0.11903991075910005,
+              "raw_seam_position_rms": 0.065273253845799,
+              "raw_seam_velocity_rms": 0.672083211416263,
+              "context_rms": 0.045141449355179955,
+              "stride": 0.6543473974843704
+            },
+            {
+              "start": 141,
+              "end": 183,
+              "period_frames": 42,
+              "score": 0.11928527599002964,
+              "raw_seam_position_rms": 0.05693596789615562,
+              "raw_seam_velocity_rms": 0.7793663511734253,
+              "context_rms": 0.045251178809507644,
+              "stride": 0.6671606005297817
+            },
+            {
+              "start": 143,
+              "end": 185,
+              "period_frames": 42,
+              "score": 0.12388969755382052,
+              "raw_seam_position_rms": 0.07866591014477123,
+              "raw_seam_velocity_rms": 0.5652973426131161,
+              "context_rms": 0.047983761866198175,
+              "stride": 0.644189652399627
+            },
+            {
+              "start": 144,
+              "end": 186,
+              "period_frames": 42,
+              "score": 0.12771918920197256,
+              "raw_seam_position_rms": 0.09153401255306852,
+              "raw_seam_velocity_rms": 0.4523147081113006,
+              "context_rms": 0.052339358310905956,
+              "stride": 0.6363774478269203
+            },
+            {
+              "start": 142,
+              "end": 183,
+              "period_frames": 41,
+              "score": 0.12801759758156891,
+              "raw_seam_position_rms": 0.06545606342865881,
+              "raw_seam_velocity_rms": 0.7820191769113762,
+              "context_rms": 0.048660838693323244,
+              "stride": 0.6442301450180694
+            },
+            {
+              "start": 140,
+              "end": 182,
+              "period_frames": 42,
+              "score": 0.12959148401223697,
+              "raw_seam_position_rms": 0.062178046422583025,
+              "raw_seam_velocity_rms": 0.8426679698706745,
+              "context_rms": 0.04910648800333935,
+              "stride": 0.6805421003881077
+            },
+            {
+              "start": 37,
+              "end": 79,
+              "period_frames": 42,
+              "score": 0.13001017295761802,
+              "raw_seam_position_rms": 0.062058193927853146,
+              "raw_seam_velocity_rms": 0.8493997378720609,
+              "context_rms": 0.048188019602525486,
+              "stride": 0.6120426466346907
+            },
+            {
+              "start": 13,
+              "end": 55,
+              "period_frames": 42,
+              "score": 0.13091273699933653,
+              "raw_seam_position_rms": 0.0740761253509487,
+              "raw_seam_velocity_rms": 0.710457645604848,
+              "context_rms": 0.04943110386805955,
+              "stride": 0.6379041681909379
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 142,
+                "end": 184,
+                "period_frames": 42,
+                "score": 0.11903991075910005,
+                "raw_seam_position_rms": 0.065273253845799,
+                "raw_seam_velocity_rms": 0.672083211416263,
+                "context_rms": 0.045141449355179955,
+                "stride": 0.6543473974843704,
+                "period_seconds": 1.3999986000000002,
+                "native_speed": 0.4673914655945873,
+                "travel_heading_relative_body": 0.2976738882967861,
+                "max_cartesian_correction": 0.29695168524576027,
+                "max_output_change": 0.3770897056852652,
+                "rms_output_change": 0.09557914425052029,
+                "max_output_bone_relative_error": 1.9984014443252818e-15,
+                "source_bone_relative_variation": 1.8207657603852567e-14,
+                "seam_position_epsilon_rms": 5.448630798772611e-06,
+                "seam_velocity_epsilon_rms": 4.136336759492422e-05,
+                "phase_offset": 0.9761904761904762
+              },
+              "reasons": [
+                "最大节点改动超过参考身高5%",
+                "原始接缝位置RMS超过身高2.5%"
+              ]
+            }
+          ]
+        },
+        "improved": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 114,
+            "end": 166,
+            "period_frames": 52,
+            "score": 0.030258856263879252,
+            "raw_seam_position_rms": 0.016830471518767837,
+            "raw_seam_velocity_rms": 0.10121081541815191,
+            "context_rms": 0.010663039023318527,
+            "stride": 0.7816602092536172,
+            "period_seconds": 1.7333316,
+            "native_speed": 0.450958263989197,
+            "travel_heading_relative_body": 0.30064506584759804,
+            "max_cartesian_correction": 0.0493529554756115,
+            "max_output_change": 0.048674697482424326,
+            "rms_output_change": 0.016065716934168597,
+            "max_output_bone_relative_error": 1.9984014443252818e-15,
+            "source_bone_relative_variation": 1.8207657603852567e-14,
+            "seam_position_epsilon_rms": 7.100667472464808e-06,
+            "seam_velocity_epsilon_rms": 5.303934023632002e-05,
+            "phase_offset": 0.4230769230769231,
+            "selected_rank": 1
+          },
+          "candidates": [
+            {
+              "start": 62,
+              "end": 115,
+              "period_frames": 53,
+              "score": 0.029756153052408463,
+              "raw_seam_position_rms": 0.018078131183140927,
+              "raw_seam_velocity_rms": 0.07965829177183732,
+              "context_rms": 0.010610717055041102,
+              "stride": 0.745447609451468
+            },
+            {
+              "start": 114,
+              "end": 166,
+              "period_frames": 52,
+              "score": 0.030258856263879252,
+              "raw_seam_position_rms": 0.016830471518767837,
+              "raw_seam_velocity_rms": 0.10121081541815191,
+              "context_rms": 0.010663039023318527,
+              "stride": 0.7816602092536172
+            },
+            {
+              "start": 61,
+              "end": 114,
+              "period_frames": 53,
+              "score": 0.03034768637097776,
+              "raw_seam_position_rms": 0.018865003649322584,
+              "raw_seam_velocity_rms": 0.07578783698362877,
+              "context_rms": 0.01083931152592975,
+              "stride": 0.746538611141664
+            },
+            {
+              "start": 64,
+              "end": 117,
+              "period_frames": 53,
+              "score": 0.030654731268327004,
+              "raw_seam_position_rms": 0.017827034617077017,
+              "raw_seam_velocity_rms": 0.09680147749251329,
+              "context_rms": 0.010167156903697853,
+              "stride": 0.7430673407252156
+            },
+            {
+              "start": 63,
+              "end": 116,
+              "period_frames": 53,
+              "score": 0.030811543907369225,
+              "raw_seam_position_rms": 0.017946268610507386,
+              "raw_seam_velocity_rms": 0.0959102801262112,
+              "context_rms": 0.010384905773529886,
+              "stride": 0.7440692180435228
+            },
+            {
+              "start": 66,
+              "end": 119,
+              "period_frames": 53,
+              "score": 0.031085995501033484,
+              "raw_seam_position_rms": 0.01689706213227457,
+              "raw_seam_velocity_rms": 0.11366472009190029,
+              "context_rms": 0.010191511522813777,
+              "stride": 0.7430928690254673
+            },
+            {
+              "start": 65,
+              "end": 118,
+              "period_frames": 53,
+              "score": 0.031121184809379688,
+              "raw_seam_position_rms": 0.017579201140339066,
+              "raw_seam_velocity_rms": 0.10626320325988066,
+              "context_rms": 0.010081854816500334,
+              "stride": 0.7427812127261367
+            },
+            {
+              "start": 67,
+              "end": 120,
+              "period_frames": 53,
+              "score": 0.031181728318869402,
+              "raw_seam_position_rms": 0.01672779586008439,
+              "raw_seam_velocity_rms": 0.11531021590214323,
+              "context_rms": 0.010458230373227104,
+              "stride": 0.7439074365298276
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 62,
+                "end": 115,
+                "period_frames": 53,
+                "score": 0.029756153052408463,
+                "raw_seam_position_rms": 0.018078131183140927,
+                "raw_seam_velocity_rms": 0.07965829177183732,
+                "context_rms": 0.010610717055041102,
+                "stride": 0.745447609451468,
+                "period_seconds": 1.7666649,
+                "native_speed": 0.42195189899989977,
+                "travel_heading_relative_body": 0.4192099317017085,
+                "max_cartesian_correction": 0.0690826758313639,
+                "max_output_change": 0.0703129336005314,
+                "rms_output_change": 0.017343278135481865,
+                "max_output_bone_relative_error": 2.220446049250313e-15,
+                "source_bone_relative_variation": 6.439293542825908e-15,
+                "seam_position_epsilon_rms": 8.657347457459524e-06,
+                "seam_velocity_epsilon_rms": 3.521324325829911e-05,
+                "phase_offset": 0.39622641509433965
+              },
+              "reasons": [
+                "最大节点改动超过参考身高5%"
+              ]
+            },
+            {
+              "rank": 1,
+              "evidence": {
+                "start": 114,
+                "end": 166,
+                "period_frames": 52,
+                "score": 0.030258856263879252,
+                "raw_seam_position_rms": 0.016830471518767837,
+                "raw_seam_velocity_rms": 0.10121081541815191,
+                "context_rms": 0.010663039023318527,
+                "stride": 0.7816602092536172,
+                "period_seconds": 1.7333316,
+                "native_speed": 0.450958263989197,
+                "travel_heading_relative_body": 0.30064506584759804,
+                "max_cartesian_correction": 0.0493529554756115,
+                "max_output_change": 0.048674697482424326,
+                "rms_output_change": 0.016065716934168597,
+                "max_output_bone_relative_error": 1.9984014443252818e-15,
+                "source_bone_relative_variation": 1.8207657603852567e-14,
+                "seam_position_epsilon_rms": 7.100667472464808e-06,
+                "seam_velocity_epsilon_rms": 5.303934023632002e-05,
+                "phase_offset": 0.4230769230769231
+              },
+              "reasons": []
+            }
+          ]
+        }
+      },
+      "content_from_source_label": "walk-left",
+      "gaps_inferred": [
+        "未包含经验证的起步/收脚停止/转弯/方向切换过渡",
+        "侧移和倒走不能据此当作朝向行走或连续转弯素材"
+      ],
+      "decision": "可供循环工程试用"
+    },
+    {
+      "id": "M09",
+      "source": {
+        "file": "data/raw/bandai-pilot/dataset-1_walk-left_not-confident_001.bvh",
+        "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-left_not-confident_001.bvh",
+        "source_content": "walk-left",
+        "source_style": "not-confident",
+        "status_label": null,
+        "sha256": "53eeebdfc46064223171d09e769c530924b278fb267d57a7b011c4bdc700b281",
+        "bytes": 301757,
+        "validation": {
+          "joints_including_end_sites": 27,
+          "animated_joints": 22,
+          "channels": 132,
+          "frames": 242,
+          "fps": 30.000030000029998,
+          "playback_duration_seconds": 8.0666586,
+          "first_to_last_sample_seconds": 8.033325300000001,
+          "root_position_bounds_source_units": {
+            "Xposition": [
+              0.0,
+              0.0
+            ],
+            "Yposition": [
+              0.0,
+              0.0
+            ],
+            "Zposition": [
+              0.0,
+              0.0
+            ]
+          },
+          "units": "unspecified by BVH; verify before retargeting",
+          "status_label": null
+        }
+      },
+      "hash_verified": true,
+      "measurements": {
+        "frame_count": 242,
+        "sample_interval_seconds": 0.0333333,
+        "sample_span_seconds": 8.033325300000001,
+        "held_playback_seconds": 8.0666586,
+        "reference_height_source_units": 132.9599165425674,
+        "measured_head_to_toe_height_source_units": 127.09574393030582,
+        "anatomical_heading_radians": 0.6298656046569635,
+        "shoulder_heading_p95_minus_p05_degrees": 20.415029995998076,
+        "travel_body_heights_xz": [
+          2.595535626145309,
+          2.017099605041052
+        ],
+        "travel_relative_facing_degrees": 52.1477223665985,
+        "hip_speed_body_heights_per_second": {
+          "p05": 0.2685452513854518,
+          "median": 0.3999713560917251,
+          "p95": 0.619205561296965
+        },
+        "source_low_toe_height_speed_proxy": {
+          "samples": 403,
+          "median": 0.020493833324701904,
+          "p95": 1.7426784610597617,
+          "max": 1.9680593180357917
+        },
+        "recurrence_peaks": [
+          {
+            "frames": 40,
+            "seconds": 1.3333320000000002,
+            "correlation": 0.946594690422228
+          },
+          {
+            "frames": 80,
+            "seconds": 2.6666640000000004,
+            "correlation": 0.9333793092084122
+          }
+        ],
+        "selected_recurrence_peak": {
+          "frames": 40,
+          "seconds": 1.3333320000000002,
+          "correlation": 0.946594690422228
+        }
+      },
+      "methods": {
+        "baseline": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 171,
+            "end": 210,
+            "period_frames": 39,
+            "score": 0.01815159068955093,
+            "raw_seam_position_rms": 0.010041706321706928,
+            "raw_seam_velocity_rms": 0.10137355459805002,
+            "context_rms": 0.006229779762738556,
+            "stride": 0.5309605193415116,
+            "period_seconds": 1.2999987000000002,
+            "native_speed": 0.40843157715581674,
+            "travel_heading_relative_body": 0.9372959713024361,
+            "max_cartesian_correction": 0.04061854147422755,
+            "max_output_change": 0.04133056332691003,
+            "rms_output_change": 0.01506284226569011,
+            "max_output_bone_relative_error": 1.1102230246251565e-15,
+            "source_bone_relative_variation": 2.886579864025407e-14,
+            "seam_position_epsilon_rms": 3.72152495035638e-06,
+            "seam_velocity_epsilon_rms": 3.841042085308791e-05,
+            "phase_offset": 0.4358974358974359,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 171,
+              "end": 210,
+              "period_frames": 39,
+              "score": 0.01815159068955093,
+              "raw_seam_position_rms": 0.010041706321706928,
+              "raw_seam_velocity_rms": 0.10137355459805002,
+              "context_rms": 0.006229779762738556,
+              "stride": 0.5309605193415116
+            },
+            {
+              "start": 172,
+              "end": 211,
+              "period_frames": 39,
+              "score": 0.018381155957343732,
+              "raw_seam_position_rms": 0.010102296238841485,
+              "raw_seam_velocity_rms": 0.10348574648127808,
+              "context_rms": 0.00621228251036741,
+              "stride": 0.5306284655095094
+            },
+            {
+              "start": 170,
+              "end": 209,
+              "period_frames": 39,
+              "score": 0.018652687930636985,
+              "raw_seam_position_rms": 0.010801135063252087,
+              "raw_seam_velocity_rms": 0.09814441084231125,
+              "context_rms": 0.006555086768421782,
+              "stride": 0.532183199116905
+            },
+            {
+              "start": 173,
+              "end": 211,
+              "period_frames": 38,
+              "score": 0.019483421233299724,
+              "raw_seam_position_rms": 0.010892926122935683,
+              "raw_seam_velocity_rms": 0.10738118887955052,
+              "context_rms": 0.006556213229403164,
+              "stride": 0.512902943158569
+            },
+            {
+              "start": 173,
+              "end": 212,
+              "period_frames": 39,
+              "score": 0.019841659540942684,
+              "raw_seam_position_rms": 0.010885222027038526,
+              "raw_seam_velocity_rms": 0.11195546892380198,
+              "context_rms": 0.006670672047331191,
+              "stride": 0.5305353452166903
+            },
+            {
+              "start": 78,
+              "end": 119,
+              "period_frames": 41,
+              "score": 0.020782931528482373,
+              "raw_seam_position_rms": 0.01481812252957878,
+              "raw_seam_velocity_rms": 0.07456011248629492,
+              "context_rms": 0.00823792555123404,
+              "stride": 0.5564644660269317
+            },
+            {
+              "start": 174,
+              "end": 212,
+              "period_frames": 38,
+              "score": 0.020804416162841136,
+              "raw_seam_position_rms": 0.010391577793787653,
+              "raw_seam_velocity_rms": 0.1301604796131685,
+              "context_rms": 0.006626378952986226,
+              "stride": 0.5124177037568577
+            },
+            {
+              "start": 79,
+              "end": 120,
+              "period_frames": 41,
+              "score": 0.02086184246555961,
+              "raw_seam_position_rms": 0.01436585692304282,
+              "raw_seam_velocity_rms": 0.08119981928145988,
+              "context_rms": 0.008187661906473635,
+              "stride": 0.5549264285066282
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 171,
+                "end": 210,
+                "period_frames": 39,
+                "score": 0.01815159068955093,
+                "raw_seam_position_rms": 0.010041706321706928,
+                "raw_seam_velocity_rms": 0.10137355459805002,
+                "context_rms": 0.006229779762738556,
+                "stride": 0.5309605193415116,
+                "period_seconds": 1.2999987000000002,
+                "native_speed": 0.40843157715581674,
+                "travel_heading_relative_body": 0.9372959713024361,
+                "max_cartesian_correction": 0.04061854147422755,
+                "max_output_change": 0.04133056332691003,
+                "rms_output_change": 0.01506284226569011,
+                "max_output_bone_relative_error": 1.1102230246251565e-15,
+                "source_bone_relative_variation": 2.886579864025407e-14,
+                "seam_position_epsilon_rms": 3.72152495035638e-06,
+                "seam_velocity_epsilon_rms": 3.841042085308791e-05,
+                "phase_offset": 0.4358974358974359
+              },
+              "reasons": []
+            }
+          ]
+        },
+        "improved": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 171,
+            "end": 210,
+            "period_frames": 39,
+            "score": 0.021266480570920208,
+            "raw_seam_position_rms": 0.010041706321706928,
+            "raw_seam_velocity_rms": 0.10137355459805002,
+            "context_rms": 0.006229779762738556,
+            "stride": 0.5309605193415116,
+            "period_seconds": 1.2999987000000002,
+            "native_speed": 0.40843157715581674,
+            "travel_heading_relative_body": 0.9372959713024361,
+            "max_cartesian_correction": 0.04061854147422755,
+            "max_output_change": 0.04133056332691003,
+            "rms_output_change": 0.01506284226569011,
+            "max_output_bone_relative_error": 1.1102230246251565e-15,
+            "source_bone_relative_variation": 2.886579864025407e-14,
+            "seam_position_epsilon_rms": 3.72152495035638e-06,
+            "seam_velocity_epsilon_rms": 3.841042085308791e-05,
+            "phase_offset": 0.4358974358974359,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 171,
+              "end": 210,
+              "period_frames": 39,
+              "score": 0.021266480570920208,
+              "raw_seam_position_rms": 0.010041706321706928,
+              "raw_seam_velocity_rms": 0.10137355459805002,
+              "context_rms": 0.006229779762738556,
+              "stride": 0.5309605193415116
+            },
+            {
+              "start": 172,
+              "end": 211,
+              "period_frames": 39,
+              "score": 0.021487297212527436,
+              "raw_seam_position_rms": 0.010102296238841485,
+              "raw_seam_velocity_rms": 0.10348574648127808,
+              "context_rms": 0.00621228251036741,
+              "stride": 0.5306284655095094
+            },
+            {
+              "start": 170,
+              "end": 209,
+              "period_frames": 39,
+              "score": 0.021930231314847875,
+              "raw_seam_position_rms": 0.010801135063252087,
+              "raw_seam_velocity_rms": 0.09814441084231125,
+              "context_rms": 0.006555086768421782,
+              "stride": 0.532183199116905
+            },
+            {
+              "start": 173,
+              "end": 211,
+              "period_frames": 38,
+              "score": 0.022761527848001305,
+              "raw_seam_position_rms": 0.010892926122935683,
+              "raw_seam_velocity_rms": 0.10738118887955052,
+              "context_rms": 0.006556213229403164,
+              "stride": 0.512902943158569
+            },
+            {
+              "start": 173,
+              "end": 212,
+              "period_frames": 39,
+              "score": 0.02317699556460828,
+              "raw_seam_position_rms": 0.010885222027038526,
+              "raw_seam_velocity_rms": 0.11195546892380198,
+              "context_rms": 0.006670672047331191,
+              "stride": 0.5305353452166903
+            },
+            {
+              "start": 174,
+              "end": 212,
+              "period_frames": 38,
+              "score": 0.02411760563933425,
+              "raw_seam_position_rms": 0.010391577793787653,
+              "raw_seam_velocity_rms": 0.1301604796131685,
+              "context_rms": 0.006626378952986226,
+              "stride": 0.5124177037568577
+            },
+            {
+              "start": 172,
+              "end": 210,
+              "period_frames": 38,
+              "score": 0.02475904522848544,
+              "raw_seam_position_rms": 0.011571695645906089,
+              "raw_seam_velocity_rms": 0.11789091842213213,
+              "context_rms": 0.007512152217617557,
+              "stride": 0.513900745881979
+            },
+            {
+              "start": 78,
+              "end": 119,
+              "period_frames": 41,
+              "score": 0.024901894304099392,
+              "raw_seam_position_rms": 0.01481812252957878,
+              "raw_seam_velocity_rms": 0.07456011248629492,
+              "context_rms": 0.00823792555123404,
+              "stride": 0.5564644660269317
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 171,
+                "end": 210,
+                "period_frames": 39,
+                "score": 0.021266480570920208,
+                "raw_seam_position_rms": 0.010041706321706928,
+                "raw_seam_velocity_rms": 0.10137355459805002,
+                "context_rms": 0.006229779762738556,
+                "stride": 0.5309605193415116,
+                "period_seconds": 1.2999987000000002,
+                "native_speed": 0.40843157715581674,
+                "travel_heading_relative_body": 0.9372959713024361,
+                "max_cartesian_correction": 0.04061854147422755,
+                "max_output_change": 0.04133056332691003,
+                "rms_output_change": 0.01506284226569011,
+                "max_output_bone_relative_error": 1.1102230246251565e-15,
+                "source_bone_relative_variation": 2.886579864025407e-14,
+                "seam_position_epsilon_rms": 3.72152495035638e-06,
+                "seam_velocity_epsilon_rms": 3.841042085308791e-05,
+                "phase_offset": 0.4358974358974359
+              },
+              "reasons": []
+            }
+          ]
+        }
+      },
+      "content_from_source_label": "walk-left",
+      "gaps_inferred": [
+        "未包含经验证的起步/收脚停止/转弯/方向切换过渡",
+        "侧移和倒走不能据此当作朝向行走或连续转弯素材"
+      ],
+      "decision": "可供循环工程试用"
+    },
+    {
+      "id": "M10",
+      "source": {
+        "file": "data/raw/bandai-pilot/dataset-1_walk-right_normal_001.bvh",
+        "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-right_normal_001.bvh",
+        "source_content": "walk-right",
+        "source_style": "normal",
+        "status_label": null,
+        "sha256": "2b77b84d4caf2e037441d48073f4c3f5e5b43bf98a96f4f4ca96be931a0c3657",
+        "bytes": 169522,
+        "validation": {
+          "joints_including_end_sites": 27,
+          "animated_joints": 22,
+          "channels": 132,
+          "frames": 135,
+          "fps": 30.000030000029998,
+          "playback_duration_seconds": 4.499995500000001,
+          "first_to_last_sample_seconds": 4.4666622,
+          "root_position_bounds_source_units": {
+            "Xposition": [
+              0.0,
+              0.0
+            ],
+            "Yposition": [
+              0.0,
+              0.0
+            ],
+            "Zposition": [
+              0.0,
+              0.0
+            ]
+          },
+          "units": "unspecified by BVH; verify before retargeting",
+          "status_label": null
+        }
+      },
+      "hash_verified": true,
+      "measurements": {
+        "frame_count": 135,
+        "sample_interval_seconds": 0.0333333,
+        "sample_span_seconds": 4.4666622,
+        "held_playback_seconds": 4.499995500000001,
+        "reference_height_source_units": 132.9599165425674,
+        "measured_head_to_toe_height_source_units": 134.12507359568914,
+        "anatomical_heading_radians": -1.1458948014688815,
+        "shoulder_heading_p95_minus_p05_degrees": 11.911813845853114,
+        "travel_body_heights_xz": [
+          -1.4323311749532763,
+          3.175359543090414
+        ],
+        "travel_relative_facing_degrees": -24.279033462362232,
+        "hip_speed_body_heights_per_second": {
+          "p05": 0.5667106893769694,
+          "median": 0.7374221687806891,
+          "p95": 1.082634282986971
+        },
+        "source_low_toe_height_speed_proxy": {
+          "samples": 180,
+          "median": 0.02118370754573641,
+          "p95": 2.6163729245967824,
+          "max": 2.883270697674147
+        },
+        "recurrence_peaks": [
+          {
+            "frames": 34,
+            "seconds": 1.1333322000000001,
+            "correlation": 0.9885463608707892
+          }
+        ],
+        "selected_recurrence_peak": {
+          "frames": 34,
+          "seconds": 1.1333322000000001,
+          "correlation": 0.9885463608707892
+        }
+      },
+      "methods": {
+        "baseline": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 43,
+            "end": 78,
+            "period_frames": 35,
+            "score": 0.019646688522909975,
+            "raw_seam_position_rms": 0.011156201320391095,
+            "raw_seam_velocity_rms": 0.10613109003148599,
+            "context_rms": 0.00693892500254984,
+            "stride": 0.913031618065846,
+            "period_seconds": 1.1666655000000001,
+            "native_speed": 0.7825993123700374,
+            "travel_heading_relative_body": -0.44829212061424467,
+            "max_cartesian_correction": 0.04747744393001959,
+            "max_output_change": 0.04313459552698096,
+            "rms_output_change": 0.01222766224268686,
+            "max_output_bone_relative_error": 1.9984014443252818e-15,
+            "source_bone_relative_variation": 9.769962616701378e-15,
+            "seam_position_epsilon_rms": 4.838902136784963e-06,
+            "seam_velocity_epsilon_rms": 4.077076284579941e-05,
+            "phase_offset": 0.9428571428571428,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 43,
+              "end": 78,
+              "period_frames": 35,
+              "score": 0.019646688522909975,
+              "raw_seam_position_rms": 0.011156201320391095,
+              "raw_seam_velocity_rms": 0.10613109003148599,
+              "context_rms": 0.00693892500254984,
+              "stride": 0.913031618065846
+            },
+            {
+              "start": 44,
+              "end": 79,
+              "period_frames": 35,
+              "score": 0.019681855563630394,
+              "raw_seam_position_rms": 0.011124928218993644,
+              "raw_seam_velocity_rms": 0.10696159180795937,
+              "context_rms": 0.007233731427073815,
+              "stride": 0.9134175300061042
+            },
+            {
+              "start": 62,
+              "end": 96,
+              "period_frames": 34,
+              "score": 0.020901309342596777,
+              "raw_seam_position_rms": 0.014404449253936665,
+              "raw_seam_velocity_rms": 0.0812107511082514,
+              "context_rms": 0.00811236882603547,
+              "stride": 0.9128315475913226
+            },
+            {
+              "start": 65,
+              "end": 99,
+              "period_frames": 34,
+              "score": 0.021104858933557992,
+              "raw_seam_position_rms": 0.011903159818844572,
+              "raw_seam_velocity_rms": 0.11502123893391773,
+              "context_rms": 0.007422028419974999,
+              "stride": 0.9129164535671367
+            },
+            {
+              "start": 66,
+              "end": 100,
+              "period_frames": 34,
+              "score": 0.021139306639100443,
+              "raw_seam_position_rms": 0.0113092359332629,
+              "raw_seam_velocity_rms": 0.1228758838229693,
+              "context_rms": 0.0074434636224576375,
+              "stride": 0.9126450291483786
+            },
+            {
+              "start": 67,
+              "end": 101,
+              "period_frames": 34,
+              "score": 0.021412877706068284,
+              "raw_seam_position_rms": 0.011743681692800191,
+              "raw_seam_velocity_rms": 0.12086495016585118,
+              "context_rms": 0.007630084867041402,
+              "stride": 0.9123381294006814
+            },
+            {
+              "start": 45,
+              "end": 80,
+              "period_frames": 35,
+              "score": 0.021633763119644753,
+              "raw_seam_position_rms": 0.011815291360132926,
+              "raw_seam_velocity_rms": 0.12273089699389786,
+              "context_rms": 0.007893721960799727,
+              "stride": 0.9140971276392008
+            },
+            {
+              "start": 64,
+              "end": 98,
+              "period_frames": 34,
+              "score": 0.02181219080534299,
+              "raw_seam_position_rms": 0.01303784367932379,
+              "raw_seam_velocity_rms": 0.10967933907524,
+              "context_rms": 0.007543923809067314,
+              "stride": 0.9143879194692417
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 43,
+                "end": 78,
+                "period_frames": 35,
+                "score": 0.019646688522909975,
+                "raw_seam_position_rms": 0.011156201320391095,
+                "raw_seam_velocity_rms": 0.10613109003148599,
+                "context_rms": 0.00693892500254984,
+                "stride": 0.913031618065846,
+                "period_seconds": 1.1666655000000001,
+                "native_speed": 0.7825993123700374,
+                "travel_heading_relative_body": -0.44829212061424467,
+                "max_cartesian_correction": 0.04747744393001959,
+                "max_output_change": 0.04313459552698096,
+                "rms_output_change": 0.01222766224268686,
+                "max_output_bone_relative_error": 1.9984014443252818e-15,
+                "source_bone_relative_variation": 9.769962616701378e-15,
+                "seam_position_epsilon_rms": 4.838902136784963e-06,
+                "seam_velocity_epsilon_rms": 4.077076284579941e-05,
+                "phase_offset": 0.9428571428571428
+              },
+              "reasons": []
+            }
+          ]
+        },
+        "improved": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 43,
+            "end": 78,
+            "period_frames": 35,
+            "score": 0.023116151024184895,
+            "raw_seam_position_rms": 0.011156201320391095,
+            "raw_seam_velocity_rms": 0.10613109003148599,
+            "context_rms": 0.00693892500254984,
+            "stride": 0.913031618065846,
+            "period_seconds": 1.1666655000000001,
+            "native_speed": 0.7825993123700374,
+            "travel_heading_relative_body": -0.44829212061424467,
+            "max_cartesian_correction": 0.04747744393001959,
+            "max_output_change": 0.04313459552698096,
+            "rms_output_change": 0.01222766224268686,
+            "max_output_bone_relative_error": 1.9984014443252818e-15,
+            "source_bone_relative_variation": 9.769962616701378e-15,
+            "seam_position_epsilon_rms": 4.838902136784963e-06,
+            "seam_velocity_epsilon_rms": 4.077076284579941e-05,
+            "phase_offset": 0.9428571428571428,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 43,
+              "end": 78,
+              "period_frames": 35,
+              "score": 0.023116151024184895,
+              "raw_seam_position_rms": 0.011156201320391095,
+              "raw_seam_velocity_rms": 0.10613109003148599,
+              "context_rms": 0.00693892500254984,
+              "stride": 0.913031618065846
+            },
+            {
+              "start": 44,
+              "end": 79,
+              "period_frames": 35,
+              "score": 0.0232987212771673,
+              "raw_seam_position_rms": 0.011124928218993644,
+              "raw_seam_velocity_rms": 0.10696159180795937,
+              "context_rms": 0.007233731427073815,
+              "stride": 0.9134175300061042
+            },
+            {
+              "start": 65,
+              "end": 99,
+              "period_frames": 34,
+              "score": 0.02481587314354549,
+              "raw_seam_position_rms": 0.011903159818844572,
+              "raw_seam_velocity_rms": 0.11502123893391773,
+              "context_rms": 0.007422028419974999,
+              "stride": 0.9129164535671367
+            },
+            {
+              "start": 66,
+              "end": 100,
+              "period_frames": 34,
+              "score": 0.024861038450329262,
+              "raw_seam_position_rms": 0.0113092359332629,
+              "raw_seam_velocity_rms": 0.1228758838229693,
+              "context_rms": 0.0074434636224576375,
+              "stride": 0.9126450291483786
+            },
+            {
+              "start": 62,
+              "end": 96,
+              "period_frames": 34,
+              "score": 0.024957493755614513,
+              "raw_seam_position_rms": 0.014404449253936665,
+              "raw_seam_velocity_rms": 0.0812107511082514,
+              "context_rms": 0.00811236882603547,
+              "stride": 0.9128315475913226
+            },
+            {
+              "start": 67,
+              "end": 101,
+              "period_frames": 34,
+              "score": 0.025227920139588984,
+              "raw_seam_position_rms": 0.011743681692800191,
+              "raw_seam_velocity_rms": 0.12086495016585118,
+              "context_rms": 0.007630084867041402,
+              "stride": 0.9123381294006814
+            },
+            {
+              "start": 45,
+              "end": 80,
+              "period_frames": 35,
+              "score": 0.025580624100044615,
+              "raw_seam_position_rms": 0.011815291360132926,
+              "raw_seam_velocity_rms": 0.12273089699389786,
+              "context_rms": 0.007893721960799727,
+              "stride": 0.9140971276392008
+            },
+            {
+              "start": 64,
+              "end": 98,
+              "period_frames": 34,
+              "score": 0.025584152709876646,
+              "raw_seam_position_rms": 0.01303784367932379,
+              "raw_seam_velocity_rms": 0.10967933907524,
+              "context_rms": 0.007543923809067314,
+              "stride": 0.9143879194692417
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 43,
+                "end": 78,
+                "period_frames": 35,
+                "score": 0.023116151024184895,
+                "raw_seam_position_rms": 0.011156201320391095,
+                "raw_seam_velocity_rms": 0.10613109003148599,
+                "context_rms": 0.00693892500254984,
+                "stride": 0.913031618065846,
+                "period_seconds": 1.1666655000000001,
+                "native_speed": 0.7825993123700374,
+                "travel_heading_relative_body": -0.44829212061424467,
+                "max_cartesian_correction": 0.04747744393001959,
+                "max_output_change": 0.04313459552698096,
+                "rms_output_change": 0.01222766224268686,
+                "max_output_bone_relative_error": 1.9984014443252818e-15,
+                "source_bone_relative_variation": 9.769962616701378e-15,
+                "seam_position_epsilon_rms": 4.838902136784963e-06,
+                "seam_velocity_epsilon_rms": 4.077076284579941e-05,
+                "phase_offset": 0.9428571428571428
+              },
+              "reasons": []
+            }
+          ]
+        }
+      },
+      "content_from_source_label": "walk-right",
+      "gaps_inferred": [
+        "未包含经验证的起步/收脚停止/转弯/方向切换过渡",
+        "侧移和倒走不能据此当作朝向行走或连续转弯素材"
+      ],
+      "decision": "可供循环工程试用"
+    },
+    {
+      "id": "M11",
+      "source": {
+        "file": "data/raw/bandai-pilot/dataset-1_walk-right_proud_001.bvh",
+        "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-right_proud_001.bvh",
+        "source_content": "walk-right",
+        "source_style": "proud",
+        "status_label": null,
+        "sha256": "3225a2aa0b2d9cc8e5f19c3edfdcacbe33361641cdd7e67726a83390a71bad81",
+        "bytes": 326989,
+        "validation": {
+          "joints_including_end_sites": 27,
+          "animated_joints": 22,
+          "channels": 132,
+          "frames": 264,
+          "fps": 30.000030000029998,
+          "playback_duration_seconds": 8.799991200000001,
+          "first_to_last_sample_seconds": 8.7666579,
+          "root_position_bounds_source_units": {
+            "Xposition": [
+              0.0,
+              0.0
+            ],
+            "Yposition": [
+              0.0,
+              0.0
+            ],
+            "Zposition": [
+              0.0,
+              0.0
+            ]
+          },
+          "units": "unspecified by BVH; verify before retargeting",
+          "status_label": null
+        }
+      },
+      "hash_verified": true,
+      "measurements": {
+        "frame_count": 264,
+        "sample_interval_seconds": 0.0333333,
+        "sample_span_seconds": 8.7666579,
+        "held_playback_seconds": 8.799991200000001,
+        "reference_height_source_units": 132.9599165425674,
+        "measured_head_to_toe_height_source_units": 133.10583297297268,
+        "anatomical_heading_radians": -0.9353961809501863,
+        "shoulder_heading_p95_minus_p05_degrees": 16.240469076064432,
+        "travel_body_heights_xz": [
+          -2.0788586414281744,
+          3.5274680282293835
+        ],
+        "travel_relative_facing_degrees": -30.512312525315608,
+        "hip_speed_body_heights_per_second": {
+          "p05": 0.22660723264990584,
+          "median": 0.4453557600148492,
+          "p95": 0.7663579148640524
+        },
+        "source_low_toe_height_speed_proxy": {
+          "samples": 370,
+          "median": 0.018048357571907744,
+          "p95": 1.9030797965424346,
+          "max": 2.1549012267313117
+        },
+        "recurrence_peaks": [
+          {
+            "frames": 53,
+            "seconds": 1.7666649,
+            "correlation": 0.9574363163332491
+          }
+        ],
+        "selected_recurrence_peak": {
+          "frames": 53,
+          "seconds": 1.7666649,
+          "correlation": 0.9574363163332491
+        }
+      },
+      "methods": {
+        "baseline": {
+          "accepted": false,
+          "reasons": [
+            "最大节点改动超过参考身高5%",
+            "原始接缝位置RMS超过身高2.5%"
+          ],
+          "evidence": {
+            "start": 124,
+            "end": 166,
+            "period_frames": 42,
+            "score": 0.11789690662272673,
+            "raw_seam_position_rms": 0.06164450254277554,
+            "raw_seam_velocity_rms": 0.7031550509993898,
+            "context_rms": 0.04283567012970453,
+            "stride": 0.6459763661807291,
+            "period_seconds": 1.3999986000000002,
+            "native_speed": 0.46141215154124365,
+            "travel_heading_relative_body": -0.582342831251484,
+            "max_cartesian_correction": 0.3458902341497633,
+            "max_output_change": 0.343439338885175,
+            "rms_output_change": 0.10347991616417639,
+            "max_output_bone_relative_error": 2.3314683517128287e-15,
+            "source_bone_relative_variation": 1.3655743202889425e-14,
+            "seam_position_epsilon_rms": 5.122211899956809e-06,
+            "seam_velocity_epsilon_rms": 3.21843813628432e-05,
+            "phase_offset": 0.9523809523809523,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 124,
+              "end": 166,
+              "period_frames": 42,
+              "score": 0.11789690662272673,
+              "raw_seam_position_rms": 0.06164450254277554,
+              "raw_seam_velocity_rms": 0.7031550509993898,
+              "context_rms": 0.04283567012970453,
+              "stride": 0.6459763661807291
+            },
+            {
+              "start": 125,
+              "end": 167,
+              "period_frames": 42,
+              "score": 0.11900480528437495,
+              "raw_seam_position_rms": 0.06809348323798416,
+              "raw_seam_velocity_rms": 0.6363915255798849,
+              "context_rms": 0.04366806786529204,
+              "stride": 0.6331226744875555
+            },
+            {
+              "start": 126,
+              "end": 168,
+              "period_frames": 42,
+              "score": 0.12231680963349784,
+              "raw_seam_position_rms": 0.07739541201646226,
+              "raw_seam_velocity_rms": 0.5615174702129446,
+              "context_rms": 0.04633591963520816,
+              "stride": 0.6224439836551008
+            },
+            {
+              "start": 123,
+              "end": 165,
+              "period_frames": 42,
+              "score": 0.1224773355702364,
+              "raw_seam_position_rms": 0.06248149620080157,
+              "raw_seam_velocity_rms": 0.7499479921179354,
+              "context_rms": 0.04484802756290596,
+              "stride": 0.6595798219714819
+            },
+            {
+              "start": 127,
+              "end": 169,
+              "period_frames": 42,
+              "score": 0.12704477742610615,
+              "raw_seam_position_rms": 0.0867510869396222,
+              "raw_seam_velocity_rms": 0.5036711310810494,
+              "context_rms": 0.04990620209417514,
+              "stride": 0.6139516028259646
+            },
+            {
+              "start": 125,
+              "end": 166,
+              "period_frames": 41,
+              "score": 0.1282294225363787,
+              "raw_seam_position_rms": 0.06819300087133716,
+              "raw_seam_velocity_rms": 0.7504552708130194,
+              "context_rms": 0.04638138459905075,
+              "stride": 0.6232605014690089
+            },
+            {
+              "start": 124,
+              "end": 165,
+              "period_frames": 41,
+              "score": 0.12992005306633853,
+              "raw_seam_position_rms": 0.06612832304180986,
+              "raw_seam_velocity_rms": 0.7973966253066085,
+              "context_rms": 0.04733090392677046,
+              "stride": 0.6372497398260696
+            },
+            {
+              "start": 126,
+              "end": 167,
+              "period_frames": 41,
+              "score": 0.13046821365676098,
+              "raw_seam_position_rms": 0.07653717135007815,
+              "raw_seam_velocity_rms": 0.6741380288335356,
+              "context_rms": 0.04814545930101848,
+              "stride": 0.6109138670095773
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 124,
+                "end": 166,
+                "period_frames": 42,
+                "score": 0.11789690662272673,
+                "raw_seam_position_rms": 0.06164450254277554,
+                "raw_seam_velocity_rms": 0.7031550509993898,
+                "context_rms": 0.04283567012970453,
+                "stride": 0.6459763661807291,
+                "period_seconds": 1.3999986000000002,
+                "native_speed": 0.46141215154124365,
+                "travel_heading_relative_body": -0.582342831251484,
+                "max_cartesian_correction": 0.3458902341497633,
+                "max_output_change": 0.343439338885175,
+                "rms_output_change": 0.10347991616417639,
+                "max_output_bone_relative_error": 2.3314683517128287e-15,
+                "source_bone_relative_variation": 1.3655743202889425e-14,
+                "seam_position_epsilon_rms": 5.122211899956809e-06,
+                "seam_velocity_epsilon_rms": 3.21843813628432e-05,
+                "phase_offset": 0.9523809523809523
+              },
+              "reasons": [
+                "最大节点改动超过参考身高5%",
+                "原始接缝位置RMS超过身高2.5%"
+              ]
+            }
+          ]
+        },
+        "improved": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 130,
+            "end": 181,
+            "period_frames": 51,
+            "score": 0.02321532097416351,
+            "raw_seam_position_rms": 0.012940389214395989,
+            "raw_seam_velocity_rms": 0.08310689178952417,
+            "context_rms": 0.007252760833211181,
+            "stride": 0.80188567282256,
+            "period_seconds": 1.6999983,
+            "native_speed": 0.47169792629943214,
+            "travel_heading_relative_body": -0.5146722497060334,
+            "max_cartesian_correction": 0.03825790222686774,
+            "max_output_change": 0.04005201555695909,
+            "rms_output_change": 0.015763248742833174,
+            "max_output_bone_relative_error": 1.9984014443252818e-15,
+            "source_bone_relative_variation": 1.554312234475219e-14,
+            "seam_position_epsilon_rms": 1.012539243793631e-05,
+            "seam_velocity_epsilon_rms": 4.913977728654824e-05,
+            "phase_offset": 0.7647058823529411,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 130,
+              "end": 181,
+              "period_frames": 51,
+              "score": 0.02321532097416351,
+              "raw_seam_position_rms": 0.012940389214395989,
+              "raw_seam_velocity_rms": 0.08310689178952417,
+              "context_rms": 0.007252760833211181,
+              "stride": 0.80188567282256
+            },
+            {
+              "start": 131,
+              "end": 182,
+              "period_frames": 51,
+              "score": 0.023351237837205864,
+              "raw_seam_position_rms": 0.013024733264036699,
+              "raw_seam_velocity_rms": 0.08209154814000283,
+              "context_rms": 0.007518361443937874,
+              "stride": 0.8023721844251169
+            },
+            {
+              "start": 129,
+              "end": 180,
+              "period_frames": 51,
+              "score": 0.023503624590702897,
+              "raw_seam_position_rms": 0.012536705790116124,
+              "raw_seam_velocity_rms": 0.09257548222289536,
+              "context_rms": 0.007121760445510287,
+              "stride": 0.8002005518581408
+            },
+            {
+              "start": 132,
+              "end": 183,
+              "period_frames": 51,
+              "score": 0.023768869625772727,
+              "raw_seam_position_rms": 0.013183794213270341,
+              "raw_seam_velocity_rms": 0.08280064806358711,
+              "context_rms": 0.007922047134830836,
+              "stride": 0.8019688634575466
+            },
+            {
+              "start": 203,
+              "end": 254,
+              "period_frames": 51,
+              "score": 0.02394649055177408,
+              "raw_seam_position_rms": 0.01387080036285317,
+              "raw_seam_velocity_rms": 0.07465071157029954,
+              "context_rms": 0.008207266526593893,
+              "stride": 0.8080529993808958
+            },
+            {
+              "start": 127,
+              "end": 178,
+              "period_frames": 51,
+              "score": 0.024059430904357193,
+              "raw_seam_position_rms": 0.011912818321919183,
+              "raw_seam_velocity_rms": 0.10682799607352532,
+              "context_rms": 0.007200745793111973,
+              "stride": 0.7963703949360801
+            },
+            {
+              "start": 128,
+              "end": 179,
+              "period_frames": 51,
+              "score": 0.024060469221402807,
+              "raw_seam_position_rms": 0.012146680762538876,
+              "raw_seam_velocity_rms": 0.10444932633347982,
+              "context_rms": 0.0071156847043710855,
+              "stride": 0.7979778185906364
+            },
+            {
+              "start": 204,
+              "end": 255,
+              "period_frames": 51,
+              "score": 0.024168335743095886,
+              "raw_seam_position_rms": 0.013614933854222407,
+              "raw_seam_velocity_rms": 0.08073335229193834,
+              "context_rms": 0.008189467411036823,
+              "stride": 0.8054878330711003
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 130,
+                "end": 181,
+                "period_frames": 51,
+                "score": 0.02321532097416351,
+                "raw_seam_position_rms": 0.012940389214395989,
+                "raw_seam_velocity_rms": 0.08310689178952417,
+                "context_rms": 0.007252760833211181,
+                "stride": 0.80188567282256,
+                "period_seconds": 1.6999983,
+                "native_speed": 0.47169792629943214,
+                "travel_heading_relative_body": -0.5146722497060334,
+                "max_cartesian_correction": 0.03825790222686774,
+                "max_output_change": 0.04005201555695909,
+                "rms_output_change": 0.015763248742833174,
+                "max_output_bone_relative_error": 1.9984014443252818e-15,
+                "source_bone_relative_variation": 1.554312234475219e-14,
+                "seam_position_epsilon_rms": 1.012539243793631e-05,
+                "seam_velocity_epsilon_rms": 4.913977728654824e-05,
+                "phase_offset": 0.7647058823529411
+              },
+              "reasons": []
+            }
+          ]
+        }
+      },
+      "content_from_source_label": "walk-right",
+      "gaps_inferred": [
+        "未包含经验证的起步/收脚停止/转弯/方向切换过渡",
+        "侧移和倒走不能据此当作朝向行走或连续转弯素材"
+      ],
+      "decision": "可供循环工程试用"
+    },
+    {
+      "id": "M12",
+      "source": {
+        "file": "data/raw/bandai-pilot/dataset-1_walk-right_not-confident_001.bvh",
+        "source_url": "https://raw.githubusercontent.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-right_not-confident_001.bvh",
+        "source_content": "walk-right",
+        "source_style": "not-confident",
+        "status_label": null,
+        "sha256": "ce8dc89921f38d99d008fa2906a7b8520a654d0780f47a4cbdae35f52d3f4364",
+        "bytes": 301869,
+        "validation": {
+          "joints_including_end_sites": 27,
+          "animated_joints": 22,
+          "channels": 132,
+          "frames": 242,
+          "fps": 30.000030000029998,
+          "playback_duration_seconds": 8.0666586,
+          "first_to_last_sample_seconds": 8.033325300000001,
+          "root_position_bounds_source_units": {
+            "Xposition": [
+              0.0,
+              0.0
+            ],
+            "Yposition": [
+              0.0,
+              0.0
+            ],
+            "Zposition": [
+              0.0,
+              0.0
+            ]
+          },
+          "units": "unspecified by BVH; verify before retargeting",
+          "status_label": null
+        }
+      },
+      "hash_verified": true,
+      "measurements": {
+        "frame_count": 242,
+        "sample_interval_seconds": 0.0333333,
+        "sample_span_seconds": 8.033325300000001,
+        "held_playback_seconds": 8.0666586,
+        "reference_height_source_units": 132.9599165425674,
+        "measured_head_to_toe_height_source_units": 127.41356256453052,
+        "anatomical_heading_radians": -0.6782823731200164,
+        "shoulder_heading_p95_minus_p05_degrees": 14.905580531837797,
+        "travel_body_heights_xz": [
+          -2.5599077738422307,
+          2.139092603133624
+        ],
+        "travel_relative_facing_degrees": -50.11742573320317,
+        "hip_speed_body_heights_per_second": {
+          "p05": 0.25850120094209184,
+          "median": 0.4062081409652103,
+          "p95": 0.6624726234094288
+        },
+        "source_low_toe_height_speed_proxy": {
+          "samples": 403,
+          "median": 0.01991887688487367,
+          "p95": 1.6712273560531647,
+          "max": 2.1143054514402464
+        },
+        "recurrence_peaks": [
+          {
+            "frames": 41,
+            "seconds": 1.3666653000000002,
+            "correlation": 0.9600143035383515
+          },
+          {
+            "frames": 82,
+            "seconds": 2.7333306000000004,
+            "correlation": 0.9179699859331006
+          }
+        ],
+        "selected_recurrence_peak": {
+          "frames": 41,
+          "seconds": 1.3666653000000002,
+          "correlation": 0.9600143035383515
+        }
+      },
+      "methods": {
+        "baseline": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 89,
+            "end": 131,
+            "period_frames": 42,
+            "score": 0.013667744973656203,
+            "raw_seam_position_rms": 0.010028101786811842,
+            "raw_seam_velocity_rms": 0.045495539835554516,
+            "context_rms": 0.006681798487272282,
+            "stride": 0.5800668594278654,
+            "period_seconds": 1.3999986000000002,
+            "native_speed": 0.4143338853537892,
+            "travel_heading_relative_body": -0.9108332700957114,
+            "max_cartesian_correction": 0.02230699780581284,
+            "max_output_change": 0.021784659911013714,
+            "rms_output_change": 0.009450544577463523,
+            "max_output_bone_relative_error": 1.1102230246251565e-15,
+            "source_bone_relative_variation": 1.3100631690576847e-14,
+            "seam_position_epsilon_rms": 2.986703559637763e-06,
+            "seam_velocity_epsilon_rms": 4.6467458729738644e-05,
+            "phase_offset": 0.0,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 89,
+              "end": 131,
+              "period_frames": 42,
+              "score": 0.013667744973656203,
+              "raw_seam_position_rms": 0.010028101786811842,
+              "raw_seam_velocity_rms": 0.045495539835554516,
+              "context_rms": 0.006681798487272282,
+              "stride": 0.5800668594278654
+            },
+            {
+              "start": 91,
+              "end": 132,
+              "period_frames": 41,
+              "score": 0.014122345693904692,
+              "raw_seam_position_rms": 0.00854552276644261,
+              "raw_seam_velocity_rms": 0.06971028659327601,
+              "context_rms": 0.006166343721995289,
+              "stride": 0.5654719705501622
+            },
+            {
+              "start": 90,
+              "end": 132,
+              "period_frames": 42,
+              "score": 0.014418734223113357,
+              "raw_seam_position_rms": 0.01007988737177818,
+              "raw_seam_velocity_rms": 0.05423558564168969,
+              "context_rms": 0.006337642090879591,
+              "stride": 0.5810239132539594
+            },
+            {
+              "start": 92,
+              "end": 133,
+              "period_frames": 41,
+              "score": 0.014958853937720083,
+              "raw_seam_position_rms": 0.00935018625776765,
+              "raw_seam_velocity_rms": 0.07010834599940542,
+              "context_rms": 0.005748251939676612,
+              "stride": 0.5652950361911686
+            },
+            {
+              "start": 90,
+              "end": 131,
+              "period_frames": 41,
+              "score": 0.015270055760257108,
+              "raw_seam_position_rms": 0.008091857575246142,
+              "raw_seam_velocity_rms": 0.08972747731263707,
+              "context_rms": 0.007598458073780376,
+              "stride": 0.5654344303414643
+            },
+            {
+              "start": 91,
+              "end": 133,
+              "period_frames": 42,
+              "score": 0.015434802247424762,
+              "raw_seam_position_rms": 0.010277757824167929,
+              "raw_seam_velocity_rms": 0.06446305529071042,
+              "context_rms": 0.006291315037896886,
+              "stride": 0.5815233560680559
+            },
+            {
+              "start": 93,
+              "end": 134,
+              "period_frames": 41,
+              "score": 0.015663853719086678,
+              "raw_seam_position_rms": 0.010451286797075028,
+              "raw_seam_velocity_rms": 0.06515708652514561,
+              "context_rms": 0.006091799117036414,
+              "stride": 0.5653299862110541
+            },
+            {
+              "start": 88,
+              "end": 130,
+              "period_frames": 42,
+              "score": 0.01573767713647073,
+              "raw_seam_position_rms": 0.010516755141031967,
+              "raw_seam_velocity_rms": 0.06526152494298454,
+              "context_rms": 0.007313841978825298,
+              "stride": 0.5798016297381409
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 89,
+                "end": 131,
+                "period_frames": 42,
+                "score": 0.013667744973656203,
+                "raw_seam_position_rms": 0.010028101786811842,
+                "raw_seam_velocity_rms": 0.045495539835554516,
+                "context_rms": 0.006681798487272282,
+                "stride": 0.5800668594278654,
+                "period_seconds": 1.3999986000000002,
+                "native_speed": 0.4143338853537892,
+                "travel_heading_relative_body": -0.9108332700957114,
+                "max_cartesian_correction": 0.02230699780581284,
+                "max_output_change": 0.021784659911013714,
+                "rms_output_change": 0.009450544577463523,
+                "max_output_bone_relative_error": 1.1102230246251565e-15,
+                "source_bone_relative_variation": 1.3100631690576847e-14,
+                "seam_position_epsilon_rms": 2.986703559637763e-06,
+                "seam_velocity_epsilon_rms": 4.6467458729738644e-05,
+                "phase_offset": 0.0
+              },
+              "reasons": []
+            }
+          ]
+        },
+        "improved": {
+          "accepted": true,
+          "reasons": [
+            "通过工程循环门槛；自然性待看"
+          ],
+          "evidence": {
+            "start": 89,
+            "end": 131,
+            "period_frames": 42,
+            "score": 0.017008644217292344,
+            "raw_seam_position_rms": 0.010028101786811842,
+            "raw_seam_velocity_rms": 0.045495539835554516,
+            "context_rms": 0.006681798487272282,
+            "stride": 0.5800668594278654,
+            "period_seconds": 1.3999986000000002,
+            "native_speed": 0.4143338853537892,
+            "travel_heading_relative_body": -0.9108332700957114,
+            "max_cartesian_correction": 0.02230699780581284,
+            "max_output_change": 0.021784659911013714,
+            "rms_output_change": 0.009450544577463523,
+            "max_output_bone_relative_error": 1.1102230246251565e-15,
+            "source_bone_relative_variation": 1.3100631690576847e-14,
+            "seam_position_epsilon_rms": 2.986703559637763e-06,
+            "seam_velocity_epsilon_rms": 4.6467458729738644e-05,
+            "phase_offset": 0.0,
+            "selected_rank": 0
+          },
+          "candidates": [
+            {
+              "start": 89,
+              "end": 131,
+              "period_frames": 42,
+              "score": 0.017008644217292344,
+              "raw_seam_position_rms": 0.010028101786811842,
+              "raw_seam_velocity_rms": 0.045495539835554516,
+              "context_rms": 0.006681798487272282,
+              "stride": 0.5800668594278654
+            },
+            {
+              "start": 91,
+              "end": 132,
+              "period_frames": 41,
+              "score": 0.017205517554902336,
+              "raw_seam_position_rms": 0.00854552276644261,
+              "raw_seam_velocity_rms": 0.06971028659327601,
+              "context_rms": 0.006166343721995289,
+              "stride": 0.5654719705501622
+            },
+            {
+              "start": 90,
+              "end": 132,
+              "period_frames": 42,
+              "score": 0.017587555268553153,
+              "raw_seam_position_rms": 0.01007988737177818,
+              "raw_seam_velocity_rms": 0.05423558564168969,
+              "context_rms": 0.006337642090879591,
+              "stride": 0.5810239132539594
+            },
+            {
+              "start": 92,
+              "end": 133,
+              "period_frames": 41,
+              "score": 0.01783297990755839,
+              "raw_seam_position_rms": 0.00935018625776765,
+              "raw_seam_velocity_rms": 0.07010834599940542,
+              "context_rms": 0.005748251939676612,
+              "stride": 0.5652950361911686
+            },
+            {
+              "start": 91,
+              "end": 133,
+              "period_frames": 42,
+              "score": 0.018580459766373205,
+              "raw_seam_position_rms": 0.010277757824167929,
+              "raw_seam_velocity_rms": 0.06446305529071042,
+              "context_rms": 0.006291315037896886,
+              "stride": 0.5815233560680559
+            },
+            {
+              "start": 93,
+              "end": 134,
+              "period_frames": 41,
+              "score": 0.018709753277604886,
+              "raw_seam_position_rms": 0.010451286797075028,
+              "raw_seam_velocity_rms": 0.06515708652514561,
+              "context_rms": 0.006091799117036414,
+              "stride": 0.5653299862110541
+            },
+            {
+              "start": 90,
+              "end": 131,
+              "period_frames": 41,
+              "score": 0.019069284797147295,
+              "raw_seam_position_rms": 0.008091857575246142,
+              "raw_seam_velocity_rms": 0.08972747731263707,
+              "context_rms": 0.007598458073780376,
+              "stride": 0.5654344303414643
+            },
+            {
+              "start": 115,
+              "end": 155,
+              "period_frames": 40,
+              "score": 0.01933829327832713,
+              "raw_seam_position_rms": 0.011208903620880378,
+              "raw_seam_velocity_rms": 0.0609179763926761,
+              "context_rms": 0.006511903092065336,
+              "stride": 0.5479912801706366
+            }
+          ],
+          "closure_trials": [
+            {
+              "rank": 0,
+              "evidence": {
+                "start": 89,
+                "end": 131,
+                "period_frames": 42,
+                "score": 0.017008644217292344,
+                "raw_seam_position_rms": 0.010028101786811842,
+                "raw_seam_velocity_rms": 0.045495539835554516,
+                "context_rms": 0.006681798487272282,
+                "stride": 0.5800668594278654,
+                "period_seconds": 1.3999986000000002,
+                "native_speed": 0.4143338853537892,
+                "travel_heading_relative_body": -0.9108332700957114,
+                "max_cartesian_correction": 0.02230699780581284,
+                "max_output_change": 0.021784659911013714,
+                "rms_output_change": 0.009450544577463523,
+                "max_output_bone_relative_error": 1.1102230246251565e-15,
+                "source_bone_relative_variation": 1.3100631690576847e-14,
+                "seam_position_epsilon_rms": 2.986703559637763e-06,
+                "seam_velocity_epsilon_rms": 4.6467458729738644e-05,
+                "phase_offset": 0.0
+              },
+              "reasons": []
+            }
+          ]
+        }
+      },
+      "content_from_source_label": "walk-right",
+      "gaps_inferred": [
+        "未包含经验证的起步/收脚停止/转弯/方向切换过渡",
+        "侧移和倒走不能据此当作朝向行走或连续转弯素材"
+      ],
+      "decision": "可供循环工程试用"
+    }
+  ],
+  "build_seconds": 8.437203000066802,
+  "engineering_gates": {
+    "max_output_change": 0.05,
+    "raw_seam_position_rms": 0.025,
+    "recurrence_correlation": 0.65,
+    "seam_velocity_epsilon_rms": 0.015
+  },
+  "search": {
+    "lag_seconds": [
+      0.65,
+      2.8
+    ],
+    "max_lag": "half observed span",
+    "peak_selection": "shortest local peak within 0.05 of strongest and correlation >=0.65",
+    "local_period_range": "selected foot recurrence peak ±15%",
+    "end_margin_frames": 8,
+    "closure_fallback": "first passing candidate among top 8 by seam score; keep first rejection if all fail"
+  },
+  "implementation": "Autonomous FK adapter + labelled-foot recurrence + pose/velocity/context endpoint search + cubic C1 closure + inherited fixed-bone reconstruction. No external algorithm code or new data.",
+  "environment": {
+    "python": "3.14.5",
+    "numpy": "2.4.5",
+    "system": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64"
+  },
+  "code_sha256": {
+    "src/bvh.py": "b259ede1bf28fb1712f29993769bd2fde885478829b778a6dc82ed88cc94f6f8",
+    "src/locomotion.py": "74056b6bfb33eb9d701ebe8362e7a857e4a4757b3d57d467d2f45d94f997a3a5",
+    "src/locomotion_encounter.js": "b6b3b0b9d209bacfbb00555cb4a9d9d6a3e8e9c7b20ca18ca0370c6e25dc63f8",
+    "src/motion_candidate_lab/cycles.py": "51202f4ad7ff3963abf23fa65f4ca3fd0a6d84fa48722eb118ce2f4ce197b26e",
+    "src/motion_candidate_lab/runtime.js": "5d101db6accf6597fe7c76d6be9de4895bc630ce6aa8d7dc7c68e90989d5396e",
+    "scripts/build_motion_candidate_lab.py": "9ab616b17dbb33351433eefc9e087a21c6214eac4af86043d4966d62e12cd310",
+    "motion-candidate-lab/ui.js": "f0c361f802f5f85a8f442f3cfacdc323c8359ce5c2c4209302074c8e280637c8",
+    "motion-candidate-lab/index.html": "2ddf41fb4b778b38a76bf2f86fc02791bd0972eae486ce6cdfa7ad5ac06b6620"
+  }
+}

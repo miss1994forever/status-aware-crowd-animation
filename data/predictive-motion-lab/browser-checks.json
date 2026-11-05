@@ -1,0 +1,26 @@
+{
+  "scene": "train_door-1-0.46-13",
+  "p": 2,
+  "side_front_same_time": "2.400 s",
+  "play_before": "2.400 s",
+  "play_after": "2.699 s",
+  "paused_or_completed_time": "12.000 s",
+  "views_checked": [
+    "oblique",
+    "top",
+    "side",
+    "front"
+  ],
+  "footprints_and_candidates_visible": true,
+  "focus_follow_checked": true,
+  "console_errors": [],
+  "scope": "Engineering browser check; no naturalness/status validation.",
+  "crowd_count": 30,
+  "crowd_same_time": "7.000 s",
+  "ablation_switch_times": {
+    "no_prediction": "7.000 s",
+    "circle": "7.000 s",
+    "no_continuity": "7.000 s"
+  },
+  "final_console_errors": []
+}

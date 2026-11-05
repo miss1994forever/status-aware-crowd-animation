@@ -1,0 +1,452 @@
+{
+  "scope": "Development coverage audit, not semantic or perceptual validation",
+  "rows": [
+    {
+      "id": "M01",
+      "source": "data/raw/bandai-pilot/dataset-1_walk_normal_001.bvh",
+      "sha256": "5764cebc2fedabf287880a7f25cb06753e1679675a02a6f033998de041ba8032",
+      "content": "walk",
+      "style": "normal",
+      "status_label": null,
+      "source_frames": 195,
+      "source_duration": 6.4999935,
+      "low_speed_candidates": {
+        "threshold": 0.1,
+        "min_seconds": 0.35,
+        "smoothing_seconds": 0.2666664,
+        "intervals": [],
+        "speed_p05_p50_p95": [
+          0.7497851317097677,
+          0.9320252174583628,
+          1.122019376516335
+        ],
+        "note": "Low root speed only: not validated stopping, weight transfer, interaction or status."
+      },
+      "runtime_cycle": {
+        "start_frame": 82,
+        "end_frame": 114,
+        "period": 1.0666656,
+        "retained_time_fraction": 0.1641025641025641
+      }
+    },
+    {
+      "id": "M02",
+      "source": "data/raw/bandai-pilot/dataset-1_walk_proud_001.bvh",
+      "sha256": "9044301b145cf7c53d37d5f65f0377af78c4bf68c80f91c7afcf1ce9c87ffa0f",
+      "content": "walk",
+      "style": "proud",
+      "status_label": null,
+      "source_frames": 331,
+      "source_duration": 11.033322300000002,
+      "low_speed_candidates": {
+        "threshold": 0.1,
+        "min_seconds": 0.35,
+        "smoothing_seconds": 0.2666664,
+        "intervals": [],
+        "speed_p05_p50_p95": [
+          0.3258408541820286,
+          0.5438840737529818,
+          0.7961628025063718
+        ],
+        "note": "Low root speed only: not validated stopping, weight transfer, interaction or status."
+      },
+      "runtime_cycle": {
+        "start_frame": 177,
+        "end_frame": 226,
+        "period": 1.6333317,
+        "retained_time_fraction": 0.14803625377643503
+      }
+    },
+    {
+      "id": "M03",
+      "source": "data/raw/bandai-pilot/dataset-1_walk_not-confident_001.bvh",
+      "sha256": "b769cbae08f9df6460f61974c9e0a84845b924fed875aa5da998d9ac1ea6527e",
+      "content": "walk",
+      "style": "not-confident",
+      "status_label": null,
+      "source_frames": 481,
+      "source_duration": 16.0333173,
+      "low_speed_candidates": {
+        "threshold": 0.1,
+        "min_seconds": 0.35,
+        "smoothing_seconds": 0.2666664,
+        "intervals": [],
+        "speed_p05_p50_p95": [
+          0.2201418584925104,
+          0.35641784803713805,
+          0.4914444240367361
+        ],
+        "note": "Low root speed only: not validated stopping, weight transfer, interaction or status."
+      },
+      "runtime_cycle": {
+        "start_frame": 342,
+        "end_frame": 384,
+        "period": 1.3999986000000002,
+        "retained_time_fraction": 0.08731808731808732
+      }
+    },
+    {
+      "id": "M04",
+      "source": "data/raw/bandai-pilot/dataset-1_walk-back_normal_001.bvh",
+      "sha256": "4c182559dbd28e4ba485f664dea49817a30fc0acde29b482f1baaeff4fa80397",
+      "content": "walk-back",
+      "style": "normal",
+      "status_label": null,
+      "source_frames": 31,
+      "source_duration": 1.0333323,
+      "low_speed_candidates": {
+        "threshold": 0.1,
+        "min_seconds": 0.35,
+        "smoothing_seconds": 0.2666664,
+        "intervals": [],
+        "speed_p05_p50_p95": [
+          0.48880049275655363,
+          0.8818188612237555,
+          1.075166932129941
+        ],
+        "note": "Low root speed only: not validated stopping, weight transfer, interaction or status."
+      },
+      "runtime_cycle": null
+    },
+    {
+      "id": "M05",
+      "source": "data/raw/bandai-pilot/dataset-1_walk-back_proud_001.bvh",
+      "sha256": "869fc9fc8e3da6a58da8b5ceeae6c79e4249739a70ee0f79eebfdbd7a5e4871b",
+      "content": "walk-back",
+      "style": "proud",
+      "status_label": null,
+      "source_frames": 391,
+      "source_duration": 13.033320300000002,
+      "low_speed_candidates": {
+        "threshold": 0.1,
+        "min_seconds": 0.35,
+        "smoothing_seconds": 0.2666664,
+        "intervals": [],
+        "speed_p05_p50_p95": [
+          0.18050638437384064,
+          0.3718653458342115,
+          0.6040912020154321
+        ],
+        "note": "Low root speed only: not validated stopping, weight transfer, interaction or status."
+      },
+      "runtime_cycle": {
+        "start_frame": 281,
+        "end_frame": 330,
+        "period": 1.6333317,
+        "retained_time_fraction": 0.12531969309462915
+      }
+    },
+    {
+      "id": "M06",
+      "source": "data/raw/bandai-pilot/dataset-1_walk-back_not-confident_001.bvh",
+      "sha256": "decbb5b489fbe5214a6fccbc888c852cdb1116336943ba05f87c78cefb0a86fc",
+      "content": "walk-back",
+      "style": "not-confident",
+      "status_label": null,
+      "source_frames": 364,
+      "source_duration": 12.133321200000001,
+      "low_speed_candidates": {
+        "threshold": 0.1,
+        "min_seconds": 0.35,
+        "smoothing_seconds": 0.2666664,
+        "intervals": [],
+        "speed_p05_p50_p95": [
+          0.316922657125714,
+          0.43771651428171965,
+          0.5607317071658309
+        ],
+        "note": "Low root speed only: not validated stopping, weight transfer, interaction or status."
+      },
+      "runtime_cycle": {
+        "start_frame": 271,
+        "end_frame": 306,
+        "period": 1.1666655000000001,
+        "retained_time_fraction": 0.09615384615384616
+      }
+    },
+    {
+      "id": "M07",
+      "source": "data/raw/bandai-pilot/dataset-1_walk-left_normal_001.bvh",
+      "sha256": "26ee7e8cf65a7c839b7790c90328fcb730e53ab18b4cbef5f8fba397de3ae675",
+      "content": "walk-left",
+      "style": "normal",
+      "status_label": null,
+      "source_frames": 135,
+      "source_duration": 4.499995500000001,
+      "low_speed_candidates": {
+        "threshold": 0.1,
+        "min_seconds": 0.35,
+        "smoothing_seconds": 0.2666664,
+        "intervals": [],
+        "speed_p05_p50_p95": [
+          0.5733897284161955,
+          0.8150925700200066,
+          1.0353171254567122
+        ],
+        "note": "Low root speed only: not validated stopping, weight transfer, interaction or status."
+      },
+      "runtime_cycle": {
+        "start_frame": 43,
+        "end_frame": 76,
+        "period": 1.0999989000000001,
+        "retained_time_fraction": 0.24444444444444444
+      }
+    },
+    {
+      "id": "M08",
+      "source": "data/raw/bandai-pilot/dataset-1_walk-left_proud_001.bvh",
+      "sha256": "97a64a279a32256a73b3e0257b0fbdd9dde3b9d5f34857e0f5253e9ceacbafcb",
+      "content": "walk-left",
+      "style": "proud",
+      "status_label": null,
+      "source_frames": 203,
+      "source_duration": 6.7666599000000005,
+      "low_speed_candidates": {
+        "threshold": 0.1,
+        "min_seconds": 0.35,
+        "smoothing_seconds": 0.2666664,
+        "intervals": [],
+        "speed_p05_p50_p95": [
+          0.21656170735036126,
+          0.4644684563914373,
+          0.7143727076428296
+        ],
+        "note": "Low root speed only: not validated stopping, weight transfer, interaction or status."
+      },
+      "runtime_cycle": {
+        "start_frame": 114,
+        "end_frame": 166,
+        "period": 1.7333316,
+        "retained_time_fraction": 0.2561576354679803
+      }
+    },
+    {
+      "id": "M09",
+      "source": "data/raw/bandai-pilot/dataset-1_walk-left_not-confident_001.bvh",
+      "sha256": "53eeebdfc46064223171d09e769c530924b278fb267d57a7b011c4bdc700b281",
+      "content": "walk-left",
+      "style": "not-confident",
+      "status_label": null,
+      "source_frames": 242,
+      "source_duration": 8.0666586,
+      "low_speed_candidates": {
+        "threshold": 0.1,
+        "min_seconds": 0.35,
+        "smoothing_seconds": 0.2666664,
+        "intervals": [],
+        "speed_p05_p50_p95": [
+          0.28914776958522964,
+          0.41485119168843176,
+          0.5733288855964062
+        ],
+        "note": "Low root speed only: not validated stopping, weight transfer, interaction or status."
+      },
+      "runtime_cycle": {
+        "start_frame": 171,
+        "end_frame": 210,
+        "period": 1.2999987000000002,
+        "retained_time_fraction": 0.16115702479338842
+      }
+    },
+    {
+      "id": "M10",
+      "source": "data/raw/bandai-pilot/dataset-1_walk-right_normal_001.bvh",
+      "sha256": "2b77b84d4caf2e037441d48073f4c3f5e5b43bf98a96f4f4ca96be931a0c3657",
+      "content": "walk-right",
+      "style": "normal",
+      "status_label": null,
+      "source_frames": 135,
+      "source_duration": 4.499995500000001,
+      "low_speed_candidates": {
+        "threshold": 0.1,
+        "min_seconds": 0.35,
+        "smoothing_seconds": 0.2666664,
+        "intervals": [],
+        "speed_p05_p50_p95": [
+          0.5965835153288602,
+          0.7696851178709176,
+          0.9574567096266636
+        ],
+        "note": "Low root speed only: not validated stopping, weight transfer, interaction or status."
+      },
+      "runtime_cycle": {
+        "start_frame": 43,
+        "end_frame": 78,
+        "period": 1.1666655000000001,
+        "retained_time_fraction": 0.25925925925925924
+      }
+    },
+    {
+      "id": "M11",
+      "source": "data/raw/bandai-pilot/dataset-1_walk-right_proud_001.bvh",
+      "sha256": "3225a2aa0b2d9cc8e5f19c3edfdcacbe33361641cdd7e67726a83390a71bad81",
+      "content": "walk-right",
+      "style": "proud",
+      "status_label": null,
+      "source_frames": 264,
+      "source_duration": 8.799991200000001,
+      "low_speed_candidates": {
+        "threshold": 0.1,
+        "min_seconds": 0.35,
+        "smoothing_seconds": 0.2666664,
+        "intervals": [],
+        "speed_p05_p50_p95": [
+          0.24616187363982514,
+          0.46667414848114247,
+          0.7240638891310271
+        ],
+        "note": "Low root speed only: not validated stopping, weight transfer, interaction or status."
+      },
+      "runtime_cycle": {
+        "start_frame": 130,
+        "end_frame": 181,
+        "period": 1.6999983,
+        "retained_time_fraction": 0.19318181818181818
+      }
+    },
+    {
+      "id": "M12",
+      "source": "data/raw/bandai-pilot/dataset-1_walk-right_not-confident_001.bvh",
+      "sha256": "ce8dc89921f38d99d008fa2906a7b8520a654d0780f47a4cbdae35f52d3f4364",
+      "content": "walk-right",
+      "style": "not-confident",
+      "status_label": null,
+      "source_frames": 242,
+      "source_duration": 8.0666586,
+      "low_speed_candidates": {
+        "threshold": 0.1,
+        "min_seconds": 0.35,
+        "smoothing_seconds": 0.2666664,
+        "intervals": [],
+        "speed_p05_p50_p95": [
+          0.28184291152759067,
+          0.4149131738027445,
+          0.6163065216083026
+        ],
+        "note": "Low root speed only: not validated stopping, weight transfer, interaction or status."
+      },
+      "runtime_cycle": {
+        "start_frame": 89,
+        "end_frame": 131,
+        "period": 1.3999986000000002,
+        "retained_time_fraction": 0.17355371900826447
+      }
+    }
+  ],
+  "v2_source_usage": [
+    {
+      "id": 0,
+      "initial_clip": "M01",
+      "sampled_prearrival_frames": 152,
+      "source_clip_counts": {
+        "M01": 132,
+        "M10": 4,
+        "M07": 16
+      }
+    },
+    {
+      "id": 1,
+      "initial_clip": "M02",
+      "sampled_prearrival_frames": 216,
+      "source_clip_counts": {
+        "M02": 13,
+        "M01": 76,
+        "M07": 28,
+        "M08": 8,
+        "M10": 91
+      }
+    },
+    {
+      "id": 2,
+      "initial_clip": "M03",
+      "sampled_prearrival_frames": 224,
+      "source_clip_counts": {
+        "M03": 1,
+        "M02": 12,
+        "M01": 44,
+        "M07": 16,
+        "M08": 76,
+        "M10": 75
+      }
+    },
+    {
+      "id": 3,
+      "initial_clip": "M01",
+      "sampled_prearrival_frames": 164,
+      "source_clip_counts": {
+        "M01": 45,
+        "M10": 119
+      }
+    },
+    {
+      "id": 4,
+      "initial_clip": "M02",
+      "sampled_prearrival_frames": 220,
+      "source_clip_counts": {
+        "M02": 37,
+        "M01": 92,
+        "M10": 91
+      }
+    },
+    {
+      "id": 5,
+      "initial_clip": "M03",
+      "sampled_prearrival_frames": 228,
+      "source_clip_counts": {
+        "M03": 1,
+        "M02": 120,
+        "M01": 36,
+        "M10": 71
+      }
+    },
+    {
+      "id": 6,
+      "initial_clip": "M01",
+      "sampled_prearrival_frames": 140,
+      "source_clip_counts": {
+        "M01": 136,
+        "M10": 4
+      }
+    },
+    {
+      "id": 7,
+      "initial_clip": "M02",
+      "sampled_prearrival_frames": 212,
+      "source_clip_counts": {
+        "M02": 49,
+        "M01": 152,
+        "M10": 11
+      }
+    },
+    {
+      "id": 8,
+      "initial_clip": "M03",
+      "sampled_prearrival_frames": 232,
+      "source_clip_counts": {
+        "M03": 1,
+        "M02": 108,
+        "M01": 32,
+        "M07": 4,
+        "M10": 87
+      }
+    },
+    {
+      "id": 9,
+      "initial_clip": "M01",
+      "sampled_prearrival_frames": 164,
+      "source_clip_counts": {
+        "M01": 93,
+        "M07": 4,
+        "M10": 67
+      }
+    }
+  ],
+  "v2_usage_note": "Source clip IDs, not final expression labels. A 0.35 upper-body reference blend remains; switching clips does not imply all own-style influence disappears.",
+  "pipeline_findings": [
+    "prepare() extracts one repeating cycle per accepted source, samples it into 128 phases.",
+    "Library.sample() wraps phase modulo one; it cannot represent a finite action end.",
+    "Current runtime has no separate start/stop/encounter transition clips.",
+    "Source low-speed intervals do not establish valid stop/interaction actions.",
+    "No original source file was edited; discarded means not represented in runtime cycles."
+  ]
+}

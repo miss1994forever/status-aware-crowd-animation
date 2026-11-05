@@ -1,0 +1,10 @@
+{
+  "source_page": "https://zenodo.org/records/17220516",
+  "scope": "Source-motion coverage inspection only; no status labels, generated interactions, or automatic acceptance. First windows chosen before viewing, not optimized demonstrations.",
+  "clips": [
+    {"id":"E01","path":"data/raw/emm-pilot/selected/DataEMM/emm/basic_locomotion_2.bvh","label":"基础移动 · 原片前20秒","translation_mode":"offset_plus_channels","start":0,"end":20},
+    {"id":"E02","path":"data/raw/emm-pilot/selected/DataEMM/emm/strafe.bvh","label":"strafe · 原片前22秒","translation_mode":"offset_plus_channels","start":0,"end":22},
+    {"id":"E03","path":"data/raw/emm-pilot/selected/DataEMM/emm/turn_in_place.bvh","label":"原地转向 · 原片前17秒","translation_mode":"offset_plus_channels","start":0,"end":17},
+    {"id":"E04","path":"data/raw/emm-pilot/selected/DataEMM/emm_extra/crowd_guy.bvh","label":"crowd_guy · 原片前25秒","translation_mode":"offset_plus_channels","start":0,"end":25}
+  ]
+}

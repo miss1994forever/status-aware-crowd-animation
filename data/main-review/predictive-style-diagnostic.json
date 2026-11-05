@@ -1,0 +1,249 @@
+{
+  "classification": "post_hoc_training_case_diagnostic",
+  "scenario": {
+    "name": "door-1-0.46-13",
+    "kind": "door",
+    "seed": 13,
+    "width": 0.46,
+    "starts": [
+      [
+        0,
+        -1.4
+      ]
+    ],
+    "goals": [
+      [
+        0,
+        1.6
+      ]
+    ],
+    "walls": [
+      [
+        -2,
+        -0.12,
+        -0.23,
+        0.12
+      ],
+      [
+        0.23,
+        -0.12,
+        2,
+        0.12
+      ]
+    ],
+    "reference": "M02",
+    "duration": 12
+  },
+  "frozen_hash_checks": {
+    "src/predictive_motion_lab/controller.py": true,
+    "src/predictive_motion_lab/__init__.py": true,
+    "src/predictive_motion_lab/motion.py": true,
+    "src/predictive_motion_lab/geometry.py": true,
+    "src/predictive_motion_lab/evaluate.py": true,
+    "scripts/build_predictive_motion_lab.py": true,
+    "data/predictive-motion-lab/configs.json": true,
+    "data/predictive-motion-lab/library.json": true
+  },
+  "script_sha256": "12293bf43f496b217a46baa098ea1acfe04976c328ed942d7b36970f7f542d43",
+  "limitations": [
+    "One training scene, not a new held-out test.",
+    "Restricting source-style also changes motion coverage and speed distribution.",
+    "Failure does not prove no same-style solution exists.",
+    "Source-style and kinematic distances do not establish perceived status."
+  ],
+  "results": [
+    {
+      "condition": "F",
+      "metrics": {
+        "minimum_proxy_axis_gap": 0.2521266554159164,
+        "max_proxy_penetration": 0.0,
+        "collision_time_fraction": 0.0,
+        "arrived_fraction": 0.0,
+        "remaining_goal_distance_mean": 2.2014904324606226,
+        "stagnant_agents": 1,
+        "emergency_hold_agent_seconds": 10.550000000000042,
+        "root_acceleration_p95": 3.197442310920451e-12,
+        "root_acceleration_max": 51.91285754835189,
+        "joint_speed_p99": 1.27242668980194,
+        "joint_acceleration_p99": 14.096389073914231,
+        "max_bone_relative_error": 2.220446049250313e-15,
+        "source_pose_modification_max": 0.035495035878575054,
+        "source_pose_modification_p95": 0.024545232442152766,
+        "expression_drift_mean": 0.0,
+        "actual_reference_pose_rms": 0.0022741134514347107,
+        "travel_angle_warp_max_radians": 0.0,
+        "actual_speed_ratio_min": 0.8,
+        "actual_speed_ratio_max": 1.15,
+        "switches": 0,
+        "aba_clip_reversals": 0,
+        "worst": {
+          "t": 1.4166666666666665,
+          "agent": 0,
+          "wall": [
+            [
+              0.23,
+              -0.12
+            ],
+            [
+              2.0,
+              -0.12
+            ],
+            [
+              2.0,
+              0.12
+            ],
+            [
+              0.23,
+              0.12
+            ]
+          ],
+          "gap": 0.2521266554159164
+        },
+        "dense_samples": 1440,
+        "evaluation_hz": 120,
+        "proxy": "projected-joint convex hull + radius .04; signed SAT axis gap",
+        "planning_seconds": 0.7861108705401421,
+        "planning_step_ms_p50": 12.89764593821019,
+        "planning_step_ms_p95": 14.211080840323119,
+        "agent_count": 1,
+        "emergency_hold_agent_steps": 53,
+        "arrival_times": {},
+        "interaction_edges": []
+      },
+      "used_clips": [
+        "M02"
+      ]
+    },
+    {
+      "condition": "G_all_styles",
+      "metrics": {
+        "minimum_proxy_axis_gap": 0.014988361158666565,
+        "max_proxy_penetration": 0.0,
+        "collision_time_fraction": 0.0,
+        "arrived_fraction": 1.0,
+        "remaining_goal_distance_mean": 0.18819757382419527,
+        "stagnant_agents": 0,
+        "emergency_hold_agent_seconds": 0.0,
+        "root_acceleration_p95": 6.394884621840902e-12,
+        "root_acceleration_max": 45.28300092474713,
+        "joint_speed_p99": 2.201289629399799,
+        "joint_acceleration_p99": 36.86639076224991,
+        "max_bone_relative_error": 2.1094237467877974e-15,
+        "source_pose_modification_max": 0.3487586450563131,
+        "source_pose_modification_p95": 0.12228437023942848,
+        "expression_drift_mean": 0.5584191750524227,
+        "actual_reference_pose_rms": 0.03633807107571315,
+        "travel_angle_warp_max_radians": 0.3510496842395292,
+        "actual_speed_ratio_min": 0.5043574097698116,
+        "actual_speed_ratio_max": 1.5144893949465346,
+        "switches": 8,
+        "aba_clip_reversals": 1,
+        "worst": {
+          "t": 2.433333333333333,
+          "agent": 0,
+          "wall": [
+            [
+              -2.0,
+              -0.12
+            ],
+            [
+              -0.23,
+              -0.12
+            ],
+            [
+              -0.23,
+              0.12
+            ],
+            [
+              -2.0,
+              0.12
+            ]
+          ],
+          "gap": 0.014988361158666565
+        },
+        "dense_samples": 1440,
+        "evaluation_hz": 120,
+        "proxy": "projected-joint convex hull + radius .04; signed SAT axis gap",
+        "planning_seconds": 0.7838834132999182,
+        "planning_step_ms_p50": 0.0004169996827840805,
+        "planning_step_ms_p95": 41.3059648941271,
+        "agent_count": 1,
+        "emergency_hold_agent_steps": 0,
+        "arrival_times": {
+          "0": 4.2
+        },
+        "interaction_edges": []
+      },
+      "used_clips": [
+        "M01",
+        "M02",
+        "M03",
+        "M07",
+        "M11"
+      ]
+    },
+    {
+      "condition": "G_own_source_style",
+      "metrics": {
+        "minimum_proxy_axis_gap": 0.15647840977505165,
+        "max_proxy_penetration": 0.0,
+        "collision_time_fraction": 0.0,
+        "arrived_fraction": 0.0,
+        "remaining_goal_distance_mean": 2.133409216112642,
+        "stagnant_agents": 1,
+        "emergency_hold_agent_seconds": 10.350000000000053,
+        "root_acceleration_p95": 3.197442310920451e-12,
+        "root_acceleration_max": 45.28300092474503,
+        "joint_speed_p99": 1.3242564788182816,
+        "joint_acceleration_p99": 15.370289735568825,
+        "max_bone_relative_error": 2.220446049250313e-15,
+        "source_pose_modification_max": 0.3023423470820486,
+        "source_pose_modification_p95": 0.19283598497864016,
+        "expression_drift_mean": 0.4041939580225607,
+        "actual_reference_pose_rms": 0.014407831075039521,
+        "travel_angle_warp_max_radians": 0.35104968423952876,
+        "actual_speed_ratio_min": 0.8,
+        "actual_speed_ratio_max": 1.15,
+        "switches": 1,
+        "aba_clip_reversals": 0,
+        "worst": {
+          "t": 1.6333333333333335,
+          "agent": 0,
+          "wall": [
+            [
+              -2.0,
+              -0.12
+            ],
+            [
+              -0.23,
+              -0.12
+            ],
+            [
+              -0.23,
+              0.12
+            ],
+            [
+              -2.0,
+              0.12
+            ]
+          ],
+          "gap": 0.15647840977505165
+        },
+        "dense_samples": 1440,
+        "evaluation_hz": 120,
+        "proxy": "projected-joint convex hull + radius .04; signed SAT axis gap",
+        "planning_seconds": 1.0187183390371501,
+        "planning_step_ms_p50": 16.448874957859516,
+        "planning_step_ms_p95": 20.281173335388303,
+        "agent_count": 1,
+        "emergency_hold_agent_steps": 52,
+        "arrival_times": {},
+        "interaction_edges": []
+      },
+      "used_clips": [
+        "M02",
+        "M11"
+      ]
+    }
+  ]
+}

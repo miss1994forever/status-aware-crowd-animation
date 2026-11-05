@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "scope": "Cross-action expressive motion; no status ground truth assumed.",
+  "storage_root": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/expression",
+  "total_download_budget_bytes": 3000000000,
+  "datasets": [
+    {
+      "id": "100STYLE",
+      "priority": "high for locomotion across style; not interaction ground truth",
+      "source": "https://www.ianxmason.com/100style/",
+      "download_page": "https://zenodo.org/records/8127870",
+      "archive_url": "https://zenodo.org/records/8127870/files/100STYLE.zip?download=1",
+      "license": "CC BY 4.0, author page explicitly states; credit/cite author work. No login/click acceptance used.",
+      "paper": "https://arxiv.org/abs/2201.04439",
+      "format": "BVH, 28-bone hierarchy, 60 fps",
+      "contents": [
+        "forward/backward walking and running",
+        "side-step walking and running",
+        "idle",
+        "transitions"
+      ],
+      "coverage": "All 100 styles, single performer; complete original BVH archive downloading, not 14.8GB processed feature package.",
+      "size_published": "1.5 GB (approximately 1400 MiB curl Content-Length)",
+      "expected_md5": "3cf627852fd8192024c04a8d0ef49583",
+      "state": "downloading",
+      "status_file": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/expression/100style-download-status.json",
+      "local_archive": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/expression/100STYLE.zip",
+      "completed_verification": false,
+      "labels": "Authored style names, not status levels; do not use e.g. Proud as high-status truth.",
+      "limitations": [
+        "One actor, no true paired interactions",
+        "Many exaggerated styles; screen naturalness independently",
+        "Frame_Cuts.csv needed to omit T-pose/leading and trailing frames"
+      ],
+      "candidate_use": "Full forward/backward/side-step/idle/transition families for naturalness and cross-action expression; choose comparable natural styles after full inventory."
+    },
+    {
+      "id": "Bandai-Namco-Research-Motiondataset",
+      "priority": "high for content-by-style matched review",
+      "source": "https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset",
+      "tree_sha": "74ead3ba1ae4696404e6086233779f60de8bf9ef",
+      "archive_url": "https://codeload.github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/zip/74ead3ba1ae4696404e6086233779f60de8bf9ef",
+      "license": "Current official dataset-1 and dataset-2 README says CC BY-NC 4.0; dataset-1 LICENSE inspected says Attribution-NonCommercial 4.0. Older media says NC-ND: use current pinned repository license, preserve attribution and changes.",
+      "license_url": "https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset/blob/74ead3ba1ae4696404e6086233779f60de8bf9ef/dataset/Bandai-Namco-Research-Motiondataset-1/LICENSE",
+      "paper": "https://arxiv.org/abs/2306.08861",
+      "format": "BVH + JSON labels, 30fps; 6-channel joints (translations as well as rotations) require correct parser",
+      "repository_uncompressed_bytes_from_git_tree": 740993895,
+      "bvh_total": 3077,
+      "groups": {
+        "1": {
+          "bvh_count": 175,
+          "bvh_bytes": 45788864,
+          "actions": {
+            "bow": 15,
+            "bye": 15,
+            "byebye": 15,
+            "call": 2,
+            "dance-long": 1,
+            "dance-short": 1,
+            "dash": 15,
+            "guide": 15,
+            "kick": 1,
+            "punch": 2,
+            "respond": 1,
+            "run": 15,
+            "slash": 2,
+            "walk-back": 15,
+            "walk-left": 15,
+            "walk-right": 15,
+            "walk": 30
+          },
+          "styles": {
+            "active": 11,
+            "angry": 11,
+            "childish": 11,
+            "chimpira": 11,
+            "feminine": 11,
+            "giant": 11,
+            "happy": 11,
+            "masculinity": 11,
+            "musical": 11,
+            "normal": 21,
+            "not-confident": 11,
+            "old": 11,
+            "proud": 11,
+            "sad": 11,
+            "tired": 11
+          }
+        },
+        "2": {
+          "bvh_count": 2902,
+          "bvh_bytes": 514593613,
+          "actions": {
+            "raise-up-both-hands": 434,
+            "raise-up-left-hand": 444,
+            "raise-up-right-hand": 437,
+            "run": 317,
+            "walk-turn-left": 236,
+            "walk-turn-right": 234,
+            "walk": 175,
+            "wave-both-hands": 208,
+            "wave-left-hand": 209,
+            "wave-right-hand": 208
+          },
+          "styles": {
+            "active": 584,
+            "elderly": 314,
+            "exhausted": 353,
+            "feminine": 406,
+            "masculine": 379,
+            "normal": 465,
+            "youthful": 401
+          }
+        }
+      },
+      "state": "downloading",
+      "status_file": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/expression/bandai-download-status.json",
+      "local_archive": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/expression/bandai-pinned.zip",
+      "completed_verification": false,
+      "coverage": "Complete pinned repository archive requested including both datasets, configs, licenses; no random short clip subset.",
+      "labels": "Dataset1 emotion/personality/character style incl proud/not-confident/normal; dataset2 broad expression/archetype styles. None verified as social status ranks.",
+      "candidate_use": [
+        "dataset1 walk / walk-back / walk-left / walk-right / run across normal, proud, not-confident",
+        "dataset1 bow / guide / respond for non-greeting communicative tasks",
+        "dataset2 walk-turn-left / walk-turn-right for repeated locomotion transitions"
+      ],
+      "limitations": [
+        "Single-person performances; no synchronized partner response",
+        "Multiple content/style combinations absent; full Cartesian product not guaranteed",
+        "Character style and age-related labels may confound status; not demographic inference targets"
+      ]
+    },
+    {
+      "id": "MotionIsTheMessage",
+      "source": "https://github.com/facebookresearch/MotionIsTheMessageDataset",
+      "paper": "https://www.cs.ucdavis.edu/~neff/papers/Motion_is_the_Message_TVCG_IEEEVR.pdf",
+      "tree_sha": "415fb817ae240041a4139bee0c42a09303004716",
+      "state": "catalogued_not_expanded_this_round",
+      "existing_data": "/Volumes/Samsung-SSD/AnimationLab/social-signal-originals",
+      "optical_count": 52,
+      "optical_total_bytes": 364956224,
+      "scales": {
+        "ArmPosture": 5,
+        "AttractedVsRepulsed": 5,
+        "DominantShy": 5,
+        "Emotions": 10,
+        "EnergeticTired": 5,
+        "InterestedDisinterested": 5,
+        "PositiveNegative": 5,
+        "PostureRange": 7,
+        "RelaxedNervous": 5
+      },
+      "license": "Meta Non-Commercial Research License Agreement; text includes access-as-agreement and restrictions on third-party redistribution. Public GitHub without interactive gate; no new agreement clicked/signed. Expansion deferred rather than asserting all public licenses require confirmation.",
+      "license_url": "https://github.com/facebookresearch/MotionIsTheMessageDataset/blob/main/LICENSE",
+      "cross_task_prompts": {
+        "RelaxedNervous": "Ask for an explanation",
+        "InterestedDisinterested": "Listen to another",
+        "EnergeticTired": "Plan to get coffee",
+        "PositiveNegative": "React to a present offer",
+        "AttractedVsRepulsed": "React to imagined appealing/repulsive object"
+      },
+      "limitations": [
+        "DominantShy remains greeting task; other scales do not provide same status continuum across tasks",
+        "52 optical clips total; HMD versions are reconstructions, not independent performances",
+        "Single actor per selected take; no actual synchronized multi-person response"
+      ]
+    }
+  ],
+  "background_jobs": {
+    "100style": {
+      "pid": 92916,
+      "status_path": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/expression/100style-download-status.json"
+    },
+    "bandai": {
+      "pid": 92917,
+      "status_path": "/Volumes/Samsung-SSD/AnimationLab/motion-expansion/expression/bandai-download-status.json"
+    }
+  },
+  "resume": "Run /opt/homebrew/bin/python3 /Volumes/Samsung-SSD/AnimationLab/motion-expansion/expression/download_archives.py 100style OR bandai, only when existing PID has ended. Uses curl -C -, preserves partials, checks official 100STYLE MD5 and zip CRC; logs failures without declaring success.",
+  "not_done": [
+    "No new animations viewed or retargeted",
+    "No downloaded archive yet marked verified",
+    "No model training",
+    "No status parameter estimation"
+  ]
+}

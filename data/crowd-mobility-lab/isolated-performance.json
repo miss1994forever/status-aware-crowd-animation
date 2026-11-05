@@ -1,0 +1,42 @@
+[
+  {
+    "method": "G_old",
+    "same_input": "old G training snapshot t=3s, all ten agents",
+    "samples": [
+      {
+        "cpu_ms": 541.9410000000005,
+        "elapsed_ms": 542.5419160164893
+      },
+      {
+        "cpu_ms": 537.547,
+        "elapsed_ms": 537.7043751068413
+      },
+      {
+        "cpu_ms": 540.7029999999997,
+        "elapsed_ms": 540.9468750003725
+      }
+    ],
+    "includes_rendering": false,
+    "includes_personal_library_precompute": false
+  },
+  {
+    "method": "R0",
+    "same_input": "old G training snapshot t=3s, all ten agents",
+    "samples": [
+      {
+        "cpu_ms": 302.0699999999996,
+        "elapsed_ms": 302.2622081916779
+      },
+      {
+        "cpu_ms": 300.44599999999997,
+        "elapsed_ms": 300.58808298781514
+      },
+      {
+        "cpu_ms": 304.82000000000033,
+        "elapsed_ms": 305.09704095311463
+      }
+    ],
+    "includes_rendering": false,
+    "includes_personal_library_precompute": false
+  }
+]

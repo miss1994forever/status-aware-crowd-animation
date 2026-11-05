@@ -1,0 +1,34 @@
+{
+  "independent_replays": [
+    {
+      "key": "train_door-1-0.46-13_G_0",
+      "all_independently_recomputed_metrics_match": true
+    },
+    {
+      "key": "train_door-1-0.28-13_G_0",
+      "all_independently_recomputed_metrics_match": true
+    },
+    {
+      "key": "train_shared-10-None-13_G+P_0.6",
+      "all_independently_recomputed_metrics_match": true
+    },
+    {
+      "key": "heldout_shared-30-None-89_G_0",
+      "all_independently_recomputed_metrics_match": true
+    }
+  ],
+  "reused_upstream_modules": {
+    "src/bvh.py": {
+      "sha256": "b259ede1bf28fb1712f29993769bd2fde885478829b778a6dc82ed88cc94f6f8",
+      "matches_preexisting_audit": true
+    },
+    "src/locomotion.py": {
+      "sha256": "74056b6bfb33eb9d701ebe8362e7a857e4a4757b3d57d467d2f45d94f997a3a5",
+      "matches_preexisting_audit": true
+    },
+    "src/motion_candidate_lab/cycles.py": {
+      "sha256": "51202f4ad7ff3963abf23fa65f4ca3fd0a6d84fa48722eb118ce2f4ce197b26e",
+      "matches_preexisting_audit": true
+    }
+  }
+}

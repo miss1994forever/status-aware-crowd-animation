@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-05",
+  "note": "Read-only reference snapshot; spatial thread may keep updating authoritative sources. Do not copy these wholesale back.",
+  "sha256": {
+    "SprintActor.cs": "92e05dfde814013342304863db85c8caf36ac105e0916ac306152047f0c0aa82",
+    "SprintLegIK.cs": "5a855ee503e126f120699864cfee89fd7916ef38340bf96f12740eaccecefee3",
+    "SprintDirector.cs": "ece4022d2a086272bb8dc52f9fe7a1b5ab4410e35f745418ad449db095db257f",
+    "SprintObservation.cs": "304f41a9805b05fe8087cbcdd56d774c9989001e7546fa3f3ffdd13a01ce85bc"
+  }
+}

@@ -1,0 +1,63 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>连续运动实验 · M01 路径跟随</title>
+<style>
+:root{color-scheme:light;--paper:#edf3f8;--ink:#19334e;--muted:#52687b;--line:#c9d7e2}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:14px -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}main{max-width:1380px;margin:auto;padding:22px 26px}header{display:flex;justify-content:space-between;align-items:baseline;gap:12px}h1{font:600 26px Georgia,"Songti SC",serif;margin:0}header p{color:var(--muted)}.controls{display:flex;align-items:center;flex-wrap:wrap;gap:14px;padding:16px 0}button,select{font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:5px;background:#f9fcff;color:inherit;cursor:pointer}button[aria-pressed=true]{background:var(--ink);color:white}input{accent-color:#176eaf;vertical-align:middle;width:150px}input[type=checkbox]{width:auto}label{white-space:nowrap}button:focus-visible,select:focus-visible,input:focus-visible,canvas:focus-visible{outline:3px solid #176eaf;outline-offset:2px}#stage{position:relative;background:#f9fcff;border:1px solid var(--line);border-radius:8px;overflow:hidden}canvas{display:block;width:100%;height:clamp(360px,65vh,800px);touch-action:none;cursor:grab}.overlay{position:absolute;left:18px;top:14px;pointer-events:none;font-size:12px;line-height:1.8;color:var(--muted)}#stats{font:12px/1.8 ui-monospace,monospace;padding:12px 0;color:var(--muted)}.notice{border-left:3px solid #bf593b;padding:4px 12px;font-size:13px;line-height:1.9}details{font-size:12px;line-height:1.9;color:var(--muted);margin-top:14px}summary{cursor:pointer}a{color:#176eaf}#speedValue{display:inline-block;min-width:35px}@media(max-width:650px){main{padding:16px}header{display:block}header p{font-size:12px}.controls{gap:10px;font-size:12px}button,select{padding:8px}input{width:110px}canvas{height:55vh}.overlay{font-size:11px}}
+</style>
+<main><header><h1>连续运动实验</h1><p>M01 · 足部接触原版 / 修正版对照</p></header>
+<div class="controls"><button id="play" aria-pressed="false">播放</button><button id="reset">重置</button><label>路径 <select id="path"><option value="curve">弯曲环线</option><option value="straight">平行直线</option></select></label><label>人数 <select id="count"><option value="1">1 人</option><option value="10">10 人</option></select></label><label>速度 <input id="speed" aria-label="行进速度" type="range" min="0" max="1.6" step="0.05" value="0.8"> <output id="speedValue">0.80</output> 身高/秒</label><label>版本 <select id="version"><option value="improved">接触实验版（暂停采用）</option><option value="original" selected>原版（当前基线）</option><option value="overlay">叠加对照</option></select></label><label><input id="contacts" type="checkbox" checked> 候选接触标记</label><label><input id="followHeading" type="checkbox"> 单人随朝向</label><label>视角 <select id="view"><option value="oblique">世界斜视</option><option value="top">世界俯视</option><option value="side">世界侧视</option></select></label><label><input id="paths" type="checkbox" checked> 显示路径</label></div>
+<div id="stage"><canvas id="canvas" tabindex="0" aria-label="身体骨架连续运动场景"></canvas><div class="overlay">左肢蓝 / 右肢赭 · 灰色为原版叠加<br>圆环为离线候选接触锚，非真实支撑标注<br>拖动画面旋转；点击画面后，空格播放/暂停</div></div><div id="stats" aria-live="off"></div>
+<div class="notice">用户反馈：接触实验版落脚前后腿部抖动，当前采用原版并暂停修脚。M01 仍是工程试样，未定为最终实验素材。<a href="../locomotion-encounter/index.html">查看相遇与绕行试样</a>。<br>本阶段仅为连续步态与路径跟随。10 人按预设间距同向行走，没有互动、避障或 status 系统；不能据此声称已完成群组行为。</div>
+<details open><summary>素材、循环与已知缺陷</summary><div id="cycleInfo"></div><p>以源动作一次固定的身高参考值统一缩放，显示“身高”不是物理米。保留髋部上下与横向残余运动，只移除所选片段的线性水平位移；未逐帧归零髋部。步态相位由累计路程决定，速度为零时身体停止。</p><p>原版与修正版共享同一时刻、路程和相机，切换版本不会重置。修正版只在离线候选支撑段约束前脚部点，用固定骨长腿 IK 配合平滑进入退出；过渡期足速可能增加，不能将核心锁定视为整体自然性通过。世界侧视固定于世界坐标，环线上不是始终人物侧面，可开启“单人随朝向”保持解剖视角。</p><p>约束锚由已知整段路径的候选区间均值离线估计，不是实时落地锁存；不可直接用于未知互动路径。没有明确 heel/足底，脚趾关节点不等于鞋底。目标不可达时保骨长截断并保留残差，未做平滑可达性释放。起停仍冻结当前姿态，未做收脚站定；没有倾身、转弯素材或碰撞求解。</p><p>素材：<a href="https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset">Bandai Namco Research Inc.</a>，<a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>，M01 normal walk，无 status 标签。此页面含经循环处理、缩放与路径变换的派生关节动画；原始 BVH 未修改。</p></details></main>
+<script>
+'use strict';const DATA=/*__DATA__*/;
+/*__RUNTIME__*/
+/*__CONTACT__*/
+const $=id=>document.getElementById(id),canvas=$('canvas'),ctx=canvas.getContext('2d');
+let playing=false,distance=0,elapsed=0,previous=null,yaw=.55,pitch=.52,drag=null;
+let renderCosts=[],fpsSamples=[];
+function scene(){const count=Number($('count').value),kind=$('path').value;return{count,kind}}
+function sync(){const {count,kind}=scene();$('followHeading').disabled=count!==1;$('play').textContent=playing?'暂停':'播放';$('play').setAttribute('aria-pressed',String(playing));$('speedValue').textContent=Number($('speed').value).toFixed(2);const avg=renderCosts.reduce((a,b)=>a+b,0)/Math.max(renderCosts.length,1);$('stats').textContent=`${$('version').selectedOptions[0].textContent} · ${count} 人 · ${kind==='curve'?'弯曲环线 / 等距同向':'平行直线 / 独立分道'} | 路程 ${distance.toFixed(2)} 身高 | 相位 ${(((distance/DATA.stride)%1+1)%1).toFixed(3)} | 播放 ${elapsed.toFixed(1)} s | 绘制均值 ${avg.toFixed(2)} ms（仅绘制，非 FPS 保证）`}
+function draw(){
+ const began=performance.now(),{count,kind}=scene(),w=canvas.clientWidth,h=canvas.clientHeight,dpr=window.devicePixelRatio||1;
+ if(canvas.width!==Math.round(w*dpr)||canvas.height!==Math.round(h*dpr)){canvas.width=Math.round(w*dpr);canvas.height=Math.round(h*dpr)}ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,w,h);
+ const center=count===1?pathAt(distance,kind).position:(kind==='straight'?[0,0,distance]:[0,0,0]);
+ const cameraYaw=yaw-(count===1&&$('followHeading').checked?pathAt(distance,kind).heading:0);
+ const target=[center[0],count===1?.5:.25,center[2]],cy=Math.cos(cameraYaw),sy=Math.sin(cameraYaw),cp=Math.cos(pitch),sp=Math.sin(pitch);
+ const scale=count===1?Math.min(w/3.8,h/2.5):(kind==='curve'?Math.min(w/8.5,h/(6.4*Math.abs(sp)+1.5*Math.abs(cp)+1)):Math.min(w/10.5,h/4.5));
+ function project(p){const x=p[0]-target[0],y=p[1]-target[1],z=p[2]-target[2],d=-sy*x+cy*z;return[w/2+scale*(cy*x+sy*z),h/2-scale*(cp*y-sp*d),sp*y+cp*d]}
+ function line(a,b,color,width=1){const p=project(a),q=project(b);ctx.strokeStyle=color;ctx.lineWidth=width;ctx.beginPath();ctx.moveTo(p[0],p[1]);ctx.lineTo(q[0],q[1]);ctx.stroke()}
+ const cz=Math.floor(target[2]),extent=9;
+ for(let n=-extent;n<=extent;n++){line([n,0,cz-extent],[n,0,cz+extent],'#e3eaf0');line([-extent,0,cz+n],[extent,0,cz+n],'#e3eaf0')}
+ if($('paths').checked){if(kind==='curve'){for(let n=0;n<180;n++){line(pathAt(n/180*Math.PI*6.4,'curve').position,pathAt((n+1)/180*Math.PI*6.4,'curve').position,'#9aafbf',1.5)}}else{for(let i=0;i<count;i++){const x=(i-(count-1)/2)*.85;line([x,0,distance-8],[x,0,distance+8],'#9aafbf',1.5)}}}
+ const actors=[];
+ for(let i=0;i<count;i++){
+  const version=$('version').value,variants=version==='overlay'?[false,true]:[version==='improved'];
+  for(const improved of variants){const actor=contactActor(DATA,distance,kind,i,count,improved);actors.push({...actor,i,ghost:version==='overlay'&&!improved,z:project(actor.path.position)[2]})}
+ }
+ actors.sort((a,b)=>a.z-b.z);
+ ctx.lineCap='round';
+ for(const actor of actors){const {pose,path,i,ghost}=actor,bones=DATA.parents.map((p,j)=>({p,j,z:project(pose[j])[2]})).filter(b=>b.p!==null).sort((a,b)=>a.z-b.z);
+ for(const {p,j} of bones){const name=DATA.names[j],color=ghost?'#aab6bf':name.includes('_L')?'#176eaf':name.includes('_R')?'#bf593b':'#19334e';line(pose[p],pose[j],color,Math.max(1.5,scale*.013))}
+ const head=project(pose[DATA.names.indexOf('Head')]);ctx.strokeStyle=ghost?'#aab6bf':'#19334e';ctx.lineWidth=1.7;ctx.beginPath();ctx.arc(head[0],head[1],Math.max(2.5,scale*.025),0,Math.PI*2);ctx.stroke();
+ if($('contacts').checked&&!ghost){for(const contact of actor.contacts){if(!contact.anchor||contact.weight<.001)continue;const a=project(contact.anchor),foot=DATA.contacts.feet.find(f=>f.side===contact.side),p=project(pose[foot.toe]);ctx.strokeStyle=contact.unreachable?'#bc2d50':contact.candidate?'#24825e':'#c28b27';ctx.lineWidth=2;ctx.beginPath();ctx.arc(a[0],a[1],Math.max(4,scale*.035),0,Math.PI*2);ctx.stroke();ctx.beginPath();ctx.moveTo(p[0],p[1]);ctx.lineTo(a[0],a[1]);ctx.stroke()}}
+ if(ghost)continue;
+ const a=path.position,b=[a[0]+Math.sin(path.heading)*.42,0,a[2]+Math.cos(path.heading)*.42];line(a,b,'#408364',2);for(const side of [-1,1])line(b,[b[0]-.13*Math.sin(path.heading+side*.6),0,b[2]-.13*Math.cos(path.heading+side*.6)],'#408364',2);
+ const label=project([a[0],1.12,a[2]]);ctx.fillStyle='#52687b';ctx.font='11px ui-monospace,monospace';ctx.textAlign='center';ctx.fillText(String(i+1).padStart(2,'0'),label[0],label[1]);}
+ canvas.dataset.distance=distance;canvas.dataset.actors=count;canvas.dataset.phase=(distance/DATA.stride)%1;canvas.dataset.version=$('version').value;
+ renderCosts.push(performance.now()-began);if(renderCosts.length>180)renderCosts.shift();
+}
+function setPlaying(p){playing=p;previous=null;sync()}
+$('play').onclick=()=>setPlaying(!playing);
+$('reset').onclick=()=>{distance=0;elapsed=0;renderCosts=[];setPlaying(false);draw()};
+for(const id of ['count','path'])$(id).onchange=()=>{distance=0;elapsed=0;previous=null;draw();sync()};
+$('speed').oninput=sync;$('paths').onchange=draw;for(const id of ['version','contacts','followHeading'])$(id).onchange=()=>{draw();sync()};
+$('view').onchange=()=>{[yaw,pitch]=({oblique:[.55,.52],top:[0,Math.PI/2],side:[-Math.PI/2,.12]})[$('view').value];draw()};
+canvas.onpointerdown=e=>{drag=[e.clientX,e.clientY,yaw,pitch];canvas.setPointerCapture(e.pointerId)};
+canvas.onpointermove=e=>{if(drag){yaw=drag[2]+(e.clientX-drag[0])*.008;pitch=Math.min(Math.PI/2,Math.max(-.4,drag[3]+(e.clientY-drag[1])*.008));$('view').value='';draw()}};
+canvas.onpointerup=canvas.onpointercancel=()=>drag=null;
+canvas.onkeydown=e=>{if(e.code==='Space'){e.preventDefault();setPlaying(!playing)}};
+window.addEventListener('resize',draw);document.addEventListener('visibilitychange',()=>{previous=null});
+function tick(now){if(playing&&previous!==null){const dt=(now-previous)/1000;elapsed+=dt;distance=advanceDistance(distance,Number($('speed').value),dt);draw();sync()}previous=now;requestAnimationFrame(tick)}
+const e=DATA.evidence;$('cycleInfo').textContent=`源帧 ${e.start_frame_zero_based+1}–${e.end_frame_zero_based+1}（两端含）/ ${e.period_frames} 帧间隔 / 周期 ${e.period_seconds.toFixed(3)} 秒 / 单周期路程 ${DATA.stride.toFixed(3)} 身高。检测 ${e.candidate_count} 对边界；修正前边界 RMS ${(e.raw_endpoint_rms_body_heights*100).toFixed(2)}% 身高，修正后闭合。Bandai 导入采用位置通道替代对应 OFFSET 的明确约定。`;
+draw();sync();requestAnimationFrame(tick);
+</script></html>

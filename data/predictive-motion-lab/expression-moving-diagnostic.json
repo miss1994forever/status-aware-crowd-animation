@@ -1,0 +1,938 @@
+[
+  {
+    "key": "heldout_door-1-0.31-71_F_0",
+    "actual_reference_pose_rms_moving_only": 0.0030625062642092565,
+    "moving_frame_agent_samples": 30,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0009432975765242048,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.31-71_G+P_0.12",
+    "actual_reference_pose_rms_moving_only": 0.03924247178118296,
+    "moving_frame_agent_samples": 34,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0517099137861338,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.31-71_G+P_0.6",
+    "actual_reference_pose_rms_moving_only": 0.03928989766883145,
+    "moving_frame_agent_samples": 32,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.08823028563480376,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.31-71_G+P_2.0",
+    "actual_reference_pose_rms_moving_only": 0.02553545399249022,
+    "moving_frame_agent_samples": 42,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.08212069386289515,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.31-71_G_0",
+    "actual_reference_pose_rms_moving_only": 0.038423971496998575,
+    "moving_frame_agent_samples": 34,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.07716612478588993,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.31-71_circle_0",
+    "actual_reference_pose_rms_moving_only": 0.02524683543706992,
+    "moving_frame_agent_samples": 28,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.09158992129149611,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.31-71_no_continuity_0",
+    "actual_reference_pose_rms_moving_only": 0.0594802559602222,
+    "moving_frame_agent_samples": 32,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.10775861988040962,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.31-71_no_prediction_0",
+    "actual_reference_pose_rms_moving_only": 0.03681867127065709,
+    "moving_frame_agent_samples": 34,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.07556017626636342,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.4-71_F_0",
+    "actual_reference_pose_rms_moving_only": 0.0030625062642092565,
+    "moving_frame_agent_samples": 30,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0009432975765242048,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.4-71_G+P_0.12",
+    "actual_reference_pose_rms_moving_only": 0.022510042994485124,
+    "moving_frame_agent_samples": 28,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.054921343598441294,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.4-71_G+P_0.6",
+    "actual_reference_pose_rms_moving_only": 0.04616851532816274,
+    "moving_frame_agent_samples": 43,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.08394719624777673,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.4-71_G+P_2.0",
+    "actual_reference_pose_rms_moving_only": 0.02573205024383275,
+    "moving_frame_agent_samples": 42,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.08244907794537457,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.4-71_G_0",
+    "actual_reference_pose_rms_moving_only": 0.035793967325073256,
+    "moving_frame_agent_samples": 35,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.08322736199270872,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.4-71_circle_0",
+    "actual_reference_pose_rms_moving_only": 0.03245467184436555,
+    "moving_frame_agent_samples": 28,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.09170650582432854,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.4-71_no_continuity_0",
+    "actual_reference_pose_rms_moving_only": 0.05662411851058547,
+    "moving_frame_agent_samples": 32,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.09922221101585729,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.4-71_no_prediction_0",
+    "actual_reference_pose_rms_moving_only": 0.04409192295567334,
+    "moving_frame_agent_samples": 28,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.06944371767539945,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.53-71_F_0",
+    "actual_reference_pose_rms_moving_only": 0.0038399889823710833,
+    "moving_frame_agent_samples": 38,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0016268068200680586,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.53-71_G+P_0.12",
+    "actual_reference_pose_rms_moving_only": 0.02619003866777076,
+    "moving_frame_agent_samples": 68,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.010297997701469561,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.53-71_G+P_0.6",
+    "actual_reference_pose_rms_moving_only": 0.023164834139142103,
+    "moving_frame_agent_samples": 79,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.010796800688716496,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.53-71_G+P_2.0",
+    "actual_reference_pose_rms_moving_only": 0.010141983899136724,
+    "moving_frame_agent_samples": 96,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.006075809688102301,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.53-71_G_0",
+    "actual_reference_pose_rms_moving_only": 0.02619003866777076,
+    "moving_frame_agent_samples": 68,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.010297997701469561,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.53-71_circle_0",
+    "actual_reference_pose_rms_moving_only": 0.027528092008418364,
+    "moving_frame_agent_samples": 28,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.042596608323463,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.53-71_no_continuity_0",
+    "actual_reference_pose_rms_moving_only": 0.0327461682486453,
+    "moving_frame_agent_samples": 68,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.08482288997478787,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.53-71_no_prediction_0",
+    "actual_reference_pose_rms_moving_only": 0.028383336143513002,
+    "moving_frame_agent_samples": 64,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.009333571322756726,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.72-71_F_0",
+    "actual_reference_pose_rms_moving_only": 0.0045846392844531335,
+    "moving_frame_agent_samples": 96,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.003035934422549233,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.72-71_G+P_0.12",
+    "actual_reference_pose_rms_moving_only": 0.03017244765843987,
+    "moving_frame_agent_samples": 64,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.01332200718592289,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.72-71_G+P_0.6",
+    "actual_reference_pose_rms_moving_only": 0.02674351991739573,
+    "moving_frame_agent_samples": 64,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.009811721879753987,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.72-71_G+P_2.0",
+    "actual_reference_pose_rms_moving_only": 0.0045846392844531335,
+    "moving_frame_agent_samples": 96,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.003035934422549233,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.72-71_G_0",
+    "actual_reference_pose_rms_moving_only": 0.03119609621366306,
+    "moving_frame_agent_samples": 64,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.02632455991407631,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.72-71_circle_0",
+    "actual_reference_pose_rms_moving_only": 0.02607658497264356,
+    "moving_frame_agent_samples": 31,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.06594749511573687,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.72-71_no_continuity_0",
+    "actual_reference_pose_rms_moving_only": 0.034142984435482464,
+    "moving_frame_agent_samples": 68,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.08659007286866524,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_door-1-0.72-71_no_prediction_0",
+    "actual_reference_pose_rms_moving_only": 0.03119609621366306,
+    "moving_frame_agent_samples": 64,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.02632455991407631,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_shared-10-None-71_F_0",
+    "actual_reference_pose_rms_moving_only": 0.002749682048072431,
+    "moving_frame_agent_samples": 1747,
+    "total_frame_agent_samples": 5200,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0029579322540414493,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_shared-10-None-71_G+P_0.12",
+    "actual_reference_pose_rms_moving_only": 0.04097221895582328,
+    "moving_frame_agent_samples": 1011,
+    "total_frame_agent_samples": 5200,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.047498407125548314,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_shared-10-None-71_G+P_0.6",
+    "actual_reference_pose_rms_moving_only": 0.008875901263622412,
+    "moving_frame_agent_samples": 1829,
+    "total_frame_agent_samples": 5200,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.015478615105713628,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_shared-10-None-71_G+P_2.0",
+    "actual_reference_pose_rms_moving_only": 0.0051355825279370436,
+    "moving_frame_agent_samples": 2393,
+    "total_frame_agent_samples": 5200,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.004838005399809292,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_shared-10-None-71_G_0",
+    "actual_reference_pose_rms_moving_only": 0.04458350382713962,
+    "moving_frame_agent_samples": 885,
+    "total_frame_agent_samples": 5200,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.06343616204509837,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_shared-10-None-71_circle_0",
+    "actual_reference_pose_rms_moving_only": 0.04385998871171929,
+    "moving_frame_agent_samples": 751,
+    "total_frame_agent_samples": 5200,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.057945887961105655,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_shared-10-None-71_no_continuity_0",
+    "actual_reference_pose_rms_moving_only": 0.049467222667167236,
+    "moving_frame_agent_samples": 824,
+    "total_frame_agent_samples": 5200,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.05550390874311874,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_shared-10-None-71_no_prediction_0",
+    "actual_reference_pose_rms_moving_only": 0.041026064623179724,
+    "moving_frame_agent_samples": 708,
+    "total_frame_agent_samples": 5200,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.05738792521678612,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_shared-30-None-89_F_0",
+    "actual_reference_pose_rms_moving_only": 0.00252928864727429,
+    "moving_frame_agent_samples": 6977,
+    "total_frame_agent_samples": 21600,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0011626966751545436,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_shared-30-None-89_G+P_0.12",
+    "actual_reference_pose_rms_moving_only": 0.04516362004218067,
+    "moving_frame_agent_samples": 3044,
+    "total_frame_agent_samples": 21600,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.05501115560357265,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_shared-30-None-89_G+P_0.6",
+    "actual_reference_pose_rms_moving_only": 0.010208777572313426,
+    "moving_frame_agent_samples": 6119,
+    "total_frame_agent_samples": 21600,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.03334505925266137,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_shared-30-None-89_G+P_2.0",
+    "actual_reference_pose_rms_moving_only": 0.006126803485625709,
+    "moving_frame_agent_samples": 8329,
+    "total_frame_agent_samples": 21600,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.04213030252674836,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_shared-30-None-89_G_0",
+    "actual_reference_pose_rms_moving_only": 0.051012761948852306,
+    "moving_frame_agent_samples": 3907,
+    "total_frame_agent_samples": 21600,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.06393140658245113,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_shared-30-None-89_circle_0",
+    "actual_reference_pose_rms_moving_only": 0.04453968246418915,
+    "moving_frame_agent_samples": 2064,
+    "total_frame_agent_samples": 21600,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.047685805858385555,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_shared-30-None-89_no_continuity_0",
+    "actual_reference_pose_rms_moving_only": 0.04935995245536496,
+    "moving_frame_agent_samples": 2802,
+    "total_frame_agent_samples": 21600,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.05120152586424954,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_shared-30-None-89_no_prediction_0",
+    "actual_reference_pose_rms_moving_only": 0.04585681979252974,
+    "moving_frame_agent_samples": 2612,
+    "total_frame_agent_samples": 21600,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.058880197849963505,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_wide-2-None-71_F_0",
+    "actual_reference_pose_rms_moving_only": 0.0062072195799864425,
+    "moving_frame_agent_samples": 387,
+    "total_frame_agent_samples": 720,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.005056495030091967,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_wide-2-None-71_G+P_0.12",
+    "actual_reference_pose_rms_moving_only": 0.021445887957079454,
+    "moving_frame_agent_samples": 292,
+    "total_frame_agent_samples": 720,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.02304690526967281,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_wide-2-None-71_G+P_0.6",
+    "actual_reference_pose_rms_moving_only": 0.020828476367725456,
+    "moving_frame_agent_samples": 288,
+    "total_frame_agent_samples": 720,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.014507180662361672,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_wide-2-None-71_G+P_2.0",
+    "actual_reference_pose_rms_moving_only": 0.006493028015758247,
+    "moving_frame_agent_samples": 384,
+    "total_frame_agent_samples": 720,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.005080847227146251,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_wide-2-None-71_G_0",
+    "actual_reference_pose_rms_moving_only": 0.022755727958227986,
+    "moving_frame_agent_samples": 292,
+    "total_frame_agent_samples": 720,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.030472764320348063,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_wide-2-None-71_circle_0",
+    "actual_reference_pose_rms_moving_only": 0.02271029579693845,
+    "moving_frame_agent_samples": 310,
+    "total_frame_agent_samples": 720,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.021672086378245893,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_wide-2-None-71_no_continuity_0",
+    "actual_reference_pose_rms_moving_only": 0.027149728344594237,
+    "moving_frame_agent_samples": 300,
+    "total_frame_agent_samples": 720,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.06728684266375541,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "heldout_wide-2-None-71_no_prediction_0",
+    "actual_reference_pose_rms_moving_only": 0.021530962566625157,
+    "moving_frame_agent_samples": 154,
+    "total_frame_agent_samples": 720,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.01565545120162879,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.28-13_F_0",
+    "actual_reference_pose_rms_moving_only": 0.003923092729044801,
+    "moving_frame_agent_samples": 31,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0031773487995924374,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.28-13_G+P_0.12",
+    "actual_reference_pose_rms_moving_only": 0.04328557089719788,
+    "moving_frame_agent_samples": 39,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.08858309445308479,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.28-13_G+P_0.6",
+    "actual_reference_pose_rms_moving_only": 0.0320777111373262,
+    "moving_frame_agent_samples": 40,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.08814844767264134,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.28-13_G+P_2.0",
+    "actual_reference_pose_rms_moving_only": 0.009796456238222966,
+    "moving_frame_agent_samples": 39,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.06285617395466807,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.28-13_G_0",
+    "actual_reference_pose_rms_moving_only": 0.04977252578177149,
+    "moving_frame_agent_samples": 35,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0907871909163096,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.28-13_circle_0",
+    "actual_reference_pose_rms_moving_only": 0.030961836214883857,
+    "moving_frame_agent_samples": 28,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.04880591090104911,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.28-13_no_continuity_0",
+    "actual_reference_pose_rms_moving_only": 0.06243155131277293,
+    "moving_frame_agent_samples": 41,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.08696549353954423,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.28-13_no_prediction_0",
+    "actual_reference_pose_rms_moving_only": 0.03276519571506726,
+    "moving_frame_agent_samples": 33,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.03717572434608434,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.36-13_F_0",
+    "actual_reference_pose_rms_moving_only": 0.0028578093908112425,
+    "moving_frame_agent_samples": 37,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0006976303885206764,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.36-13_G+P_0.12",
+    "actual_reference_pose_rms_moving_only": 0.029426990868427566,
+    "moving_frame_agent_samples": 32,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.05205519729479214,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.36-13_G+P_0.6",
+    "actual_reference_pose_rms_moving_only": 0.016218145004835278,
+    "moving_frame_agent_samples": 39,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.06061262367971355,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.36-13_G+P_2.0",
+    "actual_reference_pose_rms_moving_only": 0.01861078885946191,
+    "moving_frame_agent_samples": 45,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.07345185074246603,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.36-13_G_0",
+    "actual_reference_pose_rms_moving_only": 0.03344599498578953,
+    "moving_frame_agent_samples": 35,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.06878394193418261,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.36-13_circle_0",
+    "actual_reference_pose_rms_moving_only": 0.03588867380113072,
+    "moving_frame_agent_samples": 28,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0930608970763706,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.36-13_no_continuity_0",
+    "actual_reference_pose_rms_moving_only": 0.05410885263968721,
+    "moving_frame_agent_samples": 38,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.08536378360192622,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.36-13_no_prediction_0",
+    "actual_reference_pose_rms_moving_only": 0.05259650777121798,
+    "moving_frame_agent_samples": 43,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.05275451974577616,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.46-13_F_0",
+    "actual_reference_pose_rms_moving_only": 0.0038874232343590167,
+    "moving_frame_agent_samples": 28,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0022740695082536623,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.46-13_G+P_0.12",
+    "actual_reference_pose_rms_moving_only": 0.04406696997412934,
+    "moving_frame_agent_samples": 84,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.01819433772362659,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.46-13_G+P_0.6",
+    "actual_reference_pose_rms_moving_only": 0.04315719721943839,
+    "moving_frame_agent_samples": 84,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.017259346307748835,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.46-13_G+P_2.0",
+    "actual_reference_pose_rms_moving_only": 0.02509488328429597,
+    "moving_frame_agent_samples": 47,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0820250185566293,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.46-13_G_0",
+    "actual_reference_pose_rms_moving_only": 0.04660908308844366,
+    "moving_frame_agent_samples": 84,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0363380419008527,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.46-13_circle_0",
+    "actual_reference_pose_rms_moving_only": 0.03299771830563141,
+    "moving_frame_agent_samples": 27,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0630363737520835,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.46-13_no_continuity_0",
+    "actual_reference_pose_rms_moving_only": 0.05295251605822395,
+    "moving_frame_agent_samples": 88,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.08386400515523182,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.46-13_no_prediction_0",
+    "actual_reference_pose_rms_moving_only": 0.02803377260744607,
+    "moving_frame_agent_samples": 64,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.015147455885599893,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.62-13_F_0",
+    "actual_reference_pose_rms_moving_only": 0.004312838282081825,
+    "moving_frame_agent_samples": 96,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0035180422375094755,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.62-13_G+P_0.12",
+    "actual_reference_pose_rms_moving_only": 0.030336865805308266,
+    "moving_frame_agent_samples": 64,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0112963980961454,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.62-13_G+P_0.6",
+    "actual_reference_pose_rms_moving_only": 0.024122182228683422,
+    "moving_frame_agent_samples": 64,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.008500862572626729,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.62-13_G+P_2.0",
+    "actual_reference_pose_rms_moving_only": 0.004312838282081825,
+    "moving_frame_agent_samples": 96,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0035180422375094755,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.62-13_G_0",
+    "actual_reference_pose_rms_moving_only": 0.03365485002268469,
+    "moving_frame_agent_samples": 64,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.04196032908968435,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.62-13_circle_0",
+    "actual_reference_pose_rms_moving_only": 0.022042847125843146,
+    "moving_frame_agent_samples": 28,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.05146613973930963,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.62-13_no_continuity_0",
+    "actual_reference_pose_rms_moving_only": 0.03448343810379533,
+    "moving_frame_agent_samples": 68,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.08965703715568986,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_door-1-0.62-13_no_prediction_0",
+    "actual_reference_pose_rms_moving_only": 0.03365485002268469,
+    "moving_frame_agent_samples": 64,
+    "total_frame_agent_samples": 240,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.04196032908968435,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_shared-10-None-13_F_0",
+    "actual_reference_pose_rms_moving_only": 0.0027060450415849076,
+    "moving_frame_agent_samples": 1706,
+    "total_frame_agent_samples": 5200,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.002014010863411714,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_shared-10-None-13_G+P_0.12",
+    "actual_reference_pose_rms_moving_only": 0.03972063536558711,
+    "moving_frame_agent_samples": 859,
+    "total_frame_agent_samples": 5200,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.051826464768542274,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_shared-10-None-13_G+P_0.6",
+    "actual_reference_pose_rms_moving_only": 0.011788482201568253,
+    "moving_frame_agent_samples": 1824,
+    "total_frame_agent_samples": 5200,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.02371190835677795,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_shared-10-None-13_G+P_2.0",
+    "actual_reference_pose_rms_moving_only": 0.006786243654181983,
+    "moving_frame_agent_samples": 2319,
+    "total_frame_agent_samples": 5200,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.008243979707302762,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_shared-10-None-13_G_0",
+    "actual_reference_pose_rms_moving_only": 0.042287853597407894,
+    "moving_frame_agent_samples": 827,
+    "total_frame_agent_samples": 5200,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.058013886439579276,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_shared-10-None-13_circle_0",
+    "actual_reference_pose_rms_moving_only": 0.0424043369223069,
+    "moving_frame_agent_samples": 812,
+    "total_frame_agent_samples": 5200,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.058474933351406196,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_shared-10-None-13_no_continuity_0",
+    "actual_reference_pose_rms_moving_only": 0.05292515683558588,
+    "moving_frame_agent_samples": 874,
+    "total_frame_agent_samples": 5200,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.0694463097134318,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_shared-10-None-13_no_prediction_0",
+    "actual_reference_pose_rms_moving_only": 0.03763699855927904,
+    "moving_frame_agent_samples": 688,
+    "total_frame_agent_samples": 5200,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.04197862811616895,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_wide-2-None-13_F_0",
+    "actual_reference_pose_rms_moving_only": 0.006046606633939504,
+    "moving_frame_agent_samples": 394,
+    "total_frame_agent_samples": 720,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.006578041535216183,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_wide-2-None-13_G+P_0.12",
+    "actual_reference_pose_rms_moving_only": 0.02164033485755867,
+    "moving_frame_agent_samples": 292,
+    "total_frame_agent_samples": 720,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.018467120026066042,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_wide-2-None-13_G+P_0.6",
+    "actual_reference_pose_rms_moving_only": 0.021168563732878575,
+    "moving_frame_agent_samples": 292,
+    "total_frame_agent_samples": 720,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.01474078445921721,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_wide-2-None-13_G+P_2.0",
+    "actual_reference_pose_rms_moving_only": 0.007580080760803865,
+    "moving_frame_agent_samples": 384,
+    "total_frame_agent_samples": 720,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.006450789700837926,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_wide-2-None-13_G_0",
+    "actual_reference_pose_rms_moving_only": 0.022652603086558597,
+    "moving_frame_agent_samples": 292,
+    "total_frame_agent_samples": 720,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.028683152770224908,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_wide-2-None-13_circle_0",
+    "actual_reference_pose_rms_moving_only": 0.02234881291397601,
+    "moving_frame_agent_samples": 314,
+    "total_frame_agent_samples": 720,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.022641985458088928,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_wide-2-None-13_no_continuity_0",
+    "actual_reference_pose_rms_moving_only": 0.025718314646644046,
+    "moving_frame_agent_samples": 296,
+    "total_frame_agent_samples": 720,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.05086972277135622,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  },
+  {
+    "key": "train_wide-2-None-13_no_prediction_0",
+    "actual_reference_pose_rms_moving_only": 0.021541260931801934,
+    "moving_frame_agent_samples": 134,
+    "total_frame_agent_samples": 720,
+    "moving_definition": "actual root displacement / .05 > .05 heights/s AND not hold/arrived",
+    "actual_reference_pose_rms_all_frames": 0.019011463262102582,
+    "note": "Post-hoc conditional diagnostic; not human expression/status ground truth."
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-02",
+  "provenance": "C explicitly supplied by user in chat; D copied unchanged from prior user-confirmed annotations.",
+  "events": {
+    "C": {
+      "onset": 1.473,
+      "gesture": 3.904,
+      "offset": 6.217
+    },
+    "D": {
+      "onset": 1.016,
+      "gesture": 1.974,
+      "offset": 3.367,
+      "note": "招呼结束后，还是有手臂的摆动"
+    }
+  }
+}

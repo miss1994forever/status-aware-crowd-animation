@@ -1,0 +1,52 @@
+{
+  "repository": "https://github.com/facebookresearch/MotionIsTheMessageDataset",
+  "tree_sha": "415fb817ae240041a4139bee0c42a09303004716",
+  "files": [
+    {
+      "path": "MotionScales/DominantShy/Selected_Mocap_dom-shy_Dominant_1.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2caec441632d2889c62c513551120e11de8bf0d1",
+      "size": 6933984,
+      "url": "https://api.github.com/repos/facebookresearch/MotionIsTheMessageDataset/git/blobs/2caec441632d2889c62c513551120e11de8bf0d1"
+    },
+    {
+      "path": "MotionScales/DominantShy/Selected_Mocap_dom-shy_Neutral_4.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37ac193f618e14b6936a9ffe1229a51850879c81",
+      "size": 7597776,
+      "url": "https://api.github.com/repos/facebookresearch/MotionIsTheMessageDataset/git/blobs/37ac193f618e14b6936a9ffe1229a51850879c81"
+    },
+    {
+      "path": "MotionScales/DominantShy/Selected_Mocap_dom-shy_Shy_1.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d01b50f23a843a94fed2d1843d36f7e84834b31",
+      "size": 6657152,
+      "url": "https://api.github.com/repos/facebookresearch/MotionIsTheMessageDataset/git/blobs/2d01b50f23a843a94fed2d1843d36f7e84834b31"
+    },
+    {
+      "path": "MotionScales/DominantShy/Selected_Mocap_dom-shy_VeryShy_2.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18ee96862e33c4cb3bf4cca9b39813b73ab64a77",
+      "size": 8247200,
+      "url": "https://api.github.com/repos/facebookresearch/MotionIsTheMessageDataset/git/blobs/18ee96862e33c4cb3bf4cca9b39813b73ab64a77"
+    },
+    {
+      "path": "MotionScales/DominantShy/Selected_Mocap_dom-shy_Very_Dominant_3.fbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf4a9c42868d3f259764638a95edabda759af9b9",
+      "size": 6630320,
+      "url": "https://api.github.com/repos/facebookresearch/MotionIsTheMessageDataset/git/blobs/cf4a9c42868d3f259764638a95edabda759af9b9"
+    }
+  ],
+  "downloaded": true,
+  "visual_verified": false,
+  "training_pairs_verified": false,
+  "git_blobs_verified": true,
+  "preview": "outputs/social-signal-review/index.html",
+  "visual_verification_note": "网页骨架显示初查通过；未与原始网格逐帧比对，用户表达与自然度评价待完成。"
+}

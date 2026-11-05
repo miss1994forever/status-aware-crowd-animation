@@ -1,0 +1,48 @@
+"""Constrained adapter around frozen synthesis; identical in every condition.
+
+Source-relative bone direction cones are engineering kinematic bounds, not a
+complete anatomical joint model. No foot locking or phase matching is used.
+"""
+import numpy as np
+from src.predictive_motion_lab.controller import rollout as source_rollout
+from src.expression_layer import unit_slerp
+
+MAX_RATE=8.0
+TOE_RATE=12.0
+MAX_SOURCE_ANGLE=.75
+
+
+def rollout(lib,state,opts,times):
+    p=source_rollout(lib,state,opts,times)
+    previous=np.broadcast_to(state.pose,p['pose'][0].shape).copy();previous_time=0.
+    lifts=[];corrections=[];cone_errors=[]
+    for k,t in enumerate(times):
+        dt=t-previous_time;previous_time=t;raw=p['pose'][k];source=p['source'][k];out=raw.copy()
+        deviations=[]
+        for j,parent in enumerate(lib.parents):
+            if parent is None or lib.lengths[j]<1e-8:continue
+            def norm(v):return v/np.maximum(np.linalg.norm(v,axis=-1,keepdims=True),1e-12)
+            target=norm(raw[:,j]-raw[:,parent]);ref=norm(source[:,j]-source[:,parent]);prior=norm(previous[:,j]-previous[:,parent])
+            angle=np.arccos(np.clip(np.sum(ref*target,axis=-1),-1,1))
+            # unit_slerp takes scalar endpoints but supports array weights with last dim.
+            target=rotate_towards(ref,target,np.minimum(angle,MAX_SOURCE_ANGLE))
+            change=np.arccos(np.clip(np.sum(prior*target,axis=-1),-1,1))
+            limit=(TOE_RATE if 'Toes' in lib.names[j] else MAX_RATE)*dt
+            direction=rotate_towards(prior,target,np.minimum(change,limit))
+            out[:,j]=out[:,parent]+direction*lib.lengths[j]
+            deviations.append(np.arccos(np.clip(np.sum(ref*direction,axis=-1),-1,1)))
+        # Common nonpenetration correction of vertical root offset, not leg IK.
+        lift=np.maximum(0.,-out[:,:,1].min(axis=1));out[:,:,1]+=lift[:,None]
+        lifts.append(lift);corrections.append(np.linalg.norm(out-raw,axis=-1).max(1));cone_errors.append(np.max(deviations,axis=0))
+        p['pose'][k]=out;previous=out
+    p['floor_lift']=np.array(lifts);p['constraint_correction']=np.array(corrections);p['cone_error']=np.array(cone_errors)
+    return p
+
+
+def rotate_towards(a,b,angle):
+    dot=np.clip(np.sum(a*b,axis=-1),-1,1);tangent=b-dot[:,None]*a
+    length=np.linalg.norm(tangent,axis=-1)
+    axis=np.eye(3)[np.argmin(np.abs(a),axis=-1)];fallback=axis-np.sum(axis*a,axis=-1)[:,None]*a
+    fallback/=np.maximum(np.linalg.norm(fallback,axis=-1)[:,None],1e-12)
+    tangent=np.where((length>1e-9)[:,None],tangent/np.maximum(length[:,None],1e-12),fallback)
+    return np.cos(angle)[:,None]*a+np.sin(angle)[:,None]*tangent

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>动作检查台 · 离线 BVH 预览</title>
+<style>
+:root{color-scheme:light;--paper:#edf3f8;--ink:#19334e;--muted:#52687b;--line:#c9d7e2;--left:#176eaf;--right:#bf593b}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}header{padding:24px 28px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;align-items:baseline}h1{font:600 25px Georgia,"Songti SC",serif;margin:0}header span{color:var(--muted);font-size:13px}main{display:grid;grid-template-columns:250px minmax(0,1fr);min-height:calc(100vh - 86px)}aside{padding:22px 18px;border-right:1px solid var(--line)}label{display:block;margin-bottom:10px}input[type=checkbox]{accent-color:var(--left)}#clips{display:grid;gap:6px;margin-top:18px}button,select{font:inherit;color:inherit;border:1px solid var(--line);background:#f9fcff;border-radius:5px;padding:9px 12px}button{cursor:pointer}button:hover{background:#ddeaf4}button[aria-pressed=true]{background:var(--ink);color:white;border-color:var(--ink)}button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #176eaf;outline-offset:3px}#clips button{text-align:left;font-size:13px;display:flex;gap:10px;align-items:center}#clips strong{font-family:ui-monospace,monospace;font-weight:500}#clips small{display:block;color:inherit;opacity:.75;margin-top:3px}.stage{padding:20px 24px;min-width:0}.toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.toolbar label{margin:0}#viewport{position:relative;margin:16px 0;background:#f9fcff;border:1px solid var(--line);border-radius:8px;overflow:hidden}canvas{display:block;width:100%;height:clamp(330px,57vh,700px);touch-action:none;cursor:grab}.legend{position:absolute;top:14px;left:16px;color:var(--muted);font-size:12px;pointer-events:none}.legend b{color:var(--left)}.legend i{color:var(--right);font-style:normal}.transport{display:flex;gap:14px;align-items:center}#timeline{flex:1;min-width:60px;accent-color:var(--left)}#clock{font:13px ui-monospace,monospace;white-space:nowrap}#details{font:12px/1.8 ui-monospace,monospace;color:var(--muted);margin-top:16px;overflow-wrap:anywhere}.note{font-size:12px;line-height:1.8;color:var(--muted);margin-top:22px}footer{font-size:12px;color:var(--muted);margin-top:14px}.key{font-family:ui-monospace,monospace} @media(max-width:760px){header{padding:18px;display:block}header span{display:block;margin-top:8px}main{grid-template-columns:1fr}aside{border-right:0;border-bottom:1px solid var(--line);padding:16px}#clips{grid-template-columns:repeat(3,1fr);gap:5px;margin-top:10px}#clips button{padding:8px;font-size:11px;gap:6px}.stage{padding:16px}.note{margin-top:10px}#clock{font-size:11px}.transport{gap:8px}}
+</style>
+<header><h1>动作检查台</h1><span>12 段身体动作 / 本地离线 / 位移读取已修正 · 2026-10-24</span></header>
+<main><aside><label><input id="hideStyle" type="checkbox" checked> 隐藏原始风格标签</label><div id="clips" aria-label="动作列表"></div><p class="note">标签仅是素材原始风格名，无 status 标注。隐藏标签便于初步观看，不构成盲测或感知验证。</p></aside>
+<section class="stage"><p class="note" style="margin:0 0 14px">本版修正了固定 OFFSET 与位置通道重复相加的问题；原始 BVH 未改动，也未对后靠或手臂姿态做美术修改。旧版保留在 <a href="../preview-before-translation-fix/index.html">修正前预览（仅供核查）</a>。旧版身体尺度与步幅关系有误，不宜用于后续运动评估。</p><div class="toolbar"><label>视角 <select id="view"><option value="oblique">斜视</option><option value="front">沿 +Z 看向原点</option><option value="side">沿 +X 看向原点</option><option value="top">俯视 +Y</option></select></label><label><input id="follow" type="checkbox" checked> 跟随髋部</label><label><input id="loop" type="checkbox" checked> 循环</label><label>速度 <select id="speed"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option></select></label><button id="reset">回到首帧</button></div>
+<div id="viewport"><canvas id="canvas" tabindex="0" aria-label="三维骨架动作预览"></canvas><div class="legend"><b>左肢</b> / <i>右肢</i> / 深蓝躯干 · 地面为最低采样高度</div></div>
+<div class="transport"><button id="play" aria-pressed="false">播放</button><input id="timeline" aria-label="播放时间" type="range" min="0" max="1" step="0.000001" value="0"><output id="clock"></output></div>
+<div id="details"></div><footer>空格播放 / 暂停；← → 逐帧（画面获得焦点时）；拖动画面旋转视角。Y 轴向上，原始尺度，未换算米。循环接缝未处理。</footer><p class="note">素材：<a href="https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset">Bandai Namco Research Inc.</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>。本页将 BVH 转换为关节坐标；隐藏标签仅影响界面。</p></section></main>
+<script>
+'use strict';
+const DATA = /*__MOTION_DATA__*/;
+/*__PLAYER_HELPER__*/
+const $=id=>document.getElementById(id), canvas=$('canvas'), ctx=canvas.getContext('2d');
+let selected=0, seconds=0, playing=false, previous=null, yaw=.65, pitch=.18;
+function clip(){return DATA.clips[selected]}
+function frame(){return sampleFrame(seconds,clip().frameTime,clip().poses.length,false)}
+function list(){
+  $('clips').replaceChildren();
+  DATA.clips.forEach((c,i)=>{
+    const b=document.createElement('button'); b.dataset.clip=i;b.setAttribute('aria-pressed',String(i===selected));
+    const id=document.createElement('strong');id.textContent=c.id;
+    const label=document.createElement('span');label.textContent=c.content;
+    if(!$('hideStyle').checked){const s=document.createElement('small');s.textContent=c.style;label.append(s)}
+    b.append(id,label);b.onclick=()=>{selected=i;seconds=0;previous=null;list();sync();draw()};$('clips').append(b);
+  });
+}
+function sync(){
+  const c=clip();$('timeline').max=c.duration;$('timeline').value=seconds;
+  $('play').textContent=playing?'暂停':'播放';$('play').setAttribute('aria-pressed',String(playing));
+  $('clock').textContent=`${seconds.toFixed(2)} / ${c.duration.toFixed(2)} s · ${frame()+1}/${c.poses.length}`;
+  const travel=c.hipsBounds.map(b=>(b[1]-b[0]).toFixed(1));
+  $('details').textContent=`${c.id} · ${c.content}${$('hideStyle').checked?'':' · '+c.style} | ${(1/c.frameTime).toFixed(2)} fps | 髋部范围 ΔX/Y/Z = ${travel.join(' / ')} 原始单位 | ${c.names.length} 节点（含根及末端）`;
+}
+function draw(){
+  const c=clip(),pose=c.poses[frame()],w=canvas.clientWidth,h=canvas.clientHeight,dpr=window.devicePixelRatio||1;
+  if(canvas.width!==Math.round(w*dpr)||canvas.height!==Math.round(h*dpr)){canvas.width=Math.round(w*dpr);canvas.height=Math.round(h*dpr)}
+  ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,w,h);
+  const follow=$('follow').checked,floor=c.bounds[1][0],height=c.bounds[1][1]-floor;
+  const center=follow?[pose[c.hips][0],floor+height*.49,pose[c.hips][2]]:c.bounds.map(b=>(b[0]+b[1])/2);
+  const span=follow?Math.max(height*1.3,c.radius*2.5):Math.hypot(...c.bounds.map(b=>b[1]-b[0]))*1.18;
+  const scale=Math.min(w,h)/Math.max(span,1),cy=Math.cos(yaw),sy=Math.sin(yaw),cp=Math.cos(pitch),sp=Math.sin(pitch);
+  function project(p){const x=p[0]-center[0],y=p[1]-center[1],z=p[2]-center[2],depth=-sy*x+cy*z;return[w/2+scale*(cy*x+sy*z),h/2-scale*(cp*y-sp*depth),sp*y+cp*depth]}
+  function line(a,b,color,width){const p=project(a),q=project(b);ctx.strokeStyle=color;ctx.lineWidth=width;ctx.beginPath();ctx.moveTo(p[0],p[1]);ctx.lineTo(q[0],q[1]);ctx.stroke()}
+  const grid=20,extent=Math.max(height*1.2,span),cx=Math.round(center[0]/grid)*grid,cz=Math.round(center[2]/grid)*grid;
+  for(let k=-Math.ceil(extent/grid);k<=Math.ceil(extent/grid);k++){
+    line([cx+k*grid,floor,cz-extent],[cx+k*grid,floor,cz+extent],'#e0e8ee',1);
+    line([cx-extent,floor,cz+k*grid],[cx+extent,floor,cz+k*grid],'#e0e8ee',1);
+  }
+  // Do not draw the synthetic root-to-hips link as an anatomical bone.
+  const bones=c.parents.map((p,j)=>({p,j,z:project(pose[j])[2]})).filter(b=>b.p!==null && b.p!==0).sort((a,b)=>a.z-b.z);
+  ctx.lineCap='round';
+  for(const {p,j} of bones){const color=c.names[j].includes('_L')?'#176eaf':c.names[j].includes('_R')?'#bf593b':'#19334e';line(pose[p],pose[j],color,4);const q=project(pose[j]);ctx.fillStyle=color;ctx.beginPath();ctx.arc(q[0],q[1],3,0,Math.PI*2);ctx.fill()}
+  // Head marker: these source files have zero-length end sites.
+  const head=c.names.indexOf('Head');if(head>=0){const p=project(pose[head]);ctx.strokeStyle='#19334e';ctx.lineWidth=3;ctx.beginPath();ctx.arc(p[0],p[1],Math.max(5,scale*5),0,Math.PI*2);ctx.stroke()}
+  // View orientation indicator uses the same camera projection as the body.
+  const origin=project(center);ctx.font='12px ui-monospace,monospace';
+  [['X',[22,0,0],'#bf593b'],['Y',[0,22,0],'#408364'],['Z',[0,0,22],'#176eaf']].forEach(([name,delta,color])=>{
+    const p=project(center.map((v,a)=>v+delta[a]));const x=48+(p[0]-origin[0]),y=h-42+(p[1]-origin[1]);ctx.strokeStyle=color;ctx.beginPath();ctx.moveTo(48,h-42);ctx.lineTo(x,y);ctx.stroke();ctx.fillStyle=color;ctx.fillText(name,x+3,y-3)
+  });
+  canvas.dataset.frame=frame();canvas.dataset.clip=c.id;
+}
+function setPlaying(value){playing=value;previous=null;sync()}
+$('play').onclick=()=>{if(!playing&&seconds>=clip().duration)seconds=0;setPlaying(!playing)};
+$('reset').onclick=()=>{seconds=0;previous=null;sync();draw()};
+$('timeline').oninput=()=>{seconds=Number($('timeline').value);setPlaying(false);draw()};
+$('hideStyle').onchange=()=>{list();sync()};$('follow').onchange=draw;
+$('view').onchange=()=>{[yaw,pitch]=({oblique:[.65,.18],front:[0,0],side:[-Math.PI/2,0],top:[0,Math.PI/2]})[$('view').value];draw()};
+let drag=null;
+canvas.onpointerdown=e=>{drag=[e.clientX,e.clientY,yaw,pitch];canvas.setPointerCapture(e.pointerId)};
+canvas.onpointermove=e=>{if(drag){yaw=drag[2]+(e.clientX-drag[0])*.008;pitch=Math.max(-Math.PI/2,Math.min(Math.PI/2,drag[3]+(e.clientY-drag[1])*.008));$('view').value='';draw()}};
+canvas.onpointerup=canvas.onpointercancel=()=>drag=null;
+window.addEventListener('keydown',e=>{if(['INPUT','SELECT','BUTTON'].includes(e.target.tagName))return;if(e.code==='Space'){e.preventDefault();$('play').click()}if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();seconds=Math.max(0,Math.min(clip().duration,seconds+(e.key==='ArrowRight'?1:-1)*clip().frameTime));setPlaying(false);draw()}});
+window.addEventListener('resize',draw);
+document.addEventListener('visibilitychange',()=>{previous=null});
+function tick(now){if(playing&&previous!==null){seconds+=(now-previous)/1000*Number($('speed').value);if(seconds>=clip().duration){if($('loop').checked)seconds%=clip().duration;else{seconds=clip().duration;playing=false}}sync();draw()}previous=now;requestAnimationFrame(tick)}
+list();sync();draw();requestAnimationFrame(tick);
+</script></html>

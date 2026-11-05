@@ -1,0 +1,200 @@
+[
+  {
+    "base": "M01",
+    "strength": 0,
+    "source_sha256_matches": true,
+    "toe_floor": 0.0008304831492525339,
+    "low_toe_speed_p95": 3.114302748630473,
+    "low_toe_samples": 1506,
+    "low_toe_sliding_proxy_threshold": 0.025,
+    "min_hand_to_torso_segment": 0.15854259187591446,
+    "hand_torso_below_004_count": 0,
+    "protected_foot_world_error": 0.0,
+    "pelvis_shape_displacement_range": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "head_shape_displacement_range": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_rms_shape_displacement": 0.0,
+    "source_time_rate_bounds": [
+      1.0,
+      1.0
+    ],
+    "native_cycle_seconds": 1.0666656,
+    "native_mean_speed": 0.9679768837484525,
+    "human_naturalness": null,
+    "human_confidence": null,
+    "human_intimidation": null,
+    "human_status": null
+  },
+  {
+    "base": "M01",
+    "strength": 0.5,
+    "source_sha256_matches": true,
+    "toe_floor": 0.0008304245184357906,
+    "low_toe_speed_p95": 3.1696101646368255,
+    "low_toe_samples": 1488,
+    "low_toe_sliding_proxy_threshold": 0.025,
+    "min_hand_to_torso_segment": 0.16191190755008714,
+    "hand_torso_below_004_count": 0,
+    "protected_foot_world_error": 0.0,
+    "pelvis_shape_displacement_range": [
+      -0.003351640555353308,
+      0.0010303491653194108,
+      0.005342582901793902
+    ],
+    "head_shape_displacement_range": [
+      -0.003351640555353308,
+      0.0010303491653194108,
+      0.005342582901793902
+    ],
+    "hand_rms_shape_displacement": 0.020239857961764737,
+    "source_time_rate_bounds": [
+      0.84,
+      1.16
+    ],
+    "native_cycle_seconds": 1.0666656,
+    "native_mean_speed": 0.9679768837484525,
+    "human_naturalness": null,
+    "human_confidence": null,
+    "human_intimidation": null,
+    "human_status": null
+  },
+  {
+    "base": "M01",
+    "strength": 1,
+    "source_sha256_matches": true,
+    "toe_floor": 0.0008304375883783216,
+    "low_toe_speed_p95": 3.3599193536794068,
+    "low_toe_samples": 1465,
+    "low_toe_sliding_proxy_threshold": 0.025,
+    "min_hand_to_torso_segment": 0.1643169885644971,
+    "hand_torso_below_004_count": 0,
+    "protected_foot_world_error": 0.0,
+    "pelvis_shape_displacement_range": [
+      -0.006703846073696118,
+      0.0027936562794823594,
+      0.006575062680792776
+    ],
+    "head_shape_displacement_range": [
+      -0.006703846073696118,
+      0.0027936562794823594,
+      0.006575062680792776
+    ],
+    "hand_rms_shape_displacement": 0.038766495381987176,
+    "source_time_rate_bounds": [
+      0.6799999999999999,
+      1.32
+    ],
+    "native_cycle_seconds": 1.0666656,
+    "native_mean_speed": 0.9679768837484525,
+    "human_naturalness": null,
+    "human_confidence": null,
+    "human_intimidation": null,
+    "human_status": null
+  },
+  {
+    "base": "M07",
+    "strength": 0,
+    "source_sha256_matches": true,
+    "toe_floor": -0.006169869807009301,
+    "low_toe_speed_p95": 2.9262371526363857,
+    "low_toe_samples": 1487,
+    "low_toe_sliding_proxy_threshold": 0.025,
+    "min_hand_to_torso_segment": 0.14633996233271537,
+    "hand_torso_below_004_count": 0,
+    "protected_foot_world_error": 0.0,
+    "pelvis_shape_displacement_range": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "head_shape_displacement_range": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand_rms_shape_displacement": 0.0,
+    "source_time_rate_bounds": [
+      1.0,
+      1.0
+    ],
+    "native_cycle_seconds": 1.0999989000000001,
+    "native_mean_speed": 0.8814919959238867,
+    "human_naturalness": null,
+    "human_confidence": null,
+    "human_intimidation": null,
+    "human_status": null
+  },
+  {
+    "base": "M07",
+    "strength": 0.5,
+    "source_sha256_matches": true,
+    "toe_floor": -0.0061697505529128005,
+    "low_toe_speed_p95": 3.2709878416918694,
+    "low_toe_samples": 1497,
+    "low_toe_sliding_proxy_threshold": 0.025,
+    "min_hand_to_torso_segment": 0.1469971729899375,
+    "hand_torso_below_004_count": 0,
+    "protected_foot_world_error": 0.0,
+    "pelvis_shape_displacement_range": [
+      -0.00691943560415853,
+      8.536524398472523e-08,
+      0.0038946375162932645
+    ],
+    "head_shape_displacement_range": [
+      -0.006919435604158641,
+      8.536524398472523e-08,
+      0.0038946375162933755
+    ],
+    "hand_rms_shape_displacement": 0.02586059890362492,
+    "source_time_rate_bounds": [
+      0.84,
+      1.16
+    ],
+    "native_cycle_seconds": 1.0999989000000001,
+    "native_mean_speed": 0.8814919959238867,
+    "human_naturalness": null,
+    "human_confidence": null,
+    "human_intimidation": null,
+    "human_status": null
+  },
+  {
+    "base": "M07",
+    "strength": 1,
+    "source_sha256_matches": true,
+    "toe_floor": -0.006169862034012791,
+    "low_toe_speed_p95": 3.6285488221589675,
+    "low_toe_samples": 1520,
+    "low_toe_sliding_proxy_threshold": 0.025,
+    "min_hand_to_torso_segment": 0.14710983442918824,
+    "hand_torso_below_004_count": 0,
+    "protected_foot_world_error": 0.0,
+    "pelvis_shape_displacement_range": [
+      -0.013838580394548994,
+      1.2671012806775295e-06,
+      0.004861273549630729
+    ],
+    "head_shape_displacement_range": [
+      -0.013838580394548883,
+      1.2671012806775295e-06,
+      0.004861273549630729
+    ],
+    "hand_rms_shape_displacement": 0.0529807791480874,
+    "source_time_rate_bounds": [
+      0.6799999999999999,
+      1.32
+    ],
+    "native_cycle_seconds": 1.0999989000000001,
+    "native_mean_speed": 0.8814919959238867,
+    "human_naturalness": null,
+    "human_confidence": null,
+    "human_intimidation": null,
+    "human_status": null
+  }
+]

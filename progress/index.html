@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>动作与互动 · 项目工作台</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+  <script defer src="route.js"></script>
+</head>
+<body>
+  <a class="skip" href="#tasks">跳到任务</a>
+  <aside class="sidebar">
+    <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">↗</span><span>动作与互动<small>计算机动画 · 期末大作业</small></span></a>
+    <nav aria-label="工作台导航">
+      <a href="#research-route">研究路线 <span>↗</span></a>
+      <a href="#tasks">任务进度 <span>↗</span></a>
+      <a href="#decisions">待讨论事项 <span>↗</span></a>
+      <a href="#materials">材料与记录 <span>↗</span></a>
+    </nav>
+    <div class="side-note"><span class="eyebrow">项目边界</span><p>让角色在适应他人与环境时，仍有可辨认、连贯的表达。</p><p class="muted">最终是十人至几十人的群组动画，不止单人播放器。</p></div>
+    <div class="side-bottom"><span class="dot"></span>本地工作台 · 无需联网<small>个人记录只保存在当前浏览器<br>正式状态以协调文档为准</small></div>
+  </aside>
+  <main id="top">
+    <header class="topbar"><span>动画课程大作业 / 制作工作台</span><span id="updated">正在读取进度…</span></header>
+    <section class="intro"><div><span class="eyebrow">当前阶段 / 表达依据与候选素材</span><h1>地位如何被读出，<br>角色如何作出回应。</h1><p>当前审查status相关社会表达证据。EMM是运动底层，STyMo是表达候选；技术运行成功不代表status成立。情绪素材保留作对照，暂不追加训练。</p></div><div class="intro-actions"><a class="button primary" href="#research-route">查看研究路线与迭代 ↓</a><button class="button" data-doc="research">查看表达证据记录</button></div></section>
+    <p><a class="button" href="../outputs/social-signal-review/index.html">R1 当前材料：五段社会表达原片 →</a></p>
+    <p><a class="button" href="../outputs/social-signal-review/extraction.html">五段原片：多 agent 核验与完整曲线 →</a></p>
+    <p><a class="button" href="../outputs/social-signal-review/event-review.html">原片与曲线同步核验 →</a></p><p><a class="button" href="../outputs/social-signal-review/timing-trial.html">新实验：原片与时序修改对照 →</a></p><p><a class="button" href="../outputs/social-signal-review/posture-trial.html">新对照：保持节奏，减弱身体升降 →</a></p><p><a class="button" href="../outputs/social-signal-review/combination-trial.html">当前对照：整体姿态组合 →</a></p><p><a class="button" href="../outputs/motion-expansion/index.html">跨情景动作库：范围与下载状态 →</a></p><p><a class="button" href="../outputs/cross-action-review/index.html">非招呼原片：行走表达筛选 →</a></p><section id="research-route" aria-label="研究路线树"></section>
+    <section class="pipeline" aria-label="制作阶段，不代表完成百分比">
+      <div class="phase"><span>01 · 工具已交付</span><strong>素材与基础工具</strong><small>读取已修正，风格仍待筛选</small></div>
+      <div class="phase active"><span>02 · 当前</span><strong>动作与即时互动</strong><small>表达依据审查；互动可读性未通过</small></div>
+      <div class="phase"><span>03 · 部分通过</span><strong>多人场景检验</strong><small>开放十人通过，窄通道/30人未通过</small></div>
+      <div class="phase"><span>04 · 待完成</span><strong>课程交付</strong><small>源代码、报告、演示</small></div>
+    </section>
+    <section id="decisions" class="decision-section">
+      <div class="section-heading"><div><span class="eyebrow">旧实验的用户判断 · 当前路线以上方研究树为准</span><h2>历史反馈（保留）</h2></div><button class="text-button" data-doc="feedback">完整反馈 ↗</button></div>
+      <div class="decision-grid">
+        <article class="decision"><span class="clip">已收到 · 相位切换A/B</span><h3>目前看不出差别。</h3><p>不再要求反复寻找细微差异，暂不采用更复杂的B作为默认。这个反馈不是两种方法都自然或表达已经有效。</p><span class="tag">保留实验 · 回到项目主线</span></article>
+        <article class="decision"><span class="clip">已收到 · 上身保留反馈</span><h3>0%与50%更有趣。</h3><p>不喜欢100%保留，尚未选定最终强度；这不等于自然性或status验证。停止把增加比例审阅当作前置任务，转向针对他人的即时回应。</p><span class="tag">v2已实现 · 不急于要求细微A/B验收</span></article>
+        <article class="decision feedback"><span class="clip">已决定 · 暂停修脚</span><h3>修改前优于修改后。</h3><p>你指出接触实验版落脚前后腿部抖动。原版暂作基线，实验版保留但不采用；不继续追求零脚滑。</p><span class="tag">已接收工程聊天中的反馈</span></article>
+      </div>
+    </section>
+    <section id="tasks">
+      <div class="section-heading"><div><span class="eyebrow">正式进度 + 你的查看记录</span><h2>任务板 <span id="task-count" class="count"></span></h2></div><span class="muted compact">交付 ≠ 验收 ≠ 表达有效</span></div>
+      <div class="toolbar"><div class="filters" role="group" aria-label="筛选任务"><button data-filter="all" aria-pressed="true">全部</button><button data-filter="review" aria-pressed="false">待继续验收</button><button data-filter="pending" aria-pressed="false">待开展</button><button data-filter="focus" aria-pressed="false">我关注的</button></div><label class="search"><span class="sr-only">搜索任务</span><input id="search" type="search" placeholder="搜索任务、证据或责任方" autocomplete="off"></label></div>
+      <p class="storage-help">勾选“我已查看”和备注仅记录你的阅读与想法，不改变正式任务状态，也不会自动通知主聊天。</p>
+      <div id="task-list"></div>
+      <p id="empty" class="empty" hidden>没有匹配的任务。试试其他关键词或切回“全部”。</p>
+      <div class="record-tools"><div><strong>保留你的查看记录</strong><p>记录自动保存在当前浏览器；换浏览器、清理缓存或更换打开地址前，请先导出。</p></div><div class="tool-buttons"><button id="export" class="button">导出个人记录</button><button id="import" class="button">导入记录</button><input id="import-file" type="file" accept="application/json,.json" hidden></div></div>
+      <p id="notice" class="notice" role="status" aria-live="polite"></p>
+    </section>
+    <section id="materials"><div class="section-heading"><div><span class="eyebrow">判断要有出处</span><h2>材料与记录</h2></div><span class="muted compact">在页内查看文档快照</span></div><div id="document-list" class="document-grid"></div></section>
+    <footer><span>正式记录 → 网页快照 → 你的查看与反馈</span><p>文档变更后运行 <code>python3 scripts/build_progress_page.py</code>，刷新网页即可更新。不是聊天实时同步；个人记录不会被生成脚本覆盖。</p></footer>
+  </main>
+  <dialog id="doc-dialog" aria-labelledby="doc-title"><div class="dialog-head"><h2 id="doc-title"></h2><button id="close-doc" class="button">关闭</button></div><p class="muted">项目文档的原文快照；此窗口为只读。</p><pre id="doc-text"></pre></dialog>
+  <noscript>请启用 JavaScript 以查看任务与文档。正式记录在 ../docs/任务协调.md。</noscript>
+</body>
+</html>

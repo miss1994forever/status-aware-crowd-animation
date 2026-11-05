@@ -1,0 +1,46 @@
+[
+  {
+    "path": "MotionScales/DominantShy/Selected_Mocap_dom-shy_Dominant_1.fbx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2caec441632d2889c62c513551120e11de8bf0d1",
+    "size": 6933984,
+    "url": "https://api.github.com/repos/facebookresearch/MotionIsTheMessageDataset/git/blobs/2caec441632d2889c62c513551120e11de8bf0d1",
+    "local_path": "/Volumes/Samsung-SSD/AnimationLab/social-signal-originals/Dominant.fbx",
+    "sha256": "2038c7120daddc2ff2603f2a3d10e03a67f729017caeb02b0d736c2493cd763f",
+    "verified_git_blob": true
+  },
+  {
+    "path": "MotionScales/DominantShy/Selected_Mocap_dom-shy_Shy_1.fbx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2d01b50f23a843a94fed2d1843d36f7e84834b31",
+    "size": 6657152,
+    "url": "https://api.github.com/repos/facebookresearch/MotionIsTheMessageDataset/git/blobs/2d01b50f23a843a94fed2d1843d36f7e84834b31",
+    "local_path": "/Volumes/Samsung-SSD/AnimationLab/social-signal-originals/Shy.fbx",
+    "sha256": "2d4fa33c2c97bf2ed2d6a68ba3ef2ee6a43f7726892a8f6c966ae846077af097",
+    "verified_git_blob": true
+  },
+  {
+    "path": "MotionScales/DominantShy/Selected_Mocap_dom-shy_VeryShy_2.fbx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "18ee96862e33c4cb3bf4cca9b39813b73ab64a77",
+    "size": 8247200,
+    "url": "https://api.github.com/repos/facebookresearch/MotionIsTheMessageDataset/git/blobs/18ee96862e33c4cb3bf4cca9b39813b73ab64a77",
+    "local_path": "/Volumes/Samsung-SSD/AnimationLab/social-signal-originals/VeryShy.fbx",
+    "sha256": "85b63f7d5f3b662cd03370b9984feeafbd5aa5ae11d11f4c783c2a267e8eebf7",
+    "verified_git_blob": true
+  },
+  {
+    "path": "MotionScales/DominantShy/Selected_Mocap_dom-shy_Very_Dominant_3.fbx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cf4a9c42868d3f259764638a95edabda759af9b9",
+    "size": 6630320,
+    "url": "https://api.github.com/repos/facebookresearch/MotionIsTheMessageDataset/git/blobs/cf4a9c42868d3f259764638a95edabda759af9b9",
+    "local_path": "/Volumes/Samsung-SSD/AnimationLab/social-signal-originals/Very_Dominant.fbx",
+    "sha256": "d68d149def41b72294470681377f9128a2b0a18f86295c77a68896c0ea580964",
+    "verified_git_blob": true
+  }
+]

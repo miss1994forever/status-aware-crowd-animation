@@ -1,0 +1,927 @@
+[
+  {
+    "key": "diagnostics_corridor-10-new-41017_R0",
+    "decisions": 978,
+    "orca_infeasible": 15,
+    "zero_body_feasible": 329,
+    "body_changed_choice_count_in_logged_steps": 34,
+    "examples": [
+      {
+        "t": 0.0,
+        "id": 2,
+        "selected": {
+          "clip": "M07",
+          "scale": 0.8,
+          "steer": 0.6224941285803842,
+          "phase_offset": -0.08,
+          "clearance": 0.01898811606719819,
+          "feasible": true,
+          "tracking": 0.008022855625213808,
+          "orca": 0.007110077380968396,
+          "continuity": 0.17606873683678764,
+          "progress": -0.5458808938589179,
+          "deformation": 0.2576039730719485,
+          "score": 0.2411855281852272,
+          "selected": true,
+          "reason": "safe"
+        },
+        "better_cost_but_body_rejected": {
+          "clip": "M02",
+          "scale": 1.15,
+          "steer": 0.9224941285803843,
+          "phase_offset": -0.08,
+          "clearance": -0.16740501493389603,
+          "feasible": false,
+          "tracking": 0.0003243118640206563,
+          "orca": 1.0125178495039824e-06,
+          "continuity": 0.16446857382458757,
+          "progress": -0.45259115174891207,
+          "deformation": 0.3262777547626883,
+          "score": 0.07526784128787785,
+          "selected": false,
+          "reason": "body_margin_or_transition"
+        }
+      },
+      {
+        "t": 0.0,
+        "id": 8,
+        "selected": {
+          "clip": "M10",
+          "scale": 0.8,
+          "steer": 1.226752256201594,
+          "phase_offset": -0.08,
+          "clearance": 0.027260293164068194,
+          "feasible": true,
+          "tracking": 0.017888149748908542,
+          "orca": 0.002789862748071552,
+          "continuity": 0.18821055168420295,
+          "progress": -0.5219478413379228,
+          "deformation": 0.33597030190086385,
+          "score": 0.21117083737368364,
+          "selected": true,
+          "reason": "safe"
+        },
+        "better_cost_but_body_rejected": {
+          "clip": "M02",
+          "scale": 1.15,
+          "steer": 0.926752256201594,
+          "phase_offset": -0.08,
+          "clearance": -0.15312166248800552,
+          "feasible": false,
+          "tracking": 0.0002742548493632803,
+          "orca": 1.2262040482738754e-05,
+          "continuity": 0.16801416149090412,
+          "progress": -0.4526565897018333,
+          "deformation": 0.34880635458570025,
+          "score": 0.07882510375764534,
+          "selected": false,
+          "reason": "body_margin_or_transition"
+        }
+      },
+      {
+        "t": 3.0,
+        "id": 0,
+        "selected": {
+          "clip": "M07",
+          "scale": 1.15,
+          "steer": 0.32576072428924174,
+          "phase_offset": 0.0,
+          "clearance": 0.02078496751675507,
+          "feasible": true,
+          "tracking": 0.0010647120119785971,
+          "orca": 0.0,
+          "continuity": 0.08623315156994235,
+          "progress": -0.9397191184271612,
+          "deformation": 0.14503101574825852,
+          "score": -0.09745182406757551,
+          "selected": true,
+          "reason": "safe"
+        },
+        "better_cost_but_body_rejected": {
+          "clip": "M01",
+          "scale": 1.15,
+          "steer": 0.32576072428924174,
+          "phase_offset": 0.0,
+          "clearance": -0.028373916214230133,
+          "feasible": false,
+          "tracking": 0.016023221787480547,
+          "orca": 0.0,
+          "continuity": 0.04216228632079527,
+          "progress": -1.0353729816496995,
+          "deformation": 0.06291446242571898,
+          "score": -0.10081942285922245,
+          "selected": false,
+          "reason": "body_margin_or_transition"
+        }
+      }
+    ],
+    "max_shared_disk_occupancy": 6,
+    "shared_disk_radius": 1.5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    "maximum_root_radius": 7.4042217686938585,
+    "note": "Body gate includes .015 margin and source residual .4 limit; all candidate components are logged."
+  },
+  {
+    "key": "heldout_shared-10-new-14293_R0",
+    "decisions": 479,
+    "orca_infeasible": 83,
+    "zero_body_feasible": 0,
+    "body_changed_choice_count_in_logged_steps": 1,
+    "examples": [
+      {
+        "t": 3.0,
+        "id": 9,
+        "selected": {
+          "clip": "M10",
+          "scale": 0.8,
+          "steer": 0.24363926750359255,
+          "phase_offset": 0.0,
+          "clearance": 0.05723105178979304,
+          "feasible": true,
+          "tracking": 0.03386286740158078,
+          "orca": 0.044429191538558,
+          "continuity": 0.03253635361769384,
+          "progress": -0.6285849953110789,
+          "deformation": 0.057274095037402065,
+          "score": 0.9308546549329613,
+          "selected": true,
+          "reason": "safe"
+        },
+        "better_cost_but_body_rejected": {
+          "clip": "M01",
+          "scale": 0.8,
+          "steer": 0.24363926750359255,
+          "phase_offset": 0.0,
+          "clearance": -0.0022542307861744826,
+          "feasible": false,
+          "tracking": 0.0033413538862321884,
+          "orca": 0.013998990955215566,
+          "continuity": 0.09824092306856617,
+          "progress": -0.7477876257515317,
+          "deformation": 0.10075576843056289,
+          "score": 0.2420286325674999,
+          "selected": false,
+          "reason": "body_margin_or_transition"
+        }
+      }
+    ],
+    "max_shared_disk_occupancy": 8,
+    "shared_disk_radius": 1.5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    "maximum_root_radius": 4.52306960359921,
+    "note": "Body gate includes .015 margin and source residual .4 limit; all candidate components are logged."
+  },
+  {
+    "key": "heldout_shared-10-new-23981_R0",
+    "decisions": 475,
+    "orca_infeasible": 67,
+    "zero_body_feasible": 0,
+    "body_changed_choice_count_in_logged_steps": 0,
+    "examples": [],
+    "max_shared_disk_occupancy": 8,
+    "shared_disk_radius": 1.5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    "maximum_root_radius": 3.8000000000000003,
+    "note": "Body gate includes .015 margin and source residual .4 limit; all candidate components are logged."
+  },
+  {
+    "key": "heldout_shared-10-new-8317_R0",
+    "decisions": 488,
+    "orca_infeasible": 81,
+    "zero_body_feasible": 0,
+    "body_changed_choice_count_in_logged_steps": 1,
+    "examples": [
+      {
+        "t": 3.0,
+        "id": 1,
+        "selected": {
+          "clip": "M11",
+          "scale": 1.15,
+          "steer": 0.2743930744328078,
+          "phase_offset": 0.08,
+          "clearance": 0.04288662005158911,
+          "feasible": true,
+          "tracking": 0.00018086894399356874,
+          "orca": 0.010869017441960841,
+          "continuity": 0.11278642938911,
+          "progress": -0.5219064235321111,
+          "deformation": 0.18651265881034268,
+          "score": 0.2265089692978789,
+          "selected": true,
+          "reason": "safe"
+        },
+        "better_cost_but_body_rejected": {
+          "clip": "M10",
+          "scale": 0.8,
+          "steer": 0.2743930744328078,
+          "phase_offset": 0.0,
+          "clearance": 0.010222484806870935,
+          "feasible": false,
+          "tracking": 0.004828513650065015,
+          "orca": 0.010763720869101606,
+          "continuity": 0.04391250542961148,
+          "progress": -0.5998990397642983,
+          "deformation": 0.06210454652314735,
+          "score": 0.158521169459044,
+          "selected": false,
+          "reason": "body_margin_or_transition"
+        }
+      }
+    ],
+    "max_shared_disk_occupancy": 8,
+    "shared_disk_radius": 1.5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    "maximum_root_radius": 3.8000000000000003,
+    "note": "Body gate includes .015 margin and source residual .4 limit; all candidate components are logged."
+  },
+  {
+    "key": "train_shared-10-None-13_R0",
+    "decisions": 478,
+    "orca_infeasible": 62,
+    "zero_body_feasible": 0,
+    "body_changed_choice_count_in_logged_steps": 0,
+    "examples": [],
+    "max_shared_disk_occupancy": 6,
+    "shared_disk_radius": 1.5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    "maximum_root_radius": 3.937188710093296,
+    "note": "Body gate includes .015 margin and source residual .4 limit; all candidate components are logged."
+  }
+]

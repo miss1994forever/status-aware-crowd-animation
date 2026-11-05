@@ -1,0 +1,303 @@
+{
+  "checkpoint": "IE05-2026-11-06",
+  "state": "stage freeze, not Unity integration or perceptual acceptance",
+  "scope": "expression only; spatial work continues; no source writes or git commit",
+  "files": [
+    {
+      "path": "data/expression-space-lab/input-cycles.json",
+      "bytes": 2498483,
+      "sha256": "0635ee66e5c9136d6a3cb4ec5bbfe66e9e799e434102f4e0fd05f2b588e790d7"
+    },
+    {
+      "path": "docs/individual-expression-candidate/README.md",
+      "bytes": 7386,
+      "sha256": "d6e96c8fa8f97ad945f1af5547a6513e042ceae827c4c9681a303f240558b254"
+    },
+    {
+      "path": "docs/individual-expression-candidate/互动表达函数规格-IE04.md",
+      "bytes": 7739,
+      "sha256": "44d14cb19eb572d976faca40aaec1eb3fb376de3a1b2801c67a9cfb6a9f649ac"
+    },
+    {
+      "path": "docs/individual-expression-candidate/互动表达稳定性方案.md",
+      "bytes": 6595,
+      "sha256": "cf83bf108a148819eee86fe9ae0861c03dd7accba21250416b5d074dd5475541"
+    },
+    {
+      "path": "docs/individual-expression-candidate/双向骨点反馈检查-IE04.md",
+      "bytes": 6001,
+      "sha256": "37432a4705b711acd9ee066631310525bcab8c43c8e42cf1edd3896d7dde82c7"
+    },
+    {
+      "path": "docs/individual-expression-candidate/实时预览与加强组合-IE05.md",
+      "bytes": 5797,
+      "sha256": "b463a5d009cae0ac8e5ade3e81a7469ce9d8b369f5c1ac6eed4ec78aabc27aac"
+    },
+    {
+      "path": "docs/individual-expression-candidate/接入说明-IE02.md",
+      "bytes": 6102,
+      "sha256": "ed1299b5186461875997634f1795cef7de43e6b16634c476b2ebdf14ba6eed0d"
+    },
+    {
+      "path": "docs/individual-expression-candidate/示例动画视频说明.md",
+      "bytes": 2374,
+      "sha256": "0a244352a1851dcfdc0b9c76b05a81878f42651618de77e9585e6a7cd9fe2164"
+    },
+    {
+      "path": "docs/individual-expression-candidate/算法规格-IE02.md",
+      "bytes": 5169,
+      "sha256": "ffd9f86d1ad5f42adfa2750b70a115eb24cec60d619b51345568bed803b6d537"
+    },
+    {
+      "path": "docs/individual-expression-candidate/设计依据审查.md",
+      "bytes": 13698,
+      "sha256": "43cfd12a800c9ccce33736b7a9ac83dc623c751d2f43381cfb1bba15ee86ede7"
+    },
+    {
+      "path": "docs/individual-expression-candidate/身体组合探索-IE03.md",
+      "bytes": 5816,
+      "sha256": "4465029f036397ab498f3a5843fcba3ab8e7500de9d494ebf027abd1a1935feb"
+    },
+    {
+      "path": "outputs/individual-expression-candidate/round5-animation.mp4",
+      "bytes": 6061597,
+      "sha256": "a590bab1611a413b1ea375317863cce7661fba71944d86514690528342e3dbed"
+    },
+    {
+      "path": "outputs/individual-expression-candidate/round5-checks.txt",
+      "bytes": 122,
+      "sha256": "b7a873da88a14bbdf2515eec5fb7f230b7c69919cfd839d292f018ebfb8b6367"
+    },
+    {
+      "path": "outputs/individual-expression-candidate/round5-contact-sheet.jpg",
+      "bytes": 246574,
+      "sha256": "8915111b30c431a8f5e47c6bddb2ab28965252726c3c4a9629000e4371ee5d85"
+    },
+    {
+      "path": "outputs/individual-expression-candidate/round5-encode.log",
+      "bytes": 9469,
+      "sha256": "f95a8edde59142fe64bab1b0fe2fd6308bf810dc650bb4236cc60d5cd8008e42"
+    },
+    {
+      "path": "outputs/individual-expression-candidate/round5-live-checks.json",
+      "bytes": 357,
+      "sha256": "8b6133070cb60738e551585b4ae60cb975eb58307d521bd55f0574936aec921c"
+    },
+    {
+      "path": "outputs/individual-expression-candidate/round5-page-check.js",
+      "bytes": 3215,
+      "sha256": "c0ed0a74e7d0a96d1ae6527c6cc651cde6d4464f8352b790ec09ff82361dc6f0"
+    },
+    {
+      "path": "outputs/individual-expression-candidate/round5-poses.json",
+      "bytes": 4008576,
+      "sha256": "e1c97ab3248911c0863035637708a28ce1e30c87a0d0274be4ba5027cc34fa45"
+    },
+    {
+      "path": "outputs/individual-expression-candidate/round5-poster.jpg",
+      "bytes": 172195,
+      "sha256": "c7d3a5a635337b6eaef92d57054edf0c186808a340664ecb070be9763b336e80"
+    },
+    {
+      "path": "outputs/individual-expression-candidate/round5-provenance.json",
+      "bytes": 1731,
+      "sha256": "8e9e87e48af7ae43e8532fc522cc5f779af116ba478f6d64406d231a395d4177"
+    },
+    {
+      "path": "outputs/individual-expression-candidate/round5-review.html",
+      "bytes": 927,
+      "sha256": "0ef835a948af3cbe4cefe0ca56535006f37ec81fd1e825e99e57ebfc4583759b"
+    },
+    {
+      "path": "outputs/individual-expression-candidate/round5-video-manifest.json",
+      "bytes": 691,
+      "sha256": "a02c0c10e23541246294abd4420a0301c936dbd46573da869c6345be8232f7e4"
+    },
+    {
+      "path": "outputs/individual-expression-candidate/visible-reference.json",
+      "bytes": 840,
+      "sha256": "e2a2fc7152e1b10aab45f4fa024b0d1631d106224fa1c81fb4d7ec91aaaf0b4a"
+    },
+    {
+      "path": "src/individual_expression_candidate/BodyCombinationSearch.cs",
+      "bytes": 2530,
+      "sha256": "547acaf78f7e7727cc575638c3a4af67511c66a719ba986e1a9db65e0e3e401a"
+    },
+    {
+      "path": "src/individual_expression_candidate/ExpressionMath.cs",
+      "bytes": 2346,
+      "sha256": "f83f9be92e604211241f42548135a80f77c95e75a65c95fdbb0507682bb696c5"
+    },
+    {
+      "path": "src/individual_expression_candidate/ExpressionOverlay.cs",
+      "bytes": 2348,
+      "sha256": "0bec050bf5edd715a464378a9132a50fe7d62c029c0c3aa525edd2a51e72f963"
+    },
+    {
+      "path": "src/individual_expression_candidate/ExpressionPolicy.cs",
+      "bytes": 3315,
+      "sha256": "dbcacebe207bae415acdccafb31b4cf3f5a52306384b04d6354d0e3b615a5e04"
+    },
+    {
+      "path": "src/individual_expression_candidate/InteractiveExpression.cs",
+      "bytes": 6987,
+      "sha256": "8725e693bae936656a95a35bdf7d720e753771ce694227ef71cfe32380e9d262"
+    },
+    {
+      "path": "src/individual_expression_candidate/PostureChannels.cs",
+      "bytes": 3530,
+      "sha256": "2c6870a3052829cd89a06a5e44c4d6f2b39176c933511ab023c72af51fa994a3"
+    },
+    {
+      "path": "src/individual_expression_candidate/audit_feedback_loop.py",
+      "bytes": 7297,
+      "sha256": "281e7a0ce9193abd6f05772b5527986f0b7ea16b9423ba10b317f265170292db"
+    },
+    {
+      "path": "src/individual_expression_candidate/build_combination.py",
+      "bytes": 1209,
+      "sha256": "c458872594f352da70f3fbc119c14a9559dfb661ab89c63b236004f74c1c0cc8"
+    },
+    {
+      "path": "src/individual_expression_candidate/build_review.py",
+      "bytes": 6458,
+      "sha256": "7c136ad73218b28af4c0b992bb6991a076c9a0155e15ba75bcfb2a9f00e94fe8"
+    },
+    {
+      "path": "src/individual_expression_candidate/calibrate_visible_reference.py",
+      "bytes": 3058,
+      "sha256": "236512fed7bbd52e03c1429523edb5a9a2d0d6658a8f2de87b1525ccbc6f4361"
+    },
+    {
+      "path": "src/individual_expression_candidate/combination_viewer.html",
+      "bytes": 7143,
+      "sha256": "fc1c2ea6cc07b2a43771733a97655ae9873ba042e9b816253e758476d316ef91"
+    },
+    {
+      "path": "src/individual_expression_candidate/plot_body_feedback.py",
+      "bytes": 4244,
+      "sha256": "34053bb8957a685c423d8a66bf65e9470ed814162cba995d8852d056724f16d5"
+    },
+    {
+      "path": "src/individual_expression_candidate/plot_feedback.py",
+      "bytes": 1572,
+      "sha256": "3265511471315d9a20877e1bf7a093f153312ef9a891ded656bdbb78e2f4a6a6"
+    },
+    {
+      "path": "src/individual_expression_candidate/reference/SprintActor.cs",
+      "bytes": 5059,
+      "sha256": "92e05dfde814013342304863db85c8caf36ac105e0916ac306152047f0c0aa82"
+    },
+    {
+      "path": "src/individual_expression_candidate/reference/SprintDirector.cs",
+      "bytes": 14107,
+      "sha256": "ece4022d2a086272bb8dc52f9fe7a1b5ab4410e35f745418ad449db095db257f"
+    },
+    {
+      "path": "src/individual_expression_candidate/reference/SprintLegIK.cs",
+      "bytes": 2681,
+      "sha256": "5a855ee503e126f120699864cfee89fd7916ef38340bf96f12740eaccecefee3"
+    },
+    {
+      "path": "src/individual_expression_candidate/reference/SprintObservation.cs",
+      "bytes": 641,
+      "sha256": "304f41a9805b05fe8087cbcdd56d774c9989001e7546fa3f3ffdd13a01ce85bc"
+    },
+    {
+      "path": "src/individual_expression_candidate/reference/snapshot.json",
+      "bytes": 546,
+      "sha256": "381e049aa7df11a5e9b91c237d4a9c8f37fb07977d6adfdfc883e7fea3f13bd9"
+    },
+    {
+      "path": "src/individual_expression_candidate/render_example_video.py",
+      "bytes": 9662,
+      "sha256": "35713fc6699ae504ceb8ea8ea38bed9ced7179c4d51c6efd5f51fb746ed40a44"
+    },
+    {
+      "path": "src/individual_expression_candidate/render_round5_video.py",
+      "bytes": 7237,
+      "sha256": "2800cb15251979e43fb0874b1e8437d054c692e95152169a9a52ed08c13f5da5"
+    },
+    {
+      "path": "src/individual_expression_candidate/replay_viewer.html",
+      "bytes": 6389,
+      "sha256": "432daf69c814169dd674a96a12138f8470d05d1b0d97c07f05be1a364ff78a4e"
+    },
+    {
+      "path": "src/individual_expression_candidate/round5_live.html",
+      "bytes": 5787,
+      "sha256": "61eb7b9653176d97d7133fcdb761b967f41a20cf7e8e754a6527f097670896f1"
+    },
+    {
+      "path": "tests/test_individual_expression_candidate/Checks.cs",
+      "bytes": 4202,
+      "sha256": "8816be9e672f9de2892b43a333a0a800af5ef72e71dec63dc9679e02c9def198"
+    },
+    {
+      "path": "tests/test_individual_expression_candidate/Checks.csproj",
+      "bytes": 775,
+      "sha256": "5b71eab85e798cf8c67310d8bf0717ea1743982e9d3ed498f971103ccc50cac6"
+    },
+    {
+      "path": "tests/test_individual_expression_candidate/Replay.cs",
+      "bytes": 5957,
+      "sha256": "374d4bfff35bbf65471e087981e44257efe33d2c68e1c5ba2b9ba1e4a339e865"
+    },
+    {
+      "path": "tests/test_individual_expression_candidate_closedloop/ClosedLoop.cs",
+      "bytes": 13085,
+      "sha256": "8a5e8312324682d5d418b6adc69273a96ca69d50ace3dafe69904f55c048b122"
+    },
+    {
+      "path": "tests/test_individual_expression_candidate_closedloop/ClosedLoop.csproj",
+      "bytes": 1041,
+      "sha256": "4aa8b15ff33652318f37abf89d5154f286150f07e945ee8bc8ceb41a0dc73f9a"
+    },
+    {
+      "path": "tests/test_individual_expression_candidate_combination/Program.cs",
+      "bytes": 11177,
+      "sha256": "84eb935e302b9cb55e15165545bd0044f729beae1a8ea65e62741c5af7ced964"
+    },
+    {
+      "path": "tests/test_individual_expression_candidate_combination/Replay.csproj",
+      "bytes": 714,
+      "sha256": "c480462f8f49212ca398f487899e5219c0a656c99865cb40aa6a4912b44a3875"
+    },
+    {
+      "path": "tests/test_individual_expression_candidate_combination/UnityMathShim.cs",
+      "bytes": 3977,
+      "sha256": "16e540913148dae9adb7e0ce3475a960cb088d85d12660d0d654d4309e6aded2"
+    },
+    {
+      "path": "tests/test_individual_expression_candidate_response/Checks.cs",
+      "bytes": 8006,
+      "sha256": "37ab6a041a877e7e025d8fe434c1736a554c9bcf3a89128aca276bba928eabae"
+    },
+    {
+      "path": "tests/test_individual_expression_candidate_response/Response.csproj",
+      "bytes": 556,
+      "sha256": "845a05691ca476036aad39dddd6c15f0588bf081837c79016f5d6c3991e16cfe"
+    },
+    {
+      "path": "tests/test_individual_expression_candidate_round5/Round5.cs",
+      "bytes": 11123,
+      "sha256": "ec76d31e9e37686fd6400b9bb8f8c8642dd69a810a2d3197d04b78f6c62674a8"
+    },
+    {
+      "path": "tests/test_individual_expression_candidate_round5/Round5.csproj",
+      "bytes": 1098,
+      "sha256": "61eb158558802f3fdb7869670462eebf59224e941d77d490afc7679b74bad73a"
+    },
+    {
+      "path": "tests/test_individual_expression_candidate_video/Video.csproj",
+      "bytes": 945,
+      "sha256": "69fd54424298effcff9877cad7e9862216099631f772c6cd10b0118b4a285b77"
+    },
+    {
+      "path": "tests/test_individual_expression_candidate_video/VideoExport.cs",
+      "bytes": 4308,
+      "sha256": "1132561ad9b890bfd0a3c580cb3db7b8790aaf5da523f13c1bbf8a460c78f9a0"
+    }
+  ],
+  "changed_during_capture": []
+}

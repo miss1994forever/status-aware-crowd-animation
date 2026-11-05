@@ -1,0 +1,328 @@
+{
+  "classification": "post_hoc_training_diagnostic",
+  "frozen_hash_checks": {
+    "src/predictive_motion_lab/controller.py": true,
+    "src/predictive_motion_lab/__init__.py": true,
+    "src/predictive_motion_lab/motion.py": true,
+    "src/predictive_motion_lab/geometry.py": true,
+    "src/predictive_motion_lab/evaluate.py": true,
+    "scripts/build_predictive_motion_lab.py": true,
+    "data/predictive-motion-lab/configs.json": true,
+    "data/predictive-motion-lab/library.json": true
+  },
+  "plan": [
+    [
+      0.46,
+      0.1,
+      false
+    ],
+    [
+      0.46,
+      0.05,
+      false
+    ],
+    [
+      0.62,
+      0.1,
+      false
+    ],
+    [
+      0.62,
+      0.05,
+      false
+    ]
+  ],
+  "phase_matching": true,
+  "source_hashes": {
+    "src/transition_diagnostic.py": "a6e85f5d4df9e91970dc6cecddf6b12f40d36e09aebf86688e590ba1511009cd",
+    "scripts/main_audit_transition_bounds.py": "50e83f5f9e6e17abe4cac05dc02dd7fb59581a13ff4d19e9527e53ee90d4919f"
+  },
+  "limitations": [
+    "Bounds are engineering probes, not naturalness thresholds.",
+    "Source-pose discrepancy includes legitimate transitions.",
+    "Same-family filtering confounds speed and motion coverage.",
+    "Two training scenes, not held-out generalization or status validation."
+  ],
+  "results": [
+    {
+      "name": "door0.46-bound0.1-family0",
+      "width": 0.46,
+      "bound": 0.1,
+      "own_source_style": false,
+      "metrics": {
+        "minimum_proxy_axis_gap": 0.19786298906689462,
+        "max_proxy_penetration": 0.0,
+        "collision_time_fraction": 0.0,
+        "arrived_fraction": 0.0,
+        "remaining_goal_distance_mean": 2.1325436707980066,
+        "stagnant_agents": 1,
+        "emergency_hold_agent_seconds": 10.150000000000064,
+        "root_acceleration_p95": 3.197442310920451e-12,
+        "root_acceleration_max": 92.92578083985283,
+        "joint_speed_p99": 1.2425975684230255,
+        "joint_acceleration_p99": 16.463260844339807,
+        "max_bone_relative_error": 1.9984014443252818e-15,
+        "source_pose_modification_max": 0.0985005540849901,
+        "source_pose_modification_p95": 0.051343852102363786,
+        "expression_drift_mean": 0.4436734054109991,
+        "actual_reference_pose_rms": 0.019356463413434815,
+        "travel_angle_warp_max_radians": 0.3439265066573185,
+        "actual_speed_ratio_min": 0.06198495130137029,
+        "actual_speed_ratio_max": 1.0545282123293027,
+        "switches": 2,
+        "aba_clip_reversals": 0,
+        "worst": {
+          "t": 2.216666666666667,
+          "agent": 0,
+          "wall": [
+            [
+              0.23,
+              -0.12
+            ],
+            [
+              2.0,
+              -0.12
+            ],
+            [
+              2.0,
+              0.12
+            ],
+            [
+              0.23,
+              0.12
+            ]
+          ],
+          "gap": 0.19786298906689462
+        },
+        "dense_samples": 1440,
+        "evaluation_hz": 120,
+        "proxy": "projected-joint convex hull + radius .04; signed SAT axis gap",
+        "planning_seconds": 2.255544130690396,
+        "planning_step_ms_p50": 35.66412499640137,
+        "planning_step_ms_p95": 47.954689792823046,
+        "agent_count": 1,
+        "emergency_hold_agent_steps": 51,
+        "arrival_times": {},
+        "interaction_edges": []
+      },
+      "used_clips": [
+        "M01",
+        "M02",
+        "M11"
+      ],
+      "selected_prediction_discrepancy_max": 0.0985010357128994,
+      "decisions_losing_all_frozen_safe_candidates": 50,
+      "replay": "data/main-review/transition-phase-matching/door0.46-bound0.1-family0.json"
+    },
+    {
+      "name": "door0.46-bound0.05-family0",
+      "width": 0.46,
+      "bound": 0.05,
+      "own_source_style": false,
+      "metrics": {
+        "minimum_proxy_axis_gap": 0.2521266554159164,
+        "max_proxy_penetration": 0.0,
+        "collision_time_fraction": 0.0,
+        "arrived_fraction": 0.0,
+        "remaining_goal_distance_mean": 2.2014904324606226,
+        "stagnant_agents": 1,
+        "emergency_hold_agent_seconds": 10.550000000000042,
+        "root_acceleration_p95": 3.197442310920451e-12,
+        "root_acceleration_max": 51.91285754835189,
+        "joint_speed_p99": 1.27242668980194,
+        "joint_acceleration_p99": 14.096389073914231,
+        "max_bone_relative_error": 2.220446049250313e-15,
+        "source_pose_modification_max": 0.035495035878575054,
+        "source_pose_modification_p95": 0.024545232442152766,
+        "expression_drift_mean": 0.0,
+        "actual_reference_pose_rms": 0.0022741134514347107,
+        "travel_angle_warp_max_radians": 0.0,
+        "actual_speed_ratio_min": 0.8,
+        "actual_speed_ratio_max": 1.15,
+        "switches": 0,
+        "aba_clip_reversals": 0,
+        "worst": {
+          "t": 1.4166666666666665,
+          "agent": 0,
+          "wall": [
+            [
+              0.23,
+              -0.12
+            ],
+            [
+              2.0,
+              -0.12
+            ],
+            [
+              2.0,
+              0.12
+            ],
+            [
+              0.23,
+              0.12
+            ]
+          ],
+          "gap": 0.2521266554159164
+        },
+        "dense_samples": 1440,
+        "evaluation_hz": 120,
+        "proxy": "projected-joint convex hull + radius .04; signed SAT axis gap",
+        "planning_seconds": 2.462433499051258,
+        "planning_step_ms_p50": 40.743645397014916,
+        "planning_step_ms_p95": 42.44332159869373,
+        "agent_count": 1,
+        "emergency_hold_agent_steps": 53,
+        "arrival_times": {},
+        "interaction_edges": []
+      },
+      "used_clips": [
+        "M02"
+      ],
+      "selected_prediction_discrepancy_max": 0.035495249567487126,
+      "decisions_losing_all_frozen_safe_candidates": 53,
+      "replay": "data/main-review/transition-phase-matching/door0.46-bound0.05-family0.json"
+    },
+    {
+      "name": "door0.62-bound0.1-family0",
+      "width": 0.62,
+      "bound": 0.1,
+      "own_source_style": false,
+      "metrics": {
+        "minimum_proxy_axis_gap": 0.05620631795783152,
+        "max_proxy_penetration": 0.0,
+        "collision_time_fraction": 0.0,
+        "arrived_fraction": 1.0,
+        "remaining_goal_distance_mean": 0.15048333916407663,
+        "stagnant_agents": 0,
+        "emergency_hold_agent_seconds": 0.19999999999999998,
+        "root_acceleration_p95": 3.1974485355901004e-12,
+        "root_acceleration_max": 133.58080995728585,
+        "joint_speed_p99": 2.2750741009725686,
+        "joint_acceleration_p99": 31.308255329354008,
+        "max_bone_relative_error": 2.220446049250313e-15,
+        "source_pose_modification_max": 0.09384708644031083,
+        "source_pose_modification_p95": 0.06237605375551059,
+        "expression_drift_mean": 0.08937359763992107,
+        "actual_reference_pose_rms": 0.015263116786172062,
+        "travel_angle_warp_max_radians": 0.2846695551477403,
+        "actual_speed_ratio_min": 0.06198495130137029,
+        "actual_speed_ratio_max": 1.15,
+        "switches": 3,
+        "aba_clip_reversals": 0,
+        "worst": {
+          "t": 2.05,
+          "agent": 0,
+          "wall": [
+            [
+              -2.0,
+              -0.12
+            ],
+            [
+              -0.31,
+              -0.12
+            ],
+            [
+              -0.31,
+              0.12
+            ],
+            [
+              -2.0,
+              0.12
+            ]
+          ],
+          "gap": 0.05620631795783152
+        },
+        "dense_samples": 1440,
+        "evaluation_hz": 120,
+        "proxy": "projected-joint convex hull + radius .04; signed SAT axis gap",
+        "planning_seconds": 0.7864747531712055,
+        "planning_step_ms_p50": 0.00037509016692638397,
+        "planning_step_ms_p95": 42.6310314447619,
+        "agent_count": 1,
+        "emergency_hold_agent_steps": 1,
+        "arrival_times": {
+          "0": 3.8000000000000003
+        },
+        "interaction_edges": []
+      },
+      "used_clips": [
+        "M01",
+        "M02",
+        "M10"
+      ],
+      "selected_prediction_discrepancy_max": 0.09384685101506739,
+      "decisions_losing_all_frozen_safe_candidates": 1,
+      "replay": "data/main-review/transition-phase-matching/door0.62-bound0.1-family0.json"
+    },
+    {
+      "name": "door0.62-bound0.05-family0",
+      "width": 0.62,
+      "bound": 0.05,
+      "own_source_style": false,
+      "metrics": {
+        "minimum_proxy_axis_gap": 0.04657807166699599,
+        "max_proxy_penetration": 0.0,
+        "collision_time_fraction": 0.0,
+        "arrived_fraction": 1.0,
+        "remaining_goal_distance_mean": 0.2054152705056822,
+        "stagnant_agents": 0,
+        "emergency_hold_agent_seconds": 0.4000000000000004,
+        "root_acceleration_p95": 6.394884621840902e-12,
+        "root_acceleration_max": 74.62473272575814,
+        "joint_speed_p99": 1.902089158395633,
+        "joint_acceleration_p99": 29.883789448805285,
+        "max_bone_relative_error": 2.220446049250313e-15,
+        "source_pose_modification_max": 0.04940061809663892,
+        "source_pose_modification_p95": 0.04173948425618492,
+        "expression_drift_mean": 0.0,
+        "actual_reference_pose_rms": 0.0035221847839943888,
+        "travel_angle_warp_max_radians": 0.0,
+        "actual_speed_ratio_min": 0.11095517126243677,
+        "actual_speed_ratio_max": 1.15,
+        "switches": 0,
+        "aba_clip_reversals": 0,
+        "worst": {
+          "t": 2.925,
+          "agent": 0,
+          "wall": [
+            [
+              0.31,
+              -0.12
+            ],
+            [
+              2.0,
+              -0.12
+            ],
+            [
+              2.0,
+              0.12
+            ],
+            [
+              0.31,
+              0.12
+            ]
+          ],
+          "gap": 0.04657807166699599
+        },
+        "dense_samples": 1440,
+        "evaluation_hz": 120,
+        "proxy": "projected-joint convex hull + radius .04; signed SAT axis gap",
+        "planning_seconds": 1.1923449980095029,
+        "planning_step_ms_p50": 0.000625033862888813,
+        "planning_step_ms_p95": 44.41987735917791,
+        "agent_count": 1,
+        "emergency_hold_agent_steps": 2,
+        "arrival_times": {
+          "0": 5.6000000000000005
+        },
+        "interaction_edges": []
+      },
+      "used_clips": [
+        "M02"
+      ],
+      "selected_prediction_discrepancy_max": 0.04940044347935537,
+      "decisions_losing_all_frozen_safe_candidates": 2,
+      "replay": "data/main-review/transition-phase-matching/door0.62-bound0.05-family0.json"
+    }
+  ]
+}

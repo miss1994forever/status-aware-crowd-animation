@@ -1,0 +1,257 @@
+{
+  "review_date": "2026-10-24",
+  "timezone": "Asia/Shanghai",
+  "scope": "source_review_not_perceptual_validation",
+  "source_policy": "official authors, papers, repositories only; no contacting, accounts, payment, bulk download",
+  "grade_order": [
+    "individual_perceived_dominance",
+    "interaction",
+    "context_adaptation"
+  ],
+  "gait_original_179_clip_id_map": "not_found_within_checked_sources",
+  "gait_individual_ratings": "not_found_within_checked_sources",
+  "gait_stimulus_bundle": "not_verified",
+  "pilot_revision": "74ead3ba1ae4696404e6086233779f60de8bf9ef",
+  "pilot_manifest_sha256": "6ad1f37c35e80f6a3d7992fad52252be9650cf97cd29078e76ad09b50e513e99",
+  "pilot_files": [
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk_normal_001.bvh",
+      "sha256": "5764cebc2fedabf287880a7f25cb06753e1679675a02a6f033998de041ba8032",
+      "matches_manifest": true,
+      "status_label": null,
+      "visual_inspected_by_this_review": false
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk_proud_001.bvh",
+      "sha256": "9044301b145cf7c53d37d5f65f0377af78c4bf68c80f91c7afcf1ce9c87ffa0f",
+      "matches_manifest": true,
+      "status_label": null,
+      "visual_inspected_by_this_review": false
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk_not-confident_001.bvh",
+      "sha256": "b769cbae08f9df6460f61974c9e0a84845b924fed875aa5da998d9ac1ea6527e",
+      "matches_manifest": true,
+      "status_label": null,
+      "visual_inspected_by_this_review": false
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-back_normal_001.bvh",
+      "sha256": "4c182559dbd28e4ba485f664dea49817a30fc0acde29b482f1baaeff4fa80397",
+      "matches_manifest": true,
+      "status_label": null,
+      "visual_inspected_by_this_review": false
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-back_proud_001.bvh",
+      "sha256": "869fc9fc8e3da6a58da8b5ceeae6c79e4249739a70ee0f79eebfdbd7a5e4871b",
+      "matches_manifest": true,
+      "status_label": null,
+      "visual_inspected_by_this_review": false
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-back_not-confident_001.bvh",
+      "sha256": "decbb5b489fbe5214a6fccbc888c852cdb1116336943ba05f87c78cefb0a86fc",
+      "matches_manifest": true,
+      "status_label": null,
+      "visual_inspected_by_this_review": false
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-left_normal_001.bvh",
+      "sha256": "26ee7e8cf65a7c839b7790c90328fcb730e53ab18b4cbef5f8fba397de3ae675",
+      "matches_manifest": true,
+      "status_label": null,
+      "visual_inspected_by_this_review": false
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-left_proud_001.bvh",
+      "sha256": "97a64a279a32256a73b3e0257b0fbdd9dde3b9d5f34857e0f5253e9ceacbafcb",
+      "matches_manifest": true,
+      "status_label": null,
+      "visual_inspected_by_this_review": false
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-left_not-confident_001.bvh",
+      "sha256": "53eeebdfc46064223171d09e769c530924b278fb267d57a7b011c4bdc700b281",
+      "matches_manifest": true,
+      "status_label": null,
+      "visual_inspected_by_this_review": false
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-right_normal_001.bvh",
+      "sha256": "2b77b84d4caf2e037441d48073f4c3f5e5b43bf98a96f4f4ca96be931a0c3657",
+      "matches_manifest": true,
+      "status_label": null,
+      "visual_inspected_by_this_review": false
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-right_proud_001.bvh",
+      "sha256": "3225a2aa0b2d9cc8e5f19c3edfdcacbe33361641cdd7e67726a83390a71bad81",
+      "matches_manifest": true,
+      "status_label": null,
+      "visual_inspected_by_this_review": false
+    },
+    {
+      "file": "data/raw/bandai-pilot/dataset-1_walk-right_not-confident_001.bvh",
+      "sha256": "ce8dc89921f38d99d008fa2906a7b8520a654d0780f47a4cbdae35f52d3f4364",
+      "matches_manifest": true,
+      "status_label": null,
+      "visual_inspected_by_this_review": false
+    }
+  ],
+  "pilot_bytes": 3749007,
+  "pilot_duration_from_manifest_seconds": 100.4665662,
+  "human_ratings_collected": 0,
+  "sources": [
+    {
+      "id": "bandai",
+      "url": "https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset",
+      "access": "official_readme_read",
+      "data_license": "CC BY-NC 4.0",
+      "grades": [
+        "C",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "id": "gait_paper_v1",
+      "url": "https://arxiv.org/html/1901.02037v1",
+      "access": "full_html_read_relevant_methods_and_limitations",
+      "version": "2019-01-07 v1",
+      "grades": [
+        "B",
+        "B",
+        "U"
+      ]
+    },
+    {
+      "id": "gait_journal",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31751243/",
+      "access": "indexed_bibliographic_record_read; direct_page_limited",
+      "doi": "10.1109/TVCG.2019.2953063",
+      "volume_issue_pages": "27(6):2967-2979 (2021)"
+    },
+    {
+      "id": "gait_author_project",
+      "url": "https://gamma.cs.unc.edu/GAIT/#Dominance_Gait",
+      "access": "html_read",
+      "finding": "PDF and demo video links; no per-gait IDs, ratings table or full stimulus bundle found in checked section",
+      "reuse_license": "not_verified"
+    },
+    {
+      "id": "gait_author_pdf",
+      "url": "https://gamma.cs.unc.edu/GAIT/files/Dominance_Gait.pdf",
+      "access": "HEAD_only",
+      "http_status": 200,
+      "content_length": 7159922,
+      "content_type": "application/pdf",
+      "version_compared": false
+    },
+    {
+      "id": "gait_demo",
+      "url": "https://gamma.cs.unc.edu/GAIT/videos/Dominance_Gait.mp4",
+      "access": "HEAD_only_not_watched",
+      "http_status": 200,
+      "content_length": 128445712,
+      "content_type": "video/mp4",
+      "is_complete_stimulus_bundle": null
+    },
+    {
+      "id": "cmu",
+      "url": "https://mocap.cs.cmu.edu/",
+      "access": "web_tool_timeout",
+      "license_verified": false
+    },
+    {
+      "id": "bml_historical",
+      "url": "http://paco.psy.gla.ac.uk/?portfolio_page=body-movement-library",
+      "access": "web_tool_not_accessible",
+      "license_verified": false
+    },
+    {
+      "id": "gait_journal_doi",
+      "url": "https://doi.org/10.1109/TVCG.2019.2953063",
+      "access": "web_tool_not_accessible",
+      "supplement_checked": false
+    },
+    {
+      "id": "100style",
+      "url": "https://www.ianxmason.com/100style/",
+      "access": "official_author_page_read",
+      "data_license": "CC BY 4.0",
+      "motion_downloaded": false,
+      "grades": [
+        "C",
+        "U",
+        "U"
+      ]
+    },
+    {
+      "id": "100style_zenodo",
+      "url": "https://zenodo.org/records/8127870",
+      "access": "metadata_page_read",
+      "motion_downloaded": false
+    },
+    {
+      "id": "emm_project",
+      "url": "https://upc-virvig.github.io/Environment-aware-Motion-Matching/",
+      "access": "official_project_page_read",
+      "video_watched": false
+    },
+    {
+      "id": "emm_code",
+      "url": "https://github.com/UPC-ViRVIG/Environment-aware-Motion-Matching",
+      "access": "official_readme_and_raw_LICENSE_read",
+      "code_license": "MIT",
+      "grades_material": [
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "id": "emm_data",
+      "url": "https://zenodo.org/records/17220516",
+      "access": "metadata_page_and_JSON_API_read",
+      "data_license": "CC BY 4.0",
+      "motion_downloaded": false
+    },
+    {
+      "id": "dyadic",
+      "url": "https://epub.ub.uni-muenchen.de/80361/",
+      "access": "official_abstract_only_full_text_not_available_here",
+      "doi": "10.1002/aur.2069",
+      "data_license": "not_verified",
+      "grades": [
+        "U",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "id": "dyadic_publisher",
+      "url": "https://doi.org/10.1002/aur.2069",
+      "access": "web_tool_403",
+      "full_text_read": false
+    }
+  ],
+  "validation": {
+    "all_12_source_hashes_match": true,
+    "json_parsed": true,
+    "csv_template_has_zero_response_rows": true,
+    "report_local_links_resolve": true,
+    "git_diff_check": "passed_scoped_paths; untracked_files_also_checked_for_trailing_whitespace",
+    "deliverable_count": 4,
+    "csv_column_count": 25
+  },
+  "review_clarifications": {
+    "constructs_separated": [
+      "stable_perceived_status",
+      "perceived_dominance",
+      "current_interaction_initiative"
+    ],
+    "next_step": "user_material_and_aesthetic_prescreen_before_deciding_optional_perception_study",
+    "sample_sizes_and_thresholds": "unapproved_suggestions_no_power_analysis_no_course_acceptance_basis"
+  }
+}

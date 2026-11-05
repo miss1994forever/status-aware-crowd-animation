@@ -1,0 +1,27 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>个体表达 · 同输入离线对照</title>
+<style>body{max-width:1200px;margin:28px auto;padding:0 20px;font:16px/1.6 system-ui;color:#242c30;background:#f6f6f2}h1{font-size:25px;margin-bottom:6px}p{margin:8px 0}.controls{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:18px 0}button,select{font:inherit;padding:5px 10px;border:1px solid #bac1c0;border-radius:5px;background:white}input{accent-color:#287567}canvas{width:100%;height:auto;background:#fff;border:1px solid #d5d9d6;border-radius:6px}small{color:#596265}details{margin:20px 0}.notice{border-left:3px solid #a36a37;padding-left:12px}#time{font-variant-numeric:tabular-nums}pre{white-space:pre-wrap;font-size:13px}a{color:#236b60}</style>
+<h1>个体表达：相同原运动的离线对照</h1><p>先看动作是否自然、变化是什么，再判断人物印象。这里不预标高低地位。</p>
+<p class="notice">真实原片骨架回放，均只修改手臂。尚未接入 Unity；高度通道仅记录请求，没有应用。不能据此评价完整高度＋手臂组合或群组互动。</p>
+<div class="controls"><label>原片 <select id="clip"><option value="0">向前行走 · M01</option><option value="1">侧移 · M07</option></select></label><label>视角 <select id="view"><option value="0">正面</option><option value="1.5707963267948966">侧面</option><option value="0.65">斜面</option></select></label><label>新算法强度 <select id="amount"><option value="full">完整测试强度</option><option value="half">半测试强度</option></select></label><button id="play">暂停</button><button id="restart">从头播放</button><span id="time"></span></div>
+<input id="scrub" aria-label="播放时间" type="range" min="0" max="1000" value="0" style="width:100%"><canvas id="canvas" width="1200" height="520"></canvas>
+<small>三栏共享原帧与时间、尺度、视角和根轨迹。镜头随根水平位置平移，保留竖直起伏。原采样间隔播放，末帧保持；没有循环拼接或慢放。虚线手部末端是原片显示参考，不是手指姿态。</small>
+<details><summary>对照的含义与尚未验证的部分</summary><p>左：冻结的原始 normal 动作；中：复现旧规则的左上臂固定12°内收，关闭髋高和回应；右：局部坐标下的双臂连续调节。右栏用真实根速度，强度平滑进入，保留上臂前后分量，修正上限9°。</p><p>完整/半测试强度是新策略自身端点与中点的诊断，不与固定规则构成等幅度比较；不能只凭新版本更轻判定机制更优。当前没有匹配幅度的因果消融，也没有人体网格、手部接触或用户评分。</p><p>原素材：Bandai Namco Research Inc.，revision 74ead3ba1ae4696404e6086233779f60de8bf9ef，<a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>；处理：复用已有冻结FK，加入上臂子树旋转。normal是源风格标签，不是status真值。精确来源、原文件哈希及几何检查在下载JSON中。</p><a href="raw-replay.json">查看回放数据与来源</a> · <a href="replay-audit.json">查看检查摘要</a></details>
+<script>
+const replay=REPLAY_DATA;const $=id=>document.getElementById(id),ctx=$('canvas').getContext('2d');
+let selected=0,t=0,playing=true,last=null;const names=['原运动','现有固定规则 · 仅臂','新算法 · 仅臂'];
+const sub=(a,b)=>a.map((v,i)=>v-b[i]),dot=(a,b)=>a.reduce((s,v,i)=>s+v*b[i],0),unit=a=>{let n=Math.hypot(...a);return a.map(v=>v/n)};
+function current(){return replay.clips[selected]}function span(){const c=current();return (c.variants.source.length-1)*c.dt}
+function basis(){const c=current(),p=c.variants.source[0],a=p[c.names.indexOf('UpperArm_L')],b=p[c.names.indexOf('UpperArm_R')];let r=sub(b,a);r[1]=0;r=unit(r);return {r,f:[-r[2],0,r[0]]}}
+function draw(){let c=current(),frame=Math.min(c.variants.source.length-1,Math.floor(t/c.dt)),raw=c.variants.source[frame],root=raw[0],b=basis(),yaw=+$('view').value;
+ctx.clearRect(0,0,1200,520);const scale=345;
+['source','fixed',$('amount').value].forEach((key,col)=>{let p=c.variants[key][frame],center=200+400*col;ctx.strokeStyle='#e4e7e4';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(col*400+20,445);ctx.lineTo(col*400+380,445);ctx.stroke();ctx.fillStyle='#242c30';ctx.textAlign='center';ctx.font='18px system-ui';ctx.fillText(names[col],center,35);
+let points=p.map(v=>{let d=[v[0]-root[0],v[1],v[2]-root[2]],x=dot(d,b.r)*Math.cos(yaw)+dot(d,b.f)*Math.sin(yaw),depth=-dot(d,b.r)*Math.sin(yaw)+dot(d,b.f)*Math.cos(yaw);return [center+x*scale,445-v[1]*scale,depth]});
+const edges=c.parents.map((parent,j)=>({parent,j})).filter(e=>e.parent!==null).sort((a,b)=>points[a.j][2]-points[b.j][2]);
+for(let {parent,j} of edges){let a=points[parent],z=points[j],name=c.names[j],hand=name.includes('EndSite');if(Math.hypot(a[0]-z[0],a[1]-z[1])<.01)continue;ctx.strokeStyle=name.includes('_L')?'#45778e':name.includes('_R')?'#b27950':'#555f65';ctx.lineWidth=hand?2:5;ctx.setLineDash(hand?[4,4]:[]);ctx.beginPath();ctx.moveTo(a[0],a[1]);ctx.lineTo(z[0],z[1]);ctx.stroke()}
+ctx.setLineDash([]);for(let j=0;j<p.length;j++){let z=points[j];ctx.beginPath();ctx.fillStyle='#f7f7f3';ctx.strokeStyle='#596366';ctx.lineWidth=1.5;ctx.arc(z[0],z[1],c.names[j]==='Head'?10:3.5,0,Math.PI*2);ctx.fill();ctx.stroke()}
+ctx.fillStyle='#65706f';ctx.font='13px system-ui';ctx.fillText(key==='source'?'无姿态修改':key==='fixed'?'固定12°，左臂':$('amount').value==='full'?'端点测试；高度未应用':'中点测试；高度未应用',center,490)});
+$('time').textContent=t.toFixed(2)+' / '+span().toFixed(2)+' 秒';$('scrub').value=Math.round(t/span()*1000);$('play').textContent=playing?'暂停':'播放'}
+$('clip').onchange=()=>{selected=+$('clip').value;t=0;last=null;playing=true;draw()};$('view').onchange=draw;$('amount').onchange=draw;
+$('play').onclick=()=>{if(t>=span())t=0;playing=!playing;last=null;draw()};$('restart').onclick=()=>{t=0;playing=true;last=null;draw()};$('scrub').oninput=()=>{playing=false;t=+$('scrub').value/1000*span();draw()};
+function tick(now){if(last!==null&&playing){t=Math.min(span(),t+(now-last)/1000);if(t>=span())playing=false}last=now;draw();requestAnimationFrame(tick)}requestAnimationFrame(tick);
+</script></html>

@@ -1,0 +1,349 @@
+{
+  "source_page": "https://zenodo.org/records/17220516",
+  "api": "https://zenodo.org/api/records/17220516",
+  "license": "CC BY 4.0",
+  "creator": [
+    {
+      "name": "Ponton, Jose Luis",
+      "affiliation": "Universitat Politècnica de Catalunya",
+      "orcid": "0000-0001-6576-4528"
+    },
+    {
+      "name": "Andrews, Sheldon",
+      "affiliation": "École de Technologie Supérieure",
+      "orcid": "0000-0001-9776-117X"
+    },
+    {
+      "name": "Andújar, Carlos",
+      "affiliation": "Universitat Politècnica de Catalunya",
+      "orcid": "0000-0002-8480-4713"
+    },
+    {
+      "name": "Pelechano, Nuria",
+      "affiliation": "Universitat Politècnica de Catalunya",
+      "orcid": "0000-0002-1437-245X"
+    }
+  ],
+  "upstream_checksum": "md5:b8f52d67f968cc2baf04d5bb5309fe83",
+  "archive_sha256": "7fa75d340090164808b69b04eef42aaae8c3cbe8bcd02c95ae554ca195350c2d",
+  "archive_bytes": 53306592,
+  "files": [
+    {
+      "path": "DataEMM/emm/a1_1.bvh",
+      "bytes": 361097,
+      "compressed_bytes": 143988
+    },
+    {
+      "path": "DataEMM/emm/a1_2.bvh",
+      "bytes": 363811,
+      "compressed_bytes": 146731
+    },
+    {
+      "path": "DataEMM/emm/a1_3.bvh",
+      "bytes": 336514,
+      "compressed_bytes": 134248
+    },
+    {
+      "path": "DataEMM/emm/a1_4.bvh",
+      "bytes": 248910,
+      "compressed_bytes": 103146
+    },
+    {
+      "path": "DataEMM/emm/a1_5.bvh",
+      "bytes": 397919,
+      "compressed_bytes": 159945
+    },
+    {
+      "path": "DataEMM/emm/a1_6.bvh",
+      "bytes": 323857,
+      "compressed_bytes": 130259
+    },
+    {
+      "path": "DataEMM/emm/a2_1.bvh",
+      "bytes": 308613,
+      "compressed_bytes": 123550
+    },
+    {
+      "path": "DataEMM/emm/a2_2.bvh",
+      "bytes": 296879,
+      "compressed_bytes": 117040
+    },
+    {
+      "path": "DataEMM/emm/a2_3.bvh",
+      "bytes": 369342,
+      "compressed_bytes": 145684
+    },
+    {
+      "path": "DataEMM/emm/a2_4.bvh",
+      "bytes": 382382,
+      "compressed_bytes": 149308
+    },
+    {
+      "path": "DataEMM/emm/a3_1.bvh",
+      "bytes": 1054507,
+      "compressed_bytes": 431783
+    },
+    {
+      "path": "DataEMM/emm/a3_2.bvh",
+      "bytes": 1176302,
+      "compressed_bytes": 470064
+    },
+    {
+      "path": "DataEMM/emm/a3_3.bvh",
+      "bytes": 2182467,
+      "compressed_bytes": 870353
+    },
+    {
+      "path": "DataEMM/emm/additional_basic_locomotion_1.bvh",
+      "bytes": 2835116,
+      "compressed_bytes": 1145218
+    },
+    {
+      "path": "DataEMM/emm/additional_basic_locomotion_2.bvh",
+      "bytes": 4896318,
+      "compressed_bytes": 2051768
+    },
+    {
+      "path": "DataEMM/emm/basic_locomotion_1.bvh",
+      "bytes": 4556013,
+      "compressed_bytes": 1848310
+    },
+    {
+      "path": "DataEMM/emm/basic_locomotion_2.bvh",
+      "bytes": 1251960,
+      "compressed_bytes": 535806
+    },
+    {
+      "path": "DataEMM/emm/circles_1.bvh",
+      "bytes": 1476856,
+      "compressed_bytes": 615256
+    },
+    {
+      "path": "DataEMM/emm/circles_2.bvh",
+      "bytes": 1354164,
+      "compressed_bytes": 562337
+    },
+    {
+      "path": "DataEMM/emm/circles_3.bvh",
+      "bytes": 1174066,
+      "compressed_bytes": 483602
+    },
+    {
+      "path": "DataEMM/emm/circles_4.bvh",
+      "bytes": 958699,
+      "compressed_bytes": 403300
+    },
+    {
+      "path": "DataEMM/emm/cm2_tpose.bvh",
+      "bytes": 3810,
+      "compressed_bytes": 643
+    },
+    {
+      "path": "DataEMM/emm/crouching.bvh",
+      "bytes": 2120015,
+      "compressed_bytes": 875669
+    },
+    {
+      "path": "DataEMM/emm/jumps.bvh",
+      "bytes": 3388447,
+      "compressed_bytes": 1404445
+    },
+    {
+      "path": "DataEMM/emm/locomotion_dial.bvh",
+      "bytes": 4027964,
+      "compressed_bytes": 1596101
+    },
+    {
+      "path": "DataEMM/emm/locomotion_loops_1.bvh",
+      "bytes": 1219004,
+      "compressed_bytes": 505862
+    },
+    {
+      "path": "DataEMM/emm/locomotion_loops_2.bvh",
+      "bytes": 4266770,
+      "compressed_bytes": 1793173
+    },
+    {
+      "path": "DataEMM/emm/locomotion_loops_3.bvh",
+      "bytes": 2352938,
+      "compressed_bytes": 981004
+    },
+    {
+      "path": "DataEMM/emm/locomotion_loops_4.bvh",
+      "bytes": 3820646,
+      "compressed_bytes": 1567690
+    },
+    {
+      "path": "DataEMM/emm/o1_1.bvh",
+      "bytes": 1028791,
+      "compressed_bytes": 417892
+    },
+    {
+      "path": "DataEMM/emm/o1_2.bvh",
+      "bytes": 495194,
+      "compressed_bytes": 195187
+    },
+    {
+      "path": "DataEMM/emm/o1_3.bvh",
+      "bytes": 254428,
+      "compressed_bytes": 103488
+    },
+    {
+      "path": "DataEMM/emm/o1_4.bvh",
+      "bytes": 228904,
+      "compressed_bytes": 92823
+    },
+    {
+      "path": "DataEMM/emm/o1_5.bvh",
+      "bytes": 225063,
+      "compressed_bytes": 93747
+    },
+    {
+      "path": "DataEMM/emm/o2_1.bvh",
+      "bytes": 5889693,
+      "compressed_bytes": 2379835
+    },
+    {
+      "path": "DataEMM/emm/o2_2.bvh",
+      "bytes": 1024778,
+      "compressed_bytes": 420388
+    },
+    {
+      "path": "DataEMM/emm/o3_1.bvh",
+      "bytes": 1587267,
+      "compressed_bytes": 654811
+    },
+    {
+      "path": "DataEMM/emm/o3_2.bvh",
+      "bytes": 2439828,
+      "compressed_bytes": 990650
+    },
+    {
+      "path": "DataEMM/emm/o4_1.bvh",
+      "bytes": 326259,
+      "compressed_bytes": 130151
+    },
+    {
+      "path": "DataEMM/emm/o4_2.bvh",
+      "bytes": 273378,
+      "compressed_bytes": 110531
+    },
+    {
+      "path": "DataEMM/emm/o4_3.bvh",
+      "bytes": 214278,
+      "compressed_bytes": 89657
+    },
+    {
+      "path": "DataEMM/emm/o4_4.bvh",
+      "bytes": 232364,
+      "compressed_bytes": 96530
+    },
+    {
+      "path": "DataEMM/emm/o4_5.bvh",
+      "bytes": 999973,
+      "compressed_bytes": 410347
+    },
+    {
+      "path": "DataEMM/emm/o5_1.bvh",
+      "bytes": 382224,
+      "compressed_bytes": 151390
+    },
+    {
+      "path": "DataEMM/emm/o5_2.bvh",
+      "bytes": 249336,
+      "compressed_bytes": 105653
+    },
+    {
+      "path": "DataEMM/emm/o5_3.bvh",
+      "bytes": 351301,
+      "compressed_bytes": 142918
+    },
+    {
+      "path": "DataEMM/emm/o5_4.bvh",
+      "bytes": 265310,
+      "compressed_bytes": 111357
+    },
+    {
+      "path": "DataEMM/emm/o6_1.bvh",
+      "bytes": 313993,
+      "compressed_bytes": 132036
+    },
+    {
+      "path": "DataEMM/emm/o6_2.bvh",
+      "bytes": 502099,
+      "compressed_bytes": 208540
+    },
+    {
+      "path": "DataEMM/emm/o6_3.bvh",
+      "bytes": 251651,
+      "compressed_bytes": 106249
+    },
+    {
+      "path": "DataEMM/emm/o6_4.bvh",
+      "bytes": 394555,
+      "compressed_bytes": 164597
+    },
+    {
+      "path": "DataEMM/emm/snakes.bvh",
+      "bytes": 3092004,
+      "compressed_bytes": 1278395
+    },
+    {
+      "path": "DataEMM/emm/strafe.bvh",
+      "bytes": 3301824,
+      "compressed_bytes": 1336360
+    },
+    {
+      "path": "DataEMM/emm/turn_in_place.bvh",
+      "bytes": 1388273,
+      "compressed_bytes": 538180
+    },
+    {
+      "path": "DataEMM/emm_extra/box.bvh",
+      "bytes": 7735742,
+      "compressed_bytes": 3149713
+    },
+    {
+      "path": "DataEMM/emm_extra/box_tpose.bvh",
+      "bytes": 4067,
+      "compressed_bytes": 691
+    },
+    {
+      "path": "DataEMM/emm_extra/crouching_extra.bvh",
+      "bytes": 10634602,
+      "compressed_bytes": 4398529
+    },
+    {
+      "path": "DataEMM/emm_extra/crowd_guy.bvh",
+      "bytes": 8856443,
+      "compressed_bytes": 3684720
+    },
+    {
+      "path": "DataEMM/emm_extra/elbowsup.bvh",
+      "bytes": 6845425,
+      "compressed_bytes": 2779504
+    },
+    {
+      "path": "DataEMM/emm_extra/jump_extra.bvh",
+      "bytes": 1540856,
+      "compressed_bytes": 626811
+    },
+    {
+      "path": "DataEMM/emm_extra/o2_extra.bvh",
+      "bytes": 10789468,
+      "compressed_bytes": 4374602
+    },
+    {
+      "path": "DataEMM/emm_extra/weapon.bvh",
+      "bytes": 10692398,
+      "compressed_bytes": 4322752
+    },
+    {
+      "path": "DataEMM/emm_extra/weapon_tpose.bvh",
+      "bytes": 4067,
+      "compressed_bytes": 691
+    }
+  ],
+  "status_labels": null,
+  "note": "Source inventory only; filenames are not verified action annotations."
+}

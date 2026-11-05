@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-02",
+  "provenance": "Read rendered eventList and eventNote from user current browser page via UI; values shown to 3 decimal places. No browser edits to annotations.",
+  "events": {
+    "A": {
+      "onset": 0.694,
+      "gesture": 2.186,
+      "offset": 4.203,
+      "note": "招呼动作结束了，但是招呼结束后还有捏手指之类的小动作"
+    },
+    "D": {
+      "onset": 1.016,
+      "gesture": 3.443,
+      "offset": null,
+      "note": "招呼结束后，还是有手臂的摆动",
+      "pending_clarification": "Whether 3.443 is gesture or intended offset; do not reinterpret until user answers."
+    }
+  }
+}

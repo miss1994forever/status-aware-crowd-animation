@@ -1,0 +1,1244 @@
+[
+  {
+    "file": "outputs/predictive-motion-lab/runs/train_door-1-0.46-13_G_0.json",
+    "sha256": "5e75d719674fe014fbab049b26ae3cf36ec776a4d6e814c5d3e61f611be2163a",
+    "independent_metrics": {
+      "minimum_proxy_axis_gap": 0.014988361158666565,
+      "max_proxy_penetration": 0.0,
+      "collision_time_fraction": 0.0,
+      "arrived_fraction": 1.0,
+      "remaining_goal_distance_mean": 0.18819757382419527,
+      "stagnant_agents": 0,
+      "emergency_hold_agent_seconds": 0.0,
+      "root_acceleration_p95": 6.394884621840902e-12,
+      "root_acceleration_max": 45.28300092474713,
+      "joint_speed_p99": 2.201289629399799,
+      "joint_acceleration_p99": 36.86639076224991,
+      "max_bone_relative_error": 2.1094237467877974e-15,
+      "source_pose_modification_max": 0.3487586450563131,
+      "source_pose_modification_p95": 0.12228437023942848,
+      "expression_drift_mean": 0.5584191750524227,
+      "actual_reference_pose_rms": 0.03633807107571315,
+      "travel_angle_warp_max_radians": 0.3510496842395292,
+      "actual_speed_ratio_min": 0.5043574097698116,
+      "actual_speed_ratio_max": 1.5144893949465346,
+      "switches": 8,
+      "aba_clip_reversals": 1,
+      "worst": {
+        "t": 2.433333333333333,
+        "agent": 0,
+        "wall": [
+          [
+            -2.0,
+            -0.12
+          ],
+          [
+            -0.23,
+            -0.12
+          ],
+          [
+            -0.23,
+            0.12
+          ],
+          [
+            -2.0,
+            0.12
+          ]
+        ],
+        "gap": 0.014988361158666565
+      },
+      "dense_samples": 1440,
+      "evaluation_hz": 120,
+      "proxy": "projected-joint convex hull + radius .04; signed SAT axis gap",
+      "planning_seconds": 0.4227634551934898,
+      "planning_step_ms_p50": 0.000250060111284256,
+      "planning_step_ms_p95": 20.62155632302165,
+      "agent_count": 1,
+      "emergency_hold_agent_steps": 0,
+      "arrival_times": {
+        "0": 4.2
+      },
+      "interaction_edges": []
+    }
+  },
+  {
+    "file": "outputs/predictive-motion-lab/runs/train_door-1-0.28-13_G_0.json",
+    "sha256": "d5f944fa5b212e7810773ce0078d8de3269695e384390c6d631df4ae84352d90",
+    "independent_metrics": {
+      "minimum_proxy_axis_gap": 0.20983959087673448,
+      "max_proxy_penetration": 0.0,
+      "collision_time_fraction": 0.0,
+      "arrived_fraction": 0.0,
+      "remaining_goal_distance_mean": 2.136021568743297,
+      "stagnant_agents": 1,
+      "emergency_hold_agent_seconds": 10.150000000000064,
+      "root_acceleration_p95": 3.1978325998826516e-12,
+      "root_acceleration_max": 35.74591836976095,
+      "joint_speed_p99": 1.224750705658979,
+      "joint_acceleration_p99": 21.053581988595628,
+      "max_bone_relative_error": 1.887379141862766e-15,
+      "source_pose_modification_max": 0.2900705002792969,
+      "source_pose_modification_p95": 0.08740615729660867,
+      "expression_drift_mean": 1.8723136533357427,
+      "actual_reference_pose_rms": 0.09078707106078047,
+      "travel_angle_warp_max_radians": 0.349699208050148,
+      "actual_speed_ratio_min": 0.16113727839967032,
+      "actual_speed_ratio_max": 1.4307168717381913,
+      "switches": 4,
+      "aba_clip_reversals": 0,
+      "worst": {
+        "t": 2.0083333333333333,
+        "agent": 0,
+        "wall": [
+          [
+            -2.0,
+            -0.12
+          ],
+          [
+            -0.14,
+            -0.12
+          ],
+          [
+            -0.14,
+            0.12
+          ],
+          [
+            -2.0,
+            0.12
+          ]
+        ],
+        "gap": 0.20983959087673448
+      },
+      "dense_samples": 1440,
+      "evaluation_hz": 120,
+      "proxy": "projected-joint convex hull + radius .04; signed SAT axis gap",
+      "planning_seconds": 1.244052335852757,
+      "planning_step_ms_p50": 20.56047855876386,
+      "planning_step_ms_p95": 21.950946131255478,
+      "agent_count": 1,
+      "emergency_hold_agent_steps": 51,
+      "arrival_times": {},
+      "interaction_edges": []
+    }
+  },
+  {
+    "file": "outputs/predictive-motion-lab/runs/train_shared-10-None-13_G+P_0.6.json",
+    "sha256": "075a06f810962f04e741d1d57c569b8add05e2d95ebddf670e05899563509d55",
+    "independent_metrics": {
+      "minimum_proxy_axis_gap": -0.008789698674808652,
+      "max_proxy_penetration": 0.008789698674808652,
+      "collision_time_fraction": 0.732051282051282,
+      "arrived_fraction": 0.3,
+      "remaining_goal_distance_mean": 2.811063141937388,
+      "stagnant_agents": 7,
+      "emergency_hold_agent_seconds": 145.85000000003168,
+      "root_acceleration_p95": 1.2789769243681803e-11,
+      "root_acceleration_max": 133.58080995728636,
+      "joint_speed_p99": 1.9360200043011608,
+      "joint_acceleration_p99": 29.069776531501383,
+      "max_bone_relative_error": 2.4424906541753444e-15,
+      "source_pose_modification_max": 0.39658203275917203,
+      "source_pose_modification_p95": 0.2599000961936053,
+      "expression_drift_mean": 0.2309507380640076,
+      "actual_reference_pose_rms": 0.023711900144286074,
+      "travel_angle_warp_max_radians": 0.5609185367689404,
+      "actual_speed_ratio_min": 0.06198495130137029,
+      "actual_speed_ratio_max": 2.153526603633926,
+      "switches": 73,
+      "aba_clip_reversals": 29,
+      "worst": {
+        "t": 6.983333333333333,
+        "agents": [
+          6,
+          4
+        ],
+        "gap": -0.008789698674808652
+      },
+      "dense_samples": 3120,
+      "evaluation_hz": 120,
+      "proxy": "projected-joint convex hull + radius .04; signed SAT axis gap",
+      "planning_seconds": 49.81684850854799,
+      "planning_step_ms_p50": 351.92735434975475,
+      "planning_step_ms_p95": 591.1834625527263,
+      "agent_count": 10,
+      "emergency_hold_agent_steps": 731,
+      "arrival_times": {
+        "8": 18.6,
+        "5": 18.8,
+        "2": 19.200000000000003
+      },
+      "interaction_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "file": "outputs/predictive-motion-lab/runs/heldout_shared-30-None-89_G_0.json",
+    "sha256": "b2afc8c2b8d826bf2d325813bc3b7e5a37e76a75d086fe867004e9680536ab34",
+    "independent_metrics": {
+      "minimum_proxy_axis_gap": -0.05116134110340391,
+      "max_proxy_penetration": 0.05116134110340391,
+      "collision_time_fraction": 0.8789351851851852,
+      "arrived_fraction": 0.1,
+      "remaining_goal_distance_mean": 6.024355853422107,
+      "stagnant_agents": 27,
+      "emergency_hold_agent_seconds": 819.8499999994187,
+      "root_acceleration_p95": 1.2789769243681803e-11,
+      "root_acceleration_max": 133.5808099572899,
+      "joint_speed_p99": 2.0523668947713842,
+      "joint_acceleration_p99": 28.171569203387804,
+      "max_bone_relative_error": 2.4424906541753444e-15,
+      "source_pose_modification_max": 0.3985894307527629,
+      "source_pose_modification_p95": 0.22932035798064523,
+      "expression_drift_mean": 1.1517030565075908,
+      "actual_reference_pose_rms": 0.06393139869266,
+      "travel_angle_warp_max_radians": 0.5680417143511511,
+      "actual_speed_ratio_min": 0.06198495130137029,
+      "actual_speed_ratio_max": 2.8284249664532073,
+      "switches": 367,
+      "aba_clip_reversals": 137,
+      "worst": {
+        "t": 4.408333333333334,
+        "agents": [
+          11,
+          10
+        ],
+        "gap": -0.05116134110340391
+      },
+      "dense_samples": 4320,
+      "evaluation_hz": 120,
+      "proxy": "projected-joint convex hull + radius .04; signed SAT axis gap",
+      "planning_seconds": 317.35042937123217,
+      "planning_step_ms_p50": 1730.0109789939597,
+      "planning_step_ms_p95": 2117.1653660247102,
+      "agent_count": 30,
+      "emergency_hold_agent_steps": 4106,
+      "arrival_times": {
+        "25": 16.400000000000002,
+        "29": 16.6,
+        "0": 18.0
+      },
+      "interaction_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          0,
+          17
+        ],
+        [
+          0,
+          18
+        ],
+        [
+          0,
+          19
+        ],
+        [
+          0,
+          23
+        ],
+        [
+          0,
+          24
+        ],
+        [
+          0,
+          25
+        ],
+        [
+          0,
+          26
+        ],
+        [
+          0,
+          27
+        ],
+        [
+          0,
+          28
+        ],
+        [
+          0,
+          29
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          1,
+          27
+        ],
+        [
+          1,
+          28
+        ],
+        [
+          1,
+          29
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          2,
+          28
+        ],
+        [
+          2,
+          29
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          3,
+          14
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          3,
+          17
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          3,
+          20
+        ],
+        [
+          3,
+          21
+        ],
+        [
+          3,
+          22
+        ],
+        [
+          3,
+          23
+        ],
+        [
+          3,
+          24
+        ],
+        [
+          3,
+          25
+        ],
+        [
+          3,
+          26
+        ],
+        [
+          3,
+          27
+        ],
+        [
+          3,
+          28
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          4,
+          28
+        ],
+        [
+          4,
+          29
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          5,
+          16
+        ],
+        [
+          5,
+          28
+        ],
+        [
+          5,
+          29
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          6,
+          15
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          6,
+          19
+        ],
+        [
+          6,
+          20
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          6,
+          22
+        ],
+        [
+          6,
+          23
+        ],
+        [
+          6,
+          24
+        ],
+        [
+          6,
+          25
+        ],
+        [
+          6,
+          26
+        ],
+        [
+          6,
+          27
+        ],
+        [
+          6,
+          28
+        ],
+        [
+          6,
+          29
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          9,
+          15
+        ],
+        [
+          9,
+          25
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          10,
+          16
+        ],
+        [
+          10,
+          25
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          11,
+          25
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          12,
+          16
+        ],
+        [
+          12,
+          25
+        ],
+        [
+          12,
+          29
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          13,
+          15
+        ],
+        [
+          13,
+          16
+        ],
+        [
+          13,
+          17
+        ],
+        [
+          13,
+          18
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          13,
+          25
+        ],
+        [
+          13,
+          26
+        ],
+        [
+          13,
+          27
+        ],
+        [
+          13,
+          28
+        ],
+        [
+          13,
+          29
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          14,
+          17
+        ],
+        [
+          14,
+          18
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          14,
+          25
+        ],
+        [
+          14,
+          29
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          15,
+          17
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          15,
+          25
+        ],
+        [
+          15,
+          29
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          16,
+          19
+        ],
+        [
+          16,
+          25
+        ],
+        [
+          16,
+          28
+        ],
+        [
+          16,
+          29
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          19
+        ],
+        [
+          17,
+          20
+        ],
+        [
+          17,
+          25
+        ],
+        [
+          17,
+          29
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          18,
+          20
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          18,
+          25
+        ],
+        [
+          18,
+          29
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          19,
+          21
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          19,
+          25
+        ],
+        [
+          19,
+          29
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          20,
+          22
+        ],
+        [
+          20,
+          23
+        ],
+        [
+          20,
+          25
+        ],
+        [
+          20,
+          29
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          21,
+          24
+        ],
+        [
+          21,
+          25
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          22,
+          24
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          22,
+          26
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          23,
+          25
+        ],
+        [
+          23,
+          26
+        ],
+        [
+          23,
+          27
+        ],
+        [
+          23,
+          28
+        ],
+        [
+          23,
+          29
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          24,
+          26
+        ],
+        [
+          24,
+          27
+        ],
+        [
+          24,
+          28
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          25,
+          27
+        ],
+        [
+          25,
+          28
+        ],
+        [
+          25,
+          29
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          26,
+          28
+        ],
+        [
+          26,
+          29
+        ],
+        [
+          27,
+          28
+        ],
+        [
+          27,
+          29
+        ],
+        [
+          28,
+          29
+        ]
+      ]
+    }
+  }
+]

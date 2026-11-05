@@ -1,0 +1,209 @@
+[
+  {
+    "key": "diagnostics_corridor-10-new-41017_G_old",
+    "raw_saved_pose_bone_relative_error_max": 2.6335277925948475e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.6366509054548382,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "diagnostics_corridor-10-new-41017_R0",
+    "raw_saved_pose_bone_relative_error_max": 2.6862050674258953e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.6366509054548382,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "diagnostics_corridor-10-new-41017_R1",
+    "raw_saved_pose_bone_relative_error_max": 2.54947121429705e-05,
+    "active_yaw_rate_max": 1.4000000000000057,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.6366509054548382,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "heldout_shared-10-new-14293_G_old",
+    "raw_saved_pose_bone_relative_error_max": 2.7214415915688406e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.5783425063010035,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "heldout_shared-10-new-14293_R0",
+    "raw_saved_pose_bone_relative_error_max": 2.7680118763306893e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.46254114948146663,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "heldout_shared-10-new-14293_R1",
+    "raw_saved_pose_bone_relative_error_max": 2.7214415915688406e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.4396992080501474,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "heldout_shared-10-new-14293_no_reciprocity",
+    "raw_saved_pose_bone_relative_error_max": 2.938139587538302e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.5783425063010035,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "heldout_shared-10-new-14293_short_body",
+    "raw_saved_pose_bone_relative_error_max": 2.7214415915688406e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.46254114948146663,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "heldout_shared-10-new-23981_G_old",
+    "raw_saved_pose_bone_relative_error_max": 2.4898188383803976e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.6366509054548382,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "heldout_shared-10-new-23981_R0",
+    "raw_saved_pose_bone_relative_error_max": 2.6843275003685108e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.4396992080501474,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "heldout_shared-10-new-23981_R1",
+    "raw_saved_pose_bone_relative_error_max": 2.6923859321681398e-05,
+    "active_yaw_rate_max": 1.4000000000000057,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.46254114948146663,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "heldout_shared-10-new-23981_no_reciprocity",
+    "raw_saved_pose_bone_relative_error_max": 2.4680722398695565e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.5783425063010035,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "heldout_shared-10-new-23981_short_body",
+    "raw_saved_pose_bone_relative_error_max": 2.6843275003685108e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.4396992080501474,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "heldout_shared-10-new-8317_G_old",
+    "raw_saved_pose_bone_relative_error_max": 2.528233417808945e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.6366509054548382,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "heldout_shared-10-new-8317_R0",
+    "raw_saved_pose_bone_relative_error_max": 2.6415611488972424e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.44104968423952906,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "heldout_shared-10-new-8317_R1",
+    "raw_saved_pose_bone_relative_error_max": 2.698999457817486e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.4396992080501474,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "heldout_shared-10-new-8317_no_reciprocity",
+    "raw_saved_pose_bone_relative_error_max": 2.6616801568457582e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.6366509054548382,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "heldout_shared-10-new-8317_short_body",
+    "raw_saved_pose_bone_relative_error_max": 2.594215294959845e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.6366509054548382,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "train_shared-10-None-13_G_old",
+    "raw_saved_pose_bone_relative_error_max": 2.567734984215697e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.6366509054548382,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "train_shared-10-None-13_R0",
+    "raw_saved_pose_bone_relative_error_max": 2.6358455281538795e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.5783425063010035,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "train_shared-10-None-13_R1",
+    "raw_saved_pose_bone_relative_error_max": 2.6829419025320433e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.4396992080501474,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "train_shared-10-None-13_no_reciprocity",
+    "raw_saved_pose_bone_relative_error_max": 2.6649560633140723e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.5783425063010035,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  },
+  {
+    "key": "train_shared-10-None-13_short_body",
+    "raw_saved_pose_bone_relative_error_max": 2.7565269631546485e-05,
+    "active_yaw_rate_max": 1.4000000000000012,
+    "active_scalar_acceleration_max": 1.200000000000001,
+    "source_direction_edge_max": 0.5783425063010035,
+    "stop_bound_exception_note": "Active-pair bounds exclude entry/exit of emergency hold and terminal arrival; full acceleration is separately reported and can spike.",
+    "bone_note": "Raw rounded 20Hz pose before audit re-projection; viewer uses bone-length reconstruction when interpolating."
+  }
+]

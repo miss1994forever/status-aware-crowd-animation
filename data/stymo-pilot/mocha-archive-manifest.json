@@ -1,0 +1,7292 @@
+[
+  {
+    "name": "bvh/",
+    "compressed": 0,
+    "bytes": 0,
+    "offset": 0,
+    "crc32": 0,
+    "method": 0,
+    "flags": 0
+  },
+  {
+    "name": "__MACOSX/._bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 66,
+    "crc32": 2205770192,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backward_Angry_Ogre_002.bvh",
+    "compressed": 784846,
+    "bytes": 1698728,
+    "offset": 255,
+    "crc32": 2598538883,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backward_Angry_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 785224,
+    "crc32": 3038168246,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Scared_Clown_001.bvh",
+    "compressed": 269983,
+    "bytes": 668409,
+    "offset": 785455,
+    "crc32": 4248548375,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Scared_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 1055549,
+    "crc32": 1484906598,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Pickup_Object_Happy_Zombie_002.bvh",
+    "compressed": 215291,
+    "bytes": 536845,
+    "offset": 1055768,
+    "crc32": 3144627852,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Pickup_Object_Happy_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 1271175,
+    "crc32": 2636360596,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Happy_Robot_002.bvh",
+    "compressed": 116091,
+    "bytes": 289883,
+    "offset": 1271399,
+    "crc32": 1856153846,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Happy_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 1387596,
+    "crc32": 3995415079,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Uneven_Floor_Neutral_AverageJoe_001.bvh",
+    "compressed": 848008,
+    "bytes": 2137801,
+    "offset": 1387810,
+    "crc32": 3167756862,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Uneven_Floor_Neutral_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 2235939,
+    "crc32": 3258488660,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Scared_Clown_001.bvh",
+    "compressed": 411289,
+    "bytes": 1016765,
+    "offset": 2236168,
+    "crc32": 1551606635,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Scared_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 2647569,
+    "crc32": 908694567,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Angry_Ogre_001.bvh",
+    "compressed": 781401,
+    "bytes": 1692621,
+    "offset": 2647789,
+    "crc32": 3589184937,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Angry_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 3429304,
+    "crc32": 2318425823,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Sad_Zombie_002.bvh",
+    "compressed": 546217,
+    "bytes": 1376189,
+    "offset": 3429526,
+    "crc32": 3771294330,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Sad_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 3975853,
+    "crc32": 1889745351,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Sad_AverageJoe_001.bvh",
+    "compressed": 403511,
+    "bytes": 1013304,
+    "offset": 3976071,
+    "crc32": 1999567054,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Sad_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 4379700,
+    "crc32": 825902640,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backward_Neutral_Ogre_003.bvh",
+    "compressed": 787650,
+    "bytes": 1709560,
+    "offset": 4379926,
+    "crc32": 1489509817,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backward_Neutral_Ogre_003.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 5167701,
+    "crc32": 3818671626,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Neutral_Robot_001.bvh",
+    "compressed": 241164,
+    "bytes": 600706,
+    "offset": 5167934,
+    "crc32": 2122326966,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Neutral_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 5409210,
+    "crc32": 1335267320,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Angry_Princess_002.bvh",
+    "compressed": 107728,
+    "bytes": 267129,
+    "offset": 5409430,
+    "crc32": 4163303721,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Angry_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 5517267,
+    "crc32": 1379426826,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Neutral_AverageJoe_001.bvh",
+    "compressed": 213861,
+    "bytes": 535410,
+    "offset": 5517484,
+    "crc32": 1173819856,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Neutral_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 5731461,
+    "crc32": 3309106112,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Sad_Princess_001.bvh",
+    "compressed": 174232,
+    "bytes": 429144,
+    "offset": 5731685,
+    "crc32": 4112351287,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Sad_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 5906028,
+    "crc32": 421266756,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Sad_Zombie_002.bvh",
+    "compressed": 220636,
+    "bytes": 560836,
+    "offset": 5906247,
+    "crc32": 3622134702,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Sad_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 6126993,
+    "crc32": 4091568217,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Scared_AverageJoe_001.bvh",
+    "compressed": 235669,
+    "bytes": 583759,
+    "offset": 6127211,
+    "crc32": 2821510086,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Scared_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 6362996,
+    "crc32": 235629274,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Happy_Princess_002.bvh",
+    "compressed": 180396,
+    "bytes": 446033,
+    "offset": 6363220,
+    "crc32": 1060604421,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Happy_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 6543736,
+    "crc32": 4264966445,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Happy_Clown_001.bvh",
+    "compressed": 529651,
+    "bytes": 1317713,
+    "offset": 6543964,
+    "crc32": 1578582538,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Happy_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 7073730,
+    "crc32": 2369010251,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Neutral_Robot_001.bvh",
+    "compressed": 544642,
+    "bytes": 1373884,
+    "offset": 7073953,
+    "crc32": 591885029,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Neutral_Robot_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 7618712,
+    "crc32": 3792470158,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Scared_AverageJoe_001.bvh",
+    "compressed": 269282,
+    "bytes": 675809,
+    "offset": 7618936,
+    "crc32": 64994538,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Scared_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 7888330,
+    "crc32": 3418265515,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Sad_Robot_001.bvh",
+    "compressed": 491226,
+    "bytes": 1244124,
+    "offset": 7888550,
+    "crc32": 3353423993,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Sad_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 8379891,
+    "crc32": 1110984022,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Neutral_Ogre_001.bvh",
+    "compressed": 170695,
+    "bytes": 370075,
+    "offset": 8380114,
+    "crc32": 2494131416,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Neutral_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 8550916,
+    "crc32": 2490240590,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Scared_Princess_001.bvh",
+    "compressed": 576713,
+    "bytes": 1436344,
+    "offset": 8551131,
+    "crc32": 3188141588,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Scared_Princess_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 9127957,
+    "crc32": 3133093171,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Neutral_Ogre_002.bvh",
+    "compressed": 277651,
+    "bytes": 610970,
+    "offset": 9128177,
+    "crc32": 568456177,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Neutral_Ogre_002.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 9405935,
+    "crc32": 235659396,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Scared_AverageJoe_001.bvh",
+    "compressed": 732293,
+    "bytes": 1822782,
+    "offset": 9406149,
+    "crc32": 3515353263,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Scared_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 10138561,
+    "crc32": 2156518579,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Sad_Robot_ALT_001.bvh",
+    "compressed": 489483,
+    "bytes": 1222496,
+    "offset": 10138788,
+    "crc32": 4169496576,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Sad_Robot_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 10628393,
+    "crc32": 1625001281,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backward_Neutral_AverageJoe_001.bvh",
+    "compressed": 241702,
+    "bytes": 603076,
+    "offset": 10628623,
+    "crc32": 3823453369,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backward_Neutral_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 10870456,
+    "crc32": 2719123326,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Scared_Ogre_001.bvh",
+    "compressed": 1375347,
+    "bytes": 3001988,
+    "offset": 10870695,
+    "crc32": 4036942908,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Scared_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 12246155,
+    "crc32": 1378866313,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Sad_Robot_001.bvh",
+    "compressed": 226601,
+    "bytes": 564534,
+    "offset": 12246376,
+    "crc32": 245804198,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Sad_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 12473085,
+    "crc32": 2587157334,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Pickup_Object_Scared_Robot_002.bvh",
+    "compressed": 243070,
+    "bytes": 613569,
+    "offset": 12473301,
+    "crc32": 4137014007,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Pickup_Object_Scared_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 12716487,
+    "crc32": 1016075851,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Happy_Princess_001.bvh",
+    "compressed": 234400,
+    "bytes": 579404,
+    "offset": 12716711,
+    "crc32": 4172560374,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Happy_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 12951224,
+    "crc32": 730910550,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Object_Angry_Ogre_002.bvh",
+    "compressed": 374880,
+    "bytes": 810536,
+    "offset": 12951445,
+    "crc32": 2303181269,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Object_Angry_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 13326438,
+    "crc32": 1015233053,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Neutral_Ogre_001.bvh",
+    "compressed": 324282,
+    "bytes": 703674,
+    "offset": 13326659,
+    "crc32": 2470464880,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Neutral_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 13651051,
+    "crc32": 3217357142,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Angry_Zombie_001.bvh",
+    "compressed": 327817,
+    "bytes": 806169,
+    "offset": 13651269,
+    "crc32": 4219604111,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Angry_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 13979200,
+    "crc32": 1379727583,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Scared_Ogre_ALT_001.bvh",
+    "compressed": 1157582,
+    "bytes": 2510031,
+    "offset": 13979422,
+    "crc32": 3801709794,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Scared_Ogre_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 15137128,
+    "crc32": 1623761175,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Pickup_Object_Angry_Robot_002.bvh",
+    "compressed": 149036,
+    "bytes": 381072,
+    "offset": 15137360,
+    "crc32": 4254159610,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Pickup_Object_Angry_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 15286511,
+    "crc32": 3703459510,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Happy_Clown_001.bvh",
+    "compressed": 198996,
+    "bytes": 493688,
+    "offset": 15286734,
+    "crc32": 3265247919,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Happy_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 15485836,
+    "crc32": 1457196414,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Neutral_Clown_002.bvh",
+    "compressed": 257409,
+    "bytes": 643102,
+    "offset": 15486050,
+    "crc32": 1898422820,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Neutral_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 15743578,
+    "crc32": 3590835418,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Sad_Clown_001.bvh",
+    "compressed": 292289,
+    "bytes": 734221,
+    "offset": 15743805,
+    "crc32": 3418907884,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Sad_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 16036198,
+    "crc32": 2948126469,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Angry_Ogre_001.bvh",
+    "compressed": 259109,
+    "bytes": 558743,
+    "offset": 16036410,
+    "crc32": 262215559,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Angry_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 16295628,
+    "crc32": 1780352546,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Neutral_Zombie_001.bvh",
+    "compressed": 256826,
+    "bytes": 644850,
+    "offset": 16295845,
+    "crc32": 1697046649,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Neutral_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 16552780,
+    "crc32": 2222785860,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Scared_Ogre_001.bvh",
+    "compressed": 270596,
+    "bytes": 583666,
+    "offset": 16552997,
+    "crc32": 2960808687,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Scared_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 16823703,
+    "crc32": 236471948,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Object_Sad_Ogre_002.bvh",
+    "compressed": 457792,
+    "bytes": 998744,
+    "offset": 16823921,
+    "crc32": 1448368339,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Object_Sad_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 17281824,
+    "crc32": 2099175231,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Scared_Ogre_001.bvh",
+    "compressed": 768424,
+    "bytes": 1674143,
+    "offset": 17282043,
+    "crc32": 1379741313,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Scared_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 18050582,
+    "crc32": 2947506566,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Sad_Princess_002.bvh",
+    "compressed": 380411,
+    "bytes": 960149,
+    "offset": 18050805,
+    "crc32": 3502330365,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Sad_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 18431328,
+    "crc32": 3817601161,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Fight_Neutral_Ogre_001.bvh",
+    "compressed": 374292,
+    "bytes": 814200,
+    "offset": 18431548,
+    "crc32": 3299020248,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Fight_Neutral_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 18805948,
+    "crc32": 1105153718,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Pickup_Object_Neutral_Princess_002.bvh",
+    "compressed": 218442,
+    "bytes": 551057,
+    "offset": 18806164,
+    "crc32": 3688719725,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Pickup_Object_Neutral_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 19024726,
+    "crc32": 1622160077,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Angry_Ogre_001.bvh",
+    "compressed": 321882,
+    "bytes": 698899,
+    "offset": 19024954,
+    "crc32": 1584022589,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Angry_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 19346946,
+    "crc32": 420423954,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Pickup_Object_Scared_Princess_002.bvh",
+    "compressed": 265167,
+    "bytes": 670979,
+    "offset": 19347164,
+    "crc32": 843596840,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Pickup_Object_Scared_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 19612450,
+    "crc32": 3238235922,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Pickup_Object_Neutral_Robot_002.bvh",
+    "compressed": 171635,
+    "bytes": 433535,
+    "offset": 19612677,
+    "crc32": 2686098509,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Pickup_Object_Neutral_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 19784429,
+    "crc32": 3417967998,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Happy_Clown_ALT_001.bvh",
+    "compressed": 537420,
+    "bytes": 1330764,
+    "offset": 19784654,
+    "crc32": 447387029,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Happy_Clown_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 20322198,
+    "crc32": 3704020332,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Object_Angry_AverageJoe_001.bvh",
+    "compressed": 259853,
+    "bytes": 651507,
+    "offset": 20322430,
+    "crc32": 2417878791,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Object_Angry_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 20582402,
+    "crc32": 3322407814,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Happy_Ogre_001.bvh",
+    "compressed": 789399,
+    "bytes": 1716458,
+    "offset": 20582629,
+    "crc32": 1770785315,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Happy_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 21372140,
+    "crc32": 1161345815,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Happy_Zombie_001.bvh",
+    "compressed": 491067,
+    "bytes": 1212941,
+    "offset": 21372360,
+    "crc32": 2649922825,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Happy_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 21863541,
+    "crc32": 3239328145,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Happy_Ogre_001.bvh",
+    "compressed": 404263,
+    "bytes": 878003,
+    "offset": 21863763,
+    "crc32": 3497076521,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Happy_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 22268134,
+    "crc32": 3914232810,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Sad_Princess_002.bvh",
+    "compressed": 240360,
+    "bytes": 605582,
+    "offset": 22268350,
+    "crc32": 3418863931,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Sad_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 22508828,
+    "crc32": 3506677838,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/.DS_Store",
+    "compressed": 178,
+    "bytes": 6148,
+    "offset": 22509054,
+    "crc32": 1837629546,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._.DS_Store",
+    "compressed": 53,
+    "bytes": 120,
+    "offset": 22509323,
+    "crc32": 952141835,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Scared_Ogre_001.bvh",
+    "compressed": 954662,
+    "bytes": 2070297,
+    "offset": 22509478,
+    "crc32": 1683386540,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Scared_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 23464255,
+    "crc32": 1223325878,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Happy_Robot_001.bvh",
+    "compressed": 423158,
+    "bytes": 1063579,
+    "offset": 23464478,
+    "crc32": 3729081484,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Happy_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 23887753,
+    "crc32": 1217588076,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Sad_Ogre_001.bvh",
+    "compressed": 1379196,
+    "bytes": 2994677,
+    "offset": 23887978,
+    "crc32": 1660778550,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Sad_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 25267286,
+    "crc32": 3044663791,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Scared_AverageJoe_001.bvh",
+    "compressed": 217217,
+    "bytes": 541016,
+    "offset": 25267506,
+    "crc32": 2017767935,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Scared_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 25484835,
+    "crc32": 122081024,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Scared_Princess_001.bvh",
+    "compressed": 194497,
+    "bytes": 484631,
+    "offset": 25485055,
+    "crc32": 532467037,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Scared_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 25679662,
+    "crc32": 2890723507,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Sad_Clown_001.bvh",
+    "compressed": 859876,
+    "bytes": 2137837,
+    "offset": 25679880,
+    "crc32": 901237398,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Sad_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 26539867,
+    "crc32": 347493695,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Sad_Robot_002.bvh",
+    "compressed": 542589,
+    "bytes": 1376400,
+    "offset": 26540086,
+    "crc32": 56911600,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Sad_Robot_002.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 27082784,
+    "crc32": 803669268,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Object_Happy_AverageJoe_001.bvh",
+    "compressed": 207524,
+    "bytes": 511517,
+    "offset": 27083000,
+    "crc32": 3546743600,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Object_Happy_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 27290643,
+    "crc32": 3216568409,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Dance_Neutral_Ogre_001.bvh",
+    "compressed": 565666,
+    "bytes": 1227159,
+    "offset": 27290870,
+    "crc32": 2211902730,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Dance_Neutral_Ogre_001.bvh",
+    "compressed": 144,
+    "bytes": 234,
+    "offset": 27856644,
+    "crc32": 1560127113,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Dribble_Basketball_Neutral_Clown_001.bvh",
+    "compressed": 1120439,
+    "bytes": 2777329,
+    "offset": 27856907,
+    "crc32": 2025339775,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Dribble_Basketball_Neutral_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 28977468,
+    "crc32": 1187513972,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Angry_AverageJoe_ALT_002_2.bvh",
+    "compressed": 266407,
+    "bytes": 662979,
+    "offset": 28977698,
+    "crc32": 3914270748,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Angry_AverageJoe_ALT_002_2.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 29244236,
+    "crc32": 2638746648,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Angry_Ogre_001.bvh",
+    "compressed": 482580,
+    "bytes": 1049055,
+    "offset": 29244475,
+    "crc32": 2494892338,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Angry_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 29727165,
+    "crc32": 2009916127,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Neutral_Zombie_002.bvh",
+    "compressed": 89172,
+    "bytes": 222292,
+    "offset": 29727383,
+    "crc32": 3139520374,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Neutral_Zombie_002.bvh",
+    "compressed": 144,
+    "bytes": 234,
+    "offset": 29816664,
+    "crc32": 1005816687,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Scared_Clown_002.bvh",
+    "compressed": 266595,
+    "bytes": 666415,
+    "offset": 29816928,
+    "crc32": 950465465,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Scared_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 30083641,
+    "crc32": 2156742246,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Sad_Zombie_001.bvh",
+    "compressed": 241970,
+    "bytes": 599009,
+    "offset": 30083867,
+    "crc32": 338091374,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Sad_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 30325946,
+    "crc32": 2367917256,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Sad_AverageJoe_001.bvh",
+    "compressed": 305935,
+    "bytes": 771505,
+    "offset": 30326163,
+    "crc32": 2070444832,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Sad_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 30632210,
+    "crc32": 2103629360,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Pickup_Object_Angry_Zombie_001.bvh",
+    "compressed": 89179,
+    "bytes": 227958,
+    "offset": 30632430,
+    "crc32": 3173615916,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Pickup_Object_Angry_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 30721725,
+    "crc32": 2637203394,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Happy_Ogre_ALT_001.bvh",
+    "compressed": 738685,
+    "bytes": 1597572,
+    "offset": 30721949,
+    "crc32": 3585080960,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Happy_Ogre_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 31460757,
+    "crc32": 510910044,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Scared_Robot_001.bvh",
+    "compressed": 471872,
+    "bytes": 1172059,
+    "offset": 31460988,
+    "crc32": 1329473166,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Scared_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 31932974,
+    "crc32": 1160484673,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Happy_Clown_001.bvh",
+    "compressed": 200915,
+    "bytes": 494617,
+    "offset": 31933196,
+    "crc32": 1401167912,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Happy_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 32134221,
+    "crc32": 3912687664,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Neutral_Zombie_ALT_001.bvh",
+    "compressed": 649309,
+    "bytes": 1618052,
+    "offset": 32134439,
+    "crc32": 1796290983,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Neutral_Zombie_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 32783875,
+    "crc32": 1609448318,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Happy_Clown_001.bvh",
+    "compressed": 330316,
+    "bytes": 824766,
+    "offset": 32784110,
+    "crc32": 1843947685,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Happy_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 33114541,
+    "crc32": 3506909851,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Angry_Robot_002.bvh",
+    "compressed": 246021,
+    "bytes": 624248,
+    "offset": 33114764,
+    "crc32": 1029589231,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Angry_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 33360896,
+    "crc32": 4092808207,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Sad_Princess_ALT_001.bvh",
+    "compressed": 884729,
+    "bytes": 2211037,
+    "offset": 33361115,
+    "crc32": 3128210884,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Sad_Princess_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 34245969,
+    "crc32": 158834068,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Scared_Zombie_001.bvh",
+    "compressed": 241777,
+    "bytes": 603627,
+    "offset": 34246202,
+    "crc32": 1144199448,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Scared_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 34488098,
+    "crc32": 1161568706,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Sad_Zombie_001.bvh",
+    "compressed": 1009589,
+    "bytes": 2521423,
+    "offset": 34488325,
+    "crc32": 1183563792,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Sad_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 35498028,
+    "crc32": 420197319,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backwards_Happy_Robot_002.bvh",
+    "compressed": 548334,
+    "bytes": 1371141,
+    "offset": 35498250,
+    "crc32": 2712389577,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backwards_Happy_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 36046709,
+    "crc32": 4102758804,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Happy_AverageJoe_001.bvh",
+    "compressed": 233550,
+    "bytes": 580604,
+    "offset": 36046942,
+    "crc32": 262289865,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Happy_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 36280606,
+    "crc32": 2104621670,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Neutral_Princess_002.bvh",
+    "compressed": 286555,
+    "bytes": 724574,
+    "offset": 36280828,
+    "crc32": 1690427135,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Neutral_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 36567499,
+    "crc32": 2370319172,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Scared_Ogre_001.bvh",
+    "compressed": 339018,
+    "bytes": 736378,
+    "offset": 36567723,
+    "crc32": 1485931759,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Scared_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 36906847,
+    "crc32": 2275316849,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backwards_Happy_Princess_002.bvh",
+    "compressed": 567227,
+    "bytes": 1407362,
+    "offset": 36907061,
+    "crc32": 948243958,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backwards_Happy_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 37474416,
+    "crc32": 2008083408,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Sad_Princess_001.bvh",
+    "compressed": 758113,
+    "bytes": 1895733,
+    "offset": 37474652,
+    "crc32": 3616941805,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Sad_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 38232881,
+    "crc32": 999352330,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Neutral_Princess_002.bvh",
+    "compressed": 572120,
+    "bytes": 1425162,
+    "offset": 38233105,
+    "crc32": 3801915693,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Neutral_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 38805343,
+    "crc32": 3216796300,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Sad_Robot_001.bvh",
+    "compressed": 683257,
+    "bytes": 1720317,
+    "offset": 38805569,
+    "crc32": 1119133381,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Sad_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 39488939,
+    "crc32": 235925519,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Scared_Princess_001.bvh",
+    "compressed": 363480,
+    "bytes": 910679,
+    "offset": 39489160,
+    "crc32": 719686323,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Scared_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 39852755,
+    "crc32": 3818443999,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Sad_Zombie_001.bvh",
+    "compressed": 482526,
+    "bytes": 1228053,
+    "offset": 39852978,
+    "crc32": 173234212,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Sad_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 40335620,
+    "crc32": 346153916,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Sad_AverageJoe_001.bvh",
+    "compressed": 382918,
+    "bytes": 973346,
+    "offset": 40335844,
+    "crc32": 728493099,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Sad_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 40718876,
+    "crc32": 2993596717,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Happy_Robot_001.bvh",
+    "compressed": 435523,
+    "bytes": 1101186,
+    "offset": 40719098,
+    "crc32": 2258084477,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Happy_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 41154732,
+    "crc32": 641376045,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Angry_AverageJoe_001.bvh",
+    "compressed": 211077,
+    "bytes": 527169,
+    "offset": 41154951,
+    "crc32": 968280011,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Angry_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 41366142,
+    "crc32": 641862903,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Sad_AverageJoe_001.bvh",
+    "compressed": 629882,
+    "bytes": 1568011,
+    "offset": 41366364,
+    "crc32": 3125027110,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Sad_AverageJoe_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 41996364,
+    "crc32": 1187884043,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Scared_AverageJoe_001.bvh",
+    "compressed": 278834,
+    "bytes": 693724,
+    "offset": 41996589,
+    "crc32": 470181420,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Scared_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 42275546,
+    "crc32": 347262954,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Neutral_Princess_001.bvh",
+    "compressed": 275283,
+    "bytes": 686933,
+    "offset": 42275777,
+    "crc32": 379690389,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Neutral_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 42551175,
+    "crc32": 2769451327,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Happy_Clown_001.bvh",
+    "compressed": 550205,
+    "bytes": 1360477,
+    "offset": 42551398,
+    "crc32": 3891980718,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Happy_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 43101716,
+    "crc32": 330445227,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Angry_AverageJoe_ALT_002_1.bvh",
+    "compressed": 333472,
+    "bytes": 832843,
+    "offset": 43101937,
+    "crc32": 811176854,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Angry_AverageJoe_ALT_002_1.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 43435540,
+    "crc32": 2320259024,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Scared_Princess_002.bvh",
+    "compressed": 566555,
+    "bytes": 1411614,
+    "offset": 43435779,
+    "crc32": 2737177557,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Scared_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 44002455,
+    "crc32": 4180827577,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Dance_Neutral_Zombie_001.bvh",
+    "compressed": 566063,
+    "bytes": 1423041,
+    "offset": 44002684,
+    "crc32": 3222970443,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Dance_Neutral_Zombie_001.bvh",
+    "compressed": 144,
+    "bytes": 234,
+    "offset": 44568857,
+    "crc32": 2244124006,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Sad_Ogre_001.bvh",
+    "compressed": 429189,
+    "bytes": 931384,
+    "offset": 44569122,
+    "crc32": 3363403671,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Sad_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 44998414,
+    "crc32": 3588278074,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Neutral_Ogre_ALT_001.bvh",
+    "compressed": 722571,
+    "bytes": 1561528,
+    "offset": 44998625,
+    "crc32": 2450634785,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Neutral_Ogre_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 45721321,
+    "crc32": 4109838491,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Side_Neutral_Princess_003.bvh",
+    "compressed": 596669,
+    "bytes": 1500488,
+    "offset": 45721554,
+    "crc32": 2663178560,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Side_Neutral_Princess_003.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 46318344,
+    "crc32": 557775801,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Scared_Clown_ALT_001.bvh",
+    "compressed": 203313,
+    "bytes": 502910,
+    "offset": 46318573,
+    "crc32": 495777911,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Scared_Clown_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 46522011,
+    "crc32": 558262371,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Angry_Princess_001.bvh",
+    "compressed": 284953,
+    "bytes": 713865,
+    "offset": 46522244,
+    "crc32": 2165508412,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Angry_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 46807306,
+    "crc32": 1455956264,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Fight_Neutral_Zombie_001.bvh",
+    "compressed": 218599,
+    "bytes": 552090,
+    "offset": 46807523,
+    "crc32": 3925156,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Fight_Neutral_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 47026232,
+    "crc32": 272796872,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backwards_Scared_Robot_002.bvh",
+    "compressed": 452425,
+    "bytes": 1127850,
+    "offset": 47026450,
+    "crc32": 1104818123,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backwards_Scared_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 47479001,
+    "crc32": 2586868099,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Sad_Clown_001.bvh",
+    "compressed": 657126,
+    "bytes": 1637689,
+    "offset": 47479235,
+    "crc32": 1113610380,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Sad_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 48136474,
+    "crc32": 4180011834,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Neutral_Zombie_002.bvh",
+    "compressed": 619002,
+    "bytes": 1553921,
+    "offset": 48136695,
+    "crc32": 1665219305,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Neutral_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 48755811,
+    "crc32": 2718249469,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Neutral_Robot_002.bvh",
+    "compressed": 461585,
+    "bytes": 1172549,
+    "offset": 48756033,
+    "crc32": 1033320493,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Neutral_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 49217731,
+    "crc32": 4086030293,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Sad_Robot_002.bvh",
+    "compressed": 215618,
+    "bytes": 555483,
+    "offset": 49217952,
+    "crc32": 2080160127,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Sad_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 49433679,
+    "crc32": 3686971896,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Dance_Neutral_Robot_001.bvh",
+    "compressed": 607926,
+    "bytes": 1527322,
+    "offset": 49433896,
+    "crc32": 1747729336,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Dance_Neutral_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 50041931,
+    "crc32": 123069270,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backward_Sad_Ogre_003.bvh",
+    "compressed": 1402978,
+    "bytes": 3048765,
+    "offset": 50042148,
+    "crc32": 1196979233,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backward_Sad_Ogre_003.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 51445247,
+    "crc32": 2073281061,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Scared_AverageJoe_001.bvh",
+    "compressed": 333138,
+    "bytes": 830538,
+    "offset": 51445475,
+    "crc32": 1928812469,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Scared_AverageJoe_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 51778730,
+    "crc32": 3349710339,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Scared_Robot_002.bvh",
+    "compressed": 233806,
+    "bytes": 583725,
+    "offset": 51778954,
+    "crc32": 3149107541,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Scared_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 52012872,
+    "crc32": 1341993076,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Angry_Clown_002.bvh",
+    "compressed": 261842,
+    "bytes": 647371,
+    "offset": 52013092,
+    "crc32": 1733077510,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Angry_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 52275049,
+    "crc32": 2048795006,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Neutral_Ogre_002.bvh",
+    "compressed": 572383,
+    "bytes": 1243438,
+    "offset": 52275272,
+    "crc32": 4273592347,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Neutral_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 52847771,
+    "crc32": 2047675688,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Angry_Robot_001.bvh",
+    "compressed": 184660,
+    "bytes": 461512,
+    "offset": 52847995,
+    "crc32": 1411709000,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Angry_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 53032772,
+    "crc32": 1603709092,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Scared_Princess_002.bvh",
+    "compressed": 215755,
+    "bytes": 541105,
+    "offset": 53032997,
+    "crc32": 1376704929,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Scared_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 53248867,
+    "crc32": 3436566118,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Angry_Zombie_001.bvh",
+    "compressed": 548442,
+    "bytes": 1364172,
+    "offset": 53249090,
+    "crc32": 3069641688,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Angry_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 53797648,
+    "crc32": 746790209,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Sad_Clown_001.bvh",
+    "compressed": 376638,
+    "bytes": 938738,
+    "offset": 53797872,
+    "crc32": 2888790361,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Sad_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 54174617,
+    "crc32": 3246360093,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Happy_Princess_001.bvh",
+    "compressed": 642235,
+    "bytes": 1595553,
+    "offset": 54174832,
+    "crc32": 3349781402,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Happy_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 54817185,
+    "crc32": 641598968,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Sad_Ogre_001.bvh",
+    "compressed": 925306,
+    "bytes": 2013202,
+    "offset": 54817411,
+    "crc32": 558748040,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Sad_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 55742829,
+    "crc32": 2891963621,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Angry_Ogre_001.bvh",
+    "compressed": 237823,
+    "bytes": 515417,
+    "offset": 55743049,
+    "crc32": 1115530816,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Angry_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 55980977,
+    "crc32": 2473224922,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Angry_Ogre_002.bvh",
+    "compressed": 321092,
+    "bytes": 695894,
+    "offset": 55981190,
+    "crc32": 2269734716,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Angry_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 56302387,
+    "crc32": 2426293612,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Angry_Robot_001.bvh",
+    "compressed": 193428,
+    "bytes": 486517,
+    "offset": 56302600,
+    "crc32": 3813516342,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Angry_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 56496139,
+    "crc32": 3835473995,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Sad_Robot_001.bvh",
+    "compressed": 274353,
+    "bytes": 686567,
+    "offset": 56496358,
+    "crc32": 4184657012,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Sad_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 56770815,
+    "crc32": 1373596138,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Angry_Clown_001.bvh",
+    "compressed": 756871,
+    "bytes": 1884876,
+    "offset": 56771027,
+    "crc32": 41574191,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Angry_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 57528011,
+    "crc32": 2426066873,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Sad_AverageJoe_001.bvh",
+    "compressed": 419318,
+    "bytes": 1050863,
+    "offset": 57528232,
+    "crc32": 97114517,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Sad_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 57947670,
+    "crc32": 2543462904,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Neutral_AverageJoe_001.bvh",
+    "compressed": 495055,
+    "bytes": 1235667,
+    "offset": 57947898,
+    "crc32": 737804851,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Neutral_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 58443073,
+    "crc32": 2157637861,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Neutral_Clown_ALT_001.bvh",
+    "compressed": 559151,
+    "bytes": 1390472,
+    "offset": 58443301,
+    "crc32": 4225678574,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Neutral_Clown_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 59002578,
+    "crc32": 3419517682,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backward_Sad_Clown_003.bvh",
+    "compressed": 974834,
+    "bytes": 2444662,
+    "offset": 59002812,
+    "crc32": 23084452,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backward_Sad_Clown_003.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 59977768,
+    "crc32": 152615117,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Scared_Zombie_001.bvh",
+    "compressed": 710832,
+    "bytes": 1770829,
+    "offset": 59977998,
+    "crc32": 824487576,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Scared_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 60688947,
+    "crc32": 2948353488,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Neutral_AverageJoe_001.bvh",
+    "compressed": 195524,
+    "bytes": 489320,
+    "offset": 60689172,
+    "crc32": 1566488003,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Neutral_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 60884809,
+    "crc32": 2873660455,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Angry_Ogre_002.bvh",
+    "compressed": 411005,
+    "bytes": 889319,
+    "offset": 60885030,
+    "crc32": 2304962704,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Angry_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 61296149,
+    "crc32": 1860886485,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Uneven_Floor_Neutral_Princess_001.bvh",
+    "compressed": 570653,
+    "bytes": 1419664,
+    "offset": 61296371,
+    "crc32": 33474337,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Uneven_Floor_Neutral_Princess_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 61867143,
+    "crc32": 2976925971,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Uneven_Floor_Neutral_Robot_001.bvh",
+    "compressed": 617522,
+    "bytes": 1550166,
+    "offset": 61867369,
+    "crc32": 513709370,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Uneven_Floor_Neutral_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 62485007,
+    "crc32": 3245124171,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backwards_Happy_Zombie_002.bvh",
+    "compressed": 503649,
+    "bytes": 1254658,
+    "offset": 62485231,
+    "crc32": 1435792899,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backwards_Happy_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 62989006,
+    "crc32": 4087114070,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Happy_Robot_002.bvh",
+    "compressed": 174175,
+    "bytes": 438635,
+    "offset": 62989240,
+    "crc32": 2692286263,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Happy_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 63163526,
+    "crc32": 1892189771,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Angry_Clown_ALT_001.bvh",
+    "compressed": 621581,
+    "bytes": 1544967,
+    "offset": 63163745,
+    "crc32": 602287942,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Angry_Clown_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 63785450,
+    "crc32": 1610422056,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backwards_Angry_Robot_002.bvh",
+    "compressed": 416602,
+    "bytes": 1038595,
+    "offset": 63785682,
+    "crc32": 624521318,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backwards_Angry_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 64202409,
+    "crc32": 3037063392,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backwards_Neutral_Robot_002.bvh",
+    "compressed": 688896,
+    "bytes": 1737644,
+    "offset": 64202642,
+    "crc32": 2718797329,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backwards_Neutral_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 64891665,
+    "crc32": 2987565090,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Neutral_Princess_001.bvh",
+    "compressed": 150974,
+    "bytes": 376706,
+    "offset": 64891900,
+    "crc32": 1370164882,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Neutral_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 65042985,
+    "crc32": 390522972,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Scared_Zombie_001.bvh",
+    "compressed": 566579,
+    "bytes": 1413193,
+    "offset": 65043204,
+    "crc32": 3612104804,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Scared_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 65609894,
+    "crc32": 3597199747,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Angry_Princess_001.bvh",
+    "compressed": 397135,
+    "bytes": 994165,
+    "offset": 65610113,
+    "crc32": 4277301380,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Angry_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 66007364,
+    "crc32": 3989902737,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Pickup_Object_Angry_Princess_002.bvh",
+    "compressed": 171964,
+    "bytes": 431600,
+    "offset": 66007588,
+    "crc32": 2709672700,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Pickup_Object_Angry_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 66179670,
+    "crc32": 2318713866,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Angry_Clown_001.bvh",
+    "compressed": 230463,
+    "bytes": 567490,
+    "offset": 66179896,
+    "crc32": 1771053374,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Angry_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 66410469,
+    "crc32": 2097768892,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Happy_Zombie_002.bvh",
+    "compressed": 160441,
+    "bytes": 407905,
+    "offset": 66410687,
+    "crc32": 1543122456,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Happy_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 66571240,
+    "crc32": 3435592240,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Neutral_Princess_001.bvh",
+    "compressed": 640856,
+    "bytes": 1600253,
+    "offset": 66571460,
+    "crc32": 1559557200,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Neutral_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 67212436,
+    "crc32": 1890034450,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Scared_Zombie_002.bvh",
+    "compressed": 170966,
+    "bytes": 423387,
+    "offset": 67212664,
+    "crc32": 1265645273,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Scared_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 67383738,
+    "crc32": 3703231587,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Neutral_Robot_001.bvh",
+    "compressed": 208832,
+    "bytes": 524049,
+    "offset": 67383954,
+    "crc32": 2969135819,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Neutral_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 67592894,
+    "crc32": 3938868563,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Sad_AverageJoe_001.bvh",
+    "compressed": 283437,
+    "bytes": 703266,
+    "offset": 67593110,
+    "crc32": 2129568176,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Sad_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 67876660,
+    "crc32": 3685287540,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Scared_Princess_002.bvh",
+    "compressed": 160944,
+    "bytes": 402049,
+    "offset": 67876881,
+    "crc32": 2889248767,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Scared_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 68037935,
+    "crc32": 1829622837,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Neutral_Ogre_001.bvh",
+    "compressed": 296656,
+    "bytes": 647509,
+    "offset": 68038153,
+    "crc32": 374683459,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Neutral_Ogre_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 68334921,
+    "crc32": 3061335999,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Sad_Princess_001.bvh",
+    "compressed": 348321,
+    "bytes": 873826,
+    "offset": 68335140,
+    "crc32": 769833269,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Sad_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 68683568,
+    "crc32": 5343170,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Angry_Zombie_002.bvh",
+    "compressed": 167373,
+    "bytes": 424076,
+    "offset": 68683783,
+    "crc32": 3109605848,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Angry_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 68851268,
+    "crc32": 241227094,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Sad_Zombie_ALT_001.bvh",
+    "compressed": 833053,
+    "bytes": 2078119,
+    "offset": 68851488,
+    "crc32": 92957396,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Sad_Zombie_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 69684664,
+    "crc32": 2011156105,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Happy_Princess_002.bvh",
+    "compressed": 234105,
+    "bytes": 587144,
+    "offset": 69684895,
+    "crc32": 4025549180,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Happy_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 69919114,
+    "crc32": 2776221363,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Angry_Clown_001.bvh",
+    "compressed": 531437,
+    "bytes": 1323474,
+    "offset": 69919336,
+    "crc32": 2402123456,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Angry_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 70450888,
+    "crc32": 1602297383,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backward_Sad_AverageJoe_001.bvh",
+    "compressed": 370255,
+    "bytes": 928831,
+    "offset": 70451111,
+    "crc32": 4270747483,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backward_Sad_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 70821493,
+    "crc32": 3835177630,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Neutral_Robot_002.bvh",
+    "compressed": 567548,
+    "bytes": 1420824,
+    "offset": 70821728,
+    "crc32": 3593295130,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Neutral_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 71389391,
+    "crc32": 1016368286,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Neutral_Princess_001.bvh",
+    "compressed": 520022,
+    "bytes": 1294048,
+    "offset": 71389614,
+    "crc32": 2620956307,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Neutral_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 71909756,
+    "crc32": 3098223182,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Neutral_Clown_001.bvh",
+    "compressed": 174265,
+    "bytes": 430679,
+    "offset": 71909984,
+    "crc32": 2799234115,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Neutral_Clown_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 72084360,
+    "crc32": 686754744,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Neutral_Ogre_001.bvh",
+    "compressed": 288504,
+    "bytes": 622815,
+    "offset": 72084578,
+    "crc32": 3681913394,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Neutral_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 72373193,
+    "crc32": 1779247732,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Uneven_Floor_Neutral_Ogre_001.bvh",
+    "compressed": 1566329,
+    "bytes": 3463501,
+    "offset": 72373412,
+    "crc32": 2753603849,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Uneven_Floor_Neutral_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 73939856,
+    "crc32": 3598435797,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Scared_Robot_001.bvh",
+    "compressed": 513594,
+    "bytes": 1281111,
+    "offset": 73940079,
+    "crc32": 335169764,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Scared_Robot_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 74453789,
+    "crc32": 1568090393,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Scared_Clown_001.bvh",
+    "compressed": 333096,
+    "bytes": 832313,
+    "offset": 74454012,
+    "crc32": 3886359237,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Scared_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 74787215,
+    "crc32": 3417160701,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Angry_AverageJoe_001.bvh",
+    "compressed": 274404,
+    "bytes": 690764,
+    "offset": 74787430,
+    "crc32": 2222146521,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Angry_AverageJoe_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 75061945,
+    "crc32": 2145067320,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Sad_Zombie_001.bvh",
+    "compressed": 460270,
+    "bytes": 1153369,
+    "offset": 75062163,
+    "crc32": 4239932585,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Sad_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 75522538,
+    "crc32": 1372341692,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Sad_Zombie_002.bvh",
+    "compressed": 151294,
+    "bytes": 378131,
+    "offset": 75522751,
+    "crc32": 3980824549,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Sad_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 75674150,
+    "crc32": 2317578889,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Scared_Clown_001.bvh",
+    "compressed": 293991,
+    "bytes": 728324,
+    "offset": 75674363,
+    "crc32": 132021001,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Scared_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 75968461,
+    "crc32": 3322961157,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Angry_Robot_002.bvh",
+    "compressed": 131241,
+    "bytes": 328358,
+    "offset": 75968676,
+    "crc32": 159238191,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Angry_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 76100023,
+    "crc32": 1830746211,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Dribble_Basketball_Neutral_Princess_001.bvh",
+    "compressed": 650752,
+    "bytes": 1618767,
+    "offset": 76100237,
+    "crc32": 421797048,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Dribble_Basketball_Neutral_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 76751114,
+    "crc32": 1103913696,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backwards_Angry_Zombie_002.bvh",
+    "compressed": 552110,
+    "bytes": 1372558,
+    "offset": 76751347,
+    "crc32": 1314154794,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backwards_Angry_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 77303583,
+    "crc32": 557474156,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Fight_Neutral_AverageJoe_001.bvh",
+    "compressed": 329095,
+    "bytes": 821067,
+    "offset": 77303817,
+    "crc32": 2639048004,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Fight_Neutral_AverageJoe_001.bvh",
+    "compressed": 144,
+    "bytes": 234,
+    "offset": 77633026,
+    "crc32": 2031221384,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Happy_AverageJoe_001.bvh",
+    "compressed": 221579,
+    "bytes": 557645,
+    "offset": 77633295,
+    "crc32": 2715022794,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Happy_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 77854985,
+    "crc32": 2275020452,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Neutral_Clown_001.bvh",
+    "compressed": 295190,
+    "bytes": 730927,
+    "offset": 77855204,
+    "crc32": 3046951895,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Neutral_Clown_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 78150511,
+    "crc32": 3746754208,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backward_Scared_Clown_002.bvh",
+    "compressed": 698501,
+    "bytes": 1731555,
+    "offset": 78150735,
+    "crc32": 2109276966,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backward_Scared_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 78849361,
+    "crc32": 3817824860,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Scared_AverageJoe.bvh",
+    "compressed": 513622,
+    "bytes": 1274331,
+    "offset": 78849594,
+    "crc32": 855657845,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Scared_AverageJoe.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 79363333,
+    "crc32": 2274211879,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Sad_Ogre_002.bvh",
+    "compressed": 558831,
+    "bytes": 1222452,
+    "offset": 79363558,
+    "crc32": 1038603842,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Sad_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 79922497,
+    "crc32": 1491754986,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Happy_Zombie_001.bvh",
+    "compressed": 659500,
+    "bytes": 1643877,
+    "offset": 79922713,
+    "crc32": 3047764867,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Happy_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 80582329,
+    "crc32": 3433684841,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Happy_Princess_ALT_001.bvh",
+    "compressed": 601623,
+    "bytes": 1486900,
+    "offset": 80582553,
+    "crc32": 3229179452,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Happy_Princess_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 81184303,
+    "crc32": 3823126277,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Sad_Zombie_001.bvh",
+    "compressed": 921094,
+    "bytes": 2299754,
+    "offset": 81184538,
+    "crc32": 1570799070,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Sad_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 82105746,
+    "crc32": 3099069976,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Happy_Princess_001.bvh",
+    "compressed": 439706,
+    "bytes": 1090269,
+    "offset": 82105968,
+    "crc32": 2257208150,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Happy_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 82545792,
+    "crc32": 795088545,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Pickup_Object_Happy_Robot_002.bvh",
+    "compressed": 125871,
+    "bytes": 315945,
+    "offset": 82546018,
+    "crc32": 2951887716,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Pickup_Object_Happy_Robot_002.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 82672004,
+    "crc32": 1580713128,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Angry_Clown_001.bvh",
+    "compressed": 193272,
+    "bytes": 480211,
+    "offset": 82672226,
+    "crc32": 3135976318,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Angry_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 82865604,
+    "crc32": 2474198668,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Happy_AverageJoe_001.bvh",
+    "compressed": 258201,
+    "bytes": 644439,
+    "offset": 82865818,
+    "crc32": 4010704369,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Happy_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 83124135,
+    "crc32": 1739871833,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Neutral_Clown_001.bvh",
+    "compressed": 135294,
+    "bytes": 336148,
+    "offset": 83124359,
+    "crc32": 1016573171,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Neutral_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 83259761,
+    "crc32": 998727305,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Dance_Neutral_AverageJoe_001.bvh",
+    "compressed": 501432,
+    "bytes": 1255336,
+    "offset": 83259977,
+    "crc32": 2793759170,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Dance_Neutral_AverageJoe_001.bvh",
+    "compressed": 332,
+    "bytes": 442,
+    "offset": 83761523,
+    "crc32": 1323772478,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Angry_Princess_001.bvh",
+    "compressed": 185778,
+    "bytes": 465654,
+    "offset": 83761980,
+    "crc32": 1907225457,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Angry_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 83947872,
+    "crc32": 4086887299,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Object_Scared_AverageJoe_001.bvh",
+    "compressed": 274630,
+    "bytes": 690765,
+    "offset": 83948094,
+    "crc32": 2952254166,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Object_Scared_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 84222844,
+    "crc32": 1110141184,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Neutral_Robot_002.bvh",
+    "compressed": 191459,
+    "bytes": 484691,
+    "offset": 84223072,
+    "crc32": 1200285859,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Neutral_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 84414644,
+    "crc32": 2371559186,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Neutral_Princess_002.bvh",
+    "compressed": 243809,
+    "bytes": 609102,
+    "offset": 84414865,
+    "crc32": 1470274557,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Neutral_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 84658796,
+    "crc32": 3239093060,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Angry_Robot_001.bvh",
+    "compressed": 529870,
+    "bytes": 1329572,
+    "offset": 84659026,
+    "crc32": 1858034096,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Angry_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 85189005,
+    "crc32": 2832438984,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Object_Sad_Clown_002.bvh",
+    "compressed": 373865,
+    "bytes": 938994,
+    "offset": 85189222,
+    "crc32": 2434836750,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Object_Sad_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 85563199,
+    "crc32": 730298837,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Object_Neutral_AverageJoe_001.bvh",
+    "compressed": 221294,
+    "bytes": 559967,
+    "offset": 85563419,
+    "crc32": 1521716242,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Object_Neutral_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 85784834,
+    "crc32": 2098066281,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Angry_AverageJoe_001.bvh",
+    "compressed": 211390,
+    "bytes": 529615,
+    "offset": 85785063,
+    "crc32": 3849794414,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Angry_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 85996569,
+    "crc32": 3435031018,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Scared_Clown_001.bvh",
+    "compressed": 282179,
+    "bytes": 698521,
+    "offset": 85996793,
+    "crc32": 922490739,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Scared_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 86279082,
+    "crc32": 1786100142,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Neutral_AverageJoe_001.bvh",
+    "compressed": 352089,
+    "bytes": 902361,
+    "offset": 86279300,
+    "crc32": 546731940,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Neutral_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 86631502,
+    "crc32": 2048572331,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Neutral_Princess_ALT_001.bvh",
+    "compressed": 614125,
+    "bytes": 1521873,
+    "offset": 86631723,
+    "crc32": 2870767252,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Neutral_Princess_ALT_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 87245977,
+    "crc32": 3040389646,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Fight_Neutral_Clown_001.bvh",
+    "compressed": 364237,
+    "bytes": 908408,
+    "offset": 87246213,
+    "crc32": 224256402,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Fight_Neutral_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 87610559,
+    "crc32": 4257357467,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Sad_Princess_002.bvh",
+    "compressed": 114914,
+    "bytes": 288645,
+    "offset": 87610776,
+    "crc32": 2171688691,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Sad_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 87725797,
+    "crc32": 3702126645,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Side_Neutral_Robot_003.bvh",
+    "compressed": 744164,
+    "bytes": 1878887,
+    "offset": 87726012,
+    "crc32": 2354042691,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Side_Neutral_Robot_003.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 88470294,
+    "crc32": 1216464698,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Pickup_Object_Neutral_Zombie_002.bvh",
+    "compressed": 243627,
+    "bytes": 617450,
+    "offset": 88470520,
+    "crc32": 1030567294,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Pickup_Object_Neutral_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 88714265,
+    "crc32": 1602585842,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Neutral_Zombie_001.bvh",
+    "compressed": 777256,
+    "bytes": 1919741,
+    "offset": 88714491,
+    "crc32": 3307035744,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Neutral_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 89491863,
+    "crc32": 2829780242,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Scared_Princess_001.bvh",
+    "compressed": 235355,
+    "bytes": 579981,
+    "offset": 89492087,
+    "crc32": 2689355688,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Scared_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 89727556,
+    "crc32": 2586300160,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Scared_Princess_001.bvh",
+    "compressed": 745361,
+    "bytes": 1860493,
+    "offset": 89727778,
+    "crc32": 3316582737,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Scared_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 90473258,
+    "crc32": 947091775,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Happy_AverageJoe_001.bvh",
+    "compressed": 311233,
+    "bytes": 773181,
+    "offset": 90473485,
+    "crc32": 1012411630,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Happy_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 90784840,
+    "crc32": 504914384,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Neutral_Zombie_001.bvh",
+    "compressed": 529236,
+    "bytes": 1326789,
+    "offset": 90785070,
+    "crc32": 1882526004,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Neutral_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 91314418,
+    "crc32": 736648332,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Angry_Robot_001.bvh",
+    "compressed": 167877,
+    "bytes": 417563,
+    "offset": 91314638,
+    "crc32": 1335507158,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Angry_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 91482621,
+    "crc32": 3160406969,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Neutral_Clown_001.bvh",
+    "compressed": 635916,
+    "bytes": 1577662,
+    "offset": 91482835,
+    "crc32": 1837217321,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Neutral_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 92118866,
+    "crc32": 2542641019,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Angry_AverageJoe_001.bvh",
+    "compressed": 334629,
+    "bytes": 830493,
+    "offset": 92119089,
+    "crc32": 1273976104,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Angry_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 92453838,
+    "crc32": 3988928967,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backwards_Sad_Zombie_002.bvh",
+    "compressed": 1095984,
+    "bytes": 2744413,
+    "offset": 92454066,
+    "crc32": 1287419125,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backwards_Sad_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 93550174,
+    "crc32": 1890881348,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Neutral_Zombie_002.bvh",
+    "compressed": 240596,
+    "bytes": 616975,
+    "offset": 93550406,
+    "crc32": 3362758298,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Neutral_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 93791116,
+    "crc32": 826691391,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Scared_Robot_ALT_001.bvh",
+    "compressed": 320145,
+    "bytes": 792638,
+    "offset": 93791338,
+    "crc32": 3842700837,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Scared_Robot_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 94111608,
+    "crc32": 910306219,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Scared_Robot_002.bvh",
+    "compressed": 175811,
+    "bytes": 437891,
+    "offset": 94111841,
+    "crc32": 1179978798,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Scared_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 94287759,
+    "crc32": 2047449085,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Scared_Ogre_002.bvh",
+    "compressed": 536643,
+    "bytes": 1173401,
+    "offset": 94287974,
+    "crc32": 4239317660,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Scared_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 94824728,
+    "crc32": 1341004834,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Scared_Princess_ALT_001.bvh",
+    "compressed": 717678,
+    "bytes": 1785291,
+    "offset": 94824947,
+    "crc32": 2148160233,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Scared_Princess_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 95542753,
+    "crc32": 911280125,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Angry_Clown_001.bvh",
+    "compressed": 264546,
+    "bytes": 657238,
+    "offset": 95542989,
+    "crc32": 361019485,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Angry_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 95807644,
+    "crc32": 2588700812,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Angry_AverageJoe_001.bvh",
+    "compressed": 359989,
+    "bytes": 896611,
+    "offset": 95807861,
+    "crc32": 1066516995,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Angry_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 96167972,
+    "crc32": 3507520536,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Neutral_Clown_002.bvh",
+    "compressed": 295216,
+    "bytes": 743736,
+    "offset": 96168202,
+    "crc32": 171662565,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Neutral_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 96463531,
+    "crc32": 1893444125,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backward_Neutral_Clown_003.bvh",
+    "compressed": 645872,
+    "bytes": 1612182,
+    "offset": 96463752,
+    "crc32": 3259601451,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backward_Neutral_Clown_003.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 97109750,
+    "crc32": 2768621500,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Happy_AverageJoe_001.bvh",
+    "compressed": 315423,
+    "bytes": 778279,
+    "offset": 97109984,
+    "crc32": 2784873172,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Happy_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 97425527,
+    "crc32": 2045680669,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Angry_Clown_001.bvh",
+    "compressed": 179214,
+    "bytes": 446495,
+    "offset": 97425755,
+    "crc32": 2521768614,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Angry_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 97605075,
+    "crc32": 4179718639,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backward_Happy_Clown_002.bvh",
+    "compressed": 634300,
+    "bytes": 1578140,
+    "offset": 97605289,
+    "crc32": 4033096008,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backward_Happy_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 98239713,
+    "crc32": 556354874,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Neutral_Princess_002.bvh",
+    "compressed": 469499,
+    "bytes": 1184728,
+    "offset": 98239945,
+    "crc32": 2542242840,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Neutral_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 98709560,
+    "crc32": 826203365,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Sad_AverageJoe_ALT_001.bvh",
+    "compressed": 908861,
+    "bytes": 2274770,
+    "offset": 98709784,
+    "crc32": 3211546261,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Sad_AverageJoe_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 99618772,
+    "crc32": 1334973741,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Angry_Princess_001.bvh",
+    "compressed": 608994,
+    "bytes": 1518303,
+    "offset": 99619007,
+    "crc32": 3031704412,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Angry_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 100228119,
+    "crc32": 1217819065,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Dribble_Basketball_Neutral_AverageJoe_001.bvh",
+    "compressed": 875495,
+    "bytes": 2183779,
+    "offset": 100228345,
+    "crc32": 2632661825,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Dribble_Basketball_Neutral_AverageJoe_001.bvh",
+    "compressed": 143,
+    "bytes": 234,
+    "offset": 101103967,
+    "crc32": 2958215519,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Happy_Zombie_001.bvh",
+    "compressed": 120621,
+    "bytes": 299080,
+    "offset": 101104248,
+    "crc32": 2519421573,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Happy_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 101224976,
+    "crc32": 3269756146,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Scared_Robot_001.bvh",
+    "compressed": 494724,
+    "bytes": 1242709,
+    "offset": 101225191,
+    "crc32": 2104878884,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Scared_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 101720025,
+    "crc32": 2549419169,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Object_Happy_Clown_002.bvh",
+    "compressed": 280115,
+    "bytes": 696511,
+    "offset": 101720243,
+    "crc32": 3402423933,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Object_Happy_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 102000472,
+    "crc32": 152838680,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Neutral_Robot_001.bvh",
+    "compressed": 515092,
+    "bytes": 1297680,
+    "offset": 102000694,
+    "crc32": 2653257360,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Neutral_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 102515897,
+    "crc32": 2548441335,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Sad_Ogre_002.bvh",
+    "compressed": 458507,
+    "bytes": 1003140,
+    "offset": 102516116,
+    "crc32": 2477255995,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Sad_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 102974726,
+    "crc32": 2947283795,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backwards_Scared_Zombie_002.bvh",
+    "compressed": 862494,
+    "bytes": 2145411,
+    "offset": 102974937,
+    "crc32": 2882505660,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backwards_Scared_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 103837558,
+    "crc32": 4086252800,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Happy_Zombie_002.bvh",
+    "compressed": 127370,
+    "bytes": 315211,
+    "offset": 103837793,
+    "crc32": 128322000,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Happy_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 103965270,
+    "crc32": 3098523803,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Sad_AverageJoe_001.bvh",
+    "compressed": 289031,
+    "bytes": 732796,
+    "offset": 103965485,
+    "crc32": 1945331135,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Sad_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 104254625,
+    "crc32": 3099366605,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Angry_Robot_001.bvh",
+    "compressed": 447095,
+    "bytes": 1119627,
+    "offset": 104254842,
+    "crc32": 3984908928,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Angry_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 104702052,
+    "crc32": 2636591425,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Scared_Zombie_001.bvh",
+    "compressed": 182752,
+    "bytes": 451702,
+    "offset": 104702275,
+    "crc32": 1937643449,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Scared_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 104885135,
+    "crc32": 3507756749,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Neutral_Robot_002.bvh",
+    "compressed": 116878,
+    "bytes": 292763,
+    "offset": 104885351,
+    "crc32": 137090563,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Neutral_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 105002337,
+    "crc32": 747647255,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Neutral_Zombie_001.bvh",
+    "compressed": 528352,
+    "bytes": 1310902,
+    "offset": 105002553,
+    "crc32": 506420159,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Neutral_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 105531023,
+    "crc32": 796343031,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Neutral_Princess_002.bvh",
+    "compressed": 178271,
+    "bytes": 442567,
+    "offset": 105531249,
+    "crc32": 4264987558,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Neutral_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 105709631,
+    "crc32": 3996524145,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Scared_Clown_001.bvh",
+    "compressed": 710743,
+    "bytes": 1765418,
+    "offset": 105709850,
+    "crc32": 3050716705,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Scared_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 106420709,
+    "crc32": 3824380755,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Fight_Neutral_Princess_001.bvh",
+    "compressed": 325980,
+    "bytes": 812563,
+    "offset": 106420933,
+    "crc32": 3654416187,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Fight_Neutral_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 106747025,
+    "crc32": 2491228696,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Neutral_AverageJoe_ALT_001.bvh",
+    "compressed": 585066,
+    "bytes": 1462102,
+    "offset": 106747245,
+    "crc32": 733165186,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Neutral_AverageJoe_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 107332442,
+    "crc32": 236772441,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Happy_Princess_001.bvh",
+    "compressed": 435395,
+    "bytes": 1077412,
+    "offset": 107332681,
+    "crc32": 769626106,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Happy_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 107768192,
+    "crc32": 1428926493,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Pickup_Object_Happy_Princess_002.bvh",
+    "compressed": 220308,
+    "bytes": 549139,
+    "offset": 107768416,
+    "crc32": 1926317704,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Pickup_Object_Happy_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 107988842,
+    "crc32": 3702350560,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Happy_Robot_ALT_001.bvh",
+    "compressed": 351666,
+    "bytes": 872286,
+    "offset": 107989068,
+    "crc32": 3906937369,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Happy_Robot_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 108340858,
+    "crc32": 509669898,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Scared_Robot_001.bvh",
+    "compressed": 147090,
+    "bytes": 366343,
+    "offset": 108341090,
+    "crc32": 1317535272,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Scared_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 108488287,
+    "crc32": 4181116780,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Sad_Princess_001.bvh",
+    "compressed": 965245,
+    "bytes": 2420564,
+    "offset": 108488502,
+    "crc32": 3012781188,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Sad_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 109453863,
+    "crc32": 2726142503,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Neutral_Robot_001.bvh",
+    "compressed": 531428,
+    "bytes": 1314739,
+    "offset": 109454087,
+    "crc32": 1383151316,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Neutral_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 109985632,
+    "crc32": 747079572,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Fight_Neutral_Robot_002.bvh",
+    "compressed": 297483,
+    "bytes": 745664,
+    "offset": 109985857,
+    "crc32": 1735000708,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Fight_Neutral_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 110283449,
+    "crc32": 3538199470,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Scared_Zombie_001.bvh",
+    "compressed": 354776,
+    "bytes": 883895,
+    "offset": 110283666,
+    "crc32": 3627997463,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Scared_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 110638555,
+    "crc32": 3416858920,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Scared_Princess_001.bvh",
+    "compressed": 455017,
+    "bytes": 1129929,
+    "offset": 110638776,
+    "crc32": 4139730438,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Scared_Princess_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 111093910,
+    "crc32": 2989532322,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Angry_Princess_ALT_001.bvh",
+    "compressed": 569862,
+    "bytes": 1413211,
+    "offset": 111094134,
+    "crc32": 4221669778,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Angry_Princess_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 111664123,
+    "crc32": 4108584141,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Happy_Ogre_001.bvh",
+    "compressed": 287243,
+    "bytes": 623163,
+    "offset": 111664358,
+    "crc32": 3407923170,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Happy_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 111951706,
+    "crc32": 1188768290,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Object_Scared_Ogre_002.bvh",
+    "compressed": 314667,
+    "bytes": 684595,
+    "offset": 111951919,
+    "crc32": 3267894397,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Object_Scared_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 112266700,
+    "crc32": 4263843195,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Angry_Clown_001.bvh",
+    "compressed": 260459,
+    "bytes": 650096,
+    "offset": 112266922,
+    "crc32": 3702597535,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Angry_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 112527492,
+    "crc32": 1334158254,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Angry_Princess_002.bvh",
+    "compressed": 238701,
+    "bytes": 600370,
+    "offset": 112527711,
+    "crc32": 2251951145,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Angry_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 112766526,
+    "crc32": 642850977,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Happy_Ogre_002.bvh",
+    "compressed": 338684,
+    "bytes": 737554,
+    "offset": 112766748,
+    "crc32": 2728998719,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Happy_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 113105537,
+    "crc32": 999584479,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Sad_Clown_001.bvh",
+    "compressed": 202547,
+    "bytes": 502908,
+    "offset": 113105750,
+    "crc32": 3074494413,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Sad_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 113308401,
+    "crc32": 678649443,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Angry_Robot_001.bvh",
+    "compressed": 406383,
+    "bytes": 1012242,
+    "offset": 113308613,
+    "crc32": 606185157,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Angry_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 113715109,
+    "crc32": 2424962031,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Angry_Princess_001.bvh",
+    "compressed": 519830,
+    "bytes": 1300501,
+    "offset": 113715330,
+    "crc32": 2121413485,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Angry_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 114235272,
+    "crc32": 2589940954,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Object_Scared_Clown_002.bvh",
+    "compressed": 272952,
+    "bytes": 682101,
+    "offset": 114235492,
+    "crc32": 104797870,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Object_Scared_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 114508559,
+    "crc32": 3911276211,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backward_Scared_Ogre_002.bvh",
+    "compressed": 1175367,
+    "bytes": 2546645,
+    "offset": 114508782,
+    "crc32": 2346801205,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backward_Scared_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 115684273,
+    "crc32": 1603416689,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Scared_Zombie_ALT_001.bvh",
+    "compressed": 627673,
+    "bytes": 1552235,
+    "offset": 115684505,
+    "crc32": 3923798265,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Scared_Zombie_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 116312304,
+    "crc32": 3841396679,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Angry_Zombie_001.bvh",
+    "compressed": 509374,
+    "bytes": 1268566,
+    "offset": 116312538,
+    "crc32": 2312097509,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Angry_Zombie_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 116822022,
+    "crc32": 3231746223,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Neutral_Clown_001.bvh",
+    "compressed": 552726,
+    "bytes": 1376457,
+    "offset": 116822239,
+    "crc32": 95794053,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Neutral_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 117375078,
+    "crc32": 4103060289,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Neutral_Ogre_001.bvh",
+    "compressed": 1104912,
+    "bytes": 2403401,
+    "offset": 117375299,
+    "crc32": 4097911276,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Neutral_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 118480325,
+    "crc32": 62002935,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Neutral_AverageJoe_001.bvh",
+    "compressed": 425116,
+    "bytes": 1053887,
+    "offset": 118480547,
+    "crc32": 623101197,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Neutral_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 118905785,
+    "crc32": 1830445750,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Sad_Ogre_ALT_001.bvh",
+    "compressed": 1617395,
+    "bytes": 3510714,
+    "offset": 118906015,
+    "crc32": 1210847868,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Sad_Ogre_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 120523531,
+    "crc32": 3685588129,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Sad_Ogre_001.bvh",
+    "compressed": 523317,
+    "bytes": 1143359,
+    "offset": 120523760,
+    "crc32": 3841048798,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Sad_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 121047185,
+    "crc32": 2768328041,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Angry_Robot_001.bvh",
+    "compressed": 302599,
+    "bytes": 748760,
+    "offset": 121047401,
+    "crc32": 2926825483,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Angry_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 121350115,
+    "crc32": 3996288164,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Neutral_Zombie_001.bvh",
+    "compressed": 661872,
+    "bytes": 1654489,
+    "offset": 121350338,
+    "crc32": 393696631,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Neutral_Zombie_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 122012328,
+    "crc32": 2480685362,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Angry_Robot_001.bvh",
+    "compressed": 225436,
+    "bytes": 559903,
+    "offset": 122012553,
+    "crc32": 1951662383,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Angry_Robot_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 122238099,
+    "crc32": 732947977,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Dribble_Basketball_Neutral_Zombie_001.bvh",
+    "compressed": 1030074,
+    "bytes": 2585368,
+    "offset": 122238316,
+    "crc32": 3942651570,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Dribble_Basketball_Neutral_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 123268513,
+    "crc32": 3589532524,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Happy_Clown_002.bvh",
+    "compressed": 346753,
+    "bytes": 870981,
+    "offset": 123268744,
+    "crc32": 2298689932,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Happy_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 123615608,
+    "crc32": 1492743100,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Sad_Clown_ALT_001.bvh",
+    "compressed": 805658,
+    "bytes": 2010248,
+    "offset": 123615827,
+    "crc32": 4133540046,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Sad_Clown_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 124421607,
+    "crc32": 421044113,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backwards_Sad_Robot_002.bvh",
+    "compressed": 746975,
+    "bytes": 1878590,
+    "offset": 124421837,
+    "crc32": 4060591754,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backwards_Sad_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 125168935,
+    "crc32": 2986445940,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backward_Scared_AverageJoe_001.bvh",
+    "compressed": 282629,
+    "bytes": 703452,
+    "offset": 125169166,
+    "crc32": 4107129894,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backward_Scared_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 125451925,
+    "crc32": 1622452248,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Neutral_Clown_001.bvh",
+    "compressed": 191876,
+    "bytes": 476139,
+    "offset": 125452163,
+    "crc32": 2719339887,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Neutral_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 125644147,
+    "crc32": 391496714,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Scared_Princess_001.bvh",
+    "compressed": 706384,
+    "bytes": 1753421,
+    "offset": 125644363,
+    "crc32": 639291473,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Scared_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 126350866,
+    "crc32": 3705008442,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Angry_Clown_002.bvh",
+    "compressed": 184014,
+    "bytes": 457458,
+    "offset": 126351093,
+    "crc32": 896193712,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Angry_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 126535224,
+    "crc32": 3591692428,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Angry_Zombie_002.bvh",
+    "compressed": 183763,
+    "bytes": 456564,
+    "offset": 126535449,
+    "crc32": 3127217825,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Angry_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 126719319,
+    "crc32": 1378569820,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Sad_Robot_001.bvh",
+    "compressed": 678650,
+    "bytes": 1694992,
+    "offset": 126719534,
+    "crc32": 225816477,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Sad_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 127398297,
+    "crc32": 1829326560,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Angry_Princess_001.bvh",
+    "compressed": 351510,
+    "bytes": 872654,
+    "offset": 127398518,
+    "crc32": 1996003309,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Angry_Princess_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 127750146,
+    "crc32": 2927767324,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Sad_Princess_002.bvh",
+    "compressed": 220986,
+    "bytes": 559349,
+    "offset": 127750371,
+    "crc32": 2832584120,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Sad_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 127971469,
+    "crc32": 242481408,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Scared_Clown.bvh",
+    "compressed": 328962,
+    "bytes": 811985,
+    "offset": 127971689,
+    "crc32": 898498358,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Scared_Clown.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 128300763,
+    "crc32": 998491228,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Happy_AverageJoe_001.bvh",
+    "compressed": 231678,
+    "bytes": 575724,
+    "offset": 128300983,
+    "crc32": 2371048242,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Happy_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 128532772,
+    "crc32": 1777253185,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Angry_Zombie_001.bvh",
+    "compressed": 143189,
+    "bytes": 354027,
+    "offset": 128532991,
+    "crc32": 1132543080,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Angry_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 128676287,
+    "crc32": 3319849062,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Scared_Zombie_002.bvh",
+    "compressed": 166164,
+    "bytes": 421989,
+    "offset": 128676502,
+    "crc32": 2667234105,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Scared_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 128842779,
+    "crc32": 827679593,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Happy_Princess_001.bvh",
+    "compressed": 388250,
+    "bytes": 968193,
+    "offset": 128843000,
+    "crc32": 3783574699,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Happy_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 129231364,
+    "crc32": 2719358379,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Scared_AverageJoe_001.bvh",
+    "compressed": 361479,
+    "bytes": 906472,
+    "offset": 129231586,
+    "crc32": 3602861488,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Scared_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 129593186,
+    "crc32": 1485142707,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Sad_AverageJoe_001.bvh",
+    "compressed": 256287,
+    "bytes": 639844,
+    "offset": 129593415,
+    "crc32": 3625542969,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Sad_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 129849811,
+    "crc32": 2221811986,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Happy_AverageJoe_001.bvh",
+    "compressed": 282439,
+    "bytes": 702998,
+    "offset": 129850028,
+    "crc32": 1534994378,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Happy_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 130132587,
+    "crc32": 2368149021,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Dance_Neutral_Clown_001.bvh",
+    "compressed": 501463,
+    "bytes": 1246214,
+    "offset": 130132815,
+    "crc32": 2012917,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Dance_Neutral_Clown_001.bvh",
+    "compressed": 143,
+    "bytes": 234,
+    "offset": 130634387,
+    "crc32": 787746938,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Happy_Ogre_001.bvh",
+    "compressed": 502308,
+    "bytes": 1090460,
+    "offset": 130634650,
+    "crc32": 3610378176,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Happy_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 131137072,
+    "crc32": 4208285273,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backward_Angry_AverageJoe_001.bvh",
+    "compressed": 257693,
+    "bytes": 642570,
+    "offset": 131137294,
+    "crc32": 4156768494,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backward_Angry_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 131395116,
+    "crc32": 2637438231,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Sad_Clown_002.bvh",
+    "compressed": 350556,
+    "bytes": 880588,
+    "offset": 131395353,
+    "crc32": 2603216463,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Sad_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 131746018,
+    "crc32": 4266274850,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backwards_Scared_Princess_002.bvh",
+    "compressed": 744475,
+    "bytes": 1850630,
+    "offset": 131746235,
+    "crc32": 683873223,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backwards_Scared_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 132490839,
+    "crc32": 3686707447,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Side_Neutral_Zombie_003.bvh",
+    "compressed": 1097170,
+    "bytes": 2745285,
+    "offset": 132491076,
+    "crc32": 773534333,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Side_Neutral_Zombie_003.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 133588365,
+    "crc32": 2317871196,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Scared_Zombie_001.bvh",
+    "compressed": 491414,
+    "bytes": 1213718,
+    "offset": 133588592,
+    "crc32": 676365792,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Scared_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 134080121,
+    "crc32": 60897953,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backwards_Sad_Princess_002.bvh",
+    "compressed": 1013208,
+    "bytes": 2540850,
+    "offset": 134080344,
+    "crc32": 2317822722,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backwards_Sad_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 135093678,
+    "crc32": 2007222150,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Object_Sad_AverageJoe_001.bvh",
+    "compressed": 285331,
+    "bytes": 720325,
+    "offset": 135093912,
+    "crc32": 3293395569,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Object_Sad_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 135379360,
+    "crc32": 62295074,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Scared_Clown_002.bvh",
+    "compressed": 379371,
+    "bytes": 951182,
+    "offset": 135379585,
+    "crc32": 2372497651,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Scared_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 135759068,
+    "crc32": 2775247589,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Angry_AverageJoe_001.bvh",
+    "compressed": 159898,
+    "bytes": 396459,
+    "offset": 135759288,
+    "crc32": 291904013,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Angry_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 135919297,
+    "crc32": 677409333,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Uneven_Floor_Neutral_Zombie_001.bvh",
+    "compressed": 1080209,
+    "bytes": 2703887,
+    "offset": 135919516,
+    "crc32": 3587375947,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Uneven_Floor_Neutral_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 136999842,
+    "crc32": 2162320191,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Angry_AverageJoe_001.bvh",
+    "compressed": 264407,
+    "bytes": 662401,
+    "offset": 137000067,
+    "crc32": 1049374305,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Angry_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 137264594,
+    "crc32": 504354643,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backward_Happy_AverageJoe_001.bvh",
+    "compressed": 264262,
+    "bytes": 659274,
+    "offset": 137264822,
+    "crc32": 1408680607,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backward_Happy_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 137529213,
+    "crc32": 1621591118,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Scared_Zombie_001.bvh",
+    "compressed": 673341,
+    "bytes": 1679092,
+    "offset": 137529450,
+    "crc32": 3723783016,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Scared_Zombie_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 138202908,
+    "crc32": 3303566258,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Angry_Clown_002.bvh",
+    "compressed": 367758,
+    "bytes": 923142,
+    "offset": 138203132,
+    "crc32": 813283365,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Angry_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 138571001,
+    "crc32": 3043675577,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Happy_AverageJoe_001.bvh",
+    "compressed": 523372,
+    "bytes": 1300761,
+    "offset": 138571220,
+    "crc32": 156831798,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Happy_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 139094710,
+    "crc32": 79065699,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Scared_Clown_001.bvh",
+    "compressed": 971472,
+    "bytes": 2404375,
+    "offset": 139094936,
+    "crc32": 2203202351,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Scared_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 140066522,
+    "crc32": 3215935194,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Scared_AverageJoe_001.bvh",
+    "compressed": 364051,
+    "bytes": 915752,
+    "offset": 140066744,
+    "crc32": 3959871845,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Scared_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 140430912,
+    "crc32": 3687945646,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Scared_Zombie_001.bvh",
+    "compressed": 215926,
+    "bytes": 533353,
+    "offset": 140431137,
+    "crc32": 1753254213,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Scared_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 140647175,
+    "crc32": 2368774302,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Happy_Robot_001.bvh",
+    "compressed": 230918,
+    "bytes": 574544,
+    "offset": 140647395,
+    "crc32": 2425634604,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Happy_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 140878423,
+    "crc32": 2830641476,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Object_Neutral_Ogre_002.bvh",
+    "compressed": 278465,
+    "bytes": 610447,
+    "offset": 140878641,
+    "crc32": 1886012040,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Object_Neutral_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 141157221,
+    "crc32": 731141507,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Happy_Robot_001.bvh",
+    "compressed": 343042,
+    "bytes": 848333,
+    "offset": 141157444,
+    "crc32": 260935332,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Happy_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 141500601,
+    "crc32": 3142103931,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Happy_Clown_002.bvh",
+    "compressed": 216456,
+    "bytes": 539509,
+    "offset": 141500824,
+    "crc32": 3169318559,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Happy_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 141717397,
+    "crc32": 2830081991,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Angry_AverageJoe_001.bvh",
+    "compressed": 255872,
+    "bytes": 642566,
+    "offset": 141717622,
+    "crc32": 734384833,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Angry_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 141973610,
+    "crc32": 559236149,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Sad_Clown_001.bvh",
+    "compressed": 321589,
+    "bytes": 798690,
+    "offset": 141973834,
+    "crc32": 147986781,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Sad_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 142295532,
+    "crc32": 3037879907,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Happy_Clown_001.bvh",
+    "compressed": 292440,
+    "bytes": 726322,
+    "offset": 142295749,
+    "crc32": 3495494428,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Happy_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 142588300,
+    "crc32": 556652527,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Angry_AverageJoe_001.bvh",
+    "compressed": 505871,
+    "bytes": 1262616,
+    "offset": 142588519,
+    "crc32": 2893475064,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Angry_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 143094508,
+    "crc32": 3995183346,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Happy_Robot_001.bvh",
+    "compressed": 450231,
+    "bytes": 1126423,
+    "offset": 143094734,
+    "crc32": 729613892,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Happy_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 143545078,
+    "crc32": 329326077,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Angry_Princess_002.bvh",
+    "compressed": 436707,
+    "bytes": 1091312,
+    "offset": 143545299,
+    "crc32": 292068300,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Angry_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 143982126,
+    "crc32": 1779019937,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Sad_Princess_001.bvh",
+    "compressed": 850818,
+    "bytes": 2126563,
+    "offset": 143982354,
+    "crc32": 1507069602,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Sad_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 144833286,
+    "crc32": 3911568486,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Happy_Princess_002.bvh",
+    "compressed": 121810,
+    "bytes": 300464,
+    "offset": 144833508,
+    "crc32": 2718024129,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Happy_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 144955427,
+    "crc32": 77710560,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Scared_Robot_001.bvh",
+    "compressed": 447439,
+    "bytes": 1106630,
+    "offset": 144955644,
+    "crc32": 4075130327,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Scared_Robot_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 145403199,
+    "crc32": 924675511,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Happy_AverageJoe_001.bvh",
+    "compressed": 230594,
+    "bytes": 577300,
+    "offset": 145403422,
+    "crc32": 1201057749,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Happy_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 145634132,
+    "crc32": 3840156561,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Dance_Neutral_Princess_001.bvh",
+    "compressed": 677077,
+    "bytes": 1684575,
+    "offset": 145634356,
+    "crc32": 661303664,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Dance_Neutral_Princess_001.bvh",
+    "compressed": 143,
+    "bytes": 234,
+    "offset": 146311545,
+    "crc32": 3250570483,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Happy_Ogre_002.bvh",
+    "compressed": 395463,
+    "bytes": 866800,
+    "offset": 146311811,
+    "crc32": 898564388,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Happy_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 146707384,
+    "crc32": 426022558,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Object_Neutral_Clown_002.bvh",
+    "compressed": 201512,
+    "bytes": 501642,
+    "offset": 146707602,
+    "crc32": 4250891449,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Object_Neutral_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 146909230,
+    "crc32": 1780129015,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Scared_Ogre_001.bvh",
+    "compressed": 550051,
+    "bytes": 1195840,
+    "offset": 146909454,
+    "crc32": 402757573,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Scared_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 147459614,
+    "crc32": 2163298153,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Scared_Robot_001.bvh",
+    "compressed": 168896,
+    "bytes": 420878,
+    "offset": 147459831,
+    "crc32": 3262848458,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Scared_Robot_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 147628845,
+    "crc32": 2543100463,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Sad_AverageJoe_001.bvh",
+    "compressed": 934100,
+    "bytes": 2336899,
+    "offset": 147629070,
+    "crc32": 1898741093,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Sad_AverageJoe_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 148563286,
+    "crc32": 3286263070,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Happy_AverageJoe_001.bvh",
+    "compressed": 206780,
+    "bytes": 510239,
+    "offset": 148563509,
+    "crc32": 3085608519,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Happy_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 148770404,
+    "crc32": 4264731640,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Happy_Ogre_001.bvh",
+    "compressed": 286859,
+    "bytes": 625983,
+    "offset": 148770627,
+    "crc32": 2623139797,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Happy_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 149057596,
+    "crc32": 825094323,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backwards_Neutral_Zombie_002.bvh",
+    "compressed": 957189,
+    "bytes": 2400290,
+    "offset": 149057814,
+    "crc32": 2184704795,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backwards_Neutral_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 150015131,
+    "crc32": 910041764,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Angry_Princess_001.bvh",
+    "compressed": 196330,
+    "bytes": 485035,
+    "offset": 150015367,
+    "crc32": 1011443120,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Angry_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 150211810,
+    "crc32": 3238467015,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Angry_Ogre_001.bvh",
+    "compressed": 841659,
+    "bytes": 1822560,
+    "offset": 150212031,
+    "crc32": 2823553025,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Angry_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 151053802,
+    "crc32": 747940802,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Angry_Ogre_001.bvh",
+    "compressed": 406404,
+    "bytes": 879892,
+    "offset": 151054022,
+    "crc32": 1260246081,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Angry_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 151460534,
+    "crc32": 1741473155,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Happy_Zombie_001.bvh",
+    "compressed": 368087,
+    "bytes": 912170,
+    "offset": 151460750,
+    "crc32": 1082291125,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Happy_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 151828953,
+    "crc32": 1861874563,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Sad_Robot_001.bvh",
+    "compressed": 818663,
+    "bytes": 2048196,
+    "offset": 151829177,
+    "crc32": 3069107414,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Sad_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 152647951,
+    "crc32": 4263612334,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Dribble_Basketball_Neutral_Robot_001.bvh",
+    "compressed": 946493,
+    "bytes": 2357927,
+    "offset": 152648170,
+    "crc32": 1714672969,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Dribble_Basketball_Neutral_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 153594785,
+    "crc32": 3539439608,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Sad_Ogre_001.bvh",
+    "compressed": 576208,
+    "bytes": 1249973,
+    "offset": 153595015,
+    "crc32": 4143570285,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Sad_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 154171329,
+    "crc32": 1022107460,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Angry_Zombie_001.bvh",
+    "compressed": 201844,
+    "bytes": 497671,
+    "offset": 154171543,
+    "crc32": 184889152,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Angry_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 154373498,
+    "crc32": 730063616,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Neutral_Princess_001.bvh",
+    "compressed": 468012,
+    "bytes": 1168102,
+    "offset": 154373717,
+    "crc32": 1423108197,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Neutral_Princess_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 154841843,
+    "crc32": 1497352708,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Sad_Clown_002.bvh",
+    "compressed": 1149491,
+    "bytes": 2948363,
+    "offset": 154842064,
+    "crc32": 2543588183,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Sad_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 155991668,
+    "crc32": 1486247653,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Angry_Zombie_ALT_001.bvh",
+    "compressed": 461252,
+    "bytes": 1142931,
+    "offset": 155991889,
+    "crc32": 2163796010,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Angry_Zombie_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 156453266,
+    "crc32": 1333868923,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Angry_AverageJoe_001.bvh",
+    "compressed": 266720,
+    "bytes": 661544,
+    "offset": 156453499,
+    "crc32": 2097466198,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Angry_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 156720334,
+    "crc32": 1015521480,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Happy_Zombie_001.bvh",
+    "compressed": 209260,
+    "bytes": 525438,
+    "offset": 156720557,
+    "crc32": 3824830382,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Happy_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 156929935,
+    "crc32": 2830939025,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Scared_Ogre_002.bvh",
+    "compressed": 367216,
+    "bytes": 804078,
+    "offset": 156930161,
+    "crc32": 1392003541,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Scared_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 157297483,
+    "crc32": 505215749,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Scared_AverageJoe_ALT_001.bvh",
+    "compressed": 661594,
+    "bytes": 1644126,
+    "offset": 157297697,
+    "crc32": 3168343783,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Scared_AverageJoe_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 157959421,
+    "crc32": 2994570619,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Neutral_AverageJoe_001.bvh",
+    "compressed": 198911,
+    "bytes": 491426,
+    "offset": 157959659,
+    "crc32": 770655125,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Neutral_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 158158687,
+    "crc32": 1110438869,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Angry_Zombie_001.bvh",
+    "compressed": 193517,
+    "bytes": 480865,
+    "offset": 158158912,
+    "crc32": 1127814565,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Angry_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 158352541,
+    "crc32": 1621302939,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Neutral_Ogre_002.bvh",
+    "compressed": 378049,
+    "bytes": 828312,
+    "offset": 158352761,
+    "crc32": 1239537765,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Neutral_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 158730922,
+    "crc32": 1742727637,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Sad_Zombie_001.bvh",
+    "compressed": 1017490,
+    "bytes": 2545986,
+    "offset": 158731142,
+    "crc32": 3429514186,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Sad_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 159748744,
+    "crc32": 77946421,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backward_Angry_Clown_002.bvh",
+    "compressed": 705548,
+    "bytes": 1767323,
+    "offset": 159748964,
+    "crc32": 1886661553,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backward_Angry_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 160454636,
+    "crc32": 1216699887,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Angry_Robot_ALT_001.bvh",
+    "compressed": 304392,
+    "bytes": 755794,
+    "offset": 160454868,
+    "crc32": 97293681,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Angry_Robot_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 160759384,
+    "crc32": 2725154417,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Happy_Clown_001.bvh",
+    "compressed": 169811,
+    "bytes": 423257,
+    "offset": 160759616,
+    "crc32": 2200690796,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Happy_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 160929533,
+    "crc32": 329615144,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Happy_Zombie_001.bvh",
+    "compressed": 473201,
+    "bytes": 1178780,
+    "offset": 160929747,
+    "crc32": 1506924813,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Happy_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 161403060,
+    "crc32": 1739029007,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Neutral_Ogre_002.bvh",
+    "compressed": 629432,
+    "bytes": 1365195,
+    "offset": 161403280,
+    "crc32": 2021167664,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Neutral_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 162032828,
+    "crc32": 1738793178,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Happy_Clown_001.bvh",
+    "compressed": 200959,
+    "bytes": 498994,
+    "offset": 162033052,
+    "crc32": 315767991,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Happy_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 162234120,
+    "crc32": 4267252852,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Sad_Clown_001.bvh",
+    "compressed": 230091,
+    "bytes": 568114,
+    "offset": 162234337,
+    "crc32": 230604885,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Sad_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 162464536,
+    "crc32": 1486015536,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Scared_Ogre_001.bvh",
+    "compressed": 441651,
+    "bytes": 960228,
+    "offset": 162464752,
+    "crc32": 3218767478,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Scared_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 162906514,
+    "crc32": 640267131,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Object_Angry_Clown_002.bvh",
+    "compressed": 275390,
+    "bytes": 691738,
+    "offset": 162906733,
+    "crc32": 2074674570,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Object_Angry_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 163182237,
+    "crc32": 3215711247,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crawling_Angry_Zombie_001.bvh",
+    "compressed": 222560,
+    "bytes": 551946,
+    "offset": 163182459,
+    "crc32": 2080857925,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crawling_Angry_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 163405135,
+    "crc32": 3322114387,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Angry_Zombie_001.bvh",
+    "compressed": 213447,
+    "bytes": 539142,
+    "offset": 163405359,
+    "crc32": 1448645374,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Angry_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 163618924,
+    "crc32": 2425184570,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Happy_Zombie_001.bvh",
+    "compressed": 213118,
+    "bytes": 525920,
+    "offset": 163619150,
+    "crc32": 4163123999,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Happy_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 163832379,
+    "crc32": 3591404121,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Happy_Ogre_001.bvh",
+    "compressed": 278338,
+    "bytes": 600375,
+    "offset": 163832598,
+    "crc32": 2811287705,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Happy_Ogre_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 164111045,
+    "crc32": 1518282677,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Neutral_Clown_002.bvh",
+    "compressed": 548050,
+    "bytes": 1366026,
+    "offset": 164111261,
+    "crc32": 4083538120,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Neutral_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 164659428,
+    "crc32": 2586006997,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Neutral_AverageJoe_001.bvh",
+    "compressed": 292175,
+    "bytes": 733211,
+    "offset": 164659653,
+    "crc32": 3305232981,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Neutral_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 164951946,
+    "crc32": 3834616861,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Crouch_Sad_Ogre_001.bvh",
+    "compressed": 1597462,
+    "bytes": 3486482,
+    "offset": 164952172,
+    "crc32": 1568728473,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Crouch_Sad_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 166549744,
+    "crc32": 2098873834,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Pickup_Object_Scared_Zombie_002.bvh",
+    "compressed": 256290,
+    "bytes": 643202,
+    "offset": 166549962,
+    "crc32": 3912705667,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Pickup_Object_Scared_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 166806369,
+    "crc32": 3912399589,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Pickup_Object_Sad_Zombie_002.bvh",
+    "compressed": 238460,
+    "bytes": 612775,
+    "offset": 166806594,
+    "crc32": 2921344664,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Pickup_Object_Sad_Zombie_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 167045168,
+    "crc32": 151981646,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Object_Happy_Ogre_002.bvh",
+    "compressed": 350312,
+    "bytes": 757821,
+    "offset": 167045390,
+    "crc32": 2386046068,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Object_Happy_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 167395815,
+    "crc32": 2157865520,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Sad_Ogre_001.bvh",
+    "compressed": 277946,
+    "bytes": 601409,
+    "offset": 167396036,
+    "crc32": 3187780850,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Sad_Ogre_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 167674089,
+    "crc32": 3686410786,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Neutral_Robot_ALT_001.bvh",
+    "compressed": 338000,
+    "bytes": 840881,
+    "offset": 167674304,
+    "crc32": 1237685333,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Neutral_Robot_ALT_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 168012430,
+    "crc32": 749201573,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Happy_Robot_001.bvh",
+    "compressed": 164237,
+    "bytes": 409622,
+    "offset": 168012663,
+    "crc32": 794992563,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Happy_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 168177006,
+    "crc32": 2129328265,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Pickup_Object_Sad_Princess_002.bvh",
+    "compressed": 293304,
+    "bytes": 748725,
+    "offset": 168177220,
+    "crc32": 1194625769,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Pickup_Object_Sad_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 168470640,
+    "crc32": 2008314117,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Side_Angry_Ogre_ALT_001.bvh",
+    "compressed": 878228,
+    "bytes": 1896496,
+    "offset": 168470864,
+    "crc32": 3092461315,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Side_Angry_Ogre_ALT_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 169349215,
+    "crc32": 2640001102,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Sad_Clown_002.bvh",
+    "compressed": 253428,
+    "bytes": 636534,
+    "offset": 169349446,
+    "crc32": 3719710604,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Sad_Clown_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 169602989,
+    "crc32": 1429997214,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Neutral_Zombie_001.bvh",
+    "compressed": 233521,
+    "bytes": 579316,
+    "offset": 169603212,
+    "crc32": 3493604464,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Neutral_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 169836846,
+    "crc32": 3433907644,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backward_Happy_Ogre_002.bvh",
+    "compressed": 777523,
+    "bytes": 1686614,
+    "offset": 169837067,
+    "crc32": 2327582851,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backward_Happy_Ogre_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 170614713,
+    "crc32": 2718018344,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Scared_Robot_001.bvh",
+    "compressed": 239189,
+    "bytes": 593901,
+    "offset": 170614944,
+    "crc32": 3372929912,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Scared_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 170854244,
+    "crc32": 2987801335,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Neutral_AverageJoe_001.bvh",
+    "compressed": 365232,
+    "bytes": 917909,
+    "offset": 170854463,
+    "crc32": 1976131264,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Neutral_AverageJoe_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 171219819,
+    "crc32": 3863241619,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backwards_Angry_Princess_002.bvh",
+    "compressed": 597130,
+    "bytes": 1484579,
+    "offset": 171220050,
+    "crc32": 1826866239,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backwards_Angry_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 171817308,
+    "crc32": 4103605698,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Pickup_Object_Sad_Robot_002.bvh",
+    "compressed": 224176,
+    "bytes": 582492,
+    "offset": 171817544,
+    "crc32": 1220657914,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Pickup_Object_Sad_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 172041833,
+    "crc32": 504057222,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Scared_Robot_001.bvh",
+    "compressed": 308332,
+    "bytes": 774381,
+    "offset": 172042054,
+    "crc32": 3922831053,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Scared_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 172350498,
+    "crc32": 1890588049,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Neutral_AverageJoe_001.bvh",
+    "compressed": 293280,
+    "bytes": 733738,
+    "offset": 172350718,
+    "crc32": 3100076275,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Neutral_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 172644120,
+    "crc32": 3434804031,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Happy_Ogre_001.bvh",
+    "compressed": 804608,
+    "bytes": 1744188,
+    "offset": 172644350,
+    "crc32": 3157992827,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Happy_Ogre_001.bvh",
+    "compressed": 96,
+    "bytes": 177,
+    "offset": 173449072,
+    "crc32": 172163993,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Neutral_Robot_001.bvh",
+    "compressed": 180406,
+    "bytes": 453825,
+    "offset": 173449293,
+    "crc32": 4005944385,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Neutral_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 173629818,
+    "crc32": 61186164,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_Sad_Robot_002.bvh",
+    "compressed": 140258,
+    "bytes": 351621,
+    "offset": 173630045,
+    "crc32": 417889995,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_Sad_Robot_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 173770407,
+    "crc32": 151753883,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Happy_Robot_001.bvh",
+    "compressed": 537039,
+    "bytes": 1342430,
+    "offset": 173770619,
+    "crc32": 1935888112,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Happy_Robot_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 174307773,
+    "crc32": 824797798,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Run_Neutral_Clown_001.bvh",
+    "compressed": 273947,
+    "bytes": 678035,
+    "offset": 174307996,
+    "crc32": 4174561196,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Run_Neutral_Clown_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 174582055,
+    "crc32": 1111285635,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stumble_Scared_AverageJoe_001.bvh",
+    "compressed": 209965,
+    "bytes": 524028,
+    "offset": 174582275,
+    "crc32": 3578080703,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stumble_Scared_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 174792355,
+    "crc32": 350087859,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Jump_Happy_Princess_001.bvh",
+    "compressed": 166433,
+    "bytes": 412749,
+    "offset": 174792578,
+    "crc32": 2379491815,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Jump_Happy_Princess_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 174959120,
+    "crc32": 3271010468,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Loco_Walk_Sad_AverageJoe_001.bvh",
+    "compressed": 300528,
+    "bytes": 755655,
+    "offset": 174959337,
+    "crc32": 2716326422,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Loco_Walk_Sad_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 175259979,
+    "crc32": 2986677921,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Props_Swing_Bat_Neutral_Zombie_001.bvh",
+    "compressed": 312880,
+    "bytes": 789610,
+    "offset": 175260201,
+    "crc32": 2026095220,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Props_Swing_Bat_Neutral_Zombie_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 175573201,
+    "crc32": 1429154504,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Stats_Sit_Neutral_AverageJoe_001.bvh",
+    "compressed": 231763,
+    "bytes": 587900,
+    "offset": 175573429,
+    "crc32": 3906026088,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Stats_Sit_Neutral_AverageJoe_001.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 175805310,
+    "crc32": 427277000,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "bvh/Push_and_Fall_Backwards_Neutral_Princess_002.bvh",
+    "compressed": 822338,
+    "bytes": 2055905,
+    "offset": 175805536,
+    "crc32": 1690768498,
+    "method": 8,
+    "flags": 8
+  },
+  {
+    "name": "__MACOSX/bvh/._Push_and_Fall_Backwards_Neutral_Princess_002.bvh",
+    "compressed": 97,
+    "bytes": 178,
+    "offset": 176628004,
+    "crc32": 908922610,
+    "method": 8,
+    "flags": 8
+  }
+]

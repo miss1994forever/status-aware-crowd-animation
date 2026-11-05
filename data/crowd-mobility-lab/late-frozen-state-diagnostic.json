@@ -1,0 +1,172 @@
+{
+  "t": 10,
+  "source": "old G train seed13",
+  "entries": [
+    {
+      "id": 0,
+      "safe_count": 0,
+      "desired": [
+        0.2738144130422643,
+        0.9241475251586259
+      ],
+      "selected": null
+    },
+    {
+      "id": 1,
+      "safe_count": 1,
+      "desired": [
+        -0.2313924672213436,
+        -0.15461150357274336
+      ],
+      "selected": {
+        "clip": "M11",
+        "scale": 0.5,
+        "steer": 0.0633818865986136,
+        "phase_offset": 0.08,
+        "clearance": 0.018543881104806093,
+        "feasible": true,
+        "tracking": 0.0067240752311188414,
+        "orca": 0.49499091171230203,
+        "continuity": 0.22442886892079925,
+        "progress": -0.21440328263247643,
+        "deformation": 0.3803093050504476,
+        "score": 10.10826274756482,
+        "selected": true,
+        "reason": "safe"
+      }
+    },
+    {
+      "id": 2,
+      "safe_count": 42,
+      "desired": [
+        0.787132471309906,
+        0.7871324713099062
+      ],
+      "selected": {
+        "clip": "M10",
+        "scale": 1.15,
+        "steer": 2.992770867511009,
+        "phase_offset": 0.0,
+        "clearance": 0.020376958959480662,
+        "feasible": true,
+        "tracking": 0.41486549871160516,
+        "orca": 0.5730195306561355,
+        "continuity": 0.20071064935136188,
+        "progress": 0.37985208137716686,
+        "deformation": 0.28954552475469314,
+        "score": 13.396533673595926,
+        "selected": true,
+        "reason": "safe"
+      }
+    },
+    {
+      "id": 3,
+      "safe_count": 0,
+      "desired": [
+        0.8604946872136968,
+        -0.7061897394170227
+      ],
+      "selected": null
+    },
+    {
+      "id": 4,
+      "safe_count": 5,
+      "desired": [
+        -0.08078429647050121,
+        0.26631013568313766
+      ],
+      "selected": {
+        "clip": "M03",
+        "scale": 0.5,
+        "steer": 0.4011178325139544,
+        "phase_offset": 0.0,
+        "clearance": 0.07741564871491519,
+        "feasible": true,
+        "tracking": 0.010496295443779623,
+        "orca": 0.49635221543404473,
+        "continuity": 0.015561122967387389,
+        "progress": -0.15979148133853993,
+        "deformation": 0.02925727767675434,
+        "score": 9.952632317155691,
+        "selected": true,
+        "reason": "safe"
+      }
+    },
+    {
+      "id": 5,
+      "safe_count": 0,
+      "desired": [
+        0.08078429647050119,
+        -0.26631013568313766
+      ],
+      "selected": null
+    },
+    {
+      "id": 6,
+      "safe_count": 12,
+      "desired": [
+        0.025156602997371238,
+        -0.720252184250505
+      ],
+      "selected": {
+        "clip": "M03",
+        "scale": 0.5,
+        "steer": 2.1682475417330194,
+        "phase_offset": 0.0,
+        "clearance": 0.026614096543854077,
+        "feasible": true,
+        "tracking": 0.6571843999337341,
+        "orca": 0.6381512618903357,
+        "continuity": 0.17202008133663743,
+        "progress": 0.029656917518627424,
+        "deformation": 0.2533516536782926,
+        "score": 15.569714302382012,
+        "selected": true,
+        "reason": "safe"
+      }
+    },
+    {
+      "id": 7,
+      "safe_count": 0,
+      "desired": [
+        -1.0652405427325506,
+        0.32313718588200435
+      ],
+      "selected": null
+    },
+    {
+      "id": 8,
+      "safe_count": 8,
+      "desired": [
+        0.2729460253134329,
+        -0.054292340061962985
+      ],
+      "selected": {
+        "clip": "M02",
+        "scale": 0.5,
+        "steer": -0.16649118826296583,
+        "phase_offset": -0.08,
+        "clearance": 0.015517944470618938,
+        "feasible": true,
+        "tracking": 0.0010236992590469988,
+        "orca": 0.364268121664498,
+        "continuity": 0.1749963984689155,
+        "progress": -0.24265244122238538,
+        "deformation": 0.3456366398418354,
+        "score": 7.415923140550587,
+        "selected": true,
+        "reason": "safe"
+      }
+    },
+    {
+      "id": 9,
+      "safe_count": 0,
+      "desired": [
+        -1.0284381354651402,
+        0.4259930237713597
+      ],
+      "selected": null
+    }
+  ],
+  "scope": "Post-hoc one-step feasibility on already jammed observed state, not a new tuned run or a recovery-success claim."
+}

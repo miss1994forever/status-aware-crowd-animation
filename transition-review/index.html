@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>动作切换审阅 · 动画大作业</title>
+<style>
+body{font:16px system-ui;margin:24px;background:#f6f6f4;color:#222;line-height:1.6}h1{font-size:24px;margin-bottom:8px}p{max-width:1100px}button,select,input{font:inherit;margin:4px;padding:5px}button{cursor:pointer}main{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}section{background:white;border:1px solid #ccc;padding:10px}canvas{width:100%;display:block;background:#f1f3f5}h2{font-size:17px;margin:0}small{display:block;color:#555}#time{width:min(55vw,700px)}#stage{font-weight:600;color:#205a79}details{background:white;padding:12px;margin-top:16px}.controls{margin:12px 0}a{color:#225f8c}pre{white-space:pre-wrap;font-size:12px}button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #5d93b5}@media(max-width:800px){main{grid-template-columns:1fr}body{margin:12px}}
+</style>
+<h1>动作切换：先看连贯，再看人物感觉</h1>
+<p>1.20 秒开始切换。A / B 的目标动作、根轨迹、速度控制和混合方式完全一致，只改变切入步态的时刻。左侧继续原动作，仅供对照人物原来的感觉，不是同轨迹基线。</p>
+<div class="controls"><label>动作转换 <select id="pair"><option value="M11">M02 → M11（同源风格，前行→斜行）</option><option value="M01">M02 → M01（跨源风格，前行→前行）</option><option value="M03">M02 → M03（跨源风格，前行→前行）</option></select></label>
+<label>初始步态相位 <select id="phase"></select></label>
+<label>视角 <select id="view"><option value="oblique">斜侧</option><option value="side">侧面</option><option value="front">正面</option></select></label>
+<label>回放速度 <select id="rate"><option value="1">正常</option><option value="0.5">半速检查</option></select></label></div>
+<div><button id="play" disabled>播放</button><button id="reset">回到开头</button><button id="switch">查看切换前</button><label for="time">时间</label><input id="time" type="range" min="0" max="4" step=".001" value="0"><output id="stamp">0.000 s</output><span id="stage">加载中</span></div>
+<main><section><h2>参考：继续 M02</h2><small>不切换；保持原来的动作</small><canvas width="640" height="510" aria-label="继续原动作"></canvas></section><section><h2>方案 A</h2><small>与 B 使用相同目标动作和根轨迹</small><canvas width="640" height="510" aria-label="方案 A"></canvas></section><section><h2>方案 B</h2><small>与 A 使用相同目标动作和根轨迹</small><canvas width="640" height="510" aria-label="方案 B"></canvas></section></main>
+<p>先只看默认的 M02 → M11：切换时有没有突然抽动、顿一下或脚步不连贯？如果 A / B 相近，也可以直接说相近。再看跨风格转换：动作是否顺了，但像换了一个人物？这些问题不是让你按素材标签判断地位。</p>
+<details><summary>展开方法和诊断数值（不是自然度评分）</summary><p>A：在原来的三个相近相位中匹配。B：从整个周期预筛后匹配。保持原控制器每 0.2 秒重算、0.4 秒混合衰减的方式。没有避障、IK、status 映射或自动感知评价。显示的是保存的骨架姿态，不是浏览器重新求解；50ms 帧间用线性显示插值，可能有细微骨长变化。</p><pre id="metrics"></pre></details>
+<p><a href="../predictive-motion-lab/index.html">返回预测式动作选择实验</a> · <a href="../../progress/index.html">进度工作台</a> · <a href="data.json">完整24条件数据</a> · <a href="LICENSE.txt">素材许可：Bandai Namco Research Inc.，CC BY-NC 4.0</a></p>
+<script src="ui.js"></script></html>

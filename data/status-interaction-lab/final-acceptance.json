@@ -1,0 +1,32 @@
+{
+  "core_and_legacy_hash_checks": {
+    "data/status-interaction-lab/frozen.json": true,
+    "data/crowd-mobility-lab/frozen-v1.json": true,
+    "data/predictive-motion-lab/frozen-v4.json": true
+  },
+  "independent_recomputed_runs": 33,
+  "all_independent_metrics_match": true,
+  "all_main_pairs_same_spec_initial_private_config": true,
+  "full_reproduction": {
+    "frozen_hashes_match": true,
+    "key": "eval_shared-10-62003_C2",
+    "frames_exact": true,
+    "decisions_exact": true,
+    "runtime_counts_exact": true,
+    "elapsed": 46.6546408329159
+  },
+  "formal_conditions": 16,
+  "all_runs": 33,
+  "python_full_suite_passed": 96,
+  "latest_interaction_suite_passed": 12,
+  "human_perception_validated": false,
+  "thirty_person_passed": false,
+  "notes": [
+    "Full96 predates final3 additional interaction tests; all12 latest interaction tests passed.",
+    "Real time assessed separately in isolated-benchmark.json.",
+    "Task changes are confined to owned sources/artifacts; no publishing or Git commits."
+  ],
+  "real_time_passed": false,
+  "active_ten_agent_cpu_ms_median": 534.8759999999999,
+  "technical_delivery_complete": true
+}

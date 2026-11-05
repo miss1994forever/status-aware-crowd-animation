@@ -1,0 +1,791 @@
+{
+  "frozen_hashes_match": {
+    "src/crowd_mobility_lab/controller.py": true,
+    "src/crowd_mobility_lab/__init__.py": true,
+    "src/crowd_mobility_lab/evaluate.py": true,
+    "src/crowd_mobility_lab/reciprocal.py": true,
+    "scripts/build_crowd_mobility_lab.py": true,
+    "src/expression_layer.py": true,
+    "data/predictive-motion-lab/library.json": true,
+    "data/crowd-mobility-lab/plan.json": true,
+    "src/predictive_motion_lab/controller.py": true,
+    "src/predictive_motion_lab/__init__.py": true,
+    "src/predictive_motion_lab/motion.py": true,
+    "src/predictive_motion_lab/geometry.py": true,
+    "src/predictive_motion_lab/evaluate.py": true,
+    "scripts/build_predictive_motion_lab.py": true,
+    "data/predictive-motion-lab/configs.json": true
+  },
+  "full_reproduction": {
+    "frames_equal": true,
+    "decisions_equal": true,
+    "frames": 521
+  },
+  "rechecks": [
+    {
+      "key": "train_shared-10-None-13_R0",
+      "all_metrics_match": true,
+      "final_goal_distances": [
+        0.1965968156990934,
+        0.14205165728343278,
+        0.21320214539198704,
+        0.10205774381171685,
+        0.1424611188133893,
+        0.12214434983995319,
+        0.1406372365339375,
+        0.12358782118625046,
+        0.21751627917312186,
+        0.20233169485247035
+      ],
+      "arrival_count": 10,
+      "arrivals_match_final_geometry": true,
+      "recomputed": {
+        "minimum_proxy_axis_gap": 0.24408578140145348,
+        "max_proxy_penetration": 0.0,
+        "collision_time_fraction": 0.0,
+        "arrived_fraction": 1.0,
+        "remaining_goal_distance_mean": 0.1602586862585354,
+        "stagnant_agents": 0,
+        "emergency_hold_agent_seconds": 0.0,
+        "root_acceleration_p95": 1.278979363820742e-11,
+        "root_acceleration_max": 104.78080995728789,
+        "joint_speed_p99": 2.480075858618251,
+        "joint_acceleration_p99": 41.23556489193272,
+        "max_bone_relative_error": 2.4424906541753444e-15,
+        "source_pose_modification_max": 0.3605802316849352,
+        "source_pose_modification_p95": 0.10004907607218415,
+        "expression_drift_mean": 0.6239988147664985,
+        "actual_reference_pose_rms": 0.044000664878198384,
+        "travel_angle_warp_max_radians": 0.4883425063010036,
+        "actual_speed_ratio_min": 0.5,
+        "actual_speed_ratio_max": 1.3210720409294219,
+        "switches": 38,
+        "aba_clip_reversals": 17,
+        "worst": {
+          "t": 4.191666666666667,
+          "agents": [
+            9,
+            3
+          ],
+          "gap": 0.24408578140145348
+        },
+        "dense_samples": 3120,
+        "evaluation_hz": 120,
+        "proxy": "projected-joint convex hull + radius .04; signed SAT axis gap",
+        "planning_seconds": 26.44902495155111,
+        "planning_step_ms_p50": 0.002854038029909134,
+        "planning_step_ms_p95": 754.3658812995999,
+        "agent_count": 10,
+        "emergency_hold_agent_steps": 0,
+        "arrival_times": {
+          "6": 7.0,
+          "0": 7.800000000000001,
+          "9": 8.0,
+          "3": 8.4,
+          "1": 9.8,
+          "8": 10.0,
+          "2": 10.200000000000001,
+          "5": 10.200000000000001,
+          "4": 11.4,
+          "7": 12.8
+        },
+        "interaction_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            5,
+            9
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            8,
+            9
+          ]
+        ],
+        "path_length_per_agent": [
+          7.783720998853728,
+          8.004504056346185,
+          7.726842820538728,
+          7.758155416039767,
+          7.866654516510458,
+          7.6071322185300065,
+          7.4958505661198656,
+          8.59272418907288,
+          7.453546924239378,
+          8.72241005623127
+        ],
+        "path_stretch_per_agent": [
+          1.0241738156386486,
+          1.0532242179402878,
+          1.0166898448077275,
+          1.0208099231631274,
+          1.0350861205934814,
+          1.0009384498065799,
+          0.986296127121035,
+          1.130621603825379,
+          0.9807298584525499,
+          1.1476855337146408
+        ],
+        "completed_path_stretch_mean": 1.0396255495063458,
+        "actual_slow_active_agent_seconds": 0.0,
+        "moving_active_fraction": 1.0,
+        "completed_arrival_time_mean": 9.56,
+        "active_joint_velocity_change_p99": 1.106091882801794,
+        "active_joint_velocity_change_max": 2.1490508860159934,
+        "upper_reference_direction_rms": 0.40796995341672915,
+        "upper_reference_direction_rms_moving": 0.3958881408564223,
+        "synthesized_source_residual_max": 0.3605801614905118,
+        "evaluation_note": "120Hz body hull audit; path/active motion and direction metrics 20Hz. Direction closeness is not status or naturalness."
+      }
+    },
+    {
+      "key": "heldout_shared-10-new-14293_R1",
+      "all_metrics_match": true,
+      "final_goal_distances": [
+        0.08724643092065798,
+        0.10511483249016786,
+        0.20601735726935308,
+        0.10279346760820006,
+        0.16105401186467755,
+        0.1249435655585343,
+        0.21361978110812907,
+        0.1196025308498971,
+        0.13357565297541588,
+        0.13686075764605157
+      ],
+      "arrival_count": 10,
+      "arrivals_match_final_geometry": true,
+      "recomputed": {
+        "minimum_proxy_axis_gap": 0.22216740646883354,
+        "max_proxy_penetration": 0.0,
+        "collision_time_fraction": 0.0,
+        "arrived_fraction": 1.0,
+        "remaining_goal_distance_mean": 0.13908283882910852,
+        "stagnant_agents": 0,
+        "emergency_hold_agent_seconds": 0.0,
+        "root_acceleration_p95": 1.2889302022978012e-11,
+        "root_acceleration_max": 104.78080995728361,
+        "joint_speed_p99": 2.4901459601826503,
+        "joint_acceleration_p99": 38.199190083435944,
+        "max_bone_relative_error": 2.4424906541753444e-15,
+        "source_pose_modification_max": 0.35086273076821295,
+        "source_pose_modification_p95": 0.30030325805665464,
+        "expression_drift_mean": 0.6554200259609474,
+        "actual_reference_pose_rms": 0.005547303632002918,
+        "travel_angle_warp_max_radians": 0.349699208050148,
+        "actual_speed_ratio_min": 0.5,
+        "actual_speed_ratio_max": 1.4307168717381913,
+        "switches": 44,
+        "aba_clip_reversals": 14,
+        "worst": {
+          "t": 6.2250000000000005,
+          "agents": [
+            7,
+            1
+          ],
+          "gap": 0.22216740646883354
+        },
+        "dense_samples": 3120,
+        "evaluation_hz": 120,
+        "proxy": "projected-joint convex hull + radius .04; signed SAT axis gap",
+        "planning_seconds": 23.055361884646118,
+        "planning_step_ms_p50": 0.0008544884622097015,
+        "planning_step_ms_p95": 574.2992689367384,
+        "agent_count": 10,
+        "emergency_hold_agent_steps": 0,
+        "arrival_times": {
+          "6": 6.800000000000001,
+          "3": 8.0,
+          "9": 8.0,
+          "0": 8.200000000000001,
+          "8": 8.4,
+          "1": 10.0,
+          "5": 10.4,
+          "4": 11.0,
+          "7": 11.0,
+          "2": 11.8
+        },
+        "interaction_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            5,
+            9
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            8,
+            9
+          ]
+        ],
+        "path_length_per_agent": [
+          8.019925787802915,
+          8.230792899347312,
+          7.499432305625249,
+          7.748173615422866,
+          7.772416168019731,
+          7.637714033760729,
+          7.389743413627817,
+          7.704417093891697,
+          7.489538470789185,
+          8.483057268014884
+        ],
+        "path_stretch_per_agent": [
+          1.0554169815756627,
+          1.083210004515677,
+          0.9868195666084424,
+          1.0197165742455807,
+          1.0227319755500515,
+          1.0052170278904529,
+          0.9725601716316659,
+          1.0137395527778332,
+          0.9854692590952302,
+          1.1161961645504093
+        ],
+        "completed_path_stretch_mean": 1.0261077278441006,
+        "actual_slow_active_agent_seconds": 0.0,
+        "moving_active_fraction": 1.0,
+        "completed_arrival_time_mean": 9.36,
+        "active_joint_velocity_change_p99": 1.148303359103548,
+        "active_joint_velocity_change_max": 2.4542678094291226,
+        "upper_reference_direction_rms": 0.035631312574119355,
+        "upper_reference_direction_rms_moving": 0.03908205618942749,
+        "synthesized_source_residual_max": 0.18329628981294058,
+        "evaluation_note": "120Hz body hull audit; path/active motion and direction metrics 20Hz. Direction closeness is not status or naturalness."
+      }
+    },
+    {
+      "key": "diagnostics_corridor-10-new-41017_R1",
+      "all_metrics_match": true,
+      "final_goal_distances": [
+        0.13192140717439027,
+        1.5592820037685067,
+        2.574904776762315,
+        3.840313555119363,
+        4.891213962068239,
+        0.11056827406374771,
+        0.16548017912459506,
+        1.4662130430021534,
+        3.5325995053724015,
+        3.957009323609066
+      ],
+      "arrival_count": 3,
+      "arrivals_match_final_geometry": true,
+      "recomputed": {
+        "minimum_proxy_axis_gap": 0.03592686606400356,
+        "max_proxy_penetration": 0.0,
+        "collision_time_fraction": 0.0,
+        "arrived_fraction": 0.3,
+        "remaining_goal_distance_mean": 2.223016172966544,
+        "stagnant_agents": 5,
+        "emergency_hold_agent_seconds": 72.3000000000036,
+        "root_acceleration_p95": 2.5592025448560047e-11,
+        "root_acceleration_max": 133.58080995727946,
+        "joint_speed_p99": 2.530648662572058,
+        "joint_acceleration_p99": 46.00781658774868,
+        "max_bone_relative_error": 2.6645352591003757e-15,
+        "source_pose_modification_max": 0.40602008007301865,
+        "source_pose_modification_p95": 0.3296942898991924,
+        "expression_drift_mean": 0.7277825061766745,
+        "actual_reference_pose_rms": 0.0048983801632875345,
+        "travel_angle_warp_max_radians": 0.6419682210084696,
+        "actual_speed_ratio_min": 0.06198495130137029,
+        "actual_speed_ratio_max": 1.4307168717381913,
+        "switches": 126,
+        "aba_clip_reversals": 46,
+        "worst": {
+          "t": 16.2,
+          "agent": 9,
+          "wall": [
+            [
+              -10.0,
+              0.8
+            ],
+            [
+              10.0,
+              0.8
+            ],
+            [
+              10.0,
+              2.0
+            ],
+            [
+              -10.0,
+              2.0
+            ]
+          ],
+          "gap": 0.03592686606400356
+        },
+        "dense_samples": 3120,
+        "evaluation_hz": 120,
+        "proxy": "projected-joint convex hull + radius .04; signed SAT axis gap",
+        "planning_seconds": 42.479777039028704,
+        "planning_step_ms_p50": 299.29720843210816,
+        "planning_step_ms_p95": 477.44442280381907,
+        "agent_count": 10,
+        "emergency_hold_agent_steps": 363,
+        "arrival_times": {
+          "0": 7.6000000000000005,
+          "5": 8.0,
+          "6": 11.4
+        },
+        "interaction_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            8,
+            9
+          ]
+        ],
+        "path_length_per_agent": [
+          7.7150300067557405,
+          8.127103552850198,
+          9.28975577630709,
+          10.837466554879184,
+          11.65932206600126,
+          7.700503302760213,
+          10.002830904956307,
+          9.947178706902845,
+          9.853456522260368,
+          11.091094446746602
+        ],
+        "path_stretch_per_agent": [
+          1.0129457504468904,
+          0.8633649728753816,
+          0.8286171803463934,
+          0.8330353507427811,
+          0.7873428450845836,
+          1.011038465178086,
+          1.0626287430416619,
+          0.8872572509965467,
+          0.757398195277883,
+          0.7489709785329084
+        ],
+        "completed_path_stretch_mean": 1.0288709862222127,
+        "actual_slow_active_agent_seconds": 72.60000000000001,
+        "moving_active_fraction": 0.6526315789473685,
+        "completed_arrival_time_mean": 9.0,
+        "active_joint_velocity_change_p99": 0.9172453357566606,
+        "active_joint_velocity_change_max": 2.2559358562828087,
+        "upper_reference_direction_rms": 0.0351858852711081,
+        "upper_reference_direction_rms_moving": 0.038694732089701624,
+        "synthesized_source_residual_max": 0.2752576659786889,
+        "evaluation_note": "120Hz body hull audit; path/active motion and direction metrics 20Hz. Direction closeness is not status or naturalness."
+      }
+    }
+  ],
+  "elapsed_seconds": 91.46060483297333,
+  "scope": "One full re-simulation and three saved-run metric rechecks; not all 23 re-simulated. No human perception validation."
+}

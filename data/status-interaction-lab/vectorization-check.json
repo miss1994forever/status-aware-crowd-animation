@@ -1,0 +1,16 @@
+{
+  "old_seconds": 0.07509991689585149,
+  "vector_seconds": 0.0397192919626832,
+  "max_difference": {
+    "pos": 0.0,
+    "yaw": 0.0,
+    "pose": 0.0,
+    "phase": 0.0,
+    "travel": 0.0,
+    "speed": 0.0,
+    "source": 0.0,
+    "floor_lift": 0.0,
+    "constraint_correction": 0.0,
+    "cone_error": 0.0
+  }
+}

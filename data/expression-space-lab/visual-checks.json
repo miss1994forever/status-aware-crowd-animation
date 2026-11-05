@@ -1,0 +1,38 @@
+{
+  "engineering_delivery": "complete",
+  "human_perception_acceptance": "not_collected",
+  "status_discriminability": "unverified",
+  "visual_method": "actual browser Canvas, normal display scale, front/side timed frames and playback snapshots",
+  "human_ratings": [],
+  "renderer_errors_observed": [],
+  "screenshots": [
+    "first-round-side.png",
+    "ablation-M01-side-038.png",
+    "old-upper-M01-side-038.png",
+    "final-preview.png",
+    "final-M01-side-080.png",
+    "A-M07-front-085.png",
+    "final-M07-side-066.png",
+    "final-M07-front-018.png",
+    "final-M01-front-004.png",
+    "ablation-M07-side-108.png",
+    "A-M01-side-052.png",
+    "raw-M07-front-060.png"
+  ],
+  "limitations": [
+    "Front-view expression remains weak",
+    "Source foot contact/ground risks retained",
+    "No mesh collision or dynamics guarantee",
+    "Fixed strength tested; arbitrary time-varying strength not validated",
+    "EMM integration proposed only"
+  ],
+  "knee_fix_v3": {
+    "feedback": "near-minimum knee bend looks unnatural",
+    "actual_browser_checks": [
+      "M01 side 0.24s",
+      "M07 side/front 0.417s",
+      "normal playback subsequent frames"
+    ],
+    "human_acceptance": null
+  }
+}
