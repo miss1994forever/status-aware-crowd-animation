@@ -9,7 +9,7 @@ using System.Text.RegularExpressions;
 [InitializeOnLoad]
 public static class SprintBuild {
  const string ScenePath="Assets/SubmissionSprint/SubmissionDemo.unity";
- const string Root="/Users/haojun/Documents/documents/大四上/动画/期末大作业/outputs/unity-submission";
+ static readonly string Root=System.Environment.GetEnvironmentVariable("UNITY_SUBMISSION_RUNS") ?? Path.GetFullPath(Path.Combine(Application.dataPath,"../SubmissionRuns"));
  static bool refreshedRequest;
  static SprintBuild(){EditorApplication.update+=Tick;}
  public static void Create(){

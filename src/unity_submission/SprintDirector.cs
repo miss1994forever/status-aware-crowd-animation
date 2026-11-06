@@ -260,9 +260,13 @@ public class SprintDirector : MonoBehaviour {
   }}finally{camera.targetTexture=oldTarget;RenderTexture.active=oldActive;camera.transform.SetPositionAndRotation(p,r);rt.Release();Destroy(rt);Destroy(image);}
  }
  void SetCamera(bool close,int actor){if(!Camera.main||controllers==null)return;Vector3 target=close?(active[actor]?controllers[actor].transform.position:positions[actor])+Vector3.up*.9f:Vector3.zero;Camera.main.transform.position=close?target+new Vector3(2,1.1f,-3):new Vector3(0,9,-11);Camera.main.transform.LookAt(target);UpdateJourneyLabels();}
- int focusActor; bool closeView;
+ int focusActor=4; bool closeView;
  void LateUpdate(){SetCamera(closeView,focusActor);}
+ public int DepartedCount {get {int n=0;if(journeyPhase!=null)foreach(int p in journeyPhase)if(p==2)n++;return n;}}
+ public void ToggleSubmissionCamera(){closeView=!closeView;}
+ public void NextSubmissionActor(){focusActor=(focusActor+1)%Count;}
  void OnGUI(){
+  if(GetComponent<SprintSubmissionControls>())return;
   GUILayout.BeginArea(new Rect(15,15,390,200),GUI.skin.box);
   GUILayout.Label("Expression / space pilot — "+Count+" actors");
   GUILayout.Label("EMM locomotion + original experimental layers");

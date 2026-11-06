@@ -1,0 +1,36 @@
+--- a/Runtime/Unity/Obstacle.cs
++++ b/Runtime/Unity/Obstacle.cs
+@@ -117,6 +117,7 @@
+             return true;
+         }
+ 
++        #if UNITY_EDITOR
+         private void OnDrawGizmos()
+         {
+             Gizmos.color = Color.red;
+@@ -125,5 +126,6 @@
+             GizmosExtensions.DrawWireCircle(new Vector3(position.x, GetMaxHeightWorld(), position.z), Radius, Quaternion.identity);
+             //Draw.Disc(new Vector3(position.x, GetMinHeightWorld(), position.z), Radius * MotionMatchingController.GIZMOS_MULTIPLIER, new Color(0.2f, 0.2f, 0.2f));
+         }
++        #endif
+     }
+ }
+\ No newline at end of file
+--- a/Runtime/Features/FeatureDebug.cs
++++ b/Runtime/Features/FeatureDebug.cs
+@@ -243,6 +243,7 @@
+         }
+     }
+ 
++    #endif
+     public static float3 Get3DValuePositionOrDirectionFeature(TrajectoryFeature trajectoryFeature, FeatureSet set, int currentFrame, int trajectoryFeatureIndex, int predictionIndex, bool isEnvironment)
+     {
+         int t = trajectoryFeatureIndex;
+@@ -291,6 +292,7 @@
+         return value;
+     }
+ 
++    #if UNITY_EDITOR
+     private static void DrawTrajectoryPoint(TrajectoryFeature trajectoryFeature, FeatureSet set, int currentFrame, int trajectoryFeatureIndex,
+                                             int predictionIndex, Color trajectoryColor, float3 characterOrigin, float3 characterForward,
+                                             quaternion characterRot, float spheresRadius, Transform[] joints, Skeleton skeleton, bool isEnvironment)

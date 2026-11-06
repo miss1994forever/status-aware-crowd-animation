@@ -1,0 +1,52 @@
+--- a/Assets/Samples/Motion Matching/0.3.1/Examples/Scripts/Custom/Custom2DFeatureExtractor.cs
++++ b/Assets/Samples/Motion Matching/0.3.1/Examples/Scripts/Custom/Custom2DFeatureExtractor.cs
+@@ -36,6 +36,8 @@
+         headPos.z = feature.y;
+         quaternion characterRot = quaternion.LookRotation(characterForward, new float3(0, 1, 0));
+         float3 worldHeadPos = characterOrigin + math.mul(characterRot, headPos);
++#if UNITY_EDITOR
+         GizmosExtensions.DrawWireSphere(worldHeadPos, radius);
++#endif
+     }
+ }
+--- a/Assets/EnvironmentMotionMatching/Scripts/CustomFeatureExtractors/EllipseFeatureExtractor.cs
++++ b/Assets/EnvironmentMotionMatching/Scripts/CustomFeatureExtractors/EllipseFeatureExtractor.cs
+@@ -61,6 +61,8 @@
+         float2 primaryAxis = new(primaryAxis3D.x, primaryAxis3D.z);
+         float2 secondaryAxis = new(-primaryAxis.y, primaryAxis.x);
+ 
++#if UNITY_EDITOR
+         GizmosExtensions.DrawWireEllipse(posOffset, primaryAxis * ellipsePrimaryMagnitude, secondaryAxis * feature.z, Quaternion.identity, segments: 40, thickness: 3.0f);
++#endif
+     }
+ }
+--- a/Assets/EnvironmentMotionMatching/Scripts/TestDistEllipseSphere.cs
++++ b/Assets/EnvironmentMotionMatching/Scripts/TestDistEllipseSphere.cs
+@@ -30,12 +30,16 @@
+ 
+         float2 primaryAxisUnit = math.normalize(PrimaryAxis);
+         float2 secondaryAxisUnit = new(-primaryAxisUnit.y, primaryAxisUnit.x);
++#if UNITY_EDITOR
+         GizmosExtensions.DrawWireEllipse(new float3(CenterEllipse.x, 0.0f, CenterEllipse.y), PrimaryAxis, secondaryAxisUnit * SecondaryAxisMagnitude, Quaternion.identity);
++#endif
+         Gizmos.DrawLine(new float3(CenterEllipse.x, 0.0f, CenterEllipse.y), new float3(CenterEllipse.x + PrimaryAxis.x, 0.0f, CenterEllipse.y + PrimaryAxis.y));
+         Gizmos.color = Color.blue;
+         Gizmos.DrawLine(new float3(CenterEllipse.x, 0.0f, CenterEllipse.y), new float3(CenterEllipse.x + secondaryAxisUnit.x * SecondaryAxisMagnitude, 0.0f, CenterEllipse.y + secondaryAxisUnit.y * SecondaryAxisMagnitude));
+         Gizmos.color = Color.red;
++#if UNITY_EDITOR
+         GizmosExtensions.DrawWireCircle(new float3(CenterPoint.x, 0.0f, CenterPoint.y), Radius, Quaternion.identity);
++#endif
+         Gizmos.DrawSphere(new float3(CenterPoint.x, 0.0f, CenterPoint.y), pointRadius);
+ 
+         float2 ellipse = new(math.length(PrimaryAxis), SecondaryAxisMagnitude);
+--- a/Assets/EnvironmentMotionMatching/Scripts/Crowds/CrowdDemoDoorController.cs
++++ b/Assets/EnvironmentMotionMatching/Scripts/Crowds/CrowdDemoDoorController.cs
+@@ -51,6 +51,8 @@
+             }
+         }
+ 
++#if UNITY_EDITOR
+         UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(UnityEngine.SceneManagement.SceneManager.GetActiveScene());
++#endif
+     }
+ }
